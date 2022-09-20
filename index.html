@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lavenza | The Persona Compendium</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="assets/logo.png" alt="logo" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="/redirects/github">GitHub</a></li>
+                    <li><a href="/redirects/discord">Discord</a></li>
+                    <li><a href="/redirects/gitorg">Developer</a></li>
+                    <li><a href="/redirects/invite"">Invite</a></li>
+                </ul>
+            </nav>
+            <img src="assets/menu.png" alt="menu" class="menu-icon" onclick="togglemenu()">
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>Lavenza</h2>
+                <h3>The first ever Persona Compendium Discord Bot</h3>
+                <p>by Arkane</p>
+                <h4></h4>
+                <button type="button" onclick="invitelink()">Invite<img src="assets/arrow.png"></button>
+            </div>
+            <div class="col-2">
+                <img src="assets/characters.png" alt="controller" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="assets/add.png">
+                    <p><small><a href="/redirects/invite">Add to Server</a></small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <a href="/redirects/discord"><img src="assets/dc.png" alt="Discord"></a>
+            <a href="/redirects/twitter"><img src="assets/tw.png" alt="Twitter"></a>
+        </div>
+    </div>
+    
+    <script>
+
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu() {
+            if(menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "130px";
+            } else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+
+        function invitelink() {
+            window.location.href = "/redirects/invite";
+        }
+
+    </script>
+
+</body>
+</html>
