@@ -148,7 +148,7 @@ button:hover {
     background: linear-gradient(#927cff, #1100ff);
     border-radius: 20px 0 0 20px;
     height: 100%;
-    width: 110%;
+    width: 120%;
     z-index: -1;
     transform: translateX(150px);
 }
