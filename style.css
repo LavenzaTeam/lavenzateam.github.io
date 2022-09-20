@@ -241,3 +241,11 @@ button:hover {
     }
 
 }
+
+@media only screen and (min-width:2600px) {
+    .color-box {
+        transform: translateX(280px);
+        width: 140%;
+    }
+
+}
