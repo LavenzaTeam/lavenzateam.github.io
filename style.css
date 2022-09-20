@@ -137,7 +137,7 @@ button:hover {
     color: #fff;
 }
 
-.col-2 .controller {
+.col-2 .characters {
     width: 90%;
 }
 
@@ -213,7 +213,7 @@ button:hover {
         margin-bottom: 50px;
     }
 
-    .col-2 .controller {
+    .col-2 .characters {
         width: 77%;
     }
 
