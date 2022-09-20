@@ -233,3 +233,11 @@ button:hover {
         font-size: 15px;
     }
 }
+
+@media only screen and (min-width:1400px) {
+    .color-box {
+        transform: translateX(210px);
+        width: 120%;
+    }
+
+}
