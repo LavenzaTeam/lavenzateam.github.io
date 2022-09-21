@@ -1,0 +1,62 @@
+{
+    "arsene": {
+        "name": "Arsene",
+        "arcana": "Fool",
+        "level": "1",
+        "trait": "Prince Anchor: Allows use of ambush-only skills after Baton Pass",
+        "item": "Arsene's Cane",
+        "itemAlarm": "The Great Thief Stick",
+        "baseStats": {
+            "strength": "2",
+            "magic": "2",
+            "endurance": "2",
+            "agility": "3",
+            "luck": "1"
+        },
+        "affinities": {
+            "physical": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "eiha": {
+                "name": "Eiha",
+                "cost": "4 SP",
+                "effect": "Light Curse damage to 1 foe.",
+                "level": "Innate"
+            },
+            "cleave": {
+                "name": "Cleave",
+                "cost": "6% HP",
+                "effect": "Light Physical damage to 1 foe.",
+                "level": "2"
+            },
+            "sukunda": {
+                "name": "Sukunda",
+                "cost": "8 SP",
+                "effect": "Decrease Agility of 1 foe for 3 turns.",
+                "level": "4"
+            },
+            "dream_needle": {
+                "name": "Dream Needle",
+                "cost": "8% HP",
+                "effect": "Light Gun damage and inflict Sleep (med odds) to 1 foe.",
+                "level": "5"
+            },
+            "adverse_resolve": {
+                "name": "Adverse Resolve",
+                "cost": "Passive",
+                "effect": "Increase critical rate when surrounded.",
+                "level": "7"
+            }
+        }
+    }
+}
