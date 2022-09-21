@@ -1,0 +1,56 @@
+{
+    "izanagi": {
+        "name": "Izanagi",
+        "arcana": "Fool",
+        "level": "1",
+        "baseStats": {
+            "strength": "3",
+            "magic": "2",
+            "endurance": "2",
+            "agility": "3",
+            "luck": "2"
+        },
+        "affinities": {
+            "phys": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "resist",
+            "wind": "weak",
+            "light": "none",
+            "dark": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "zio": {
+                "name": "Zio",
+                "cost": "4 SP",
+                "effect": "Deals light Elec damage to 1 foe.",
+                "level": "Innate"
+            },
+            "cleave": {
+                "name": "Cleave",
+                "cost": "5% HP",
+                "effect": "Deals light Phys damage to 1 foe.",
+                "level": "Innate"
+            },
+            "rakukaja": {
+                "name": "Rakukaja",
+                "cost": "12 SP",
+                "effect": "Increases 1 ally's Defense for 3 turns.",
+                "level": "Innate"
+            },
+            "rakunda": {
+                "name": "Rakunda",
+                "cost": "12 SP",
+                "effect": "Decreases 1 foe's Defense for 3 turns.",
+                "level": "3"
+            },
+            "tarukaja": {
+                "name": "Tarukaja",
+                "cost": "12 SP",
+                "effect": "Increases 1 ally's Attack for 3 turns.",
+                "level": "5"
+            }
+        }
+    }
+}

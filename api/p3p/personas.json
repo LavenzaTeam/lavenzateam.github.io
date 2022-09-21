@@ -1,0 +1,48 @@
+{
+    "orpheus": {
+        "name": "Orpheus",
+        "arcana": "Fool",
+        "level": "1",
+        "skillCard": "Agi",
+        "heartItem": "none",
+        "baseStats": {
+            "strength": "2",
+            "magic": "2",
+            "endurance": "2",
+            "agility": "2",
+            "luck": "2"
+        },
+        "affinities": {
+            "strike": "none",
+            "slash": "none",
+            "pierce": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "weak",
+            "wind": "none",
+            "light": "none",
+            "dark": "weak",
+            "almighty": "none"
+        },
+        "skills": {
+            "bash": {
+                "name": "Bash",
+                "cost": "7% HP",
+                "effect": "Deals light Strike damage to one foe.",
+                "level": "Innate"
+            },
+            "agi": {
+                "name": "Agi",
+                "cost": "3 SP",
+                "effect": "Deals light Fire damage to one foe.",
+                "level": "2"
+            },
+            "tarunda": {
+                "name": "Tarunda",
+                "cost": "6 SP",
+                "effect": "Decreases 1 foe's Attack",
+                "level": "6"
+            }
+        }
+    }
+}

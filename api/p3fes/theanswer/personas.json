@@ -1,0 +1,66 @@
+{
+    "orpheus": {
+        "name": "Orpheus",
+        "arcana": "Fool",
+        "level": "25",
+        "heartItem": "none",
+        "baseStats": {
+            "strength": "17",
+            "magic": "20",
+            "endurance": "18",
+            "agility": "15",
+            "luck": "12"
+        },
+        "affinities": {
+            "strike": "none",
+            "slash": "none",
+            "pierce": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "weak",
+            "wind": "none",
+            "light": "none",
+            "dark": "weak",
+            "almighty": "none"
+        },
+        "skills": {
+            "agi": {
+                "name": "Agi",
+                "cost": "3 SP",
+                "effect": "Deals light Fire damage to one foe.",
+                "level": "Innate"
+            },
+            "assault_dive": {
+                "name": "Assault Dive",
+                "cost": "9% HP",
+                "effect": "Deals light Strike damage to one foe.",
+                "level": "Innate"
+            },
+            "dia": {
+                "name": "Dia",
+                "cost": "4 SP",
+                "effect": "Slightly restoress 1 ally's HP.",
+                "level": "Innate"
+            },
+            "agilao": {
+                "name": "Agilao",
+                "cost": "6 SP",
+                "effect": "Deals medium Fire damage to one foe.",
+                "level": "26"
+            },
+            "tarunda": {
+                "name": "Tarunda",
+                "cost": "6 SP",
+                "effect": "Decreases 1 foe's Attack.",
+                "level": "27"
+            },
+            "swift_strike": {
+                "name": "Swift Strike",
+                "cost": "15% HP",
+                "effect": "Deals light Strike damage to all foes. (1-3 hits)",
+                "level": "28"
+            }
+        },
+        "fusionSpell": "none"
+    }
+}

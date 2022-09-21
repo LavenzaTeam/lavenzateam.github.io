@@ -14,7 +14,7 @@
             "luck": "1"
         },
         "affinities": {
-            "physical": "none",
+            "phys": "none",
             "gun": "none",
             "fire": "none",
             "ice": "weak",
