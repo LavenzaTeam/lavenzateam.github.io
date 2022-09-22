@@ -15,7 +15,30 @@
             You can use a simple 'node-fetch' if you're using Node.JS to get the data from each of these endpoints. <br>
         </p> <br>
         <br>
-        <a href="/api/p5r/personas.json">P5R Persona Data JSON Endpoint</a>
+        <h2>Connecting to the API</h2>
+        <p>
+            Below is a small little example of a connection to the API using 'node-fetch'.
+        </p>
+        <pre>
+            <code style="background-color: #eee; border: 1px solid #999; display: block; padding: 20px;">
+                import fetch from "node-fetch"; //imports the node-fetch package
+
+                const res = await fetch("https://lavenza.tk/api/p5r/personas.json"); //connects to the api and stores the result in variable 'res'
+                const data = await res.json(); //stores the result from the api into a readable JSON format
+
+                console.log(data); //logs the information in the data variable to the console
+            </code>
+        </pre>
+
+        <h2>Current Endpoints</h2>
+        <p>
+            These can be used in place of the URL provided in the fetch function.
+        </p> <br>
+        <code>https://lavenza.tk/api/p5r/personas.json</code> <br>
+        <code>https://lavenza.tk/api/p4g/personas.json</code> <br>
+        <code>https://lavenza.tk/api/p3p/personas.json</code> <br>
+        <code>https://lavenza.tk/api/p3fes/personas.json</code> <br>
+        <code>https://lavenza.tk/api/p3fes/theanswer/personas.json</code> <br>
 
     </center>
 </body>
