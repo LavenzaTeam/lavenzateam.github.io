@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Lavenza | API</title>
 </head>
 <body>
-    <center>
+    <div class="container">
+        <div class="navbar">
+            <a href="/"><img src="assets/logo.png" alt="logo" class="logo"></a>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="/redirects/github">GitHub</a></li>
+                    <li><a href="/redirects/discord">Discord</a></li>
+                    <li><a href="/api">API</a></li>
+                    <li><a href="/redirects/invite"">Invite</a></li>
+                </ul>
+            </nav>
+            <img src="assets/menu.png" alt="menu" class="menu-icon" onclick="togglemenu()">
+        </div>
+
         <h1>Lavenza API</h1>
         <p>
             I know this looks ugly right now, but it's still functional. <br>
@@ -40,6 +54,6 @@
         <code>https://lavenza.tk/api/p3fes/personas.json</code> <br>
         <code>https://lavenza.tk/api/p3fes/theanswer/personas.json</code> <br>
 
-    </center>
+    </div>
 </body>
 </html>
