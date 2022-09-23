@@ -1216,5 +1216,1319 @@
                 "level": "Special"
             }
         }
+    },
+    "zorro": {
+        "name": "Zorro",
+        "arcana": "Magician",
+        "level": "1",
+        "trait": "Proud Presence: Increases effect of allies' healing skills.",
+        "item": "none",
+        "itemAlarm": "none",
+        "baseStats": {
+            "strength": "2",
+            "magic": "3",
+            "endurance": "1",
+            "agility": "3",
+            "luck": "1"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "weak",
+            "wind": "resist",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "garu": {
+                "name": "Garu",
+                "cost": "3 SP",
+                "effect": "Light Wind damage to 1 foe.",
+                "level": "Innate"
+            },
+            "dia": {
+                "name": "Dia",
+                "cost": "3 SP",
+                "effect": "Slightly restore HP of 1 ally.",
+                "level": "Innate"
+            },
+            "patra": {
+                "name": "Patra",
+                "cost": "4 SP",
+                "effect": "Cure Dizzy/Forget/Sleep/Hunger of 1 ally.",
+                "level": "5"
+            },
+            "media": {
+                "name": "Media",
+                "cost": "7 SP",
+                "effect": "Slightly restore HP of party.",
+                "level": "11"
+            },
+            "lucky_punch": {
+                "name": "Lucky Punch",
+                "cost": "3% HP",
+                "effect": "Minuscule Physical damage to 1 foe, high critical rate.",
+                "level": "13"
+            },
+            "magaru": {
+                "name": "Magaru",
+                "cost": "8 SP",
+                "effect": "Light Wind damage to all foes.",
+                "level": "16"
+            },
+            "pulinpa": {
+                "name": "Pulinpa",
+                "cost": "3 SP",
+                "effect": "Inflict Confusion (high odds) to 1 foe.",
+                "level": "19"
+            },
+            "me_patra": {
+                "name": "Me Patra",
+                "cost": "8 SP",
+                "effect": "Cure Dizzy/Forget/Sleep/Hunger of party.",
+                "level": "21"
+            },
+            "diarama": {
+                "name": "Diarama",
+                "cost": "6 SP",
+                "effect": "Moderately restore HP of 1 ally.",
+                "level": "24"
+            },
+            "garula": {
+                "name": "Garula",
+                "cost": "6 SP",
+                "effect": "Medium Wind damage to 1 foe.",
+                "level": "26"
+            },
+            "recarm": {
+                "name": "Recarm",
+                "cost": "8 SP",
+                "effect": "Revive 1 ally with 50% HP recovered.",
+                "level": "28"
+            },
+            "wind_break": {
+                "name": "Wind Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Wind resistances of all foes for 3 turns.",
+                "level": "32"
+            },
+            "mediarama": {
+                "name": "Mediarama",
+                "cost": "12 SP",
+                "effect": "Moderately restore HP of party.",
+                "level": "34"
+            },
+            "magarula": {
+                "name": "Magarula",
+                "cost": "14 SP",
+                "effect": "Medium Wind damage to all foes.",
+                "level": "37"
+            },
+            "miracle_punch": {
+                "name": "Miracle Punch",
+                "cost": "8% HP",
+                "effect": "Medium Physical damage to 1 foe, high critical rate.",
+                "level": "40"
+            },
+            "wind_boost": {
+                "name": "Wind Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Wind attacks by 25%.",
+                "level": "43"
+            },
+            "samarecarm": {
+                "name": "Samarecarm",
+                "cost": "18 SP",
+                "effect": "Revive 1 ally with all HP recovered.",
+                "level": "45"
+            },
+            "diarahan": {
+                "name": "Diarahan",
+                "cost": "18 SP",
+                "effect": "Fully restore HP of 1 ally.",
+                "level": "49"
+            },
+            "garudyne": {
+                "name": "Garudyne",
+                "cost": "10 SP",
+                "effect": "Heavy Wind damage to 1 foe.",
+                "level": "52"
+            },
+            "masukunda": {
+                "name": "Masukunda",
+                "cost": "24 SP",
+                "effect": "Decrease Agility of all foes for 3 turns.",
+                "level": "55"
+            },
+            "mediarahan": {
+                "name": "Mediarahan",
+                "cost": "30 SP",
+                "effect": "Fully restore HP of party.",
+                "level": "58"
+            },
+            "magarudyne": {
+                "name": "Magarudyne",
+                "cost": "20 SP",
+                "effect": "Heavy Wind damage to all foes.",
+                "level": "62"
+            },
+            "wind_amp": {
+                "name": "Wind Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Wind attacks by 50%.",
+                "level": "69"
+            },
+            "salvation": {
+                "name": "Salvation",
+                "cost": "48 SP",
+                "effect": "Fully restore HP of party and cure all non-special ailments.",
+                "level": "75"
+            }
+        }
+    },
+    "mercurius": {
+        "name": "Mercurius",
+        "arcana": "Magician",
+        "level": "Inherited",
+        "trait": "Proud Presence: Increases effect of allies' healing skills.",
+        "item": "none",
+        "itemAlarm": "none",
+        "baseStats": {
+            "strength": "Inherited",
+            "magic": "Inherited",
+            "endurance": "Inherited",
+            "agility": "Inherited",
+            "luck": "Inherited"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "weak",
+            "wind": "block",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "resist",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "garu": {
+                "name": "Garu",
+                "cost": "3 SP",
+                "effect": "Light Wind damage to 1 foe.",
+                "level": "Innate"
+            },
+            "dia": {
+                "name": "Dia",
+                "cost": "3 SP",
+                "effect": "Slightly restore HP of 1 ally.",
+                "level": "Innate"
+            },
+            "patra": {
+                "name": "Patra",
+                "cost": "4 SP",
+                "effect": "Cure Dizzy/Forget/Sleep/Hunger of 1 ally.",
+                "level": "5"
+            },
+            "media": {
+                "name": "Media",
+                "cost": "7 SP",
+                "effect": "Slightly restore HP of party.",
+                "level": "11"
+            },
+            "lucky_punch": {
+                "name": "Lucky Punch",
+                "cost": "3% HP",
+                "effect": "Minuscule Physical damage to 1 foe, high critical rate.",
+                "level": "13"
+            },
+            "magaru": {
+                "name": "Magaru",
+                "cost": "8 SP",
+                "effect": "Light Wind damage to all foes.",
+                "level": "16"
+            },
+            "pulinpa": {
+                "name": "Pulinpa",
+                "cost": "3 SP",
+                "effect": "Inflict Confusion (high odds) to 1 foe.",
+                "level": "19"
+            },
+            "me_patra": {
+                "name": "Me Patra",
+                "cost": "8 SP",
+                "effect": "Cure Dizzy/Forget/Sleep/Hunger of party.",
+                "level": "21"
+            },
+            "diarama": {
+                "name": "Diarama",
+                "cost": "6 SP",
+                "effect": "Moderately restore HP of 1 ally.",
+                "level": "24"
+            },
+            "garula": {
+                "name": "Garula",
+                "cost": "6 SP",
+                "effect": "Medium Wind damage to 1 foe.",
+                "level": "26"
+            },
+            "recarm": {
+                "name": "Recarm",
+                "cost": "8 SP",
+                "effect": "Revive 1 ally with 50% HP recovered.",
+                "level": "28"
+            },
+            "wind_break": {
+                "name": "Wind Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Wind resistances of all foes for 3 turns.",
+                "level": "32"
+            },
+            "mediarama": {
+                "name": "Mediarama",
+                "cost": "12 SP",
+                "effect": "Moderately restore HP of party.",
+                "level": "34"
+            },
+            "magarula": {
+                "name": "Magarula",
+                "cost": "14 SP",
+                "effect": "Medium Wind damage to all foes.",
+                "level": "37"
+            },
+            "miracle_punch": {
+                "name": "Miracle Punch",
+                "cost": "8% HP",
+                "effect": "Medium Physical damage to 1 foe, high critical rate.",
+                "level": "40"
+            },
+            "wind_boost": {
+                "name": "Wind Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Wind attacks by 25%.",
+                "level": "43"
+            },
+            "samarecarm": {
+                "name": "Samarecarm",
+                "cost": "18 SP",
+                "effect": "Revive 1 ally with all HP recovered.",
+                "level": "45"
+            },
+            "diarahan": {
+                "name": "Diarahan",
+                "cost": "18 SP",
+                "effect": "Fully restore HP of 1 ally.",
+                "level": "49"
+            },
+            "garudyne": {
+                "name": "Garudyne",
+                "cost": "10 SP",
+                "effect": "Heavy Wind damage to 1 foe.",
+                "level": "52"
+            },
+            "masukunda": {
+                "name": "Masukunda",
+                "cost": "24 SP",
+                "effect": "Decrease Agility of all foes for 3 turns.",
+                "level": "55"
+            },
+            "mediarahan": {
+                "name": "Mediarahan",
+                "cost": "30 SP",
+                "effect": "Fully restore HP of party.",
+                "level": "58"
+            },
+            "magarudyne": {
+                "name": "Magarudyne",
+                "cost": "20 SP",
+                "effect": "Heavy Wind damage to all foes.",
+                "level": "62"
+            },
+            "wind_amp": {
+                "name": "Wind Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Wind attacks by 50%.",
+                "level": "69"
+            },
+            "salvation": {
+                "name": "Salvation",
+                "cost": "48 SP",
+                "effect": "Fully restore HP of party and cure all non-special ailments.",
+                "level": "75"
+            },
+            "evade_elec": {
+                "name": "Evade Elec",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against Electric attacks.",
+                "level": "Max Magician SL"
+            }
+        }
+    },
+    "diego": {
+        "name": "Diego",
+        "arcana": "Magician",
+        "level": "Inherited",
+        "trait": "Majestic Presence: Increases effect of allies' healing skills. May decrease SP cost.",
+        "item": "none",
+        "itemAlarm": "none",
+        "baseStats": {
+            "strength": "Inherited",
+            "magic": "Inherited",
+            "endurance": "Inherited",
+            "agility": "Inherited",
+            "luck": "Inherited"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "weak",
+            "wind": "block",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "resist",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "garu": {
+                "name": "Garu",
+                "cost": "3 SP",
+                "effect": "Light Wind damage to 1 foe.",
+                "level": "Innate"
+            },
+            "dia": {
+                "name": "Dia",
+                "cost": "3 SP",
+                "effect": "Slightly restore HP of 1 ally.",
+                "level": "Innate"
+            },
+            "patra": {
+                "name": "Patra",
+                "cost": "4 SP",
+                "effect": "Cure Dizzy/Forget/Sleep/Hunger of 1 ally.",
+                "level": "5"
+            },
+            "media": {
+                "name": "Media",
+                "cost": "7 SP",
+                "effect": "Slightly restore HP of party.",
+                "level": "11"
+            },
+            "lucky_punch": {
+                "name": "Lucky Punch",
+                "cost": "3% HP",
+                "effect": "Minuscule Physical damage to 1 foe, high critical rate.",
+                "level": "13"
+            },
+            "magaru": {
+                "name": "Magaru",
+                "cost": "8 SP",
+                "effect": "Light Wind damage to all foes.",
+                "level": "16"
+            },
+            "pulinpa": {
+                "name": "Pulinpa",
+                "cost": "3 SP",
+                "effect": "Inflict Confusion (high odds) to 1 foe.",
+                "level": "19"
+            },
+            "me_patra": {
+                "name": "Me Patra",
+                "cost": "8 SP",
+                "effect": "Cure Dizzy/Forget/Sleep/Hunger of party.",
+                "level": "21"
+            },
+            "diarama": {
+                "name": "Diarama",
+                "cost": "6 SP",
+                "effect": "Moderately restore HP of 1 ally.",
+                "level": "24"
+            },
+            "garula": {
+                "name": "Garula",
+                "cost": "6 SP",
+                "effect": "Medium Wind damage to 1 foe.",
+                "level": "26"
+            },
+            "recarm": {
+                "name": "Recarm",
+                "cost": "8 SP",
+                "effect": "Revive 1 ally with 50% HP recovered.",
+                "level": "28"
+            },
+            "wind_break": {
+                "name": "Wind Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Wind resistances of all foes for 3 turns.",
+                "level": "32"
+            },
+            "mediarama": {
+                "name": "Mediarama",
+                "cost": "12 SP",
+                "effect": "Moderately restore HP of party.",
+                "level": "34"
+            },
+            "magarula": {
+                "name": "Magarula",
+                "cost": "14 SP",
+                "effect": "Medium Wind damage to all foes.",
+                "level": "37"
+            },
+            "miracle_punch": {
+                "name": "Miracle Punch",
+                "cost": "8% HP",
+                "effect": "Medium Physical damage to 1 foe, high critical rate.",
+                "level": "40"
+            },
+            "wind_boost": {
+                "name": "Wind Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Wind attacks by 25%.",
+                "level": "43"
+            },
+            "samarecarm": {
+                "name": "Samarecarm",
+                "cost": "18 SP",
+                "effect": "Revive 1 ally with all HP recovered.",
+                "level": "45"
+            },
+            "diarahan": {
+                "name": "Diarahan",
+                "cost": "18 SP",
+                "effect": "Fully restore HP of 1 ally.",
+                "level": "49"
+            },
+            "garudyne": {
+                "name": "Garudyne",
+                "cost": "10 SP",
+                "effect": "Heavy Wind damage to 1 foe.",
+                "level": "52"
+            },
+            "masukunda": {
+                "name": "Masukunda",
+                "cost": "24 SP",
+                "effect": "Decrease Agility of all foes for 3 turns.",
+                "level": "55"
+            },
+            "mediarahan": {
+                "name": "Mediarahan",
+                "cost": "30 SP",
+                "effect": "Fully restore HP of party.",
+                "level": "58"
+            },
+            "magarudyne": {
+                "name": "Magarudyne",
+                "cost": "20 SP",
+                "effect": "Heavy Wind damage to all foes.",
+                "level": "62"
+            },
+            "wind_amp": {
+                "name": "Wind Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Wind attacks by 50%.",
+                "level": "69"
+            },
+            "salvation": {
+                "name": "Salvation",
+                "cost": "48 SP",
+                "effect": "Fully restore HP of party and cure all non-special ailments.",
+                "level": "75"
+            },
+            "evade_elec": {
+                "name": "Evade Elec",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against Electric attacks.",
+                "level": "Max Magician SL"
+            },
+            "miracle_rush": {
+                "name": "Miracle Rush",
+                "cost": "16% HP",
+                "effect": "Triple evasion rate against Electric attacks.",
+                "level": "Third Awakening Skill"
+            }
+        }
+    },
+    "jack-o'-lantern": {
+        "name": "Jack-o'-Lantern",
+        "arcana": "Magician",
+        "level": "2",
+        "trait": "Thermal Conduct: Increase chance of inflicting Burn after Baton Pass.",
+        "item": "Pumpkin Bomb",
+        "itemAlarm": "Pumpkin Buster",
+        "baseStats": {
+            "strength": "2",
+            "magic": "3",
+            "endurance": "3",
+            "agility": "3",
+            "luck": "2"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "absorb",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "weak",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "agi": {
+                "name": "Agi",
+                "cost": "4 SP",
+                "effect": "Light Fire damage and inflict Burn (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "rakunda": {
+                "name": "Rakunda",
+                "cost": "8 SP",
+                "effect": "Decrease Defense of 1 foe for 3 turns.",
+                "level": "Innate"
+            },
+            "sharp_student": {
+                "name": "Sharp Student",
+                "cost": "Passive",
+                "effect": "Lower odds of receiving critical hit.",
+                "level": "4"
+            },
+            "dazzler": {
+                "name": "Dazzler",
+                "cost": "3 SP",
+                "effect": "Inflict Dizzy (high odds) 1 foe.",
+                "level": "5"
+            },
+            "resist_sleep": {
+                "name": "Resist Sleep",
+                "cost": "Passive",
+                "effect": "Reduce susceptibility to Sleep.",
+                "level": "7"
+            }
+        }
+    },
+    "cait_sith": {
+        "name": "Cait Sith",
+        "arcana": "Magician",
+        "level": "5",
+        "trait": "Thermal Conduct: Increase chance of inflicting Burn after Baton Pass.",
+        "item": "Agi",
+        "itemAlarm": "Maragi",
+        "baseStats": {
+            "strength": "6",
+            "magic": "4",
+            "endurance": "4",
+            "agility": "5",
+            "luck": "3"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "resist",
+            "wind": "weak",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "agi": {
+                "name": "Agi",
+                "cost": "4 SP",
+                "effect": "Light Fire damage and inflict Burn (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "cleave": {
+                "name": "Cleave",
+                "cost": "6% HP",
+                "effect": "Light Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "tarukaja": {
+                "name": "Tarukaja",
+                "cost": "8 SP",
+                "effect": "Increase Attack of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "resist_sleep": {
+                "name": "Resist Sleep",
+                "cost": "Passive",
+                "effect": "Reduce susceptibility to Sleep.",
+                "level": "6"
+            },
+            "sukukaja": {
+                "name": "Sukukaja",
+                "cost": "8 SP",
+                "effect": "Increase Agility of 1 ally for 3 turns.",
+                "level": "7"
+            },
+            "media": {
+                "name": "Media",
+                "cost": "7 SP",
+                "effect": "Slightly restore HP of party.",
+                "level": "9"
+            }
+        }
+    },
+    "jack_frost": {
+        "name": "Jack Frost",
+        "arcana": "Magician",
+        "level": "11",
+        "trait": "Frigid Bloodline: Reduce cost of Ice skills by 50%.",
+        "item": "Frost Hood",
+        "itemAlarm": "Frost Ace Hood",
+        "baseStats": {
+            "strength": "8",
+            "magic": "9",
+            "endurance": "7",
+            "agility": "9",
+            "luck": "7"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "weak",
+            "ice": "block",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "bufu": {
+                "name": "Bufu",
+                "cost": "4 SP",
+                "effect": "Light Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "ice_break": {
+                "name": "Ice Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Ice resistances of all foes for 3 turns.",
+                "level": "Innate"
+            },
+            "baisudi": {
+                "name": "Baisudi",
+                "cost": "4 SP",
+                "effect": "Cure Burn/Freeze/Shock of 1 ally.",
+                "level": "Innate"
+            },
+            "mabufu": {
+                "name": "Mabufu",
+                "cost": "10 SP",
+                "effect": "Light Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "12"
+            },
+            "rakunda": {
+                "name": "Rakunda",
+                "cost": "8 SP",
+                "effect": "Decrease Defense of 1 foe for 3 turns.",
+                "level": "13"
+            },
+            "freeze_boost": {
+                "name": "Freeze Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Freeze.",
+                "level": "15"
+            }
+        }
+    },
+    "nekomata": {
+        "name": "Nekomata",
+        "arcana": "Magician",
+        "level": "17",
+        "trait": "Foul Odor: Increase chance of inflicting Ailments after Baton Pass.",
+        "item": "Pawzooka",
+        "itemAlarm": "Paw-omber",
+        "baseStats": {
+            "strength": "13",
+            "magic": "10",
+            "endurance": "12",
+            "agility": "15",
+            "luck": "8"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "weak",
+            "wind": "none",
+            "psy": "resist",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "magaru": {
+                "name": "Magaru",
+                "cost": "8 SP",
+                "effect": "Light Wind damage to all foes.",
+                "level": "Innate"
+            },
+            "terror_claw": {
+                "name": "Terror Claw",
+                "cost": "8% HP",
+                "effect": "Light Physical damage and inflict Fear (med odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "evil_touch": {
+                "name": "Evil Touch",
+                "cost": "3 SP",
+                "effect": "Inflict Fear (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "hysterical_slap": {
+                "name": "Hysterical Slap",
+                "cost": "9% HP",
+                "effect": "Light Physical damage and inflict Rage (med odds) to 1 foe.",
+                "level": "18"
+            },
+            "wind_break": {
+                "name": "Wind Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Wind resistances of all foes for 3 turns.",
+                "level": "20"
+            },
+            "elec_wall": {
+                "name": "Elec Wall",
+                "cost": "18 SP",
+                "effect": "Erect a shield on 1 ally to reduce Elec damage and cover innate Fire weakness for 3 turns.",
+                "level": "21"
+            },
+            "dodge_elec": {
+                "name": "Dodge Elec",
+                "cost": "Passive",
+                "effect": "Double evasion rate against Electric attacks.",
+                "level": "22"
+            }
+        }
+    },
+    "sandman": {
+        "name": "Sandman",
+        "arcana": "Magician",
+        "level": "23",
+        "trait": "Foul Odor: Increase chance of inflicting Ailments after Baton Pass.",
+        "item": "Dormina",
+        "itemAlarm": "Lullaby",
+        "baseStats": {
+            "strength": "11",
+            "magic": "13",
+            "endurance": "14",
+            "agility": "17",
+            "luck": "21"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "weak",
+            "ice": "none",
+            "elec": "weak",
+            "wind": "resist",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "dormina": {
+                "name": "Dormina",
+                "cost": "3 SP",
+                "effect": "Inflict Sleep (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "garula": {
+                "name": "Garula",
+                "cost": "6 SP",
+                "effect": "Medium Wind damage to 1 foe.",
+                "level": "Innate"
+            },
+            "dormin_rush": {
+                "name": "Dormin Rush",
+                "cost": "16% HP",
+                "effect": "Medium Physical damage and inflict Sleep (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "sukunda": {
+                "name": "Sukunda",
+                "cost": "8 SP",
+                "effect": "Decrease Agility of 1 foe for 3 turns.",
+                "level": "24"
+            },
+            "null_sleep": {
+                "name": "Null Sleep",
+                "cost": "Passive",
+                "effect": "Impart immunity against Sleep.",
+                "level": "26"
+            },
+            "magarula": {
+                "name": "Magarula",
+                "cost": "14 SP",
+                "effect": "Medium Wind damage to all foes.",
+                "level": "27"
+            },
+            "sleep_boost": {
+                "name": "Sleep Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Sleep.",
+                "level": "28"
+            }
+        }
+    },
+    "choronzon": {
+        "name": "Choronzon",
+        "arcana": "Magician",
+        "level": "28",
+        "trait": "Draining Mouth: Doubles effect of Drain-type skills and passives.",
+        "item": "Curse Ring",
+        "itemAlarm": "Spiral Curse Ring",
+        "baseStats": {
+            "strength": "16",
+            "magic": "19",
+            "endurance": "19",
+            "agility": "18",
+            "luck": "19"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "none",
+            "fire": "absorb",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "pulinpa": {
+                "name": "Pulinpa",
+                "cost": "3 SP",
+                "effect": "Inflict Confusion (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "life_drain": {
+                "name": "Life Drain",
+                "cost": "3 SP",
+                "effect": "Drain HP from 1 foe. Almighty-type.",
+                "level": "Innate"
+            },
+            "rampage": {
+                "name": "Rampage",
+                "cost": "13% HP",
+                "effect": "Light Physical damage to all foes 1x to 3x.",
+                "level": "Innate"
+            },
+            "maeiha": {
+                "name": "Maeiha",
+                "cost": "10 SP",
+                "effect": "Light Curse damage to all foes.",
+                "level": "29"
+            },
+            "dodge_elec": {
+                "name": "Dodge Elec",
+                "cost": "Passive",
+                "effect": "Double evasion rate against Electric attacks.",
+                "level": "30"
+            },
+            "eiga": {
+                "name": "Eiga",
+                "cost": "8 SP",
+                "effect": "Medium Curse damage to 1 foe.",
+                "level": "31"
+            },
+            "curse_boost": {
+                "name": "Curse Boost",
+                "cost": "Passive",
+                "effect": "Strengthen (non instant death) Curse attacks by 25%.",
+                "level": "32"
+            },
+            "climate_decorum": {
+                "name": "Climate Decorum",
+                "cost": "Passive",
+                "effect": "Double evasion against all attacks under rainy day or special weather warning.",
+                "level": "33"
+            }
+        }
+    },
+    "queen_mab": {
+        "name": "Queen Mab",
+        "arcana": "Magician",
+        "level": "43",
+        "trait": "Static Electricity: Increase chance of inflicting Shock on downed foes.",
+        "item": "Masquerade Ribbon",
+        "itemAlarm": "Masquerade Ribbon R",
+        "baseStats": {
+            "strength": "23",
+            "magic": "35",
+            "endurance": "26",
+            "agility": "30",
+            "luck": "22"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "block",
+            "ice": "none",
+            "elec": "resist",
+            "wind": "weak",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "mazionga": {
+                "name": "Mazionga",
+                "cost": "16 SP",
+                "effect": "Medium Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "makajamaon": {
+                "name": "Makajamaon",
+                "cost": "8 SP",
+                "effect": "Inflict Forget (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "burn_boost": {
+                "name": "Burn Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Burn.",
+                "level": "Innate"
+            },
+            "matarunda": {
+                "name": "Matarunda",
+                "cost": "24 SP",
+                "effect": "Decrease Attack of all foes for 3 turns.",
+                "level": "44"
+            },
+            "makara_break": {
+                "name": "Makara Break",
+                "cost": "18 SP",
+                "effect": "Remove magic-repellent shields from all foes.",
+                "level": "46"
+            },
+            "agidyne": {
+                "name": "Agidyne",
+                "cost": "12 SP",
+                "effect": "Heavy Fire damage and inflict Burn (low odds) to 1 foe.",
+                "level": "47"
+            },
+            "concentrate": {
+                "name": "Concentrate",
+                "cost": "15 SP",
+                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "level": "48"
+            }
+        }
+    },
+    "rangda": {
+        "name": "Rangda",
+        "arcana": "Magician",
+        "level": "48",
+        "trait": "Cursed Bloodline: Reduce cost of Curse skills by 50%.",
+        "item": "Maeiga",
+        "itemAlarm": "Eigaon",
+        "baseStats": {
+            "strength": "28",
+            "magic": "34",
+            "endurance": "30",
+            "agility": "33",
+            "luck": "26"
+        },
+        "affinities": {
+            "phys": "reflect",
+            "gun": "reflect",
+            "fire": "block",
+            "ice": "none",
+            "elec": "weak",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "swift_strike": {
+                "name": "Swift Strike",
+                "cost": "17% HP",
+                "effect": "Minuscule Physical damage to all foes 2x to 4x.",
+                "level": "Innate"
+            },
+            "bloodbath": {
+                "name": "Bloodbath",
+                "cost": "22% HP",
+                "effect": "Heavy Physical damage and inflict Fear (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "counterstrike": {
+                "name": "Counterstrike",
+                "cost": "Passive",
+                "effect": "15% chance of reflecting Physical attacks. Doesn't stack.",
+                "level": "Innate"
+            },
+            "eigaon": {
+                "name": "Eigaon",
+                "cost": "12 SP",
+                "effect": "Heavy Curse damage to 1 foe.",
+                "level": "49"
+            },
+            "matarunda": {
+                "name": "Matarunda",
+                "cost": "24 SP",
+                "effect": "Decrease Attack of all foes for 3 turns.",
+                "level": "51"
+            },
+            "mudoon": {
+                "name": "Mudoon",
+                "cost": "12 SP",
+                "effect": "Medium chance of instantly killing 1 foe. Curse-type.",
+                "level": "53"
+            }
+        }
+    },
+    "forneus": {
+        "name": "Forneus",
+        "arcana": "Magician",
+        "level": "63",
+        "trait": "Bloodstained Eyes: Increase allies' evasion against foes inflicted with ailments.",
+        "item": "Psiodyne",
+        "itemAlarm": "Mapsiodyne",
+        "baseStats": {
+            "strength": "41",
+            "magic": "39",
+            "endurance": "40",
+            "agility": "42",
+            "luck": "34"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "absorb",
+            "elec": "weak",
+            "wind": "none",
+            "psy": "block",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "psiodyne": {
+                "name": "Psiodyne",
+                "cost": "12 SP",
+                "effect": "Heavy Psy damage to 1 foe.",
+                "level": "Innate"
+            },
+            "brain_jack": {
+                "name": "Brain Jack",
+                "cost": "8 SP",
+                "effect": "Inflict Brainwash (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "masukunda": {
+                "name": "Masukunda",
+                "cost": "24 SP",
+                "effect": "Decrease Agility of all foes for 3 turns.",
+                "level": "Innate"
+            },
+            "survival_trick": {
+                "name": "Survival Trick",
+                "cost": "Passive",
+                "effect": "Survive one instant death attack with 1 HP remaining.",
+                "level": "65"
+            },
+            "stagnant_air": {
+                "name": "Stagnant Air",
+                "cost": "5 SP",
+                "effect": "Increase susceptibility to all ailments of all combatants.",
+                "level": "66"
+            },
+            "mapsiodyne": {
+                "name": "Mapsiodyne",
+                "cost": "22 SP",
+                "effect": "Heavy Psy damage to all foes.",
+                "level": "67"
+            },
+            "evade_psy": {
+                "name": "Evade Psy",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against Psy attacks.",
+                "level": "68"
+            }
+        }
+    },
+    "surt": {
+        "name": "Surt",
+        "arcana": "Magician",
+        "level": "83",
+        "trait": "Heated Bloodline: Reduce cost of Fire skills by 50%.",
+        "item": "Maragidyne",
+        "itemAlarm": "Inferno",
+        "baseStats": {
+            "strength": "55",
+            "magic": "54",
+            "endurance": "51",
+            "agility": "50",
+            "luck": "46"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "resist",
+            "fire": "absorb",
+            "ice": "weak",
+            "elec": "block",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "resist",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "blazing_hell": {
+                "name": "Blazing Hell",
+                "cost": "54 SP",
+                "effect": "Severe Fire damage and inflict Burn (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "attack_master": {
+                "name": "Attack Master",
+                "cost": "Passive",
+                "effect": "Automatic Tarukaja at the start of battle.",
+                "level": "Innate"
+            },
+            "brave_blade": {
+                "name": "Brave Blade",
+                "cost": "24% HP",
+                "effect": "Colossal Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "fire_amp": {
+                "name": "Fire Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Fire attacks by 50%.",
+                "level": "84"
+            },
+            "marakunda": {
+                "name": "Marakunda",
+                "cost": "24 SP",
+                "effect": "Decrease Defense of all foes for 3 turns.",
+                "level": "85"
+            },
+            "evade_ice": {
+                "name": "Evade Ice",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against Ice attacks.",
+                "level": "86"
+            },
+            "gigantomachia": {
+                "name": "Gigantomachia",
+                "cost": "25% HP",
+                "effect": "Colossal Physical damage to all foes.",
+                "level": "88"
+            }
+        }
+    },
+    "futsunushi": {
+        "name": "Futsunushi",
+        "arcana": "Magician",
+        "level": "86",
+        "trait": "Will of the Sword: Triples Charge/Concentrate skill damage. Automatic Concentrate at the start of battle.",
+        "item": "Hinokagutsuchi",
+        "itemAlarm": "Hinokagutsuchi II",
+        "baseStats": {
+            "strength": "60",
+            "magic": "58",
+            "endurance": "55",
+            "agility": "52",
+            "luck": "40"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "weak",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "myriad_slashes": {
+                "name": "Myriad Slashes",
+                "cost": "20% HP",
+                "effect": "Medium Physical damage to 1 foe 2x to 3x.",
+                "level": "Innate"
+            },
+            "matarukaja": {
+                "name": "Matarukaja",
+                "cost": "24 SP",
+                "effect": "Increase Attack of party for 3 turns.",
+                "level": "Innate"
+            },
+            "apt_pupil": {
+                "name": "Apt Pupil",
+                "cost": "Passive",
+                "effect": "Increase critical rate.",
+                "level": "Innate"
+            },
+            "charge": {
+                "name": "Charge",
+                "cost": "15 SP",
+                "effect": "Next Physical or Gun attack inflicts 2.5x damage for user.",
+                "level": "88"
+            },
+            "brave_blade": {
+                "name": "Brave Blade",
+                "cost": "24 SP",
+                "effect": "Colossal Physical damage to 1 foe.",
+                "level": "89"
+            },
+            "regenerate_3": {
+                "name": "Regenerate 3",
+                "cost": "Passive",
+                "effect": "Restore 6% of max HP each turn in battle.",
+                "level": "90"
+            },
+            "firm_stance": {
+                "name": "Firm Stance",
+                "cost": "Passive",
+                "effect": "Half all incoming damage by sacrificing evasion completely.",
+                "level": "91"
+            },
+            "auto-mataru": {
+                "name": "Auto-Mataru",
+                "cost": "Passive",
+                "effect": "Automatic Marakukaja at the start of battle.",
+                "level": "92"
+            }
+        }
     }
 }
