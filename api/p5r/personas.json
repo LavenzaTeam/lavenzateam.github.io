@@ -1222,8 +1222,8 @@
         "arcana": "Magician",
         "level": "1",
         "trait": "Proud Presence: Increases effect of allies' healing skills.",
-        "item": "none",
-        "itemAlarm": "none",
+        "item": "N/A",
+        "itemAlarm": "N/A",
         "baseStats": {
             "strength": "2",
             "magic": "3",
@@ -1396,8 +1396,8 @@
         "arcana": "Magician",
         "level": "Inherited",
         "trait": "Proud Presence: Increases effect of allies' healing skills.",
-        "item": "none",
-        "itemAlarm": "none",
+        "item": "N/A",
+        "itemAlarm": "N/A",
         "baseStats": {
             "strength": "Inherited",
             "magic": "Inherited",
@@ -1576,8 +1576,8 @@
         "arcana": "Magician",
         "level": "Inherited",
         "trait": "Majestic Presence: Increases effect of allies' healing skills. May decrease SP cost.",
-        "item": "none",
-        "itemAlarm": "none",
+        "item": "N/A",
+        "itemAlarm": "N/A",
         "baseStats": {
             "strength": "Inherited",
             "magic": "Inherited",
@@ -2528,6 +2528,1134 @@
                 "cost": "Passive",
                 "effect": "Automatic Marakukaja at the start of battle.",
                 "level": "92"
+            }
+        }
+    },
+    "johanna": {
+        "name": "Johanna",
+        "arcana": "Priestess",
+        "level": "21",
+        "trait": "Gaia Pact: Increase allies' chance of inflicting Burn/Freeze/Shock by 25%.",
+        "item": "N/A",
+        "itemAlarm": "N/A",
+        "baseStats": {
+            "strength": "15",
+            "magic": "15",
+            "endurance": "14",
+            "agility": "15",
+            "luck": "11"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "weak",
+            "nuke": "resist",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "frei": {
+                "name": "Frei",
+                "cost": "4 SP",
+                "effect": "Light Nuke damage to 1 foe.",
+                "level": "Innate"
+            },
+            "mafrei": {
+                "name": "Mafrei",
+                "cost": "10 SP",
+                "effect": "Light Nuke damage to all foes.",
+                "level": "Innate"
+            },
+            "vajra_blast": {
+                "name": "Vajra Blast",
+                "cost": "13% HP",
+                "effect": "Medium Physical damage to all foes.",
+                "level": "Innate"
+            },
+            "diarama": {
+                "name": "Diarama",
+                "cost": "6 SP",
+                "effect": "Moderately restore HP of 1 ally.",
+                "level": "Innate"
+            },
+            "rakukaja": {
+                "name": "Rakukaja",
+                "cost": "8 SP",
+                "effect": "Increase Defense of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "makajama": {
+                "name": "Makajama",
+                "cost": "3 SP",
+                "effect": "Inflict Forget (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "freila": {
+                "name": "Freila",
+                "cost": "8 SP",
+                "effect": "Medium Nuke damage to 1 foe.",
+                "level": "24"
+            },
+            "energy_shower": {
+                "name": "Energy Shower",
+                "cost": "8 SP",
+                "effect": "Cure Confuse/Fear/Despair/Rage/Brainwash of party.",
+                "level": "27"
+            },
+            "flash_bomb": {
+                "name": "Flash Bomb",
+                "cost": "19% HP",
+                "effect": "Medium Physical damage and inflict Dizzy (low odds) to all foes.",
+                "level": "31"
+            },
+            "dekunda": {
+                "name": "Dekunda",
+                "cost": "10 SP",
+                "effect": "Negate all -nda debuff effects of party.",
+                "level": "34"
+            },
+            "defense_master": {
+                "name": "Defense Master",
+                "cost": "Passive",
+                "effect": "Automatic Rakukaja at the start of battle.",
+                "level": "36"
+            },
+            "mafreila": {
+                "name": "Mafreila",
+                "cost": "16 SP",
+                "effect": "Medium Nuke damage to all foes.",
+                "level": "38"
+            },
+            "mediarama": {
+                "name": "Mediarama",
+                "cost": "12 SP",
+                "effect": "Moderately restore HP of party.",
+                "level": "41"
+            },
+            "nuke_break": {
+                "name": "Nuke Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Nuke resistances of all foes for 3 turns.",
+                "level": "43"
+            },
+            "nuke_boost": {
+                "name": "Nuke Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Nuclear attacks by 25%.",
+                "level": "45"
+            },
+            "marakukaja": {
+                "name": "Marakukaja",
+                "cost": "24 SP",
+                "effect": "Increase Defense of party for 3 turns.",
+                "level": "48"
+            },
+            "freidyne": {
+                "name": "Freidyne",
+                "cost": "12 SP",
+                "effect": "Heavy Nuke damage to 1 foe.",
+                "level": "50"
+            },
+            "diarahan": {
+                "name": "Diarahan",
+                "cost": "18 SP",
+                "effect": "Fully restore HP of 1 ally.",
+                "level": "54"
+            },
+            "mafreidyne": {
+                "name": "Mafreidyne",
+                "cost": "22 SP",
+                "effect": "Heavy Nuke damage to all foes.",
+                "level": "59"
+            },
+            "mediarahan": {
+                "name": "Mediarahan",
+                "cost": "30 SP",
+                "effect": "Fully restore HP of party.",
+                "level": "65"
+            },
+            "nuke_amp": {
+                "name": "Nuke Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Nuclear attacks by 50%.",
+                "level": "71"
+            },
+            "atomic_flare": {
+                "name": "Atomic Flare",
+                "cost": "48 SP",
+                "effect": "Severe Nuke damage to 1 foe.",
+                "level": "75"
+            }
+        }
+    },
+    "anat": {
+        "name": "Anat",
+        "arcana": "Priestess",
+        "level": "Inherited",
+        "trait": "Gaia Pact: Increase allies' chance of inflicting Burn/Freeze/Shock by 25%.",
+        "item": "N/A",
+        "itemAlarm": "N/A",
+        "baseStats": {
+            "strength": "Inherited",
+            "magic": "Inherited",
+            "endurance": "Inherited",
+            "agility": "Inherited",
+            "luck": "Inherited"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "weak",
+            "nuke": "block",
+            "bless": "none",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "frei": {
+                "name": "Frei",
+                "cost": "4 SP",
+                "effect": "Light Nuke damage to 1 foe.",
+                "level": "Innate"
+            },
+            "mafrei": {
+                "name": "Mafrei",
+                "cost": "10 SP",
+                "effect": "Light Nuke damage to all foes.",
+                "level": "Innate"
+            },
+            "vajra_blast": {
+                "name": "Vajra Blast",
+                "cost": "13% HP",
+                "effect": "Medium Physical damage to all foes.",
+                "level": "Innate"
+            },
+            "diarama": {
+                "name": "Diarama",
+                "cost": "6 SP",
+                "effect": "Moderately restore HP of 1 ally.",
+                "level": "Innate"
+            },
+            "rakukaja": {
+                "name": "Rakukaja",
+                "cost": "8 SP",
+                "effect": "Increase Defense of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "makajama": {
+                "name": "Makajama",
+                "cost": "3 SP",
+                "effect": "Inflict Forget (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "freila": {
+                "name": "Freila",
+                "cost": "8 SP",
+                "effect": "Medium Nuke damage to 1 foe.",
+                "level": "24"
+            },
+            "energy_shower": {
+                "name": "Energy Shower",
+                "cost": "8 SP",
+                "effect": "Cure Confuse/Fear/Despair/Rage/Brainwash of party.",
+                "level": "27"
+            },
+            "flash_bomb": {
+                "name": "Flash Bomb",
+                "cost": "19% HP",
+                "effect": "Medium Physical damage and inflict Dizzy (low odds) to all foes.",
+                "level": "31"
+            },
+            "dekunda": {
+                "name": "Dekunda",
+                "cost": "10 SP",
+                "effect": "Negate all -nda debuff effects of party.",
+                "level": "34"
+            },
+            "defense_master": {
+                "name": "Defense Master",
+                "cost": "Passive",
+                "effect": "Automatic Rakukaja at the start of battle.",
+                "level": "36"
+            },
+            "mafreila": {
+                "name": "Mafreila",
+                "cost": "16 SP",
+                "effect": "Medium Nuke damage to all foes.",
+                "level": "38"
+            },
+            "mediarama": {
+                "name": "Mediarama",
+                "cost": "12 SP",
+                "effect": "Moderately restore HP of party.",
+                "level": "41"
+            },
+            "nuke_break": {
+                "name": "Nuke Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Nuke resistances of all foes for 3 turns.",
+                "level": "43"
+            },
+            "nuke_boost": {
+                "name": "Nuke Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Nuclear attacks by 25%.",
+                "level": "45"
+            },
+            "marakukaja": {
+                "name": "Marakukaja",
+                "cost": "24 SP",
+                "effect": "Increase Defense of party for 3 turns.",
+                "level": "48"
+            },
+            "freidyne": {
+                "name": "Freidyne",
+                "cost": "12 SP",
+                "effect": "Heavy Nuke damage to 1 foe.",
+                "level": "50"
+            },
+            "diarahan": {
+                "name": "Diarahan",
+                "cost": "18 SP",
+                "effect": "Fully restore HP of 1 ally.",
+                "level": "54"
+            },
+            "mafreidyne": {
+                "name": "Mafreidyne",
+                "cost": "22 SP",
+                "effect": "Heavy Nuke damage to all foes.",
+                "level": "59"
+            },
+            "mediarahan": {
+                "name": "Mediarahan",
+                "cost": "30 SP",
+                "effect": "Fully restore HP of party.",
+                "level": "65"
+            },
+            "nuke_amp": {
+                "name": "Nuke Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Nuclear attacks by 50%.",
+                "level": "71"
+            },
+            "atomic_flare": {
+                "name": "Atomic Flare",
+                "cost": "48 SP",
+                "effect": "Severe Nuke damage to 1 foe.",
+                "level": "75"
+            },
+            "evade_psy": {
+                "name": "Evade Psy",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against Psy attacks.",
+                "level": "Max Priestess SL"
+            }
+        }
+    },
+    "agnes": {
+        "name": "Agnes",
+        "arcana": "Priestess",
+        "level": "Inherited",
+        "trait": "Gaia Pact: Increase allies' chance of inflicting Burn/Freeze/Shock by 25%.",
+        "item": "N/A",
+        "itemAlarm": "N/A",
+        "baseStats": {
+            "strength": "Inherited",
+            "magic": "Inherited",
+            "endurance": "Inherited",
+            "agility": "Inherited",
+            "luck": "Inherited"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "weak",
+            "nuke": "block",
+            "bless": "none",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "frei": {
+                "name": "Frei",
+                "cost": "4 SP",
+                "effect": "Light Nuke damage to 1 foe.",
+                "level": "Innate"
+            },
+            "mafrei": {
+                "name": "Mafrei",
+                "cost": "10 SP",
+                "effect": "Light Nuke damage to all foes.",
+                "level": "Innate"
+            },
+            "vajra_blast": {
+                "name": "Vajra Blast",
+                "cost": "13% HP",
+                "effect": "Medium Physical damage to all foes.",
+                "level": "Innate"
+            },
+            "diarama": {
+                "name": "Diarama",
+                "cost": "6 SP",
+                "effect": "Moderately restore HP of 1 ally.",
+                "level": "Innate"
+            },
+            "rakukaja": {
+                "name": "Rakukaja",
+                "cost": "8 SP",
+                "effect": "Increase Defense of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "makajama": {
+                "name": "Makajama",
+                "cost": "3 SP",
+                "effect": "Inflict Forget (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "freila": {
+                "name": "Freila",
+                "cost": "8 SP",
+                "effect": "Medium Nuke damage to 1 foe.",
+                "level": "24"
+            },
+            "energy_shower": {
+                "name": "Energy Shower",
+                "cost": "8 SP",
+                "effect": "Cure Confuse/Fear/Despair/Rage/Brainwash of party.",
+                "level": "27"
+            },
+            "flash_bomb": {
+                "name": "Flash Bomb",
+                "cost": "19% HP",
+                "effect": "Medium Physical damage and inflict Dizzy (low odds) to all foes.",
+                "level": "31"
+            },
+            "dekunda": {
+                "name": "Dekunda",
+                "cost": "10 SP",
+                "effect": "Negate all -nda debuff effects of party.",
+                "level": "34"
+            },
+            "defense_master": {
+                "name": "Defense Master",
+                "cost": "Passive",
+                "effect": "Automatic Rakukaja at the start of battle.",
+                "level": "36"
+            },
+            "mafreila": {
+                "name": "Mafreila",
+                "cost": "16 SP",
+                "effect": "Medium Nuke damage to all foes.",
+                "level": "38"
+            },
+            "mediarama": {
+                "name": "Mediarama",
+                "cost": "12 SP",
+                "effect": "Moderately restore HP of party.",
+                "level": "41"
+            },
+            "nuke_break": {
+                "name": "Nuke Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Nuke resistances of all foes for 3 turns.",
+                "level": "43"
+            },
+            "nuke_boost": {
+                "name": "Nuke Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Nuclear attacks by 25%.",
+                "level": "45"
+            },
+            "marakukaja": {
+                "name": "Marakukaja",
+                "cost": "24 SP",
+                "effect": "Increase Defense of party for 3 turns.",
+                "level": "48"
+            },
+            "freidyne": {
+                "name": "Freidyne",
+                "cost": "12 SP",
+                "effect": "Heavy Nuke damage to 1 foe.",
+                "level": "50"
+            },
+            "diarahan": {
+                "name": "Diarahan",
+                "cost": "18 SP",
+                "effect": "Fully restore HP of 1 ally.",
+                "level": "54"
+            },
+            "mafreidyne": {
+                "name": "Mafreidyne",
+                "cost": "22 SP",
+                "effect": "Heavy Nuke damage to all foes.",
+                "level": "59"
+            },
+            "mediarahan": {
+                "name": "Mediarahan",
+                "cost": "30 SP",
+                "effect": "Fully restore HP of party.",
+                "level": "65"
+            },
+            "nuke_amp": {
+                "name": "Nuke Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Nuclear attacks by 50%.",
+                "level": "71"
+            },
+            "atomic_flare": {
+                "name": "Atomic Flare",
+                "cost": "48 SP",
+                "effect": "Severe Nuke damage to 1 foe.",
+                "level": "75"
+            },
+            "evade_psy": {
+                "name": "Evade Psy",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against Psy attacks.",
+                "level": "Max Priestess SL"
+            },
+            "checkmate": {
+                "name": "Checkmate",
+                "cost": "90 SP",
+                "effect": "Decrease Attack/Defense/Agility of all foes for 3 turns.",
+                "level": "Third Awakening Skill"
+            }
+        }
+    },
+    "silky": {
+        "name": "Silky",
+        "arcana": "Priestess",
+        "level": "6",
+        "trait": "Intense Focus: Strengthen single-target magic attacks by 20%.",
+        "item": "Silk Dress",
+        "itemAlarm": "Fine Silk Dress",
+        "baseStats": {
+            "strength": "4",
+            "magic": "7",
+            "endurance": "4",
+            "agility": "5",
+            "luck": "5"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "weak",
+            "ice": "resist",
+            "elec": "weak",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "bufu": {
+                "name": "Bufu",
+                "cost": "4 SP",
+                "effect": "Light Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "dormina": {
+                "name": "Dormina",
+                "cost": "3 SP",
+                "effect": "Inflict Sleep (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "dia": {
+                "name": "Dia",
+                "cost": "3 SP",
+                "effect": "Slightly restore HP of 1 ally.",
+                "level": "7"
+            },
+            "patra": {
+                "name": "Patra",
+                "cost": "4 SP",
+                "effect": "Cure Dizzy/Forget/Sleep/Hunger of 1 ally.",
+                "level": "9"
+            },
+            "sharp_student": {
+                "name": "Sharp Student",
+                "cost": "Passive",
+                "effect": "Lower odds of receiving critical hit.",
+                "level": "10"
+            }
+        }
+    },
+    "apsaras": {
+        "name": "Apsaras",
+        "arcana": "Priestess",
+        "level": "11",
+        "trait": "Internal Hypnosis: Increase buff timers by 1 turn for self. Extends Auto- buffs for the entire party.",
+        "item": "Media",
+        "itemAlarm": "Diarama",
+        "baseStats": {
+            "strength": "7",
+            "magic": "11",
+            "endurance": "6",
+            "agility": "10",
+            "luck": "6"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "weak",
+            "ice": "resist",
+            "elec": "weak",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "rebellion": {
+                "name": "Rebellion",
+                "cost": "5 SP",
+                "effect": "Increase critical rate of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "ice_wall": {
+                "name": "Ice Wall",
+                "cost": "18 SP",
+                "effect": "Erect a shield on 1 ally to reduce Ice damage and cover innate Fire weakness for 3 turns.",
+                "level": "Innate"
+            },
+            "bufu": {
+                "name": "Bufu",
+                "cost": "4 SP",
+                "effect": "Light Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "media": {
+                "name": "Media",
+                "cost": "7 SP",
+                "effect": "Slightly restore HP of party.",
+                "level": "13"
+            },
+            "elec_wall": {
+                "name": "Elec Wall",
+                "cost": "18 SP",
+                "effect": "Erect a shield on 1 ally to reduce Elec damage and cover innate Fire weakness for 3 turns.",
+                "level": "14"
+            },
+            "wind_wall": {
+                "name": "Wind Wall",
+                "cost": "18 SP",
+                "effect": "Erect a shield on 1 ally to reduce Wind damage and cover innate Fire weakness for 3 turns.",
+                "level": "16"
+            }
+        }
+    },
+    "koh-i-noor": {
+        "name": "Koh-i-Noor",
+        "arcana": "Priestess",
+        "level": "25",
+        "trait": "Rare Antibody: Reduce susceptibility to all ailments. / Bloodstained Eyes: Increase allies' evasion against foes inflicted with ailments. / Crisis Control: Decrease damage received when struck by weakness.",
+        "item": "Koh-i-Noor",
+        "itemAlarm": "Koh-i-Noor R",
+        "baseStats": {
+            "strength": "25",
+            "magic": "25",
+            "endurance": "25",
+            "agility": "25",
+            "luck": "25"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "weak",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "dodge_fire": {
+                "name": "Dodge Fire",
+                "cost": "Passive",
+                "effect": "Double evasion rate against Fire attacks.",
+                "level": "Innate"
+            },
+            "dodge_ice": {
+                "name": "Dodge Ice",
+                "cost": "Passive",
+                "effect": "Double evasion rate against Ice attacks.",
+                "level": "Innate"
+            },
+            "dodge_elec": {
+                "name": "Dodge Elec",
+                "cost": "Passive",
+                "effect": "Double evasion rate against Electric attacks.",
+                "level": "Innate"
+            },
+            "dodge_wind": {
+                "name": "Dodge Wind",
+                "cost": "Passive",
+                "effect": "Double evasion rate against Wind attacks.",
+                "level": "Innate"
+            },
+            "dodge_psy": {
+                "name": "Dodge Psy",
+                "cost": "Passive",
+                "effect": "Double evasion rate against Psy attacks.",
+                "level": "Innate"
+            },
+            "dodge_nuke": {
+                "name": "Dodge Nuke",
+                "cost": "Passive",
+                "effect": "Double evasion rate against Nuclear attacks.",
+                "level": "Innate"
+            },
+            "dodge_bless": {
+                "name": "Dodge Bless",
+                "cost": "Passive",
+                "effect": "Double evasion rate against (non instant death) Bless attacks.",
+                "level": "Innate"
+            },
+            "dodge_curse": {
+                "name": "Dodge Curse",
+                "cost": "Passive",
+                "effect": "Double evasion rate against (non instant death) Curse attacks.",
+                "level": "Innate"
+            }
+        }
+    },
+    "isis": {
+        "name": "Isis",
+        "arcana": "Priestess",
+        "level": "26",
+        "trait": "Savior Bloodline: Reduce cost of Healing skills by 50%.",
+        "item": "Kouga",
+        "itemAlarm": "Makouga",
+        "baseStats": {
+            "strength": "14",
+            "magic": "20",
+            "endurance": "17",
+            "agility": "18",
+            "luck": "16"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "weak",
+            "nuke": "none",
+            "bless": "block",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "makouga": {
+                "name": "Makouga",
+                "cost": "16 SP",
+                "effect": "Medium Bless damage to all foes.",
+                "level": "Innate"
+            },
+            "mahama": {
+                "name": "Mahama",
+                "cost": "14 SP",
+                "effect": "Low chance of instantly killing all foes. Bless-type.",
+                "level": "Innate"
+            },
+            "diarama": {
+                "name": "Diarama",
+                "cost": "6 SP",
+                "effect": "Moderately restore HP of 1 ally.",
+                "level": "Innate"
+            },
+            "resist_despair": {
+                "name": "Resist Despair",
+                "cost": "Passive",
+                "effect": "Reduce susceptibility to Despair.",
+                "level": "27"
+            },
+            "hamaon": {
+                "name": "Hamaon",
+                "cost": "12 SP",
+                "effect": "Medium chance of instantly killing 1 foe. Bless-type.",
+                "level": "29"
+            },
+            "hama_boost": {
+                "name": "Hama Boost",
+                "cost": "Passive",
+                "effect": "Increase success rate of instant death by Bless skills.",
+                "level": "30"
+            },
+            "makarakarn": {
+                "name": "Makarakarn",
+                "cost": "24 SP",
+                "effect": "Erect a shield on 1 ally to repel 1 (non-Almighty) magical attack.",
+                "level": "32"
+            }
+        }
+    },
+    "kikuri-hime": {
+        "name": "Kikuri-Hime",
+        "arcana": "Priestess",
+        "level": "40",
+        "trait": "Relief Bloodline: Reduce cost of Support skills by 50%.",
+        "item": "Energy Drop",
+        "itemAlarm": "Energy Shower",
+        "baseStats": {
+            "strength": "22",
+            "magic": "31",
+            "endurance": "24",
+            "agility": "28",
+            "luck": "22"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "weak",
+            "ice": "none",
+            "elec": "none",
+            "wind": "block",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "resist",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "lullaby": {
+                "name": "Lullaby",
+                "cost": "8 SP",
+                "effect": "Inflict Sleep (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "marakukaja": {
+                "name": "Marakukaja",
+                "cost": "24 SP",
+                "effect": "Increase Defense of party for 3 turns.",
+                "level": "Innate"
+            },
+            "energy_drop": {
+                "name": "Energy Drop",
+                "cost": "4 SP",
+                "effect": "Cure Confuse/Fear/Despair/Brainwash/Rage of 1 ally.",
+                "level": "Innate"
+            },
+            "mediarama": {
+                "name": "Mediarama",
+                "cost": "12 SP",
+                "effect": "Moderately restore HP of party.",
+                "level": "41"
+            },
+            "tetraja": {
+                "name": "Tetraja",
+                "cost": "24 SP",
+                "effect": "Erect shields on party to nullify one instant death attack of Bless or Curse types.",
+                "level": "43"
+            },
+            "divine_grace": {
+                "name": "Divine Grace",
+                "cost": "Passive",
+                "effect": "Effects of healing magic are increased by 50%.",
+                "level": "45"
+            }
+        }
+    },
+    "sarasvati": {
+        "name": "Sarasvati",
+        "arcana": "Priestess",
+        "level": "50",
+        "trait": "Relief Bloodline: Reduce cost of Support skills by 50%.",
+        "item": "Mediarama",
+        "itemAlarm": "Diarahan",
+        "baseStats": {
+            "strength": "30",
+            "magic": "35",
+            "endurance": "32",
+            "agility": "33",
+            "luck": "27"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "block",
+            "elec": "resist",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "weak",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "mediarama": {
+                "name": "Mediarama",
+                "cost": "12 SP",
+                "effect": "Moderately restore HP of party.",
+                "level": "Innate"
+            },
+            "ice_wall": {
+                "name": "Ice Wall",
+                "cost": "18 SP",
+                "effect": "Erect a shield on 1 ally to reduce Ice damage and cover innate Fire weakness for 3 turns.",
+                "level": "Innate"
+            },
+            "tentarafoo": {
+                "name": "Tentarafoo",
+                "cost": "8 SP",
+                "effect": "Inflict Confusion (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "psy_wall": {
+                "name": "Psy Wall",
+                "cost": "18 SP",
+                "effect": "Erect a shield on 1 ally to reduce Psy damage and cover innate Fire weakness for 3 turns.",
+                "level": "51"
+            },
+            "dekaja": {
+                "name": "Dakaja",
+                "cost": "10 SP",
+                "effect": "Negate all -kaja buff effects of all foes.",
+                "level": "52"
+            },
+            "matarunda": {
+                "name": "Matarunda",
+                "cost": "24 SP",
+                "effect": "Decrease Attack of all foes for 3 turns.",
+                "level": "53"
+            },
+            "diarahan": {
+                "name": "Diarahan",
+                "cost": "18 SP",
+                "effect": "Fully restore HP of 1 ally.",
+                "level": "54"
+            }
+        }
+    },
+    "skadi": {
+        "name": "Skadi",
+        "arcana": "Priestess",
+        "level": "53",
+        "trait": "Bloodstained Eyes: Increase allies' evasion against foes inflicted with ailments.",
+        "item": "Snow Queen's Whip",
+        "itemAlarm": "Snow Queen's Whip II",
+        "baseStats": {
+            "strength": "33",
+            "magic": "39",
+            "endurance": "32",
+            "agility": "34",
+            "luck": "28"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "reflect",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "deadly_fury": {
+                "name": "Deadly Fury",
+                "cost": "18% HP",
+                "effect": "Severe Physical damage to 1 foe. Stronger under Baton Pass.",
+                "level": "Innate"
+            },
+            "evil_smile": {
+                "name": "Evil Smile",
+                "cost": "8 SP",
+                "effect": "Inflict Fear (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "fear_boost": {
+                "name": "Fear Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Fear.",
+                "level": "Innate"
+            },
+            "ghastly_wail": {
+                "name": "Ghastly Wail",
+                "cost": "28 SP",
+                "effect": "Instantly kill all foes under Fear.",
+                "level": "54"
+            },
+            "mabufudyne": {
+                "name": "Mabufudyne",
+                "cost": "22 SP",
+                "effect": "Heavy Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "56"
+            },
+            "spirit_drain": {
+                "name": "Spirit Drain",
+                "cost": "3 SP",
+                "effect": "Drain SP from 1 foe. Almighty-type.",
+                "level": "58"
+            }
+        }
+    },
+    "scathach": {
+        "name": "Scathach",
+        "arcana": "Priestess",
+        "level": "77",
+        "trait": "Skillful Technique: Strengthen Technical damage by 25%.",
+        "item": "Makarakarn",
+        "itemAlarm": "Tetrakarn",
+        "baseStats": {
+            "strength": "48",
+            "magic": "52",
+            "endurance": "46",
+            "agility": "48",
+            "luck": "44"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "block",
+            "elec": "reflect",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "mabufudyne": {
+                "name": "Mabufudyne",
+                "cost": "22 SP",
+                "effect": "Heavy Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "myriad_slashes": {
+                "name": "Myriad Slashes",
+                "cost": "20% HP",
+                "effect": "Medium Physical damage to 1 foe 2x to 3x.",
+                "level": "Innate"
+            },
+            "makarakarn": {
+                "name": "Makarakarn",
+                "cost": "24 SP",
+                "effect": "Erect a shield on 1 ally to repel 1 (non-Almighty) magical attack.",
+                "level": "Innate"
+            },
+            "freeze_boost": {
+                "name": "Freeze Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Freeze.",
+                "level": "78"
+            },
+            "matarukaja": {
+                "name": "Matarukaja",
+                "cost": "24 SP",
+                "effect": "Increase Attack of party for 3 turns.",
+                "level": "79"
+            },
+            "vorpal_blade": {
+                "name": "Vorpal Blade",
+                "cost": "23% HP",
+                "effect": "Severe Physical damage to all foes.",
+                "level": "81"
+            },
+            "attack_master": {
+                "name": "Attack Master",
+                "cost": "Passive",
+                "effect": "Automatic Tarukaja at the start of battle.",
+                "level": "82"
+            }
+        }
+    },
+    "cybele": {
+        "name": "Cybele",
+        "arcana": "Priestess",
+        "level": "83",
+        "trait": "Linked Bloodline: Greatly increase Attack after Baton Pass. Only valid for single-target attacks.",
+        "item": "Sabazios",
+        "itemAlarm": "Gordios",
+        "baseStats": {
+            "strength": "44",
+            "magic": "57",
+            "endurance": "49",
+            "agility": "51",
+            "luck": "55"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "resist",
+            "ice": "none",
+            "elec": "weak",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "block",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "samarecarm": {
+                "name": "Samarecarm",
+                "cost": "18 SP",
+                "effect": "Revive 1 ally with all HP recovered.",
+                "level": "Innate"
+            },
+            "mediarahan": {
+                "name": "Mediarahan",
+                "cost": "30 SP",
+                "effect": "Fully restore HP of party.",
+                "level": "Innate"
+            },
+            "makougaon": {
+                "name": "Makougaon",
+                "cost": "22 SP",
+                "effect": "Heavy Bless damage to all foes.",
+                "level": "Innate"
+            },
+            "amrita_shower": {
+                "name": "Amrita Shower",
+                "cost": "12 SP",
+                "effect": "Cure all non-special ailments of party.",
+                "level": "84"
+            },
+            "auto-maraku": {
+                "name": "Auto-Maraku",
+                "cost": "Passive",
+                "effect": "Automatic Marakukaja at the start of battle.",
+                "level": "86"
+            },
+            "drain_bless": {
+                "name": "Drain Bless",
+                "cost": "Passive",
+                "effect": "Absorb Bless attacks.",
+                "level": "87"
+            },
+            "salvation": {
+                "name": "Salvation",
+                "cost": "48 SP",
+                "effect": "Fully restore HP of party and cure all non-special ailments.",
+                "level": "89"
             }
         }
     }
