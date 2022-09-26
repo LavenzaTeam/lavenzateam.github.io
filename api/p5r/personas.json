@@ -3658,5 +3658,533 @@
                 "level": "89"
             }
         }
+    },
+    "milady": {
+        "name": "Milady",
+        "arcana": "Empress",
+        "level": "36",
+        "trait": "Icy Glare: Decreases allies' chance of being inflicted by ailments by 25%.",
+        "item": "N/A",
+        "itemAlarm": "N/A",
+        "baseStats": {
+            "strength": "27",
+            "magic": "24",
+            "endurance": "22",
+            "agility": "22",
+            "luck": "21"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "resist",
+            "nuke": "weak",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "psio": {
+                "name": "Psio",
+                "cost": "8 SP",
+                "effect": "Medium Psy damage to 1 foe.",
+                "level": "Innate"
+            },
+            "mapsio": {
+                "name": "Mapsio",
+                "cost": "16 SP",
+                "effect": "Medium Psy damage to all foes.",
+                "level": "Innate"
+            },
+            "triple_down": {
+                "name": "Triple Down",
+                "cost": "16% HP",
+                "effect": "Light Gun damage to all foes 3x.",
+                "level": "Innate"
+            },
+            "amrita_drop": {
+                "name": "Amrita Drop",
+                "cost": "6 SP",
+                "effect": "Cure all non-special ailments of 1 ally.",
+                "level": "Innate"
+            },
+            "fast_heal": {
+                "name": "Fast Heal",
+                "cost": "Passive",
+                "effect": "Half the time needed to recover from ailments.",
+                "level": "Innate"
+            },
+            "psy_break": {
+                "name": "Psy Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Psy resistances of all foes for 3 turns.",
+                "level": "Innate"
+            },
+            "tentarafoo": {
+                "name": "Tentarafoo",
+                "cost": "8 SP",
+                "effect": "Inflict Confusion (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "tetrakarn": {
+                "name": "Tetrakarn",
+                "cost": "24 SP",
+                "effect": "Erect a shield on 1 ally to repel 1 Physical or Gun attack.",
+                "level": "38"
+            },
+            "psy_boost": {
+                "name": "Psy Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Psy attacks by 25%.",
+                "level": "42"
+            },
+            "makarakarn": {
+                "name": "Makarakarn",
+                "cost": "24 SP",
+                "effect": "Erect a shield on 1 ally to repel 1 (non-Almighty) magical attack.",
+                "level": "44"
+            },
+            "climate_decorum": {
+                "name": "Climate Decorum",
+                "cost": "Passive",
+                "effect": "Double evasion against all attacks under rainy day or special weather warning.",
+                "level": "48"
+            },
+            "psiodyne": {
+                "name": "Psiodyne",
+                "cost": "12 SP",
+                "effect": "Heavy Psy damage to 1 foe.",
+                "level": "52"
+            },
+            "snipe": {
+                "name": "Snipe",
+                "cost": "Passive",
+                "effect": "Strengthen Gun attacks by 25%.",
+                "level": "54"
+            },
+            "one-shot_kill": {
+                "name": "One-shot Kill",
+                "cost": "17% HP",
+                "effect": "Severe Gun damage to 1 foe, high critical rate.",
+                "level": "58"
+            },
+            "amrita_shower": {
+                "name": "Amrita Shower",
+                "cost": "12 SP",
+                "effect": "Cure all non-special ailments of party.",
+                "level": "60"
+            },
+            "mapsiodyne": {
+                "name": "Mapsiodyne",
+                "cost": "22 SP",
+                "effect": "Heavy Psy damage to all foes.",
+                "level": "64"
+            },
+            "cripple": {
+                "name": "Cripple",
+                "cost": "Passive",
+                "effect": "Strengthen Gun attacks by 50%.",
+                "level": "68"
+            },
+            "psy_amp": {
+                "name": "Psy Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Psy attacks by 50%.",
+                "level": "73"
+            },
+            "heat_riser": {
+                "name": "Heat Riser",
+                "cost": "30 SP",
+                "effect": "Increase Attack/Defense/Agility of 1 ally for 3 turns.",
+                "level": "75"
+            }
+        }
+    },
+    "astarte": {
+        "name": "Astarte",
+        "arcana": "Empress",
+        "level": "Inherited",
+        "trait": "Icy Glare: Decreases allies' chance of being inflicted by ailments by 25%.",
+        "item": "N/A",
+        "itemAlarm": "N/A",
+        "baseStats": {
+            "strength": "Inherited",
+            "magic": "Inherited",
+            "endurance": "Inherited",
+            "agility": "Inherited",
+            "luck": "Inherited"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "resist",
+            "elec": "none",
+            "wind": "none",
+            "psy": "block",
+            "nuke": "weak",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "psio": {
+                "name": "Psio",
+                "cost": "8 SP",
+                "effect": "Medium Psy damage to 1 foe.",
+                "level": "Innate"
+            },
+            "mapsio": {
+                "name": "Mapsio",
+                "cost": "16 SP",
+                "effect": "Medium Psy damage to all foes.",
+                "level": "Innate"
+            },
+            "triple_down": {
+                "name": "Triple Down",
+                "cost": "16% HP",
+                "effect": "Light Gun damage to all foes 3x.",
+                "level": "Innate"
+            },
+            "amrita_drop": {
+                "name": "Amrita Drop",
+                "cost": "6 SP",
+                "effect": "Cure all non-special ailments of 1 ally.",
+                "level": "Innate"
+            },
+            "fast_heal": {
+                "name": "Fast Heal",
+                "cost": "Passive",
+                "effect": "Half the time needed to recover from ailments.",
+                "level": "Innate"
+            },
+            "psy_break": {
+                "name": "Psy Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Psy resistances of all foes for 3 turns.",
+                "level": "Innate"
+            },
+            "tentarafoo": {
+                "name": "Tentarafoo",
+                "cost": "8 SP",
+                "effect": "Inflict Confusion (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "tetrakarn": {
+                "name": "Tetrakarn",
+                "cost": "24 SP",
+                "effect": "Erect a shield on 1 ally to repel 1 Physical or Gun attack.",
+                "level": "38"
+            },
+            "psy_boost": {
+                "name": "Psy Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Psy attacks by 25%.",
+                "level": "42"
+            },
+            "makarakarn": {
+                "name": "Makarakarn",
+                "cost": "24 SP",
+                "effect": "Erect a shield on 1 ally to repel 1 (non-Almighty) magical attack.",
+                "level": "44"
+            },
+            "climate_decorum": {
+                "name": "Climate Decorum",
+                "cost": "Passive",
+                "effect": "Double evasion against all attacks under rainy day or special weather warning.",
+                "level": "48"
+            },
+            "psiodyne": {
+                "name": "Psiodyne",
+                "cost": "12 SP",
+                "effect": "Heavy Psy damage to 1 foe.",
+                "level": "52"
+            },
+            "snipe": {
+                "name": "Snipe",
+                "cost": "Passive",
+                "effect": "Strengthen Gun attacks by 25%.",
+                "level": "54"
+            },
+            "one-shot_kill": {
+                "name": "One-shot Kill",
+                "cost": "17% HP",
+                "effect": "Severe Gun damage to 1 foe, high critical rate.",
+                "level": "58"
+            },
+            "amrita_shower": {
+                "name": "Amrita Shower",
+                "cost": "12 SP",
+                "effect": "Cure all non-special ailments of party.",
+                "level": "60"
+            },
+            "mapsiodyne": {
+                "name": "Mapsiodyne",
+                "cost": "22 SP",
+                "effect": "Heavy Psy damage to all foes.",
+                "level": "64"
+            },
+            "cripple": {
+                "name": "Cripple",
+                "cost": "Passive",
+                "effect": "Strengthen Gun attacks by 50%.",
+                "level": "68"
+            },
+            "psy_amp": {
+                "name": "Psy Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Psy attacks by 50%.",
+                "level": "73"
+            },
+            "heat_riser": {
+                "name": "Heat Riser",
+                "cost": "30 SP",
+                "effect": "Increase Attack/Defense/Agility of 1 ally for 3 turns.",
+                "level": "75"
+            },
+            "evade_nuke": {
+                "name": "Evade Nuke",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against Nuclear attacks.",
+                "level": "Max Empress SL"
+            }
+        }
+    },
+    "lucy": {
+        "name": "Lucy",
+        "arcana": "Empress",
+        "level": "Inherited",
+        "trait": "Cool Customer: Decreases allies' chance of being inflicted by ailments by 50%.",
+        "item": "N/A",
+        "itemAlarm": "N/A",
+        "baseStats": {
+            "strength": "Inherited",
+            "magic": "Inherited",
+            "endurance": "Inherited",
+            "agility": "Inherited",
+            "luck": "Inherited"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "resist",
+            "elec": "none",
+            "wind": "none",
+            "psy": "block",
+            "nuke": "weak",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "psio": {
+                "name": "Psio",
+                "cost": "8 SP",
+                "effect": "Medium Psy damage to 1 foe.",
+                "level": "Innate"
+            },
+            "mapsio": {
+                "name": "Mapsio",
+                "cost": "16 SP",
+                "effect": "Medium Psy damage to all foes.",
+                "level": "Innate"
+            },
+            "triple_down": {
+                "name": "Triple Down",
+                "cost": "16% HP",
+                "effect": "Light Gun damage to all foes 3x.",
+                "level": "Innate"
+            },
+            "amrita_drop": {
+                "name": "Amrita Drop",
+                "cost": "6 SP",
+                "effect": "Cure all non-special ailments of 1 ally.",
+                "level": "Innate"
+            },
+            "fast_heal": {
+                "name": "Fast Heal",
+                "cost": "Passive",
+                "effect": "Half the time needed to recover from ailments.",
+                "level": "Innate"
+            },
+            "psy_break": {
+                "name": "Psy Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Psy resistances of all foes for 3 turns.",
+                "level": "Innate"
+            },
+            "tentarafoo": {
+                "name": "Tentarafoo",
+                "cost": "8 SP",
+                "effect": "Inflict Confusion (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "tetrakarn": {
+                "name": "Tetrakarn",
+                "cost": "24 SP",
+                "effect": "Erect a shield on 1 ally to repel 1 Physical or Gun attack.",
+                "level": "38"
+            },
+            "psy_boost": {
+                "name": "Psy Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Psy attacks by 25%.",
+                "level": "42"
+            },
+            "makarakarn": {
+                "name": "Makarakarn",
+                "cost": "24 SP",
+                "effect": "Erect a shield on 1 ally to repel 1 (non-Almighty) magical attack.",
+                "level": "44"
+            },
+            "climate_decorum": {
+                "name": "Climate Decorum",
+                "cost": "Passive",
+                "effect": "Double evasion against all attacks under rainy day or special weather warning.",
+                "level": "48"
+            },
+            "psiodyne": {
+                "name": "Psiodyne",
+                "cost": "12 SP",
+                "effect": "Heavy Psy damage to 1 foe.",
+                "level": "52"
+            },
+            "snipe": {
+                "name": "Snipe",
+                "cost": "Passive",
+                "effect": "Strengthen Gun attacks by 25%.",
+                "level": "54"
+            },
+            "one-shot_kill": {
+                "name": "One-shot Kill",
+                "cost": "17% HP",
+                "effect": "Severe Gun damage to 1 foe, high critical rate.",
+                "level": "58"
+            },
+            "amrita_shower": {
+                "name": "Amrita Shower",
+                "cost": "12 SP",
+                "effect": "Cure all non-special ailments of party.",
+                "level": "60"
+            },
+            "mapsiodyne": {
+                "name": "Mapsiodyne",
+                "cost": "22 SP",
+                "effect": "Heavy Psy damage to all foes.",
+                "level": "64"
+            },
+            "cripple": {
+                "name": "Cripple",
+                "cost": "Passive",
+                "effect": "Strengthen Gun attacks by 50%.",
+                "level": "68"
+            },
+            "psy_amp": {
+                "name": "Psy Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Psy attacks by 50%.",
+                "level": "73"
+            },
+            "heat_riser": {
+                "name": "Heat Riser",
+                "cost": "30 SP",
+                "effect": "Increase Attack/Defense/Agility of 1 ally for 3 turns.",
+                "level": "75"
+            },
+            "evade_nuke": {
+                "name": "Evade Nuke",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against Nuclear attacks.",
+                "level": "Max Empress SL"
+            },
+            "life_wall": {
+                "name": "Life Wall",
+                "cost": "95 SP",
+                "effect": "Erect a shield on party to repel 1 (non-Almighty) attack.",
+                "level": "Third Awakening Skill"
+            }
+        }
+    },
+    "queen's_necklace": {
+        "name": "Queen's Necklace",
+        "arcana": "Empress",
+        "level": "15",
+        "trait": "Savior Bloodline: Reduce cost of Healing skills by 50%. / Relief Bloodline: Reduce cost of Support skills by 50%. / Potent Hypnosis: Increase buff timers by 1 turn for party.",
+        "item": "Queen's Necklace",
+        "itemAlarm": "Queen's Necklace R",
+        "baseStats": {
+            "strength": "15",
+            "magic": "15",
+            "endurance": "15",
+            "agility": "15",
+            "luck": "15"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "weak",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "tarukaja": {
+                "name": "Tarukaja",
+                "cost": "8 SP",
+                "effect": "Increase Attack of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "rakukaja": {
+                "name": "Rakukaja",
+                "cost": "8 SP",
+                "effect": "Increase Defense of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "sukukaja": {
+                "name": "Sukukaja",
+                "cost": "8 SP",
+                "effect": "Increase Agility of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "recarm": {
+                "name": "Recarm",
+                "cost": "8 SP",
+                "effect": "Revive 1 ally with 50% HP recovered.",
+                "level": "Innate"
+            },
+            "media": {
+                "name": "Media",
+                "cost": "7 SP",
+                "effect": "Slightly restore HP of party.",
+                "level": "Innate"
+            },
+            "tarunda": {
+                "name": "Tarunda",
+                "cost": "8 SP",
+                "effect": "Decrease Attack of 1 foe for 3 turns.",
+                "level": "Innate"
+            },
+            "rakunda": {
+                "name": "Rakunda",
+                "cost": "8 SP",
+                "effect": "Decrease Defense of 1 foe for 3 turns.",
+                "level": "Innate"
+            },
+            "sukunda": {
+                "name": "Sukunda",
+                "cost": "8 SP",
+                "effect": "Decrease Agility of 1 foe for 3 turns.",
+                "level": "Innate"
+            }
+        }
     }
 }
