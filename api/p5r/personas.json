@@ -4186,5 +4186,581 @@
                 "level": "Innate"
             }
         }
+    },
+    "yaksini": {
+        "name": "Yaksini",
+        "arcana": "Empress",
+        "level": "20",
+        "trait": "Foul Odor: Increase chance of inflicting Ailments after Baton Pass.",
+        "item": "Hysterical Slap",
+        "itemAlarm": "Oni-Kagura",
+        "baseStats": {
+            "strength": "14",
+            "magic": "11",
+            "endurance": "13",
+            "agility": "16",
+            "luck": "13"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "block",
+            "fire": "none",
+            "ice": "resist",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "weak",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "hysterical_slap": {
+                "name": "Hysterical Slap",
+                "cost": "9% HP",
+                "effect": "Light Physical damage and inflict Rage (med odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "wage_war": {
+                "name": "Wage War",
+                "cost": "8 SP",
+                "effect": "Inflict Rage (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "counter": {
+                "name": "Counter",
+                "cost": "Passive",
+                "effect": "10% chance of reflecting Physical attacks. Doesn't stack.",
+                "level": "Innate"
+            },
+            "oni-kagura": {
+                "name": "Oni-Kagura",
+                "cost": "16% HP",
+                "effect": "Medium Physical damage and inflict Rage (low odds) to all foes.",
+                "level": "22"
+            },
+            "attack_master": {
+                "name": "Attack Master",
+                "cost": "Passive",
+                "effect": "Automatic Tarukaja at the start of battle.",
+                "level": "23"
+            },
+            "vicious_strike": {
+                "name": "Vicious Strike",
+                "cost": "18% HP",
+                "effect": "Medium Physical damage to all foes.",
+                "level": "24"
+            }
+        }
+    },
+    "lamia": {
+        "name": "Lamia",
+        "arcana": "Empress",
+        "level": "26",
+        "trait": "Foul Odor: Increase chance of inflicting Ailments after Baton Pass.",
+        "item": "Rakukaja",
+        "itemAlarm": "Marakukaja",
+        "baseStats": {
+            "strength": "21",
+            "magic": "15",
+            "endurance": "18",
+            "agility": "19",
+            "luck": "12"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "weak",
+            "elec": "resist",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "weak",
+            "bless": "none",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "mudo": {
+                "name": "Mudo",
+                "cost": "6 SP",
+                "effect": "Low chance of instantly killing 1 foe. Curse-type.",
+                "level": "Innate"
+            },
+            "rakukaja": {
+                "name": "Rakukaja",
+                "cost": "8 SP",
+                "effect": "Increase Defense of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "rising_slash": {
+                "name": "Rising Slash",
+                "cost": "14% HP",
+                "effect": "Heavy Physical damage to 1 foe. Stronger under Baton Pass.",
+                "level": "Innate"
+            },
+            "ominous_words": {
+                "name": "Ominous Words",
+                "cost": "3 SP",
+                "effect": "Inflict Despair (high odds) 1 foe.",
+                "level": "27"
+            },
+            "foul_breath": {
+                "name": "Foul Breath",
+                "cost": "8 SP",
+                "effect": "Increase susceptibility to all ailments of 1 foe.",
+                "level": "28"
+            },
+            "mamudo": {
+                "name": "Mamudo",
+                "cost": "14 SP",
+                "effect": "Low chance of instantly killing all foes. Curse-type.",
+                "level": "30"
+            },
+            "despair_boost": {
+                "name": "Despair Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Despair.",
+                "level": "31"
+            }
+        }
+    },
+    "hariti": {
+        "name": "Hariti",
+        "arcana": "Empress",
+        "level": "40",
+        "trait": "Electric Bloodline: Reduce cost of Elec skills by 50%.",
+        "item": "Revival Charm",
+        "itemAlarm": "Rejuvenate Charm",
+        "baseStats": {
+            "strength": "24",
+            "magic": "29",
+            "endurance": "25",
+            "agility": "26",
+            "luck": "23"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "weak",
+            "psy": "resist",
+            "nuke": "none",
+            "bless": "resist",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "zionga": {
+                "name": "Zionga",
+                "cost": "8 SP",
+                "effect": "Medium Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "energy_shower": {
+                "name": "Energy Shower",
+                "cost": "8 SP",
+                "effect": "Cure Confuse/Fear/Despair/Rage/Brainwash of party.",
+                "level": "Innate"
+            },
+            "mabaisudi": {
+                "name": "Mabaisudi",
+                "cost": "8 SP",
+                "effect": "Cure Burn/Freeze/Shock of party.",
+                "level": "Innate"
+            },
+            "samarecarm": {
+                "name": "Samarecarm",
+                "cost": "18 SP",
+                "effect": "Revive 1 ally with all HP recovered.",
+                "level": "41"
+            },
+            "nocturnal_flash": {
+                "name": "Nocturnal Flash",
+                "cost": "8 SP",
+                "effect": "Inflict Dizzy (med odds) to all foes.",
+                "level": "42"
+            },
+            "mediarama": {
+                "name": "Mediarama",
+                "cost": "12 SP",
+                "effect": "Moderately restore HP of party.",
+                "level": "44"
+            },
+            "dizzy_boost": {
+                "name": "Dizzy Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Dizzy.",
+                "level": "45"
+            },
+            "spirit_drain": {
+                "name": "Spirit Drain",
+                "cost": "3 SP",
+                "effect": "Drain SP from 1 foe. Almighty-type.",
+                "level": "46"
+            }
+        }
+    },
+    "dakini": {
+        "name": "Dakini",
+        "arcana": "Empress",
+        "level": "50",
+        "trait": "Skillful Combo: Increase Attack after Baton Pass. Only valid for single-target attacks.",
+        "item": "Tempest Slash",
+        "itemAlarm": "Myriad Slashes",
+        "baseStats": {
+            "strength": "34",
+            "magic": "32",
+            "endurance": "34",
+            "agility": "28",
+            "luck": "29"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "block",
+            "fire": "resist",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "bad_beat": {
+                "name": "Bad Beat",
+                "cost": "21% HP",
+                "effect": "Medium Physical damage and inflict Despair (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "myriad_slashes": {
+                "name": "Myriad Slashes",
+                "cost": "20% HP",
+                "effect": "Medium Physical damage to 1 foe 2x to 3x.",
+                "level": "Innate"
+            },
+            "rising_slash": {
+                "name": "Rising Slash",
+                "cost": "14% HP",
+                "effect": "Heavy Physical damage to 1 foe. Stronger under Baton Pass.",
+                "level": "Innate"
+            },
+            "high_counter": {
+                "name": "High Counter",
+                "cost": "Passive",
+                "effect": "20% chance of reflecting a physical attack.",
+                "level": "52"
+            },
+            "deathbound": {
+                "name": "Deathbound",
+                "cost": "22% HP",
+                "effect": "Medium Physical damage to all foes 1x to 2x.",
+                "level": "53"
+            },
+            "rebellion": {
+                "name": "Rebellion",
+                "cost": "5 SP",
+                "effect": "Increase critical rate of 1 ally for 3 turns.",
+                "level": "54"
+            },
+            "charge": {
+                "name": "Charge",
+                "cost": "15 SP",
+                "effect": "Next Physical or Gun attack inflicts 2.5x damage for user.",
+                "level": "55"
+            }
+        }
+    },
+    "titania": {
+        "name": "Titania",
+        "arcana": "Empress",
+        "level": "56",
+        "trait": "Foul Stench: Increase chance of inflicting Ailments.",
+        "item": "Freidyne",
+        "itemAlarm": "Mafreidyne",
+        "baseStats": {
+            "strength": "32",
+            "magic": "40",
+            "endurance": "35",
+            "agility": "38",
+            "luck": "30"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "weak",
+            "nuke": "resist",
+            "bless": "resist",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "freidyne": {
+                "name": "Freidyne",
+                "cost": "12 SP",
+                "effect": "Heavy Nuke damage to 1 foe.",
+                "level": "Innate"
+            },
+            "ziodyne": {
+                "name": "Ziodyne",
+                "cost": "12 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "lullaby": {
+                "name": "Lullaby",
+                "cost": "8 SP",
+                "effect": "Inflict Sleep (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "concentrate": {
+                "name": "Concentrate",
+                "cost": "15 SP",
+                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "level": "58"
+            },
+            "nuke_amp": {
+                "name": "Nuke Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Nuclear attacks by 50%.",
+                "level": "60"
+            },
+            "mediarahan": {
+                "name": "Mediarahan",
+                "cost": "30 SP",
+                "effect": "Fully restore HP of party.",
+                "level": "61"
+            }
+        }
+    },
+    "kali": {
+        "name": "Kali",
+        "arcana": "Empress",
+        "level": "63",
+        "trait": "Relentless: Increase Attack by 50% when striking foe's weakness. Only valid for single-target attacks.",
+        "item": "Null Psy",
+        "itemAlarm": "Repel Psy",
+        "baseStats": {
+            "strength": "43",
+            "magic": "41",
+            "endurance": "39",
+            "agility": "39",
+            "luck": "34"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "reflect",
+            "fire": "block",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "reflect",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "heat_wave": {
+                "name": "Heat Wave",
+                "cost": "20% HP",
+                "effect": "Heavy Physical damage to all foes.",
+                "level": "Innate"
+            },
+            "bloodbath": {
+                "name": "Bloodbath",
+                "cost": "22% HP",
+                "effect": "Heavy Physical damage and inflict Fear (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "brave_blade": {
+                "name": "Brave Blade",
+                "cost": "24% HP",
+                "effect": "Colossal Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "charge": {
+                "name": "Charge",
+                "cost": "15 SP",
+                "effect": "Next Physical or Gun attack inflicts 2.5x damage for user.",
+                "level": "65"
+            },
+            "high_counter": {
+                "name": "High Counter",
+                "cost": "Passive",
+                "effect": "20% chance of reflecting a physical attack.",
+                "level": "66"
+            },
+            "repel_psy": {
+                "name": "Repel Psy",
+                "cost": "Passive",
+                "effect": "Repel Psy attacks.",
+                "level": "67"
+            },
+            "vorpal_blade": {
+                "name": "Vorpal Blade",
+                "cost": "23% HP",
+                "effect": "Severe Physical damage to all foes.",
+                "level": "82"
+            }
+        }
+    },
+    "alilat": {
+        "name": "Alilat",
+        "arcana": "Empress",
+        "level": "81",
+        "trait": "Frigid Bloodline: Reduce cost of Ice skills by 50%.",
+        "item": "Mabufudyne",
+        "itemAlarm": "Diamond Dust",
+        "baseStats": {
+            "strength": "45",
+            "magic": "54",
+            "endurance": "57",
+            "agility": "49",
+            "luck": "45"
+        },
+        "affinities": {
+            "phys": "reflect",
+            "gun": "reflect",
+            "fire": "weak",
+            "ice": "absorb",
+            "elec": "none",
+            "wind": "none",
+            "psy": "block",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "weak",
+            "almighty": "none"
+        },
+        "skills": {
+            "diamond_dust": {
+                "name": "Diamond Dust",
+                "cost": "48 SP",
+                "effect": "Severe Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "marakukaja": {
+                "name": "Marakukaja",
+                "cost": "24 SP",
+                "effect": "Increase Defense of party for 3 turns.",
+                "level": "Innate"
+            },
+            "freeze_boost": {
+                "name": "Freeze Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Freeze.",
+                "level": "Innate"
+            },
+            "mabufudyne": {
+                "name": "Mabufudyne",
+                "cost": "22 SP",
+                "effect": "Heavy Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "82"
+            },
+            "concentrate": {
+                "name": "Concentrate",
+                "cost": "15 SP",
+                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "level": "83"
+            },
+            "auto-maraku": {
+                "name": "Auto-Maraku",
+                "cost": "Passive",
+                "effect": "Automatic Marakukaja at the start of battle.",
+                "level": "85"
+            },
+            "ice_amp": {
+                "name": "Ice Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Ice attacks by 50%.",
+                "level": "86"
+            },
+            "ice_age": {
+                "name": "Ice Age",
+                "cost": "54 SP",
+                "effect": "Severe Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "87"
+            }
+        }
+    },
+    "mother_harlot": {
+        "name": "Mother Harlot",
+        "arcana": "Empress",
+        "level": "85",
+        "trait": "Goblet of Sin: Increase chance of inflicting ailments on downed enemies.",
+        "item": "Claiomh Solais",
+        "itemAlarm": "Claiomh Solais R",
+        "baseStats": {
+            "strength": "55",
+            "magic": "54",
+            "endurance": "48",
+            "agility": "50",
+            "luck": "55"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "reflect",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "mabufudyne": {
+                "name": "Mabufudyne",
+                "cost": "22 SP",
+                "effect": "Heavy Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "mamudoon": {
+                "name": "Mamudoon",
+                "cost": "34 SP",
+                "effect": "Medium chance of instantly killing all foes. Curse-type.",
+                "level": "Innate"
+            },
+            "mudo_boost": {
+                "name": "Mudo Boost",
+                "cost": "Passive",
+                "effect": "Enhance chance of Curse insta-death.",
+                "level": "Innate"
+            },
+            "ice_age": {
+                "name": "Ice Age",
+                "cost": "54 SP",
+                "effect": "Severe Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "86"
+            },
+            "ice_amp": {
+                "name": "Ice Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Ice attacks by 50%.",
+                "level": "87"
+            },
+            "repel_bless": {
+                "name": "Repel Bless",
+                "cost": "Passive",
+                "effect": "Repel Bless attacks.",
+                "level": "88"
+            },
+            "debilitate": {
+                "name": "Debilitate",
+                "cost": "30 SP",
+                "effect": "Debuff attack, defense and agility of 1 foe for 3 turns.",
+                "level": "90"
+            }
+        }
     }
 }
