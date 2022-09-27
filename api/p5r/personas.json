@@ -5908,5 +5908,485 @@
                 "level": "89"
             }
         }
+    },
+    "berith": {
+        "name": "Berith",
+        "arcana": "Hierophant",
+        "level": "9",
+        "trait": "Crisis Control: Decrease damage received when struck by weakness.",
+        "item": "Cleave",
+        "itemAlarm": "Power Slash",
+        "baseStats": {
+            "strength": "9",
+            "magic": "6",
+            "endurance": "8",
+            "agility": "8",
+            "luck": "3"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "block",
+            "fire": "resist",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "cleave": {
+                "name": "Cleave",
+                "cost": "6% HP",
+                "effect": "Light Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "rakukaja": {
+                "name": "Rakukaja",
+                "cost": "8 SP",
+                "effect": "Increase Defense of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "tarukaja": {
+                "name": "Tarukaja",
+                "cost": "8 SP",
+                "effect": "Increase Attack of 1 ally for 3 turns.",
+                "level": "10"
+            },
+            "dodge_fire": {
+                "name": "Dodge Fire",
+                "cost": "Passive",
+                "effect": "Double evasion rate against Fire attacks.",
+                "level": "11"
+            },
+            "power_slash": {
+                "name": "Power Slash",
+                "cost": "10% HP",
+                "effect": "Medium Physical damage to 1 foe.",
+                "level": "13"
+            }
+        }
+    },
+    "orobas": {
+        "name": "Orobas",
+        "arcana": "Hierophant",
+        "level": "17",
+        "trait": "Mighty Gaze: Strengthen multi-target magic attacks by 20%.",
+        "item": "Rakunda",
+        "itemAlarm": "Marakunda",
+        "baseStats": {
+            "strength": "11",
+            "magic": "14",
+            "endurance": "15",
+            "agility": "12",
+            "luck": "6"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "resist",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "maragi": {
+                "name": "Maragi",
+                "cost": "10 SP",
+                "effect": "Light Fire damage and inflict Burn (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "sukukaja": {
+                "name": "Sukukaja",
+                "cost": "8 SP",
+                "effect": "Increase Agility of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "dekaja": {
+                "name": "Dekaja",
+                "cost": "10 SP",
+                "effect": "Negate all -kaja buff effects of all foes.",
+                "level": "Innate"
+            },
+            "marakunda": {
+                "name": "Marakunda",
+                "cost": "24 SP",
+                "effect": "Decrease Defense of all foes for 3 turns.",
+                "level": "19"
+            },
+            "fire_break": {
+                "name": "Fire Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Fire resistances of all foes for 3 turns.",
+                "level": "20"
+            },
+            "makajamaon": {
+                "name": "Makajamaon",
+                "cost": "8 SP",
+                "effect": "Inflict Forget (med odds) to all foes.",
+                "level": "21"
+            }
+        }
+    },
+    "anzu": {
+        "name": "Anzu",
+        "arcana": "Hierophant",
+        "level": "25",
+        "trait": "Wind Bloodline: Reduce cost of Wind skills by 50%.",
+        "item": "Garula",
+        "itemAlarm": "Magarula",
+        "baseStats": {
+            "strength": "14",
+            "magic": "18",
+            "endurance": "15",
+            "agility": "21",
+            "luck": "14"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "weak",
+            "fire": "none",
+            "ice": "none",
+            "elec": "resist",
+            "wind": "reflect",
+            "psy": "none",
+            "nuke": "weak",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "garula": {
+                "name": "Garula",
+                "cost": "6 SP",
+                "effect": "Medium Wind damage to 1 foe.",
+                "level": "Innate"
+            },
+            "masukukaja": {
+                "name": "Masukukaja",
+                "cost": "24 SP",
+                "effect": "Increase Agility of party for 3 turns.",
+                "level": "Innate"
+            },
+            "wind_break": {
+                "name": "Wind Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Wind resistances of all foes for 3 turns.",
+                "level": "Innate"
+            },
+            "assault_dive": {
+                "name": "Assault Dive",
+                "cost": "13% HP",
+                "effect": "Heavy Physical damage to 1 foe.",
+                "level": "27"
+            },
+            "dekaja": {
+                "name": "Dekaja",
+                "cost": "10 SP",
+                "effect": "Negate all -kaja buff effects of all foes.",
+                "level": "28"
+            },
+            "null_forget": {
+                "name": "Null Forget",
+                "cost": "Passive",
+                "effect": "Impart immunity against Forget.",
+                "level": "29"
+            }
+        }
+    },
+    "daisoujou": {
+        "name": "Daisoujou",
+        "arcana": "Hierophant",
+        "level": "40",
+        "trait": "Draining Mouth: Doubles effect of Drain-type skills and passives.",
+        "item": "Spiral Blessing Ring",
+        "itemAlarm": "Divine Ring",
+        "baseStats": {
+            "strength": "21",
+            "magic": "33",
+            "endurance": "24",
+            "agility": "24",
+            "luck": "25"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "block",
+            "curse": "weak",
+            "almighty": "none"
+        },
+        "skills": {
+            "spirit_drain": {
+                "name": "Spirit Drain",
+                "cost": "3 SP",
+                "effect": "Drain SP from 1 foe. Almighty-type.",
+                "level": "Innate"
+            },
+            "makouga": {
+                "name": "Makouga",
+                "cost": "16 SP",
+                "effect": "Medium Bless damage to all foes.",
+                "level": "Innate"
+            },
+            "samsara": {
+                "name": "Samsara",
+                "cost": "40 SP",
+                "effect": "High chance of instantly killing all foes. Bless-type.",
+                "level": "41"
+            },
+            "bless_boost": {
+                "name": "Bless Boost",
+                "cost": "Passive",
+                "effect": "Strengthen (non instant death) Bless attacks by 25%.",
+                "level": "42"
+            },
+            "diarahan": {
+                "name": "Diarahan",
+                "cost": "18 SP",
+                "effect": "Fully restore HP of 1 ally.",
+                "level": "43"
+            },
+            "me_patra": {
+                "name": "Me Patra",
+                "cost": "8 SP",
+                "effect": "Cure Dizzy/Forget/Sleep/Hunger of party.",
+                "level": "44"
+            },
+            "null_rage": {
+                "name": "Null Rage",
+                "cost": "Passive",
+                "effect": "Impart immunity against Rage.",
+                "level": "45"
+            }
+        }
+    },
+    "mishaguji": {
+        "name": "Mishaguji",
+        "arcana": "Hierophant",
+        "level": "52",
+        "trait": "Ailment Hunter: Increases Attack by 25% per ailment inflicted on foe.",
+        "item": "Spiral Karma Ring",
+        "itemAlarm": "Mystic Ring",
+        "baseStats": {
+            "strength": "32",
+            "magic": "32",
+            "endurance": "32",
+            "agility": "32",
+            "luck": "35"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "none",
+            "fire": "none",
+            "ice": "weak",
+            "elec": "block",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "absorb",
+            "almighty": "none"
+        },
+        "skills": {
+            "regenerate_3": {
+                "name": "Regenerate 3",
+                "cost": "Passive",
+                "effect": "Restore 6% of max HP each turn in battle.",
+                "level": "Innate"
+            },
+            "brain_jack": {
+                "name": "Brain Jack",
+                "cost": "8 SP",
+                "effect": "Inflict Brainwash (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "psiodyne": {
+                "name": "Psiodyne",
+                "cost": "12 SP",
+                "effect": "Heavy Psy damage to 1 foe.",
+                "level": "Innate"
+            },
+            "one-shot_kill": {
+                "name": "One-shot Kill",
+                "cost": "17% HP",
+                "effect": "Severe Gun damage to 1 foe, high critical rate.",
+                "level": "54"
+            },
+            "endure": {
+                "name": "Endure",
+                "cost": "Passive",
+                "effect": "Survive one fatal blow with 1 HP remaining.",
+                "level": "55"
+            },
+            "deathbound": {
+                "name": "Deathbound",
+                "cost": "22% HP",
+                "effect": "Medium Physical damage to all foes 1x to 2x.",
+                "level": "56"
+            },
+            "ailment_boost": {
+                "name": "Ailment Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting all ailments.",
+                "level": "57"
+            }
+        }
+    },
+    "bishamonten": {
+        "name": "Bishamonten",
+        "arcana": "Hierophant",
+        "level": "67",
+        "trait": "Savior Bloodline: Reduce cost of Healing skills by 50%.",
+        "item": "Mafreidyne",
+        "itemAlarm": "Atomic Flare",
+        "baseStats": {
+            "strength": "49",
+            "magic": "37",
+            "endurance": "42",
+            "agility": "45",
+            "luck": "35"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "absorb",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "resist",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "freidyne": {
+                "name": "Freidyne",
+                "cost": "12 SP",
+                "effect": "Heavy Nuke damage to 1 foe.",
+                "level": "Innate"
+            },
+            "diarahan": {
+                "name": "Diarahan",
+                "cost": "18 SP",
+                "effect": "Fully restore HP of 1 ally.",
+                "level": "Innate"
+            },
+            "deadly_fury": {
+                "name": "Deadly Fury",
+                "cost": "18% HP",
+                "effect": "Severe Physical damage to 1 foe. Stronger under Baton Pass.",
+                "level": "68"
+            },
+            "mafreidyne": {
+                "name": "Mafreidyne",
+                "cost": "22 SP",
+                "effect": "Heavy Nuke damage to all foes.",
+                "level": "69"
+            },
+            "nuke_amp": {
+                "name": "Nuke Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Nuclear attacks by 50%.",
+                "level": "71"
+            },
+            "tetrakarn": {
+                "name": "Tetrakarn",
+                "cost": "24 SP",
+                "effect": "Erect a shield on 1 ally to repel 1 Physical or Gun attack.",
+                "level": "72"
+            },
+            "gods_hand": {
+                "name": "God's Hand",
+                "cost": "25% HP",
+                "effect": "Colossal Physical damage to 1 foe.",
+                "level": "73"
+            }
+        }
+    },
+    "kohryu": {
+        "name": "Kohryu",
+        "arcana": "Hierophant",
+        "level": "76",
+        "trait": "Universal Law: Strengthen Technical damage by 50%.",
+        "item": "Spiral Mystic Ring",
+        "itemAlarm": "Dragon's Heart",
+        "baseStats": {
+            "strength": "43",
+            "magic": "51",
+            "endurance": "50",
+            "agility": "53",
+            "luck": "38"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "reflect",
+            "wind": "none",
+            "psy": "block",
+            "nuke": "weak",
+            "bless": "block",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "psycho_force": {
+                "name": "Psycho Force",
+                "cost": "48 SP",
+                "effect": "Severe Psy damage to 1 foe.",
+                "level": "Innate"
+            },
+            "mediarahan": {
+                "name": "Mediarahan",
+                "cost": "30 SP",
+                "effect": "Fully restore HP of party.",
+                "level": "Innate"
+            },
+            "mapsiodyne": {
+                "name": "Mapsiodyne",
+                "cost": "22 SP",
+                "effect": "Heavy Psy damage to all foes.",
+                "level": "Innate"
+            },
+            "life_aid": {
+                "name": "Life Aid",
+                "cost": "Passive",
+                "effect": "Restore 8% HP and SP after victory.",
+                "level": "78"
+            },
+            "concentrate": {
+                "name": "Concentrate",
+                "cost": "15 SP",
+                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "level": "79"
+            },
+            "psy_amp": {
+                "name": "Psy Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Psy attacks by 50%.",
+                "level": "80"
+            },
+            "spell_master": {
+                "name": "Spell Master",
+                "cost": "Passive",
+                "effect": "Half SP cost for magic skills.",
+                "level": "82"
+            }
+        }
     }
 }
