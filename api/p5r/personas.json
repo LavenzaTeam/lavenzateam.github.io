@@ -7498,5 +7498,1313 @@
                 "level": "90"
             }
         }
+    },
+    "captain_kidd": {
+        "name": "Captain Kidd",
+        "arcana": "Chariot",
+        "level": "4",
+        "trait": "Raging Temper: May increase allies' physical attacks by 40%.",
+        "item": "N/A",
+        "itemAlarm": "N/A",
+        "baseStats": {
+            "strength": "5",
+            "magic": "3",
+            "endurance": "5",
+            "agility": "3",
+            "luck": "3"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "resist",
+            "wind": "weak",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "zio": {
+                "name": "Zio",
+                "cost": "4 SP",
+                "effect": "Light Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "lunge": {
+                "name": "Lunge",
+                "cost": "5% HP",
+                "effect": "Light Physical damage to 1 foe.",
+                "level": "5"
+            },
+            "tarukaja": {
+                "name": "Tarukaja",
+                "cost": "8 SP",
+                "effect": "Increase Attack of 1 ally for 3 turns.",
+                "level": "9"
+            },
+            "headbutt": {
+                "name": "Headbutt",
+                "cost": "9% HP",
+                "effect": "Light Physical damage and inflict Forget (med odds) to 1 foe.",
+                "level": "11"
+            },
+            "adverse_resolve": {
+                "name": "Adverse Resolve",
+                "cost": "Passive",
+                "effect": "Increase critical rate when surrounded.",
+                "level": "14"
+            },
+            "rampage": {
+                "name": "Rampage",
+                "cost": "13% HP",
+                "effect": "Light Physical damage to all foes 1x to 3x.",
+                "level": "17"
+            },
+            "mazio": {
+                "name": "Mazio",
+                "cost": "10 SP",
+                "effect": "Light Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "21"
+            },
+            "memory_blow": {
+                "name": "Memory Blow",
+                "cost": "15% HP",
+                "effect": "Light Physical damage and inflict Forget (low odds) to all foes.",
+                "level": "24"
+            },
+            "assault_dive": {
+                "name": "Assault Dive",
+                "cost": "13% HP",
+                "effect": "Heavy Physical damage to 1 foe.",
+                "level": "26"
+            },
+            "zionga": {
+                "name": "Zionga",
+                "cost": "8 SP",
+                "effect": "Medium Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "28"
+            },
+            "swift_strike": {
+                "name": "Swift Strike",
+                "cost": "17% HP",
+                "effect": "Minuscule Physical damage to all foes 2x to 4x.",
+                "level": "32"
+            },
+            "shock_boost": {
+                "name": "Shock Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Shock.",
+                "level": "35"
+            },
+            "elec_break": {
+                "name": "Elec Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Elec resistances of all foes for 3 turns.",
+                "level": "39"
+            },
+            "mazionga": {
+                "name": "Mazionga",
+                "cost": "16 SP",
+                "effect": "Medium Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "43"
+            },
+            "deathbound": {
+                "name": "Deathbound",
+                "cost": "22% HP",
+                "effect": "Medium Physical damage to all foes 1x to 2x.",
+                "level": "47"
+            },
+            "elec_boost": {
+                "name": "Elec Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Elec attacks by 25%.",
+                "level": "49"
+            },
+            "megaton_raid": {
+                "name": "Megaton Raid",
+                "cost": "16% HP",
+                "effect": "Severe Physical damage to 1 foe.",
+                "level": "53"
+            },
+            "ziodyne": {
+                "name": "Ziodyne",
+                "cost": "12 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "55"
+            },
+            "matarukaja": {
+                "name": "Matarukaja",
+                "cost": "24 SP",
+                "effect": "Increase Attack of party for 3 turns.",
+                "level": "58"
+            },
+            "charge": {
+                "name": "Charge",
+                "cost": "15 SP",
+                "effect": "Next Physical or Gun attack inflicts 2.5x damage for user.",
+                "level": "63"
+            },
+            "maziodyne": {
+                "name": "Maziodyne",
+                "cost": "22 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "67"
+            },
+            "agneyastra": {
+                "name": "Agneyastra",
+                "cost": "24% HP",
+                "effect": "Medium Physical damage to all foes 1x to 3x.",
+                "level": "71"
+            },
+            "gods_hand": {
+                "name": "God's Hand",
+                "cost": "25% HP",
+                "effect": "Colossal Physical damage to 1 foe.",
+                "level": "75"
+            }
+        }
+    },
+    "seiten_taisei": {
+        "name": "Seiten Taisei",
+        "arcana": "Chariot",
+        "level": "Inherited",
+        "trait": "Raging Temper: May increase allies' physical attacks by 40%.",
+        "item": "N/A",
+        "itemAlarm": "N/A",
+        "baseStats": {
+            "strength": "Inherited",
+            "magic": "Inherited",
+            "endurance": "Inherited",
+            "agility": "Inherited",
+            "luck": "Inherited"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "resist",
+            "ice": "none",
+            "elec": "block",
+            "wind": "weak",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "zio": {
+                "name": "Zio",
+                "cost": "4 SP",
+                "effect": "Light Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "lunge": {
+                "name": "Lunge",
+                "cost": "5% HP",
+                "effect": "Light Physical damage to 1 foe.",
+                "level": "5"
+            },
+            "tarukaja": {
+                "name": "Tarukaja",
+                "cost": "8 SP",
+                "effect": "Increase Attack of 1 ally for 3 turns.",
+                "level": "9"
+            },
+            "headbutt": {
+                "name": "Headbutt",
+                "cost": "9% HP",
+                "effect": "Light Physical damage and inflict Forget (med odds) to 1 foe.",
+                "level": "11"
+            },
+            "adverse_resolve": {
+                "name": "Adverse Resolve",
+                "cost": "Passive",
+                "effect": "Increase critical rate when surrounded.",
+                "level": "14"
+            },
+            "rampage": {
+                "name": "Rampage",
+                "cost": "13% HP",
+                "effect": "Light Physical damage to all foes 1x to 3x.",
+                "level": "17"
+            },
+            "mazio": {
+                "name": "Mazio",
+                "cost": "10 SP",
+                "effect": "Light Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "21"
+            },
+            "memory_blow": {
+                "name": "Memory Blow",
+                "cost": "15% HP",
+                "effect": "Light Physical damage and inflict Forget (low odds) to all foes.",
+                "level": "24"
+            },
+            "assault_dive": {
+                "name": "Assault Dive",
+                "cost": "13% HP",
+                "effect": "Heavy Physical damage to 1 foe.",
+                "level": "26"
+            },
+            "zionga": {
+                "name": "Zionga",
+                "cost": "8 SP",
+                "effect": "Medium Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "28"
+            },
+            "swift_strike": {
+                "name": "Swift Strike",
+                "cost": "17% HP",
+                "effect": "Minuscule Physical damage to all foes 2x to 4x.",
+                "level": "32"
+            },
+            "shock_boost": {
+                "name": "Shock Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Shock.",
+                "level": "35"
+            },
+            "elec_break": {
+                "name": "Elec Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Elec resistances of all foes for 3 turns.",
+                "level": "39"
+            },
+            "mazionga": {
+                "name": "Mazionga",
+                "cost": "16 SP",
+                "effect": "Medium Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "43"
+            },
+            "deathbound": {
+                "name": "Deathbound",
+                "cost": "22% HP",
+                "effect": "Medium Physical damage to all foes 1x to 2x.",
+                "level": "47"
+            },
+            "elec_boost": {
+                "name": "Elec Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Elec attacks by 25%.",
+                "level": "49"
+            },
+            "megaton_raid": {
+                "name": "Megaton Raid",
+                "cost": "16% HP",
+                "effect": "Severe Physical damage to 1 foe.",
+                "level": "53"
+            },
+            "ziodyne": {
+                "name": "Ziodyne",
+                "cost": "12 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "55"
+            },
+            "matarukaja": {
+                "name": "Matarukaja",
+                "cost": "24 SP",
+                "effect": "Increase Attack of party for 3 turns.",
+                "level": "58"
+            },
+            "charge": {
+                "name": "Charge",
+                "cost": "15 SP",
+                "effect": "Next Physical or Gun attack inflicts 2.5x damage for user.",
+                "level": "63"
+            },
+            "maziodyne": {
+                "name": "Maziodyne",
+                "cost": "22 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "67"
+            },
+            "agneyastra": {
+                "name": "Agneyastra",
+                "cost": "24% HP",
+                "effect": "Medium Physical damage to all foes 1x to 3x.",
+                "level": "71"
+            },
+            "gods_hand": {
+                "name": "God's Hand",
+                "cost": "25% HP",
+                "effect": "Colossal Physical damage to 1 foe.",
+                "level": "75"
+            },
+            "evade_wind": {
+                "name": "Evade Wind",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against Wind attacks.",
+                "level": "Max Chariot SL"
+            }
+        }
+    },
+    "william": {
+        "name": "William",
+        "arcana": "Chariot",
+        "level": "Inherited",
+        "trait": "Eccentric Temper: May increase allies' physical attacks by 80%.",
+        "item": "N/A",
+        "itemAlarm": "N/A",
+        "baseStats": {
+            "strength": "Inherited",
+            "magic": "Inherited",
+            "endurance": "Inherited",
+            "agility": "Inherited",
+            "luck": "Inherited"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "resist",
+            "ice": "none",
+            "elec": "block",
+            "wind": "weak",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "zio": {
+                "name": "Zio",
+                "cost": "4 SP",
+                "effect": "Light Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "lunge": {
+                "name": "Lunge",
+                "cost": "5% HP",
+                "effect": "Light Physical damage to 1 foe.",
+                "level": "5"
+            },
+            "tarukaja": {
+                "name": "Tarukaja",
+                "cost": "8 SP",
+                "effect": "Increase Attack of 1 ally for 3 turns.",
+                "level": "9"
+            },
+            "headbutt": {
+                "name": "Headbutt",
+                "cost": "9% HP",
+                "effect": "Light Physical damage and inflict Forget (med odds) to 1 foe.",
+                "level": "11"
+            },
+            "adverse_resolve": {
+                "name": "Adverse Resolve",
+                "cost": "Passive",
+                "effect": "Increase critical rate when surrounded.",
+                "level": "14"
+            },
+            "rampage": {
+                "name": "Rampage",
+                "cost": "13% HP",
+                "effect": "Light Physical damage to all foes 1x to 3x.",
+                "level": "17"
+            },
+            "mazio": {
+                "name": "Mazio",
+                "cost": "10 SP",
+                "effect": "Light Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "21"
+            },
+            "memory_blow": {
+                "name": "Memory Blow",
+                "cost": "15% HP",
+                "effect": "Light Physical damage and inflict Forget (low odds) to all foes.",
+                "level": "24"
+            },
+            "assault_dive": {
+                "name": "Assault Dive",
+                "cost": "13% HP",
+                "effect": "Heavy Physical damage to 1 foe.",
+                "level": "26"
+            },
+            "zionga": {
+                "name": "Zionga",
+                "cost": "8 SP",
+                "effect": "Medium Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "28"
+            },
+            "swift_strike": {
+                "name": "Swift Strike",
+                "cost": "17% HP",
+                "effect": "Minuscule Physical damage to all foes 2x to 4x.",
+                "level": "32"
+            },
+            "shock_boost": {
+                "name": "Shock Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Shock.",
+                "level": "35"
+            },
+            "elec_break": {
+                "name": "Elec Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Elec resistances of all foes for 3 turns.",
+                "level": "39"
+            },
+            "mazionga": {
+                "name": "Mazionga",
+                "cost": "16 SP",
+                "effect": "Medium Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "43"
+            },
+            "deathbound": {
+                "name": "Deathbound",
+                "cost": "22% HP",
+                "effect": "Medium Physical damage to all foes 1x to 2x.",
+                "level": "47"
+            },
+            "elec_boost": {
+                "name": "Elec Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Elec attacks by 25%.",
+                "level": "49"
+            },
+            "megaton_raid": {
+                "name": "Megaton Raid",
+                "cost": "16% HP",
+                "effect": "Severe Physical damage to 1 foe.",
+                "level": "53"
+            },
+            "ziodyne": {
+                "name": "Ziodyne",
+                "cost": "12 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "55"
+            },
+            "matarukaja": {
+                "name": "Matarukaja",
+                "cost": "24 SP",
+                "effect": "Increase Attack of party for 3 turns.",
+                "level": "58"
+            },
+            "charge": {
+                "name": "Charge",
+                "cost": "15 SP",
+                "effect": "Next Physical or Gun attack inflicts 2.5x damage for user.",
+                "level": "63"
+            },
+            "maziodyne": {
+                "name": "Maziodyne",
+                "cost": "22 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "67"
+            },
+            "agneyastra": {
+                "name": "Agneyastra",
+                "cost": "24% HP",
+                "effect": "Medium Physical damage to all foes 1x to 3x.",
+                "level": "71"
+            },
+            "gods_hand": {
+                "name": "God's Hand",
+                "cost": "25% HP",
+                "effect": "Colossal Physical damage to 1 foe.",
+                "level": "75"
+            },
+            "evade_wind": {
+                "name": "Evade Wind",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against Wind attacks.",
+                "level": "Max Chariot SL"
+            },
+            "fighting_spirit": {
+                "name": "Fighting Spirit",
+                "cost": "80 SP",
+                "effect": "Next Physical or Gun attack inflicts 2.5x damage for party.",
+                "level": "Third Awakening Skill"
+            }
+        }
+    },
+    "agathion": {
+        "name": "Agathion",
+        "arcana": "Chariot",
+        "level": "3",
+        "trait": "Rare Antibody: Reduce susceptibility to all ailments.",
+        "item": "Zio",
+        "itemAlarm": "Mazio",
+        "baseStats": {
+            "strength": "3",
+            "magic": "4",
+            "endurance": "5",
+            "agility": "7",
+            "luck": "3"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "none",
+            "elec": "resist",
+            "wind": "weak",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "dia": {
+                "name": "Dia",
+                "cost": "3 SP",
+                "effect": "Slightly restore HP of 1 ally.",
+                "level": "Innate"
+            },
+            "baisudi": {
+                "name": "Baisudi",
+                "cost": "4 SP",
+                "effect": "Cure Burn/Freeze/Shock of 1 ally.",
+                "level": "Innate"
+            },
+            "lunge": {
+                "name": "Lunge",
+                "cost": "5% HP",
+                "effect": "Light Physical damage to 1 foe.",
+                "level": "4"
+            },
+            "rakukaja": {
+                "name": "Rakukaja",
+                "cost": "8 SP",
+                "effect": "Increase Defense of 1 ally for 3 turns.",
+                "level": "6"
+            },
+            "zio": {
+                "name": "Zio",
+                "cost": "4 SP",
+                "effect": "Light Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "7"
+            },
+            "dodge_elec": {
+                "name": "Dodge Elec",
+                "cost": "Passive",
+                "effect": "Double evasion rate against Electric attacks.",
+                "level": "8"
+            }
+        }
+    },
+    "slime": {
+        "name": "Slime",
+        "arcana": "Chariot",
+        "level": "10",
+        "trait": "Rare Antibody: Reduce susceptibility to all ailments.",
+        "item": "Tarunda",
+        "itemAlarm": "Matarunda",
+        "baseStats": {
+            "strength": "9",
+            "magic": "6",
+            "endurance": "11",
+            "agility": "6",
+            "luck": "5"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "resist",
+            "fire": "weak",
+            "ice": "none",
+            "elec": "none",
+            "wind": "weak",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "lunge": {
+                "name": "Lunge",
+                "cost": "5% HP",
+                "effect": "Light Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "evil_touch": {
+                "name": "Evil Touch",
+                "cost": "3 SP",
+                "effect": "Inflict Fear (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "tarunda": {
+                "name": "Tarunda",
+                "cost": "8 SP",
+                "effect": "Decrease Attack of 1 foe for 3 turns.",
+                "level": "11"
+            },
+            "fire_wall": {
+                "name": "Fire Wall",
+                "cost": "18 SP",
+                "effect": "Erect a shield on 1 ally to reduce Fire damage and cover innate Fire weakness for 3 turns.",
+                "level": "13"
+            },
+            "headbutt": {
+                "name": "Headbutt",
+                "cost": "9% HP",
+                "effect": "Light Physical damage and inflict Forget (med odds) to 1 foe.",
+                "level": "14"
+            }
+        }
+    },
+    "shiki-ouji": {
+        "name": "Shiki-Ouji",
+        "arcana": "Chariot",
+        "level": "18",
+        "trait": "Psychic Bloodline: Reduce cost of Psy skills by 50%.",
+        "item": "Double Shot",
+        "itemAlarm": "Triple Down",
+        "baseStats": {
+            "strength": "16",
+            "magic": "14",
+            "endurance": "12",
+            "agility": "9",
+            "luck": "10"
+        },
+        "affinities": {
+            "phys": "block",
+            "gun": "block",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "weak",
+            "bless": "block",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "tarukaja": {
+                "name": "Tarukaja",
+                "cost": "8 SP",
+                "effect": "Increase Attack of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "taunt": {
+                "name": "Taunt",
+                "cost": "3 SP",
+                "effect": "Inflict Rage (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "double_shot": {
+                "name": "Double Shot",
+                "cost": "12% HP",
+                "effect": "Light Gun damage to 1 foe 2x.",
+                "level": "Innate"
+            },
+            "mapsi": {
+                "name": "Mapsi",
+                "cost": "10 SP",
+                "effect": "Light Psy damage to all foes.",
+                "level": "19"
+            },
+            "dekaja": {
+                "name": "Dekaja",
+                "cost": "10 SP",
+                "effect": "Negate all -kaja buff effects of all foes.",
+                "level": "21"
+            },
+            "psio": {
+                "name": "Psio",
+                "cost": "8 SP",
+                "effect": "Medium Psy damage to 1 foe.",
+                "level": "23"
+            },
+            "oni-kagura": {
+                "name": "Oni-Kagura",
+                "cost": "16% HP",
+                "effect": "Medium Physical damage and inflict Rage (low odds) to all foes.",
+                "level": "24"
+            }
+        }
+    },
+    "kin-ki": {
+        "name": "Kin-Ki",
+        "arcana": "Chariot",
+        "level": "25",
+        "trait": "Retaliating Body: Doubles Counter damage.",
+        "item": "Vajra Blast",
+        "itemAlarm": "Vicious Strike",
+        "baseStats": {
+            "strength": "21",
+            "magic": "13",
+            "endurance": "21",
+            "agility": "15",
+            "luck": "12"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "reflect",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "vajra_blast": {
+                "name": "Vajra Blast",
+                "cost": "13% HP",
+                "effect": "Medium Physical damage to all foes.",
+                "level": "Innate"
+            },
+            "rakukaja": {
+                "name": "Rakukaja",
+                "cost": "8 SP",
+                "effect": "Increase Defense of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "regenerate_1": {
+                "name": "Regenerate 1",
+                "cost": "Passive",
+                "effect": "Restore 2% of max HP each turn in battle.",
+                "level": "Innate"
+            },
+            "dodge_psy": {
+                "name": "Dodge Psy",
+                "cost": "Passive",
+                "effect": "Double evasion rate against Psy attacks.",
+                "level": "27"
+            },
+            "sledgehammer": {
+                "name": "Sledgehammer",
+                "cost": "10% HP",
+                "effect": "Medium Physical damage and inflict Dizzy (med odds) to 1 foe.",
+                "level": "28"
+            },
+            "bad_beat": {
+                "name": "Bad Beat",
+                "cost": "21% HP",
+                "effect": "Medium Physical damage and inflict Despair (low odds) to all foes.",
+                "level": "30"
+            },
+            "counterstrike": {
+                "name": "Counterstrike",
+                "cost": "Passive",
+                "effect": "15% chance of reflecting Physical attacks. Doesn't stack.",
+                "level": "31"
+            }
+        }
+    },
+    "ara_mitama": {
+        "name": "Ara Mitama",
+        "arcana": "Chariot",
+        "level": "30",
+        "trait": "Atomic Bloodline: Reduce cost of Nuke skills by 50%.",
+        "item": "Nuclear Ring",
+        "itemAlarm": "Spiral Nuclear Ring",
+        "baseStats": {
+            "strength": "20",
+            "magic": "18",
+            "endurance": "20",
+            "agility": "20",
+            "luck": "19"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "none",
+            "fire": "none",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "miracle_punch": {
+                "name": "Miracle Punch",
+                "cost": "8% HP",
+                "effect": "Medium Physical damage to 1 foe, high critical rate.",
+                "level": "Innate"
+            },
+            "freila": {
+                "name": "Freila",
+                "cost": "8 SP",
+                "effect": "Medium Nuke damage to 1 foe.",
+                "level": "Innate"
+            },
+            "taunt": {
+                "name": "Taunt",
+                "cost": "3 SP",
+                "effect": "Inflict Rage (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "rebellion": {
+                "name": "Rebellion",
+                "cost": "5 SP",
+                "effect": "Increase critical rate of 1 ally for 3 turns.",
+                "level": "31"
+            },
+            "marakunda": {
+                "name": "Marakunda",
+                "cost": "24 SP",
+                "effect": "Decrease Defense of all foes for 3 turns.",
+                "level": "32"
+            },
+            "rage_boost": {
+                "name": "Rage Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Rage.",
+                "level": "34"
+            },
+            "matarukaja": {
+                "name": "Matarukaja",
+                "cost": "24 SP",
+                "effect": "Increase Attack of party for 3 turns.",
+                "level": "35"
+            }
+        }
+    },
+    "white_rider": {
+        "name": "White Rider",
+        "arcana": "Chariot",
+        "level": "38",
+        "trait": "Bloodstained Eyes: Increase allies' evasion against foes inflicted with ailments.",
+        "item": "Gun Boost",
+        "itemAlarm": "Gun Amp",
+        "baseStats": {
+            "strength": "22",
+            "magic": "21",
+            "endurance": "26",
+            "agility": "27",
+            "luck": "25"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "block",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "block",
+            "curse": "reflect",
+            "almighty": "none"
+        },
+        "skills": {
+            "triple_down": {
+                "name": "Triple Down",
+                "cost": "16% HP",
+                "effect": "Light Gun damage to all foes 3x.",
+                "level": "Innate"
+            },
+            "evil_touch": {
+                "name": "Evil Touch",
+                "cost": "3 SP",
+                "effect": "Inflict Fear (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "oni-kagura": {
+                "name": "Oni-Kagura",
+                "cost": "16% HP",
+                "effect": "Medium Physical damage and inflict Rage (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "snipe": {
+                "name": "Snipe",
+                "cost": "Passive",
+                "effect": "Strengthen Gun attacks by 25%.",
+                "level": "40"
+            },
+            "maeiga": {
+                "name": "Maeiga",
+                "cost": "16 SP",
+                "effect": "Medium Curse damage to all foes.",
+                "level": "41"
+            },
+            "masukukaja": {
+                "name": "Masukukaja",
+                "cost": "24 SP",
+                "effect": "Increase Agility of party for 3 turns.",
+                "level": "42"
+            },
+            "foul_breath": {
+                "name": "Foul Breath",
+                "cost": "8 SP",
+                "effect": "Increase susceptibility to all ailments of 1 foe.",
+                "level": "43"
+            },
+            "ailment_boost": {
+                "name": "Ailment Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting all ailments.",
+                "level": "44"
+            }
+        }
+    },
+    "athena": {
+        "name": "Athena",
+        "arcana": "Chariot",
+        "level": "46",
+        "trait": "Grace of the Olive: Decreases HP/SP cost to 0 during 1 More.",
+        "item": "Kugelbein",
+        "itemAlarm": "Kugelbein R",
+        "baseStats": {
+            "strength": "33",
+            "magic": "27",
+            "endurance": "29",
+            "agility": "29",
+            "luck": "27"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "block",
+            "fire": "none",
+            "ice": "none",
+            "elec": "weak",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "akashic_arts": {
+                "name": "Akashic Arts",
+                "cost": "20% HP",
+                "effect": "Severe Physical damage to all foes 1x to 2x, high critical rate.",
+                "level": "Innate"
+            },
+            "rising_slash": {
+                "name": "Rising Slash",
+                "cost": "14% HP",
+                "effect": "Heavy Physical damage to 1 foe. Stronger under Baton Pass.",
+                "level": "Innate"
+            },
+            "marakukaja": {
+                "name": "Marakukaja",
+                "cost": "24 SP",
+                "effect": "Increase Defense of party for 3 turns.",
+                "level": "Innate"
+            },
+            "diarahan": {
+                "name": "Diarahan",
+                "cost": "18 SP",
+                "effect": "Fully restore HP of 1 ally.",
+                "level": "47"
+            },
+            "matarukaja": {
+                "name": "Matarukaja",
+                "cost": "24 SP",
+                "effect": "Increase Attack of party for 3 turns.",
+                "level": "48"
+            },
+            "auto-maraku": {
+                "name": "Auto-Maraku",
+                "cost": "Passive",
+                "effect": "Automatic Marakukaja at the start of battle.",
+                "level": "50"
+            },
+            "samarecarm": {
+                "name": "Samarecarm",
+                "cost": "18 SP",
+                "effect": "Revive 1 ally with all HP recovered.",
+                "level": "51"
+            },
+            "megaton_raid": {
+                "name": "Megaton Raid",
+                "cost": "16% HP",
+                "effect": "Severe Physical damage to 1 foe.",
+                "level": "52"
+            }
+        }
+    },
+    "athena_picaro": {
+        "name": "Athena Picaro",
+        "arcana": "Chariot",
+        "level": "50",
+        "trait": "Grace of the Olive: Decreases HP/SP cost to 0 during 1 More.",
+        "item": "Charge",
+        "itemAlarm": "Concentrate",
+        "baseStats": {
+            "strength": "35",
+            "magic": "30",
+            "endurance": "31",
+            "agility": "32",
+            "luck": "29"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "block",
+            "fire": "none",
+            "ice": "none",
+            "elec": "weak",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "akashic_arts": {
+                "name": "Akashic Arts",
+                "cost": "20% HP",
+                "effect": "Severe Physical damage to all foes 1x to 2x, high critical rate.",
+                "level": "Innate"
+            },
+            "rising_slash": {
+                "name": "Rising Slash",
+                "cost": "14% HP",
+                "effect": "Heavy Physical damage to 1 foe. Stronger under Baton Pass.",
+                "level": "Innate"
+            },
+            "marakukaja": {
+                "name": "Marakukaja",
+                "cost": "24 SP",
+                "effect": "Increase Defense of party for 3 turns.",
+                "level": "Innate"
+            },
+            "diarahan": {
+                "name": "Diarahan",
+                "cost": "18 SP",
+                "effect": "Fully restore HP of 1 ally.",
+                "level": "51"
+            },
+            "matarukaja": {
+                "name": "Matarukaja",
+                "cost": "24 SP",
+                "effect": "Increase Attack of party for 3 turns.",
+                "level": "52"
+            },
+            "auto-mataru": {
+                "name": "Auto-Mataru",
+                "cost": "Passive",
+                "effect": "Automatic Matarukaja at the start of battle.",
+                "level": "54"
+            },
+            "samarecarm": {
+                "name": "Samarecarm",
+                "cost": "18 SP",
+                "effect": "Revive 1 ally with all HP recovered.",
+                "level": "55"
+            },
+            "megaton_raid": {
+                "name": "Megaton Raid",
+                "cost": "16% HP",
+                "effect": "Severe Physical damage to 1 foe.",
+                "level": "56"
+            }
+        }
+    },
+    "cerberus": {
+        "name": "Cerberus",
+        "arcana": "Chariot",
+        "level": "55",
+        "trait": "Heated Bloodline: Reduce cost of Fire skills by 50%.",
+        "item": "Megaton Raid",
+        "itemAlarm": "God's Hand",
+        "baseStats": {
+            "strength": "39",
+            "magic": "35",
+            "endurance": "32",
+            "agility": "39",
+            "luck": "27"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "absorb",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "resist",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "agidyne": {
+                "name": "Agidyne",
+                "cost": "12 SP",
+                "effect": "Heavy Fire damage and inflict Burn (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "megaton_raid": {
+                "name": "Megaton Raid",
+                "cost": "16% HP",
+                "effect": "Severe Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "rebellion": {
+                "name": "Rebellion",
+                "cost": "5 SP",
+                "effect": "Increase critical rate of 1 ally for 3 turns.",
+                "level": "56"
+            },
+            "high_counter": {
+                "name": "High Counter",
+                "cost": "Passive",
+                "effect": "20% chance of reflecting a physical attack.",
+                "level": "57"
+            },
+            "maragidyne": {
+                "name": "Maragidyne",
+                "cost": "22 SP",
+                "effect": "Heavy Fire damage and inflict Burn (low odds) to all foes.",
+                "level": "58"
+            },
+            "enduring_soul": {
+                "name": "Enduring Soul",
+                "cost": "Passive",
+                "effect": "Survive one fatal blow with HP fully restored.",
+                "level": "60"
+            }
+        }
+    },
+    "thor": {
+        "name": "Thor",
+        "arcana": "Chariot",
+        "level": "64",
+        "trait": "Intense Focus: Strengthen single-target magic attacks by 20%.",
+        "item": "Mjolnir",
+        "itemAlarm": "Imprisoned Mjolnir",
+        "baseStats": {
+            "strength": "44",
+            "magic": "39",
+            "endurance": "43",
+            "agility": "38",
+            "luck": "35"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "block",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "resist",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "ziodyne": {
+                "name": "Ziodyne",
+                "cost": "12 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "megaton_raid": {
+                "name": "Megaton Raid",
+                "cost": "16% HP",
+                "effect": "Severe Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "high_counter": {
+                "name": "High Counter",
+                "cost": "Passive",
+                "effect": "20% chance of reflecting a physical attack.",
+                "level": "Innate"
+            },
+            "elec_amp": {
+                "name": "Elec Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Elec attacks by 50%.",
+                "level": "66"
+            },
+            "maziodyne": {
+                "name": "Maziodyne",
+                "cost": "22 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "67"
+            },
+            "heat_up": {
+                "name": "Heat Up",
+                "cost": "Passive",
+                "effect": "Random chance to restore 5% of max HP & 10 SP in battle.",
+                "level": "68"
+            },
+            "wild_thunder": {
+                "name": "Wild Thunder",
+                "cost": "54 SP",
+                "effect": "Severe Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "71"
+            }
+        }
+    },
+    "chi_you": {
+        "name": "Chi You",
+        "arcana": "Chariot",
+        "level": "88",
+        "trait": "Chi You's Blessing: Reduce cost of Psy skills by 75%.",
+        "item": "Repel Phys",
+        "itemAlarm": "Drain Phys",
+        "baseStats": {
+            "strength": "56",
+            "magic": "57",
+            "endurance": "54",
+            "agility": "53",
+            "luck": "51"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "block",
+            "nuke": "weak",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "psycho_force": {
+                "name": "Psycho Force",
+                "cost": "48 SP",
+                "effect": "Severe Psy damage to 1 foe.",
+                "level": "Innate"
+            },
+            "repel_phsy": {
+                "name": "Repel Phys",
+                "cost": "Passive",
+                "effect": "Repel Physical attacks.",
+                "level": "Innate"
+            },
+            "gigantomachia": {
+                "name": "Gigantomachia",
+                "cost": "25% HP",
+                "effect": "Colossal Physical damage to all foes.",
+                "level": "Innate"
+            },
+            "fortify_spirit": {
+                "name": "Fortify Spirit",
+                "cost": "Passive",
+                "effect": "Reduce susceptibility to all ailments.",
+                "level": "89"
+            },
+            "psycho_blast": {
+                "name": "Psycho Blast",
+                "cost": "54 SP",
+                "effect": "Severe Psy damage to all foes.",
+                "level": "91"
+            },
+            "drain_psy": {
+                "name": "Drain Psy",
+                "cost": "Passive",
+                "effect": "Absorb Psy attacks.",
+                "level": "92"
+            },
+            "concentrate": {
+                "name": "Concentrate",
+                "cost": "15 SP",
+                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "level": "94"
+            }
+        }
     }
 }
