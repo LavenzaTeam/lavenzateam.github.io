@@ -9730,5 +9730,1037 @@
                 "level": "95"
             }
         }
+    },
+    "necronomicon": {
+        "name": "Necronomicon",
+        "arcana": "Hermit",
+        "level": "31",
+        "trait": "Explosive Scheme: All-Out Attacks may defeat all foes and restore 25% HP to all allies.",
+        "item": "N/A",
+        "itemAlarm": "N/A",
+        "baseStats": {
+            "strength": "17",
+            "magic": "23",
+            "endurance": "20",
+            "agility": "21",
+            "luck": "35"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "analysis": {
+                "name": "Analysis",
+                "cost": "Passive",
+                "effect": "Confirm affinities you have previously attacked.",
+                "level": "Innate"
+            },
+            "subrecover_hp": {
+                "name": "Subrecover HP",
+                "cost": "Passive",
+                "effect": "After battle, 10% HP recovery for backup allies.",
+                "level": "38"
+            },
+            "subrecover_sp": {
+                "name": "Subrecover SP",
+                "cost": "Passive",
+                "effect": "After battle, 1% SP recovery for backup allies.",
+                "level": "49"
+            },
+            "subrecover_hp_ex": {
+                "name": "Subrecover HP EX",
+                "cost": "Passive",
+                "effect": "After battle, 20% HP recovery for backup allies.",
+                "level": "58"
+            },
+            "subrecover_sp_ex": {
+                "name": "Subrecover SP EX",
+                "cost": "Passive",
+                "effect": "After battle, 3% SP recovery for backup allies.",
+                "level": "67"
+            }
+        }
+    },
+    "prometheus": {
+        "name": "Prometheus",
+        "arcana": "Hermit",
+        "level": "Inherited",
+        "trait": "Explosive Scheme: All-Out Attacks may defeat all foes and restore 25% HP to all allies.",
+        "item": "N/A",
+        "itemAlarm": "N/A",
+        "baseStats": {
+            "strength": "Inherited",
+            "magic": "Inherited",
+            "endurance": "Inherited",
+            "agility": "Inherited",
+            "luck": "Inherited"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "analysis": {
+                "name": "Analysis",
+                "cost": "Passive",
+                "effect": "Confirm affinities you have previously attacked.",
+                "level": "Innate"
+            },
+            "subrecover_hp": {
+                "name": "Subrecover HP",
+                "cost": "Passive",
+                "effect": "After battle, 10% HP recovery for backup allies.",
+                "level": "38"
+            },
+            "subrecover_sp": {
+                "name": "Subrecover SP",
+                "cost": "Passive",
+                "effect": "After battle, 1% SP recovery for backup allies.",
+                "level": "49"
+            },
+            "subrecover_hp_ex": {
+                "name": "Subrecover HP EX",
+                "cost": "Passive",
+                "effect": "After battle, 20% HP recovery for backup allies.",
+                "level": "58"
+            },
+            "subrecover_sp_ex": {
+                "name": "Subrecover SP EX",
+                "cost": "Passive",
+                "effect": "After battle, 3% SP recovery for backup allies.",
+                "level": "67"
+            },
+            "treasure_skimmer": {
+                "name": "Treasure Skimmer",
+                "cost": "Passive",
+                "effect": "Find out if a foe is carrying a rare item ahead of time.",
+                "level": "Max Hermit SL"
+            }
+        }
+    },
+    "al_azif": {
+        "name": "Al Azif",
+        "arcana": "Hermit",
+        "level": "Inherited",
+        "trait": "Infinite Scheme: All-Out Attacks may defeat all foes and fully restore HP to all allies.",
+        "item": "N/A",
+        "itemAlarm": "N/A",
+        "baseStats": {
+            "strength": "Inherited",
+            "magic": "Inherited",
+            "endurance": "Inherited",
+            "agility": "Inherited",
+            "luck": "Inherited"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "analysis": {
+                "name": "Analysis",
+                "cost": "Passive",
+                "effect": "Confirm affinities you have previously attacked.",
+                "level": "Innate"
+            },
+            "subrecover_hp": {
+                "name": "Subrecover HP",
+                "cost": "Passive",
+                "effect": "After battle, 10% HP recovery for backup allies.",
+                "level": "38"
+            },
+            "subrecover_sp": {
+                "name": "Subrecover SP",
+                "cost": "Passive",
+                "effect": "After battle, 1% SP recovery for backup allies.",
+                "level": "49"
+            },
+            "subrecover_hp_ex": {
+                "name": "Subrecover HP EX",
+                "cost": "Passive",
+                "effect": "After battle, 20% HP recovery for backup allies.",
+                "level": "58"
+            },
+            "subrecover_sp_ex": {
+                "name": "Subrecover SP EX",
+                "cost": "Passive",
+                "effect": "After battle, 3% SP recovery for backup allies.",
+                "level": "67"
+            },
+            "treasure_skimmer": {
+                "name": "Treasure Skimmer",
+                "cost": "Passive",
+                "effect": "Find out if a foe is carrying a rare item ahead of time.",
+                "level": "Max Hermit SL"
+            },
+            "ultimate_support": {
+                "name": "Ultimate Support",
+                "cost": "Passive",
+                "effect": "Effect of strengthening/healing all allies may activate in battle.",
+                "level": "Third Awakening Skill"
+            }
+        }
+    },
+    "bicorn": {
+        "name": "Bicorn",
+        "arcana": "Hermit",
+        "level": "4",
+        "trait": "Striking Weight: Strengthen Physical attacks by 20%. Doesn't apply to Gun skills.",
+        "item": "Lunge",
+        "itemAlarm": "Assault Dive",
+        "baseStats": {
+            "strength": "5",
+            "magic": "3",
+            "endurance": "3",
+            "agility": "5",
+            "luck": "3"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "weak",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "lunge": {
+                "name": "Lunge",
+                "cost": "5% HP",
+                "effect": "Light Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "tarunda": {
+                "name": "Tarunda",
+                "cost": "8 SP",
+                "effect": "Decrease Attack of 1 foe for 3 turns.",
+                "level": "Innate"
+            },
+            "garu": {
+                "name": "Garu",
+                "cost": "3 SP",
+                "effect": "Light Wind damage to 1 foe.",
+                "level": "6"
+            },
+            "ice_wall": {
+                "name": "Ice Wall",
+                "cost": "18 SP",
+                "effect": "Erect a shield on 1 ally to reduce Ice damage and cover innate Fire weakness for 3 turns.",
+                "level": "7"
+            },
+            "apt_pupil": {
+                "name": "Apt Pupil",
+                "cost": "Passive",
+                "effect": "Increase critical rate.",
+                "level": "8"
+            }
+        }
+    },
+    "koropokkuru": {
+        "name": "Koropokkuru",
+        "arcana": "Hermit",
+        "level": "9",
+        "trait": "Foul Odor: Increase chance of inflicting Ailments after Baton Pass.",
+        "item": "Bufu",
+        "itemAlarm": "Mabufu",
+        "baseStats": {
+            "strength": "5",
+            "magic": "8",
+            "endurance": "6",
+            "agility": "9",
+            "luck": "6"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "weak",
+            "ice": "resist",
+            "elec": "none",
+            "wind": "resist",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "makajama": {
+                "name": "Makajama",
+                "cost": "3 SP",
+                "effect": "Inflict Forget (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "bufu": {
+                "name": "Bufu",
+                "cost": "4 SP",
+                "effect": "Light Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "dodge_ice": {
+                "name": "Dodge Ice",
+                "cost": "Passive",
+                "effect": "Double evasion rate against Ice attacks.",
+                "level": "11"
+            },
+            "sukunda": {
+                "name": "Sukunda",
+                "cost": "8 SP",
+                "effect": "Decrease Agility of 1 foe for 3 turns.",
+                "level": "12"
+            },
+            "fire_wall": {
+                "name": "Fire Wall",
+                "cost": "18 SP",
+                "effect": "Erect a shield on 1 ally to reduce Fire damage and cover innate Fire weakness for 3 turns.",
+                "level": "13"
+            },
+            "mabufu": {
+                "name": "Mabufu",
+                "cost": "10 SP",
+                "effect": "Light Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "14"
+            },
+            "climate_decorum": {
+                "name": "Climate Decorum",
+                "cost": "Passive",
+                "effect": "Double evasion against all attacks under rainy day or special weather warning.",
+                "level": "15"
+            }
+        }
+    },
+    "ippon-datara": {
+        "name": "Ippon-Datara",
+        "arcana": "Hermit",
+        "level": "13",
+        "trait": "Striking Weight: Strengthen Physical attacks by 20%. Doesn't apply to Gun skills.",
+        "item": "Sledgehammer",
+        "itemAlarm": "Flash Bomb",
+        "baseStats": {
+            "strength": "11",
+            "magic": "7",
+            "endurance": "14",
+            "agility": "6",
+            "luck": "8"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "resist",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "reflect",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "resist",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "sledgehammer": {
+                "name": "Sledgehammer",
+                "cost": "10% HP",
+                "effect": "Medium Physical damage and inflict Dizzy (med odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "tarukaja": {
+                "name": "Tarukaja",
+                "cost": "8 SP",
+                "effect": "Increase Attack of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "resist_dizzy": {
+                "name": "Resist Dizzy",
+                "cost": "Passive",
+                "effect": "Reduce susceptibility to Dizzy.",
+                "level": "Innate"
+            },
+            "rampage": {
+                "name": "Rampage",
+                "cost": "13% HP",
+                "effect": "Light Physical damage to all foes 1x to 3x.",
+                "level": "15"
+            },
+            "sharp_student": {
+                "name": "Sharp Student",
+                "cost": "Passive",
+                "effect": "Lower odds of receiving critical hit.",
+                "level": "16"
+            },
+            "counter": {
+                "name": "Counter",
+                "cost": "Passive",
+                "effect": "10% chance of reflecting Physical attacks. Doesn't stack.",
+                "level": "18"
+            }
+        }
+    },
+    "sudama": {
+        "name": "Sudama",
+        "arcana": "Hermit",
+        "level": "17",
+        "trait": "Foul Odor: Increase chance of inflicting Ailments after Baton Pass.",
+        "item": "Mapsi",
+        "itemAlarm": "Psio",
+        "baseStats": {
+            "strength": "9",
+            "magic": "14",
+            "endurance": "12",
+            "agility": "13",
+            "luck": "10"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "reflect",
+            "psy": "none",
+            "nuke": "weak",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "mapsi": {
+                "name": "Mapsi",
+                "cost": "10 SP",
+                "effect": "Light Psy damage to all foes.",
+                "level": "Innate"
+            },
+            "lucky_punch": {
+                "name": "Lucky Punch",
+                "cost": "3% HP",
+                "effect": "Minuscule Physical damage to 1 foe, high critical rate.",
+                "level": "Innate"
+            },
+            "tarukaja": {
+                "name": "Tarukaja",
+                "cost": "8 SP",
+                "effect": "Increase Attack of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "ambient_aid": {
+                "name": "Ambient Aid",
+                "cost": "Passive",
+                "effect": "Greatly increase chance of inflicting all ailments under rainy day or special weather warning.",
+                "level": "20"
+            },
+            "wind_wall": {
+                "name": "Wind Wall",
+                "cost": "18 SP",
+                "effect": "Erect a shield on 1 ally to reduce Wind damage and cover innate Fire weakness for 3 turns.",
+                "level": "21"
+            },
+            "apt_pupil": {
+                "name": "Apt Pupil",
+                "cost": "Passive",
+                "effect": "Increase critical rate.",
+                "level": "22"
+            },
+            "psio": {
+                "name": "Psio",
+                "cost": "8 SP",
+                "effect": "Medium Psy damage to 1 foe.",
+                "level": "23"
+            }
+        }
+    },
+    "naga": {
+        "name": "Naga",
+        "arcana": "Hermit",
+        "level": "24",
+        "trait": "Striking Weight: Strengthen Physical attacks by 20%. Doesn't apply to Gun skills.",
+        "item": "Counter",
+        "itemAlarm": "Counterstrike",
+        "baseStats": {
+            "strength": "15",
+            "magic": "17",
+            "endurance": "15",
+            "agility": "17",
+            "luck": "15"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "none",
+            "elec": "block",
+            "wind": "weak",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "power_slash": {
+                "name": "Power Slash",
+                "cost": "10% HP",
+                "effect": "Medium Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "memory_blow": {
+                "name": "Memory Blow",
+                "cost": "15% HP",
+                "effect": "Light Physical damage and inflict Forget (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "zionga": {
+                "name": "Zionga",
+                "cost": "8 SP",
+                "effect": "Medium Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "shock_boost": {
+                "name": "Shock Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Shock.",
+                "level": "26"
+            },
+            "counter": {
+                "name": "Counter",
+                "cost": "Passive",
+                "effect": "10% chance of reflecting Physical attacks. Doesn't stack.",
+                "level": "27"
+            },
+            "mazionga": {
+                "name": "Mazionga",
+                "cost": "16 SP",
+                "effect": "Medium Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "28"
+            },
+            "marakukaja": {
+                "name": "Marakukaja",
+                "cost": "24 SP",
+                "effect": "Increase Defense of party for 3 turns.",
+                "level": "29"
+            }
+        }
+    },
+    "kurama_tengu": {
+        "name": "Kuruma Tengu",
+        "arcana": "Hermit",
+        "level": "31",
+        "trait": "Skillful Combo: Increase Attack after Baton Pass. Only valid for single-target attacks.",
+        "item": "Wind Ring",
+        "itemAlarm": "Spiral Wind Ring",
+        "baseStats": {
+            "strength": "20",
+            "magic": "19",
+            "endurance": "21",
+            "agility": "24",
+            "luck": "16"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "block",
+            "elec": "none",
+            "wind": "reflect",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "resist",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "double_shot": {
+                "name": "Double Shot",
+                "cost": "12% HP",
+                "effect": "Light Gun damage to 1 foe 2x.",
+                "level": "Innate"
+            },
+            "masukunda": {
+                "name": "Masukunda",
+                "cost": "24 SP",
+                "effect": "Decrease Agility of all foes for 3 turns.",
+                "level": "Innate"
+            },
+            "magarula": {
+                "name": "Magarula",
+                "cost": "14 SP",
+                "effect": "Medium Wind damage to all foes.",
+                "level": "Innate"
+            },
+            "wind_boost": {
+                "name": "Wind Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Wind attacks by 25%.",
+                "level": "32"
+            },
+            "brain_jack": {
+                "name": "Brain Jack",
+                "cost": "8 SP",
+                "effect": "Inflict Brainwash (med odds) to all foes.",
+                "level": "34"
+            },
+            "growth_2": {
+                "name": "Growth 2",
+                "cost": "Passive",
+                "effect": "Persona gains 50% EXP while inactive.",
+                "level": "36"
+            }
+        }
+    },
+    "arahabaki": {
+        "name": "Arahabaki",
+        "arcana": "Hermit",
+        "level": "35",
+        "trait": "Immunity: Impart immunity against all ailments.",
+        "item": "Tapsuan",
+        "itemAlarm": "Fine Tapsuan",
+        "baseStats": {
+            "strength": "21",
+            "magic": "23",
+            "endurance": "22",
+            "agility": "24",
+            "luck": "22"
+        },
+        "affinities": {
+            "phys": "reflect",
+            "gun": "reflect",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "weak",
+            "nuke": "weak",
+            "bless": "resist",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "makarakarn": {
+                "name": "Makarakarn",
+                "cost": "24 SP",
+                "effect": "Erect a shield on 1 ally to repel 1 (non-Almighty) magical attack.",
+                "level": "Innate"
+            },
+            "abysmal_surge": {
+                "name": "Abysmal Surge",
+                "cost": "8 SP",
+                "effect": "Inflict Despair (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "null_brainwash": {
+                "name": "Null Brainwash",
+                "cost": "Passive",
+                "effect": "Impart immunity against Brainwash.",
+                "level": "Innate"
+            },
+            "spirit_drain": {
+                "name": "Spirit Drain",
+                "cost": "3 SP",
+                "effect": "Drain SP from 1 foe. Almighty-type.",
+                "level": "37"
+            },
+            "flash_bomb": {
+                "name": "Flash Bomb",
+                "cost": "19% HP",
+                "effect": "Medium Physical damage and inflict Dizzy (low odds) to all foes.",
+                "level": "38"
+            },
+            "defense_master": {
+                "name": "Defense Master",
+                "cost": "Passive",
+                "effect": "Automatic Rakukaja at the start of battle.",
+                "level": "39"
+            }
+        }
+    },
+    "kumbhanda": {
+        "name": "Kumbhanda",
+        "arcana": "Hermit",
+        "level": "42",
+        "trait": "Rare Antibody: Reduce susceptibility to all ailments.",
+        "item": "Terror Claw",
+        "itemAlarm": "Bloodbath",
+        "baseStats": {
+            "strength": "29",
+            "magic": "25",
+            "endurance": "27",
+            "agility": "26",
+            "luck": "26"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "block",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "weak",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "magarula": {
+                "name": "Magarula",
+                "cost": "14 SP",
+                "effect": "Medium Wind damage to all foes.",
+                "level": "Innate"
+            },
+            "stagnant_air": {
+                "name": "Stagnant Air",
+                "cost": "5 SP",
+                "effect": "Increase susceptibility to all ailments of all combatants.",
+                "level": "Innate"
+            },
+            "bloodbath": {
+                "name": "Bloodbath",
+                "cost": "22% HP",
+                "effect": "Heavy Physical damage and inflict Fear (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "tempest_slash": {
+                "name": "Tempest Slash",
+                "cost": "17% HP",
+                "effect": "Minuscule Physical damage to 1 foe 3x to 5x.",
+                "level": "43"
+            },
+            "dekaja": {
+                "name": "Dekaja",
+                "cost": "10 SP",
+                "effect": "Negate all -kaja buff effects of all foes.",
+                "level": "45"
+            },
+            "fear_boost": {
+                "name": "Fear Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Fear.",
+                "level": "46"
+            },
+            "revolution": {
+                "name": "Revolution",
+                "cost": "5 SP",
+                "effect": "Increase critical rate of all combatants for 3 turns.",
+                "level": "47"
+            }
+        }
+    },
+    "koumokuten": {
+        "name": "Koumokuten",
+        "arcana": "Hermit",
+        "level": "49",
+        "trait": "Gluttonmouth: Increase amount of HP restored to self by 50%.",
+        "item": "Regenerate 2",
+        "itemAlarm": "Regenerate 3",
+        "baseStats": {
+            "strength": "37",
+            "magic": "29",
+            "endurance": "34",
+            "agility": "29",
+            "luck": "25"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "none",
+            "fire": "none",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "resist",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "assault_dive": {
+                "name": "Assault Dive",
+                "cost": "13% HP",
+                "effect": "Heavy Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "regenerate_2": {
+                "name": "Regenerate 2",
+                "cost": "Passive",
+                "effect": "Restore 4% of max HP each turn in battle.",
+                "level": "Innate"
+            },
+            "revolution": {
+                "name": "Revolution",
+                "cost": "5 SP",
+                "effect": "Increase critical rate of all combatants for 3 turns.",
+                "level": "Innate"
+            },
+            "attack_master": {
+                "name": "Attack Master",
+                "cost": "Passive",
+                "effect": "Automatic Tarukaja at the start of battle.",
+                "level": "51"
+            },
+            "ice_wall": {
+                "name": "Ice Wall",
+                "cost": "18 SP",
+                "effect": "Erect a shield on 1 ally to reduce Ice damage and cover innate Fire weakness for 3 turns.",
+                "level": "52"
+            },
+            "enduring_soul": {
+                "name": "Enduring Soul",
+                "cost": "Passive",
+                "effect": "Survive one fatal blow with HP fully restored.",
+                "level": "54"
+            },
+            "deadly_fury": {
+                "name": "Deadly Fury",
+                "cost": "18% HP",
+                "effect": "Severe Physical damage to 1 foe. Stronger under Baton Pass.",
+                "level": "55"
+            }
+        }
+    },
+    "loa": {
+        "name": "Loa",
+        "arcana": "Hermit",
+        "level": "70",
+        "trait": "Draining Mouth: Doubles effect of Drain-type skills and passives.",
+        "item": "Ominous Words",
+        "itemAlarm": "Abysmal Surge",
+        "baseStats": {
+            "strength": "45",
+            "magic": "47",
+            "endurance": "43",
+            "agility": "46",
+            "luck": "39"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "resist",
+            "ice": "none",
+            "elec": "block",
+            "wind": "none",
+            "psy": "weak",
+            "nuke": "resist",
+            "bless": "weak",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "mamudoon": {
+                "name": "Mamudoon",
+                "cost": "26 SP",
+                "effect": "Medium chance of instantly killing all foes. Curse-type.",
+                "level": "Innate"
+            },
+            "abysmal_surge": {
+                "name": "Abysmal Surge",
+                "cost": "8 SP",
+                "effect": "Inflict Despair (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "life_drain": {
+                "name": "Life Drain",
+                "cost": "3 SP",
+                "effect": "Drain HP from 1 foe. Almighty-type.",
+                "level": "Innate"
+            },
+            "maeigaon": {
+                "name": "Maeigaon",
+                "cost": "22 SP",
+                "effect": "Heavy Curse damage to all foes.",
+                "level": "72"
+            },
+            "drain_curse": {
+                "name": "Drain Curse",
+                "cost": "Passive",
+                "effect": "Absorb Curse attacks.",
+                "level": "73"
+            },
+            "spirit_drain": {
+                "name": "Spirit Drain",
+                "cost": "3 SP",
+                "effect": "Drain SP from 1 foe. Almighty-type.",
+                "level": "74"
+            },
+            "fortify_spirit": {
+                "name": "Fortify Spirit",
+                "cost": "Passive",
+                "effect": "Reduce susceptibility to all ailments.",
+                "level": "75"
+            }
+        }
+    },
+    "fafnir": {
+        "name": "Fafnir",
+        "arcana": "Hermit",
+        "level": "86",
+        "trait": "Ailment Hunter: Increases Attack by 25% per ailment inflicted on foe.",
+        "item": "Spiral Reactor Ring",
+        "itemAlarm": "Fire Dragon Horn",
+        "baseStats": {
+            "strength": "61",
+            "magic": "55",
+            "endurance": "58",
+            "agility": "48",
+            "luck": "43"
+        },
+        "affinities": {
+            "phys": "reflect",
+            "gun": "reflect",
+            "fire": "absorb",
+            "ice": "none",
+            "elec": "resist",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "absorb",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "gigantomachia": {
+                "name": "Gigantomachia",
+                "cost": "25% HP",
+                "effect": "Colossal Physical damage to all foes.",
+                "level": "Innate"
+            },
+            "evil_smile": {
+                "name": "Evil Smile",
+                "cost": "8 SP",
+                "effect": "Inflict Fear (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "cosmic_flare": {
+                "name": "Cosmic Flare",
+                "cost": "54 SP",
+                "effect": "Severe Nuke damage to all foes.",
+                "level": "Innate"
+            },
+            "atomic_flare": {
+                "name": "Atomic Flare",
+                "cost": "48 SP",
+                "effect": "Severe Nuke damage to 1 foe.",
+                "level": "88"
+            },
+            "nuke_amp": {
+                "name": "Nuke Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Nuclear attacks by 50%.",
+                "level": "90"
+            },
+            "debilitate": {
+                "name": "Debilitate",
+                "cost": "30 SP",
+                "effect": "Decrease Attack/Defense/Agility of 1 foe for 3 turns.",
+                "level": "91"
+            },
+            "drain_nuke": {
+                "name": "Drain Nuke",
+                "cost": "Passive",
+                "effect": "Absorb Nuclear attacks.",
+                "level": "92"
+            }
+        }
+    },
+    "ongyo-ki": {
+        "name": "Ongyo-ki",
+        "arcana": "Hermit",
+        "level": "89",
+        "trait": "Demon's Bite: Doubles amount of HP restored to self.",
+        "item": "Myriad Slash Belt",
+        "itemAlarm": "Sword Dance Belt",
+        "baseStats": {
+            "strength": "56",
+            "magic": "53",
+            "endurance": "57",
+            "agility": "59",
+            "luck": "49"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "reflect",
+            "curse": "reflect",
+            "almighty": "none"
+        },
+        "skills": {
+            "myriad_slashes": {
+                "name": "Myriad Slashes",
+                "cost": "20% HP",
+                "effect": "Medium Physical damage to 1 foe 2x to 3x.",
+                "level": "Innate"
+            },
+            "makajamaon": {
+                "name": "Makajamaon",
+                "cost": "8 SP",
+                "effect": "Inflict Forget (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "last_stand": {
+                "name": "Last Stand",
+                "cost": "Passive",
+                "effect": "Reduce hit rate by 2/3 of all incoming attack when being ambushed.",
+                "level": "Innate"
+            },
+            "arms_master": {
+                "name": "Arms Master",
+                "cost": "Passive",
+                "effect": "Half HP cost for physical skills.",
+                "level": "91"
+            },
+            "regenerate_3": {
+                "name": "Regenerate 3",
+                "cost": "Passive",
+                "effect": "Restore 6% of max HP each turn in battle.",
+                "level": "92"
+            },
+            "firm_stance": {
+                "name": "Firm Stance",
+                "cost": "Passive",
+                "effect": "Half all incoming damage by sacrificing evasion completely.",
+                "level": "93"
+            },
+            "agneyastra": {
+                "name": "Agneyastra",
+                "cost": "24% HP",
+                "effect": "Medium Physical damage to all foes 1x to 3x.",
+                "level": "95"
+            }
+        }
     }
 }
