@@ -12250,5 +12250,719 @@
                 "level": "86"
             }
         }
+    },
+    "hua_po": {
+        "name": "Hua Po",
+        "arcana": "Hanged Man",
+        "level": "9",
+        "trait": "Thermal Conduct: Increase chance of inflicting Burn after Baton Pass.",
+        "item": "Ember Ring",
+        "itemAlarm": "Spiral Ember Ring",
+        "baseStats": {
+            "strength": "4",
+            "magic": "10",
+            "endurance": "4",
+            "agility": "8",
+            "luck": "8"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "weak",
+            "fire": "reflect",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "agi": {
+                "name": "Agi",
+                "cost": "4 SP",
+                "effect": "Light Fire damage and inflict Burn (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "dormina": {
+                "name": "Dormina",
+                "cost": "3 SP",
+                "effect": "Inflict Sleep (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "tarunda": {
+                "name": "Tarunda",
+                "cost": "8 SP",
+                "effect": "Decrease Attack of 1 foe for 3 turns.",
+                "level": "11"
+            },
+            "resist_forget": {
+                "name": "Resist Forget",
+                "cost": "Passive",
+                "effect": "Reduce susceptibility to Forget.",
+                "level": "12"
+            },
+            "maragi": {
+                "name": "Maragi",
+                "cost": "10 SP",
+                "effect": "Light Fire damage and inflict Burn (low odds) to all foes.",
+                "level": "13"
+            },
+            "burn_boost": {
+                "name": "Burn Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Burn.",
+                "level": "15"
+            }
+        }
+    },
+    "inugami": {
+        "name": "Inugami",
+        "arcana": "Hanged Man",
+        "level": "14",
+        "trait": "Foul Odor: Increase chance of inflicting Ailments after Baton Pass.",
+        "item": "Giant Slice",
+        "itemAlarm": "Rising Slash",
+        "baseStats": {
+            "strength": "11",
+            "magic": "9",
+            "endurance": "9",
+            "agility": "12",
+            "luck": "8"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "block",
+            "fire": "block",
+            "ice": "none",
+            "elec": "none",
+            "wind": "weak",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "pulinpa": {
+                "name": "Pulinpa",
+                "cost": "3 SP",
+                "effect": "Inflict Confusion (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "tarukaja": {
+                "name": "Tarukaja",
+                "cost": "8 SP",
+                "effect": "Increase Attack of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "giant_slice": {
+                "name": "Giant Slice",
+                "cost": "9% HP",
+                "effect": "Medium Physical damage to 1 foe. Stronger under Baton Pass.",
+                "level": "Innate"
+            },
+            "dream_needle": {
+                "name": "Dream Needle",
+                "cost": "8% HP",
+                "effect": "Light Gun damage and inflict Sleep (med odds) to 1 foe.",
+                "level": "15"
+            },
+            "lucky_punch": {
+                "name": "Lucky Punch",
+                "cost": "3% HP",
+                "effect": "Minuscule Physical damage to 1 foe, high critical rate.",
+                "level": "17"
+            },
+            "brainshake": {
+                "name": "Brainshake",
+                "cost": "9% HP",
+                "effect": "Light Physical damage and inflict Brainwash (med odds) to 1 foe.",
+                "level": "18"
+            },
+            "confuse_boost": {
+                "name": "Confuse Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Confuse.",
+                "level": "19"
+            }
+        }
+    },
+    "orthrus": {
+        "name": "Orthrus",
+        "arcana": "Hanged Man",
+        "level": "21",
+        "trait": "Thermal Conduct: Increase chance of inflicting Burn after Baton Pass.",
+        "item": "Agilao",
+        "itemAlarm": "Maragion",
+        "baseStats": {
+            "strength": "16",
+            "magic": "14",
+            "endurance": "14",
+            "agility": "19",
+            "luck": "7"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "absorb",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "resist",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "agilao": {
+                "name": "Agilao",
+                "cost": "8 SP",
+                "effect": "Medium Fire damage and inflict Burn (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "double_fangs": {
+                "name": "Double Fangs",
+                "cost": "10% HP",
+                "effect": "Light Physical damage to 1 foe 2x.",
+                "level": "Innate"
+            },
+            "maragi": {
+                "name": "Maragi",
+                "cost": "10 SP",
+                "effect": "Light Fire damage and inflict Burn (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "burn_boost": {
+                "name": "Burn Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Burn.",
+                "level": "22"
+            },
+            "cornered_fang": {
+                "name": "Cornered Fang",
+                "cost": "10% HP",
+                "effect": "Medium Physical damage to 1 foe. Stronger when being ambushed.",
+                "level": "24"
+            },
+            "matarukaja": {
+                "name": "Matarukaja",
+                "cost": "24 SP",
+                "effect": "Increase Attack of party for 3 turns.",
+                "level": "26"
+            }
+        }
+    },
+    "take-minakata": {
+        "name": "Take-Minakata",
+        "arcana": "Hanged Man",
+        "level": "26",
+        "trait": "Electric Bloodline: Reduce cost of Elec skills by 50%.",
+        "item": "Zionga",
+        "itemAlarm": "Mazionga",
+        "baseStats": {
+            "strength": "17",
+            "magic": "19",
+            "endurance": "18",
+            "agility": "16",
+            "luck": "15"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "resist",
+            "wind": "none",
+            "psy": "weak",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "zionga": {
+                "name": "Zionga",
+                "cost": "8 SP",
+                "effect": "Medium Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "assault_dive": {
+                "name": "Assault Dive",
+                "cost": "13% HP",
+                "effect": "Heavy Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "defense_master": {
+                "name": "Defense Master",
+                "cost": "Passive",
+                "effect": "Automatic Rakukaja at the start of battle.",
+                "level": "Innate"
+            },
+            "mazionga": {
+                "name": "Mazionga",
+                "cost": "16 SP",
+                "effect": "Medium Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "27"
+            },
+            "elec_boost": {
+                "name": "Elec Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Elec attacks by 25%.",
+                "level": "29"
+            },
+            "swift_strike": {
+                "name": "Swift Strike",
+                "cost": "17% HP",
+                "effect": "Minuscule Physical damage to all foes 2x to 4x.",
+                "level": "31"
+            },
+            "shock_boost": {
+                "name": "Shock Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Shock.",
+                "level": "32"
+            }
+        }
+    },
+    "emperor's_amulet": {
+        "name": "Emperor's Amulet",
+        "arcana": "Hanged Man",
+        "level": "35",
+        "trait": "Frigid Bloodline: Reduce cost of Ice skills by 50%. / Wind Bloodline: Reduce cost of Wind skills by 50%. / Psychic Bloodline: Reduce cost of Psy skills by 50%.",
+        "item": "Emperor's Charm",
+        "itemAlarm": "Emperor's Charm R",
+        "baseStats": {
+            "strength": "35",
+            "magic": "35",
+            "endurance": "35",
+            "agility": "35",
+            "luck": "35"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "none",
+            "elec": "weak",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "agidyne": {
+                "name": "Agidyne",
+                "cost": "12 SP",
+                "effect": "Heavy Fire damage and inflict Burn (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "bufudyne": {
+                "name": "Bufudyne",
+                "cost": "12 SP",
+                "effect": "Heavy Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "garudyne": {
+                "name": "Garudyne",
+                "cost": "10 SP",
+                "effect": "Heavy Wind damage to 1 foe.",
+                "level": "Innate"
+            },
+            "ziodyne": {
+                "name": "Ziodyne",
+                "cost": "12 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "psiodyne": {
+                "name": "Psiodyne",
+                "cost": "12 SP",
+                "effect": "Heavy Psy damage to 1 foe.",
+                "level": "Innate"
+            },
+            "freidyne": {
+                "name": "Freidyne",
+                "cost": "12 SP",
+                "effect": "Heavy Nuke damage to 1 foe.",
+                "level": "Innate"
+            },
+            "kougaon": {
+                "name": "Kougaon",
+                "cost": "12 SP",
+                "effect": "Heavy Bless damage to 1 foe.",
+                "level": "Innate"
+            },
+            "eigaon": {
+                "name": "Eigaon",
+                "cost": "12 SP",
+                "effect": "Heavy Curse damage to 1 foe.",
+                "level": "Innate"
+            }
+        }
+    },
+    "hecatoncheires": {
+        "name": "Hecatoncheires",
+        "arcana": "Hanged Man",
+        "level": "42",
+        "trait": "Gluttonmouth: Increase amount of HP restored to self by 50%.",
+        "item": "Swift Strike Belt",
+        "itemAlarm": "Gatling Belt",
+        "baseStats": {
+            "strength": "35",
+            "magic": "22",
+            "endurance": "27",
+            "agility": "23",
+            "luck": "24"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "swift_strike": {
+                "name": "Swift Strike",
+                "cost": "17% HP",
+                "effect": "Minuscule Physical damage to all foes 2x to 4x.",
+                "level": "Innate"
+            },
+            "regenerate_2": {
+                "name": "Regenerate 2",
+                "cost": "Passive",
+                "effect": "Restore 4% of max HP each turn in battle.",
+                "level": "Innate"
+            },
+            "tarukaja": {
+                "name": "Tarukaja",
+                "cost": "8 SP",
+                "effect": "Increase Attack of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "endure": {
+                "name": "Endure",
+                "cost": "Passive",
+                "effect": "Survive one fatal blow with 1 HP remaining.",
+                "level": "43"
+            },
+            "rebellion": {
+                "name": "Rebellion",
+                "cost": "5 SP",
+                "effect": "Increase critical rate of 1 ally for 3 turns.",
+                "level": "45"
+            },
+            "fortified_moxy": {
+                "name": "Fortified Moxy",
+                "cost": "Passive",
+                "effect": "Increase critical rate in ambush.",
+                "level": "46"
+            },
+            "gatling_blow": {
+                "name": "Gatling Blow",
+                "cost": "16% HP",
+                "effect": "Light Physical damage to all foes 3x to 4x.",
+                "level": "49"
+            }
+        }
+    },
+    "jatayu": {
+        "name": "Jatayu",
+        "arcana": "Hanged Man",
+        "level": "51",
+        "trait": "Wind Bloodline: Reduce cost of Wind skills by 50%.",
+        "item": "Speed Master",
+        "itemAlarm": "Auto-Masuku",
+        "baseStats": {
+            "strength": "31",
+            "magic": "34",
+            "endurance": "29",
+            "agility": "36",
+            "luck": "30"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "resist",
+            "elec": "none",
+            "wind": "reflect",
+            "psy": "none",
+            "nuke": "weak",
+            "bless": "resist",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "garudyne": {
+                "name": "Garudyne",
+                "cost": "10 SP",
+                "effect": "Heavy Wind damage to 1 foe.",
+                "level": "Innate"
+            },
+            "masukukaja": {
+                "name": "Masukukaja",
+                "cost": "24 SP",
+                "effect": "Increase Agility of party for 3 turns.",
+                "level": "Innate"
+            },
+            "nocturnal_flash": {
+                "name": "Nocturnal Flash",
+                "cost": "8 SP",
+                "effect": "Inflict Dizzy (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "dizzy_boost": {
+                "name": "Dizzy Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Dizzy.",
+                "level": "52"
+            },
+            "wind_amp": {
+                "name": "Wind Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Wind attacks by 50%.",
+                "level": "54"
+            },
+            "magarudyne": {
+                "name": "Magarudyne",
+                "cost": "20 SP",
+                "effect": "Heavy Wind damage to all foes.",
+                "level": "55"
+            },
+            "speed_master": {
+                "name": "Speed Master",
+                "cost": "Passive",
+                "effect": "Automatic Sukukaja at the start of battle.",
+                "level": "57"
+            }
+        }
+    },
+    "moloch": {
+        "name": "Moloch",
+        "arcana": "Hanged Man",
+        "level": "60",
+        "trait": "Immunity: Impart immunity against all ailments.",
+        "item": "Inferno Ring",
+        "itemAlarm": "Spiral Inferno Ring",
+        "baseStats": {
+            "strength": "32",
+            "magic": "45",
+            "endurance": "42",
+            "agility": "31",
+            "luck": "37"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "absorb",
+            "ice": "weak",
+            "elec": "resist",
+            "wind": "resist",
+            "psy": "absorb",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "agidyne": {
+                "name": "Agidyne",
+                "cost": "12 SP",
+                "effect": "Heavy Fire damage and inflict Burn (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "stagnant_air": {
+                "name": "Stagnant Air",
+                "cost": "5 SP",
+                "effect": "Increase susceptibility to all ailments of all combatants.",
+                "level": "Innate"
+            },
+            "evil_smile": {
+                "name": "Evil Smile",
+                "cost": "8 SP",
+                "effect": "Inflict Fear (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "maragidyne": {
+                "name": "Maragidyne",
+                "cost": "22 SP",
+                "effect": "Heavy Fire damage and inflict Burn (low odds) to all foes.",
+                "level": "62"
+            },
+            "ghastly_wail": {
+                "name": "Ghastly Wail",
+                "cost": "28 SP",
+                "effect": "Instantly kill all foes under Fear.",
+                "level": "63"
+            },
+            "drain_fire": {
+                "name": "Drain Fire",
+                "cost": "Passive",
+                "effect": "Absorb Fire attacks.",
+                "level": "64"
+            },
+            "fire_amp": {
+                "name": "Fire Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Fire attacks by 50%.",
+                "level": "65"
+            }
+        }
+    },
+    "macabre": {
+        "name": "Macabre",
+        "arcana": "Hanged Man",
+        "level": "73",
+        "trait": "Ailment Hunter: Increases Attack by 25% per ailment inflicted on foe.",
+        "item": "Bloodbath",
+        "itemAlarm": "Death Scythe",
+        "baseStats": {
+            "strength": "48",
+            "magic": "49",
+            "endurance": "42",
+            "agility": "48",
+            "luck": "39"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "resist",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "death_scythe": {
+                "name": "Death Scythe",
+                "cost": "20% HP",
+                "effect": "Severe Physical damage and inflict Fear (med odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "evil_smile": {
+                "name": "Evil Smile",
+                "cost": "8 SP",
+                "effect": "Inflict Fear (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "mamudoon": {
+                "name": "Mamudoon",
+                "cost": "26 SP",
+                "effect": "Medium chance of instantly killing all foes. Curse-type.",
+                "level": "Innate"
+            },
+            "auto-masuku": {
+                "name": "Auto-Masuku",
+                "cost": "Passive",
+                "effect": "Automatic Masukukaja at the start of battle.",
+                "level": "74"
+            },
+            "ghastly_wail": {
+                "name": "Ghastly Wail",
+                "cost": "28 SP",
+                "effect": "Instantly kill all foes under Fear.",
+                "level": "75"
+            },
+            "myriad_slashes": {
+                "name": "Myriad Slashes",
+                "cost": "20% HP",
+                "effect": "Medium Physical damage to 1 foe 2x to 3x.",
+                "level": "76"
+            },
+            "ali_dance": {
+                "name": "Ali Dance",
+                "cost": "Passive",
+                "effect": "Half hit rate of all incoming attacks.",
+                "level": "78"
+            }
+        }
+    },
+    "attis": {
+        "name": "Attis",
+        "arcana": "Hanged Man",
+        "level": "82",
+        "trait": "Vitality of the Tree: Allows use of ambush-only skills under normal conditions.",
+        "item": "Null Curse",
+        "itemAlarm": "Drain Curse",
+        "baseStats": {
+            "strength": "56",
+            "magic": "50",
+            "endurance": "48",
+            "agility": "51",
+            "luck": "48"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "block",
+            "ice": "none",
+            "elec": "none",
+            "wind": "reflect",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "weak",
+            "almighty": "none"
+        },
+        "skills": {
+            "maragidyne": {
+                "name": "Maragidyne",
+                "cost": "22 SP",
+                "effect": "Heavy Fire damage and inflict Burn (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "salvation": {
+                "name": "Salvation",
+                "cost": "48 SP",
+                "effect": "Fully restore HP of party and cure all non-special ailments.",
+                "level": "Innate"
+            },
+            "thermopylae": {
+                "name": "Thermopylae",
+                "cost": "30 SP",
+                "effect": "Increase Attack/Defense/Agility of party for 3 turns. Only usable when surrounded.",
+                "level": "Innate"
+            },
+            "enduring_soul": {
+                "name": "Enduring Soul",
+                "cost": "Passive",
+                "effect": "Survive one fatal blow with HP fully restored.",
+                "level": "84"
+            },
+            "samarecarm": {
+                "name": "Samarecarm",
+                "cost": "18 SP",
+                "effect": "Revive 1 ally with all HP recovered.",
+                "level": "85"
+            },
+            "drain_curse": {
+                "name": "Drain Curse",
+                "cost": "Passive",
+                "effect": "Absorb Curse attacks.",
+                "level": "86"
+            },
+            "blazing_hell": {
+                "name": "Blazing Hell",
+                "cost": "54 SP",
+                "effect": "Severe Fire damage and inflict Burn (low odds) to all foes.",
+                "level": "88"
+            }
+        }
     }
 }
