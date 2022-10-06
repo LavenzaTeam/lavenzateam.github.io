@@ -13870,5 +13870,653 @@
                 "level": "88"
             }
         }
+    },
+    "genbu": {
+        "name": "Genbu",
+        "arcana": "Temperance",
+        "level": "7",
+        "trait": "Cold-Blooded: Increase chance of inflicting Freeze during 1 More.",
+        "item": "Frost Ring",
+        "itemAlarm": "Spiral Frost Ring",
+        "baseStats": {
+            "strength": "5",
+            "magic": "6",
+            "endurance": "7",
+            "agility": "6",
+            "luck": "4"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "block",
+            "elec": "weak",
+            "wind": "none",
+            "psy": "resist",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "bufu": {
+                "name": "Bufu",
+                "cost": "4 SP",
+                "effect": "Light Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "rakunda": {
+                "name": "Rakunda",
+                "cost": "8 SP",
+                "effect": "Decrease Defense of 1 foe for 3 turns.",
+                "level": "Innate"
+            },
+            "patra": {
+                "name": "Patra",
+                "cost": "4 SP",
+                "effect": "Cure Dizzy/Forget/Sleep/Hunger of 1 ally.",
+                "level": "8"
+            },
+            "mabufu": {
+                "name": "Mabufu",
+                "cost": "10 SP",
+                "effect": "Light Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "10"
+            },
+            "resist_forget": {
+                "name": "Resist Forget",
+                "cost": "Passive",
+                "effect": "Reduce susceptibility to Forget.",
+                "level": "11"
+            },
+            "defense_master": {
+                "name": "Defense Master",
+                "cost": "Passive",
+                "effect": "Automatic Rakukaja at the start of battle.",
+                "level": "12"
+            }
+        }
+    },
+    "koppa_tengu": {
+        "name": "Koppa Tengu",
+        "arcana": "Temperance",
+        "level": "11",
+        "trait": "Intense Focus: Strengthen single-target magic attacks by 20%.",
+        "item": "Breeze Ring",
+        "itemAlarm": "Spiral Breeze Ring",
+        "baseStats": {
+            "strength": "7",
+            "magic": "8",
+            "endurance": "8",
+            "agility": "11",
+            "luck": "6"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "resist",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "garu": {
+                "name": "Garu",
+                "cost": "3 SP",
+                "effect": "Light Wind damage to 1 foe.",
+                "level": "Innate"
+            },
+            "sukukaja": {
+                "name": "Sukukaja",
+                "cost": "8 SP",
+                "effect": "Increase Agility of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "growth_1": {
+                "name": "Growth 1",
+                "cost": "Passive",
+                "effect": "Persona gains 25% EXP while inactive.",
+                "level": "12"
+            },
+            "taunt": {
+                "name": "Taunt",
+                "cost": "3 SP",
+                "effect": "Inflict Rage (high odds) 1 foe.",
+                "level": "13"
+            },
+            "rage_boost": {
+                "name": "Rage Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Rage.",
+                "level": "14"
+            },
+            "wage_war": {
+                "name": "Wage War",
+                "cost": "8 SP",
+                "effect": "Inflict Rage (med odds) to all foes.",
+                "level": "15"
+            }
+        }
+    },
+    "makami": {
+        "name": "Makami",
+        "arcana": "Temperance",
+        "level": "15",
+        "trait": "Skillful Technique: Strengthen Technical damage by 25%.",
+        "item": "Frei",
+        "itemAlarm": "Mafrei",
+        "baseStats": {
+            "strength": "13",
+            "magic": "12",
+            "endurance": "8",
+            "agility": "11",
+            "luck": "8"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "block",
+            "fire": "none",
+            "ice": "none",
+            "elec": "weak",
+            "wind": "resist",
+            "psy": "none",
+            "nuke": "resist",
+            "bless": "block",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "double_fangs": {
+                "name": "Double Fangs",
+                "cost": "10% HP",
+                "effect": "Light Physical damage to 1 foe 2x.",
+                "level": "Innate"
+            },
+            "frei": {
+                "name": "Frei",
+                "cost": "4 SP",
+                "effect": "Light Nuke damage to 1 foe.",
+                "level": "Innate"
+            },
+            "energy_drop": {
+                "name": "Energy Drop",
+                "cost": "4 SP",
+                "effect": "Cure Confuse/Fear/Despair/Brainwash/Rage of 1 ally.",
+                "level": "Innate"
+            },
+            "mafrei": {
+                "name": "Mafrei",
+                "cost": "10 SP",
+                "effect": "Light Nuke damage to all foes.",
+                "level": "17"
+            },
+            "makajama": {
+                "name": "Makajama",
+                "cost": "3 SP",
+                "effect": "Inflict Forget (high odds) 1 foe.",
+                "level": "18"
+            },
+            "resist_despair": {
+                "name": "Resist Despair",
+                "cost": "Passive",
+                "effect": "Reduce susceptibility to Despair.",
+                "level": "19"
+            },
+            "dodge_elec": {
+                "name": "Dodge Elec",
+                "cost": "Passive",
+                "effect": "Double evasion rate against Electric attacks.",
+                "level": "20"
+            }
+        }
+    },
+    "jikokuten": {
+        "name": "Jikokuten",
+        "arcana": "Temperance",
+        "level": "22",
+        "trait": "Internal Hypnosis: Increase buff timers by 1 turn for self. Extends Auto- buffs for the entire party.",
+        "item": "Assault Belt",
+        "itemAlarm": "Rush Belt",
+        "baseStats": {
+            "strength": "18",
+            "magic": "11",
+            "endurance": "16",
+            "agility": "15",
+            "luck": "13"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "resist",
+            "curse": "weak",
+            "almighty": "none"
+        },
+        "skills": {
+            "assault_dive": {
+                "name": "Assault Dive",
+                "cost": "13% HP",
+                "effect": "Heavy Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "defense_master": {
+                "name": "Defense Master",
+                "cost": "Passive",
+                "effect": "Automatic Rakukaja at the start of battle.",
+                "level": "Innate"
+            },
+            "rakunda": {
+                "name": "Rakunda",
+                "cost": "8 SP",
+                "effect": "Decrease Defense of 1 foe for 3 turns.",
+                "level": "Innate"
+            },
+            "kill_rush": {
+                "name": "Kill Rush",
+                "cost": "14% HP",
+                "effect": "Light Physical damage to 1 foe 1x to 3x.",
+                "level": "24"
+            },
+            "counter": {
+                "name": "Counter",
+                "cost": "Passive",
+                "effect": "10% chance of reflecting Physical attacks. Doesn't stack.",
+                "level": "25"
+            },
+            "matarukaja": {
+                "name": "Matarukaja",
+                "cost": "24 SP",
+                "effect": "Increase Attack of party for 3 turns.",
+                "level": "27"
+            },
+            "adverse_resolve": {
+                "name": "Adverse Resolve",
+                "cost": "Passive",
+                "effect": "Increase critical rate when surrounded.",
+                "level": "28"
+            }
+        }
+    },
+    "mitra": {
+        "name": "Mitra",
+        "arcana": "Temperance",
+        "level": "33",
+        "trait": "Blessed Bloodline: Reduce cost of Bless skills by 50%.",
+        "item": "Death Contract",
+        "itemAlarm": "Death Promise",
+        "baseStats": {
+            "strength": "19",
+            "magic": "26",
+            "endurance": "19",
+            "agility": "24",
+            "luck": "18"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "block",
+            "elec": "weak",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "block",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "kouga": {
+                "name": "Kouga",
+                "cost": "8 SP",
+                "effect": "Medium Bless damage to 1 foe.",
+                "level": "Innate"
+            },
+            "mahama": {
+                "name": "Mahama",
+                "cost": "14 SP",
+                "effect": "Low chance of instantly killing all foes. Bless-type.",
+                "level": "Innate"
+            },
+            "diarama": {
+                "name": "Diarama",
+                "cost": "6 SP",
+                "effect": "Moderately restore HP of 1 ally.",
+                "level": "Innate"
+            },
+            "makouga": {
+                "name": "Makouga",
+                "cost": "16 SP",
+                "effect": "Medium Bless damage to all foes.",
+                "level": "34"
+            },
+            "dekunda": {
+                "name": "Dekunda",
+                "cost": "10 SP",
+                "effect": "Negate all -nda debuff effects of party.",
+                "level": "35"
+            },
+            "bless_boost": {
+                "name": "Bless Boost",
+                "cost": "Passive",
+                "effect": "Strengthen (non instant death) Bless attacks by 25%.",
+                "level": "36"
+            },
+            "thermopylae": {
+                "name": "Thermopylae",
+                "cost": "30 SP",
+                "effect": "Increase Attack/Defense/Agility of party for 3 turns. Only usable when surrounded.",
+                "level": "38"
+            }
+        }
+    },
+    "byakko": {
+        "name": "Byakko",
+        "arcana": "Temperance",
+        "level": "45",
+        "trait": "Retaliating Body: Doubles Counter damage.",
+        "item": "Spiral Snow Ring",
+        "itemAlarm": "Blizzard Ring",
+        "baseStats": {
+            "strength": "35",
+            "magic": "28",
+            "endurance": "30",
+            "agility": "32",
+            "luck": "17"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "weak",
+            "ice": "absorb",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "weak",
+            "bless": "none",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "swift_strike": {
+                "name": "Swift Strike",
+                "cost": "17% HP",
+                "effect": "Minuscule Physical damage to all foes 2x to 4x.",
+                "level": "Innate"
+            },
+            "mabufula": {
+                "name": "Mabufula",
+                "cost": "16 SP",
+                "effect": "Medium Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "counterstrike": {
+                "name": "Counterstrike",
+                "cost": "Passive",
+                "effect": "15% chance of reflecting Physical attacks. Doesn't stack.",
+                "level": "Innate"
+            },
+            "ice_boost": {
+                "name": "Ice Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Ice attacks by 25%.",
+                "level": "47"
+            },
+            "ice_break": {
+                "name": "Ice Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Ice resistances of all foes for 3 turns.",
+                "level": "48"
+            },
+            "evade_fire": {
+                "name": "Evade Fire",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against Fire attacks.",
+                "level": "49"
+            },
+            "null_rage": {
+                "name": "Null Rage",
+                "cost": "Passive",
+                "effect": "Impart immunity against Rage.",
+                "level": "50"
+            },
+            "bufudyne": {
+                "name": "Bufudyne",
+                "cost": "12 SP",
+                "effect": "Heavy Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "level": "51"
+            }
+        }
+    },
+    "naga_raja": {
+        "name": "Naga Raja",
+        "arcana": "Temperance",
+        "level": "55",
+        "trait": "Electric Bloodline: Reduce cost of Elec skills by 50%.",
+        "item": "Thunder Ring",
+        "itemAlarm": "Spiral Thunder Ring",
+        "baseStats": {
+            "strength": "33",
+            "magic": "37",
+            "endurance": "36",
+            "agility": "35",
+            "luck": "31"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "block",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "ziodyne": {
+                "name": "Ziodyne",
+                "cost": "12 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "elec_break": {
+                "name": "Elec Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Elec resistances of all foes for 3 turns.",
+                "level": "Innate"
+            },
+            "tentarafoo": {
+                "name": "Tentarafoo",
+                "cost": "8 SP",
+                "effect": "Inflict Confusion (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "shock_boost": {
+                "name": "Shock Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Shock.",
+                "level": "57"
+            },
+            "makarakarn": {
+                "name": "Makarakarn",
+                "cost": "24 SP",
+                "effect": "Erect a shield on 1 ally to repel 1 (non-Almighty) magical attack.",
+                "level": "58"
+            },
+            "maziodyne": {
+                "name": "Maziodyne",
+                "cost": "22 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "59"
+            },
+            "evade_wind": {
+                "name": "Evade Wind",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against Wind attacks.",
+                "level": "60"
+            }
+        }
+    },
+    "gabriel": {
+        "name": "Gabriel",
+        "arcana": "Temperance",
+        "level": "77",
+        "trait": "Relentless: Increase Attack by 50% when striking foe's weakness. Only valid for single-target attacks.",
+        "item": "Spiral Blizzard Ring",
+        "itemAlarm": "Diamond Dust Lily",
+        "baseStats": {
+            "strength": "43",
+            "magic": "51",
+            "endurance": "48",
+            "agility": "54",
+            "luck": "42"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "block",
+            "nuke": "none",
+            "bless": "absorb",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "maziodyne": {
+                "name": "Maziodyne",
+                "cost": "22 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "mabufudyne": {
+                "name": "Mabufudyne",
+                "cost": "22 SP",
+                "effect": "Heavy Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "divine_judgement": {
+                "name": "Divine Judgement",
+                "cost": "38 SP",
+                "effect": "Half remaining HP of 1 foe. Bless-type.",
+                "level": "78"
+            },
+            "ali_dance": {
+                "name": "Ali Dance",
+                "cost": "Passive",
+                "effect": "Half hit rate of all incoming attacks.",
+                "level": "79"
+            },
+            "evade_curse": {
+                "name": "Evade Curse",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against (non instant death) Curse attacks.",
+                "level": "80"
+            },
+            "touch_n_go": {
+                "name": "Touch n' Go",
+                "cost": "Passive",
+                "effect": "Apply Sukukaja when performing Baton Pass.",
+                "level": "81"
+            },
+            "ice_amp": {
+                "name": "Ice Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Ice attacks by 50%.",
+                "level": "82"
+            },
+            "salvation": {
+                "name": "Salvation",
+                "cost": "48 SP",
+                "effect": "Fully restore HP of party and cure all non-special ailments.",
+                "level": "83"
+            }
+        }
+    },
+    "ardha": {
+        "name": "Ardha",
+        "arcana": "Temperance",
+        "level": "84",
+        "trait": "Positive Thoughts: Increase buff timers by 2 turns for self. Extends Auto- buffs for the entire party.",
+        "item": "Sahasrara",
+        "itemAlarm": "Sahasrara EX",
+        "baseStats": {
+            "strength": "54",
+            "magic": "56",
+            "endurance": "55",
+            "agility": "54",
+            "luck": "40"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "none",
+            "fire": "none",
+            "ice": "block",
+            "elec": "block",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "gods_hand": {
+                "name": "God's Hand",
+                "cost": "25% HP",
+                "effect": "Colossal Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "cosmic_flare": {
+                "name": "Cosmic Flare",
+                "cost": "54 SP",
+                "effect": "Severe Nuke damage to all foes.",
+                "level": "Innate"
+            },
+            "invigorate_3": {
+                "name": "Invigorate 3",
+                "cost": "Passive",
+                "effect": "Restore 7 SP each turn in battle.",
+                "level": "Innate"
+            },
+            "agneyastra": {
+                "name": "Agneyastra",
+                "cost": "24% HP",
+                "effect": "Medium Physical damage to all foes 1x to 3x.",
+                "level": "87"
+            },
+            "auto-masuku": {
+                "name": "Auto-Masuku",
+                "cost": "Passive",
+                "effect": "Automatic Masukukaja at the start of battle.",
+                "level": "88"
+            },
+            "fortified_moxy": {
+                "name": "Fortified Moxy",
+                "cost": "Passive",
+                "effect": "Increase critical rate in ambush.",
+                "level": "89"
+            },
+            "salvation": {
+                "name": "Salvation",
+                "cost": "48 SP",
+                "effect": "Fully restore HP of party and cure all non-special ailments.",
+                "level": "90"
+            }
+        }
     }
 }
