@@ -14518,5 +14518,641 @@
                 "level": "90"
             }
         }
+    },
+    "incubus": {
+        "name": "Incubus",
+        "arcana": "Devil",
+        "level": "5",
+        "trait": "Draining Mouth: Doubles effect of Drain-type skills and passives.",
+        "item": "Dream Needle",
+        "itemAlarm": "Dormin Rush",
+        "baseStats": {
+            "strength": "4",
+            "magic": "6",
+            "endurance": "4",
+            "agility": "5",
+            "luck": "3"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "weak",
+            "ice": "none",
+            "elec": "resist",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "life_drain": {
+                "name": "Life Drain",
+                "cost": "3 SP",
+                "effect": "Drain HP from 1 foe. Almighty-type.",
+                "level": "Innate"
+            },
+            "dream_needle": {
+                "name": "Dream Needle",
+                "cost": "8% HP",
+                "effect": "Light Gun damage and inflict Sleep (med odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "dormina": {
+                "name": "Dormina",
+                "cost": "3 SP",
+                "effect": "Inflict Sleep (high odds) 1 foe.",
+                "level": "7"
+            },
+            "tarunda": {
+                "name": "Tarunda",
+                "cost": "8 SP",
+                "effect": "Decrease Attack of 1 foe for 3 turns.",
+                "level": "8"
+            },
+            "dodge_curse": {
+                "name": "Dodge Curse",
+                "cost": "Passive",
+                "effect": "Double evasion rate against (non instant death) Curse attacks.",
+                "level": "9"
+            }
+        }
+    },
+    "flauros": {
+        "name": "Flauros",
+        "arcana": "Devil",
+        "level": "19",
+        "trait": "Gluttonmouth: Increase amount of HP restored to self by 50%.",
+        "item": "Giant Slice Belt",
+        "itemAlarm": "Rising Slash Belt",
+        "baseStats": {
+            "strength": "15",
+            "magic": "11",
+            "endurance": "13",
+            "agility": "14",
+            "luck": "11"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "block",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "resist",
+            "psy": "none",
+            "nuke": "resist",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "giant_slice": {
+                "name": "Giant Slice",
+                "cost": "9% HP",
+                "effect": "Medium Physical damage to 1 foe. Stronger under Baton Pass.",
+                "level": "Innate"
+            },
+            "dormin_rush": {
+                "name": "Dormin Rush",
+                "cost": "16% HP",
+                "effect": "Medium Physical damage and inflict Sleep (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "dekaja": {
+                "name": "Dekaja",
+                "cost": "10 SP",
+                "effect": "Negate all -kaja buff effects of all foes.",
+                "level": "Innate"
+            },
+            "dodge_phys": {
+                "name": "Dodge Phys",
+                "cost": "Passive",
+                "effect": "Double evasion rate against Physical attacks.",
+                "level": "20"
+            },
+            "rebellion": {
+                "name": "Rebellion",
+                "cost": "5 SP",
+                "effect": "Increase critical rate of 1 ally for 3 turns.",
+                "level": "22"
+            },
+            "cornered_fang": {
+                "name": "Cornered Fang",
+                "cost": "10% HP",
+                "effect": "Medium Physical damage to 1 foe. Stronger when being ambushed.",
+                "level": "23"
+            },
+            "heat_up": {
+                "name": "Heat Up",
+                "cost": "Passive",
+                "effect": "Random chance to restore 5% of max HP & 10 SP in battle.",
+                "level": "24"
+            }
+        }
+    },
+    "andras": {
+        "name": "Andras",
+        "arcana": "Devil",
+        "level": "27",
+        "trait": "Foul Odor: Increase chance of inflicting Ailments after Baton Pass.",
+        "item": "Evil Touch",
+        "itemAlarm": "Evil Smile",
+        "baseStats": {
+            "strength": "15",
+            "magic": "19",
+            "endurance": "19",
+            "agility": "21",
+            "luck": "14"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "weak",
+            "ice": "resist",
+            "elec": "none",
+            "wind": "none",
+            "psy": "resist",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "foul_breath": {
+                "name": "Foul Breath",
+                "cost": "8 SP",
+                "effect": "Increase susceptibility to all ailments of 1 foe.",
+                "level": "Innate"
+            },
+            "terror_claw": {
+                "name": "Terror Claw",
+                "cost": "8% HP",
+                "effect": "Light Physical damage and inflict Fear (med odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "evil_touch": {
+                "name": "Evil Touch",
+                "cost": "3 SP",
+                "effect": "Inflict Fear (high odds) 1 foe.",
+                "level": "28"
+            },
+            "fear_boost": {
+                "name": "Fear Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Fear.",
+                "level": "29"
+            },
+            "rakunda": {
+                "name": "Rakunda",
+                "cost": "8 SP",
+                "effect": "Decrease Defense of 1 foe for 3 turns.",
+                "level": "31"
+            },
+            "ghastly_wail": {
+                "name": "Ghastly Wail",
+                "cost": "28 SP",
+                "effect": "Instantly kill all foes under Fear.",
+                "level": "32"
+            }
+        }
+    },
+    "lilim": {
+        "name": "Lilim",
+        "arcana": "Devil",
+        "level": "32",
+        "trait": "Cold-Blooded: Increase chance of inflicting Freeze during 1 More.",
+        "item": "Ice Boost",
+        "itemAlarm": "Ice Amp",
+        "baseStats": {
+            "strength": "17",
+            "magic": "23",
+            "endurance": "18",
+            "agility": "25",
+            "luck": "20"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "resist",
+            "elec": "none",
+            "wind": "weak",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "bufula": {
+                "name": "Bufula",
+                "cost": "8 SP",
+                "effect": "Medium Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "lullaby": {
+                "name": "Lullaby",
+                "cost": "8 SP",
+                "effect": "Inflict Sleep (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "freeze_boost": {
+                "name": "Freeze Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Freeze.",
+                "level": "Innate"
+            },
+            "masukunda": {
+                "name": "Masukunda",
+                "cost": "24 SP",
+                "effect": "Decrease Agility of all foes for 3 turns.",
+                "level": "34"
+            },
+            "dodge_bless": {
+                "name": "Dodge Bless",
+                "cost": "Passive",
+                "effect": "Double evasion rate against (non instant death) Bless attacks.",
+                "level": "35"
+            },
+            "spirit_drain": {
+                "name": "Spirit Drain",
+                "cost": "3 SP",
+                "effect": "Drain SP from 1 foe. Almighty-type.",
+                "level": "36"
+            },
+            "mabufula": {
+                "name": "Mabufula",
+                "cost": "16 SP",
+                "effect": "Medium Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "37"
+            }
+        }
+    },
+    "pazuzu": {
+        "name": "Pazuzu",
+        "arcana": "Devil",
+        "level": "45",
+        "trait": "Cursed Bloodline: Reduce cost of Curse skills by 50%.",
+        "item": "Spiral Curse Ring",
+        "itemAlarm": "Hex Ring",
+        "baseStats": {
+            "strength": "29",
+            "magic": "33",
+            "endurance": "27",
+            "agility": "26",
+            "luck": "27"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "resist",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "maeiga": {
+                "name": "Maeiga",
+                "cost": "16 SP",
+                "effect": "Medium Curse damage to all foes.",
+                "level": "Innate"
+            },
+            "tentarafoo": {
+                "name": "Tentarafoo",
+                "cost": "8 SP",
+                "effect": "Inflict Confusion (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "mudoon": {
+                "name": "Mudoon",
+                "cost": "12 SP",
+                "effect": "Medium chance of instantly killing 1 foe. Curse-type.",
+                "level": "Innate"
+            },
+            "ambient_aid": {
+                "name": "Ambient Aid",
+                "cost": "Passive",
+                "effect": "Greatly increase chance of inflicting all ailments under rainy day or special weather warning.",
+                "level": "47"
+            },
+            "evil_smile": {
+                "name": "Evil Smile",
+                "cost": "8 SP",
+                "effect": "Inflict Fear (med odds) to all foes.",
+                "level": "48"
+            },
+            "stagnant_air": {
+                "name": "Stagnant Air",
+                "cost": "5 SP",
+                "effect": "Increase susceptibility to all ailments of all combatants.",
+                "level": "49"
+            },
+            "eigaon": {
+                "name": "Eigaon",
+                "cost": "12 SP",
+                "effect": "Heavy Curse damage to 1 foe.",
+                "level": "50"
+            }
+        }
+    },
+    "baphomet": {
+        "name": "Baphomet",
+        "arcana": "Devil",
+        "level": "58",
+        "trait": "Thermal Conduct: Increase chance of inflicting Burn after Baton Pass.",
+        "item": "Bufudyne",
+        "itemAlarm": "Mabufudyne",
+        "baseStats": {
+            "strength": "34",
+            "magic": "42",
+            "endurance": "36",
+            "agility": "38",
+            "luck": "31"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "resist",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "agidyne": {
+                "name": "Agidyne",
+                "cost": "12 SP",
+                "effect": "Heavy Fire damage and inflict Burn (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "evade_fire": {
+                "name": "Evade Fire",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against Fire attacks.",
+                "level": "Innate"
+            },
+            "burn_boost": {
+                "name": "Burn Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Burn.",
+                "level": "Innate"
+            },
+            "bufudyne": {
+                "name": "Bufudyne",
+                "cost": "12 SP",
+                "effect": "Heavy Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "level": "59"
+            },
+            "ziodyne": {
+                "name": "Ziodyne",
+                "cost": "12 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "61"
+            },
+            "shock_boost": {
+                "name": "Shock Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Shock.",
+                "level": "62"
+            },
+            "freeze_boost": {
+                "name": "Freeze Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Freeze.",
+                "level": "63"
+            }
+        }
+    },
+    "nebiros": {
+        "name": "Nebiros",
+        "arcana": "Devil",
+        "level": "74",
+        "trait": "Psychic Bloodline: Reduce cost of Psy skills by 50%.",
+        "item": "Marin Karin",
+        "itemAlarm": "Brain Jack",
+        "baseStats": {
+            "strength": "45",
+            "magic": "52",
+            "endurance": "44",
+            "agility": "46",
+            "luck": "42"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "block",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "marin_karin": {
+                "name": "Marin Karin",
+                "cost": "3 SP",
+                "effect": "Inflict Brainwash (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "mapsiodyne": {
+                "name": "Mapsiodyne",
+                "cost": "22 SP",
+                "effect": "Heavy Psy damage to all foes.",
+                "level": "Innate"
+            },
+            "marakukaja": {
+                "name": "Marakukaja",
+                "cost": "24 SP",
+                "effect": "Increase Defense of party for 3 turns.",
+                "level": "Innate"
+            },
+            "brain_jack": {
+                "name": "Brain Jack",
+                "cost": "8 SP",
+                "effect": "Inflict Brainwash (med odds) to all foes.",
+                "level": "76"
+            },
+            "brainwash_boost": {
+                "name": "Brainwash Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Brainwash.",
+                "level": "77"
+            },
+            "megidolaon": {
+                "name": "Megidolaon",
+                "cost": "38 SP",
+                "effect": "Severe Almighty damage to all foes.",
+                "level": "78"
+            },
+            "null_bless": {
+                "name": "Null Bless",
+                "cost": "Passive",
+                "effect": "Impart immunity against Bless attacks.",
+                "level": "80"
+            }
+        }
+    },
+    "belial": {
+        "name": "Belial",
+        "arcana": "Devil",
+        "level": "82",
+        "trait": "Bloodstained Eyes: Increase allies' evasion against foes inflicted with ailments.",
+        "item": "Mamudoon",
+        "itemAlarm": "Demonic Decree",
+        "baseStats": {
+            "strength": "52",
+            "magic": "53",
+            "endurance": "51",
+            "agility": "48",
+            "luck": "49"
+        },
+        "affinities": {
+            "phys": "block",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "eigaon": {
+                "name": "Eigaon",
+                "cost": "12 SP",
+                "effect": "Heavy Curse damage to 1 foe.",
+                "level": "Innate"
+            },
+            "bloodbath": {
+                "name": "Bloodbath",
+                "cost": "22% HP",
+                "effect": "Heavy Physical damage and inflict Fear (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "curse_amp": {
+                "name": "Curse Amp",
+                "cost": "Passive",
+                "effect": "Strengthen (non instant death) Curse attacks by 50%.",
+                "level": "Innate"
+            },
+            "maeigaon": {
+                "name": "Maeigaon",
+                "cost": "22 SP",
+                "effect": "Heavy Curse damage to all foes.",
+                "level": "84"
+            },
+            "fear_boost": {
+                "name": "Fear Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Fear.",
+                "level": "85"
+            },
+            "mamudoon": {
+                "name": "Mamudoon",
+                "cost": "26 SP",
+                "effect": "Medium chance of instantly killing all foes. Curse-type.",
+                "level": "86"
+            },
+            "demonic_decree": {
+                "name": "Demonic Decree",
+                "cost": "38 SP",
+                "effect": "Half remaining HP of 1 foe. Curse-type.",
+                "level": "86"
+            }
+        }
+    },
+    "beelzebub": {
+        "name": "Beelzebub",
+        "arcana": "Devil",
+        "level": "87",
+        "trait": "Mother's Lament: Reduce cost of Curse skills by 75%.",
+        "item": "Fleurs du Mal",
+        "itemAlarm": "Fleurs du Mal R",
+        "baseStats": {
+            "strength": "55",
+            "magic": "61",
+            "endurance": "54",
+            "agility": "56",
+            "luck": "42"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "absorb",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "reflect",
+            "almighty": "none"
+        },
+        "skills": {
+            "maeigaon": {
+                "name": "Maeigaon",
+                "cost": "22 SP",
+                "effect": "Heavy Curse damage to all foes.",
+                "level": "Innate"
+            },
+            "mamudoon": {
+                "name": "Mamudoon",
+                "cost": "26 SP",
+                "effect": "Medium chance of instantly killing all foes. Curse-type.",
+                "level": "Innate"
+            },
+            "evil_smile": {
+                "name": "Evil Smile",
+                "cost": "8 SP",
+                "effect": "Inflict Fear (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "curse_amp": {
+                "name": "Curse Amp",
+                "cost": "Passive",
+                "effect": "Strengthen (non instant death) Curse attacks by 50%.",
+                "level": "88"
+            },
+            "concentrate": {
+                "name": "Concentrate",
+                "cost": "15 SP",
+                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "level": "89"
+            },
+            "demonic_decree": {
+                "name": "Demonic Decree",
+                "cost": "38 SP",
+                "effect": "Half remaining HP of 1 foe. Curse-type.",
+                "level": "90"
+            },
+            "repel_ice": {
+                "name": "Repel Ice",
+                "cost": "Passive",
+                "effect": "Repel Ice attacks.",
+                "level": "91"
+            },
+            "megidolaon": {
+                "name": "Megidolaon",
+                "cost": "38 SP",
+                "effect": "Severe Almighty damage to all foes.",
+                "level": "92"
+            }
+        }
     }
 }
