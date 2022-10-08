@@ -15154,5 +15154,647 @@
                 "level": "92"
             }
         }
+    },
+    "belphegor": {
+        "name": "Belphegor",
+        "arcana": "Tower",
+        "level": "37",
+        "trait": "Intense Focus: Strengthen single-target magic attacks by 20%.",
+        "item": "Mabufula",
+        "itemAlarm": "Bufudyne",
+        "baseStats": {
+            "strength": "25",
+            "magic": "27",
+            "endurance": "24",
+            "agility": "23",
+            "luck": "19"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "weak",
+            "ice": "resist",
+            "elec": "resist",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "resist",
+            "bless": "none",
+            "curse": "reflect",
+            "almighty": "none"
+        },
+        "skills": {
+            "mabufula": {
+                "name": "Mabufula",
+                "cost": "16 SP",
+                "effect": "Medium Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "ice_break": {
+                "name": "Ice Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Ice resistances of all foes for 3 turns.",
+                "level": "Innate"
+            },
+            "null_rage": {
+                "name": "Null Rage",
+                "cost": "Passive",
+                "effect": "Impart immunity against Rage.",
+                "level": "38"
+            },
+            "dodge_fire": {
+                "name": "Dodge Fire",
+                "cost": "Passive",
+                "effect": "Double evasion rate against Fire attacks.",
+                "level": "39"
+            },
+            "bufudyne": {
+                "name": "Bufudyne",
+                "cost": "12 SP",
+                "effect": "Heavy Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "level": "41"
+            },
+            "concentrate": {
+                "name": "Concentrate",
+                "cost": "15 SP",
+                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "level": "42"
+            }
+        }
+    },
+    "red_rider": {
+        "name": "Red Rider",
+        "arcana": "Tower",
+        "level": "41",
+        "trait": "Ailment Hunter: Increases Attack by 25% per ailment inflicted on foe.",
+        "item": "Karma Ring",
+        "itemAlarm": "Spiral Karma Ring",
+        "baseStats": {
+            "strength": "26",
+            "magic": "27",
+            "endurance": "25",
+            "agility": "29",
+            "luck": "23"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "rising_slash": {
+                "name": "Rising Slash",
+                "cost": "14% HP",
+                "effect": "Heavy Physical damage to 1 foe. Stronger under Baton Pass.",
+                "level": "Innate"
+            },
+            "psy_break": {
+                "name": "Psy Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Psy resistances of all foes for 3 turns.",
+                "level": "Innate"
+            },
+            "mapsio": {
+                "name": "Mapsio",
+                "cost": "16 SP",
+                "effect": "Medium Psy damage to all foes.",
+                "level": "Innate"
+            },
+            "negative_pile": {
+                "name": "Negative Pile",
+                "cost": "12% HP",
+                "effect": "Heavy Physical damage and inflict Despair (med odds) to 1 foe.",
+                "level": "42"
+            },
+            "despair_boost": {
+                "name": "Despair Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Despair.",
+                "level": "44"
+            },
+            "ominous_words": {
+                "name": "Ominous Words",
+                "cost": "3 SP",
+                "effect": "Inflict Despair (high odds) 1 foe.",
+                "level": "45"
+            },
+            "rage_boost": {
+                "name": "Rage Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Rage.",
+                "level": "46"
+            }
+        }
+    },
+    "magatsu-izanagi": {
+        "name": "Magatsu-Izanagi",
+        "arcana": "Tower",
+        "level": "44",
+        "trait": "Hollow Jester: Increase Attack by 40% per ailment inflicted on foe.",
+        "item": "Black Headband",
+        "itemAlarm": "Black Headband R",
+        "baseStats": {
+            "strength": "37",
+            "magic": "35",
+            "endurance": "32",
+            "agility": "25",
+            "luck": "10"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "weak",
+            "bless": "block",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "magatsu_mandala": {
+                "name": "Magatsu Mandala",
+                "cost": "30 SP",
+                "effect": "Heavy Curse damage and inflict Confusion/Fear/Despair (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "megidola": {
+                "name": "Megidola",
+                "cost": "24 SP",
+                "effect": "Heavy Almighty damage to all foes.",
+                "level": "Innate"
+            },
+            "ghastly_wail": {
+                "name": "Ghastly Wail",
+                "cost": "28 SP",
+                "effect": "Instantly kill all foes under Fear.",
+                "level": "Innate"
+            },
+            "maziodyne": {
+                "name": "Maziodyne",
+                "cost": "22 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "45"
+            },
+            "bloodbath": {
+                "name": "Bloodbath",
+                "cost": "22% HP",
+                "effect": "Heavy Physical damage and inflict Fear (low odds) to all foes.",
+                "level": "46"
+            },
+            "attack_master": {
+                "name": "Attack Master",
+                "cost": "Passive",
+                "effect": "Automatic Tarukaja at the start of battle.",
+                "level": "48"
+            },
+            "heat_riser": {
+                "name": "Heat Riser",
+                "cost": "30 SP",
+                "effect": "Increase Attack/Defense/Agility of 1 ally for 3 turns.",
+                "level": "50"
+            }
+        }
+    },
+    "magatsu-izanagi_picaro": {
+        "name": "Magatsu-Izanagi Picaro",
+        "arcana": "Tower",
+        "level": "48",
+        "trait": "Hollow Jester: Increase Attack by 40% per ailment inflicted on foe.",
+        "item": "Heat Riser",
+        "itemAlarm": "Debilitate",
+        "baseStats": {
+            "strength": "40",
+            "magic": "38",
+            "endurance": "35",
+            "agility": "27",
+            "luck": "11"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "weak",
+            "bless": "block",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "magatsu_mandala": {
+                "name": "Magatsu Mandala",
+                "cost": "30 SP",
+                "effect": "Heavy Curse damage and inflict Confusion/Fear/Despair (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "megidola": {
+                "name": "Megidola",
+                "cost": "24 SP",
+                "effect": "Heavy Almighty damage to all foes.",
+                "level": "Innate"
+            },
+            "ghastly_wail": {
+                "name": "Ghastly Wail",
+                "cost": "28 SP",
+                "effect": "Instantly kill all foes under Fear.",
+                "level": "Innate"
+            },
+            "magarudyne": {
+                "name": "Magarudyne",
+                "cost": "20 SP",
+                "effect": "Heavy Wind damage to all foes.",
+                "level": "49"
+            },
+            "bloodbath": {
+                "name": "Bloodbath",
+                "cost": "22% HP",
+                "effect": "Heavy Physical damage and inflict Fear (low odds) to all foes.",
+                "level": "50"
+            },
+            "speed_master": {
+                "name": "Speed Master",
+                "cost": "Passive",
+                "effect": "Automatic Sukukaja at the start of battle.",
+                "level": "52"
+            },
+            "heat_riser": {
+                "name": "Heat Riser",
+                "cost": "30 SP",
+                "effect": "Increase Attack/Defense/Agility of 1 ally for 3 turns.",
+                "level": "54"
+            }
+        }
+    },
+    "seth": {
+        "name": "Seth",
+        "arcana": "Tower",
+        "level": "51",
+        "trait": "Potent Hypnosis: Increase buff timers by 1 turn for party.",
+        "item": "Triple Shot Belt",
+        "itemAlarm": "Special Shot Belt",
+        "baseStats": {
+            "strength": "32",
+            "magic": "35",
+            "endurance": "30",
+            "agility": "35",
+            "luck": "28"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "reflect",
+            "ice": "none",
+            "elec": "none",
+            "wind": "block",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "one-shot_kill": {
+                "name": "One-shot Kill",
+                "cost": "17% HP",
+                "effect": "Severe Gun damage to 1 foe, high critical rate.",
+                "level": "Innate"
+            },
+            "agidyne": {
+                "name": "Agidyne",
+                "cost": "12 SP",
+                "effect": "Heavy Fire damage and inflict Burn (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "masukukaja": {
+                "name": "Masukukaja",
+                "cost": "24 SP",
+                "effect": "Increase Agility of party for 3 turns.",
+                "level": "Innate"
+            },
+            "cripple": {
+                "name": "Cripple",
+                "cost": "Passive",
+                "effect": "Strengthen Gun attacks by 50%.",
+                "level": "53"
+            },
+            "fire_break": {
+                "name": "Fire Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Fire resistances of all foes for 3 turns.",
+                "level": "54"
+            },
+            "fortify_spirit": {
+                "name": "Fortify Spirit",
+                "cost": "Passive",
+                "effect": "Reduce susceptibility to all ailments.",
+                "level": "56"
+            }
+        }
+    },
+    "black_rider": {
+        "name": "Black Rider",
+        "arcana": "Tower",
+        "level": "59",
+        "trait": "Gloomy Child: Activates all equipped special weather passives in normal weather.",
+        "item": "Megidola",
+        "itemAlarm": "Megidolaon",
+        "baseStats": {
+            "strength": "36",
+            "magic": "42",
+            "endurance": "34",
+            "agility": "42",
+            "luck": "30"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "weak",
+            "ice": "absorb",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "resist",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "mamudoon": {
+                "name": "Mamudoon",
+                "cost": "26 SP",
+                "effect": "Medium chance of instantly killing all foes. Curse-type.",
+                "level": "Innate"
+            },
+            "flash_bomb": {
+                "name": "Flash Bomb",
+                "cost": "19% HP",
+                "effect": "Medium Physical damage and inflict Dizzy (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "maeigaon": {
+                "name": "Maeigaon",
+                "cost": "22 SP",
+                "effect": "Heavy Curse damage to all foes.",
+                "level": "Innate"
+            },
+            "ambient_aid": {
+                "name": "Ambient Aid",
+                "cost": "Passive",
+                "effect": "Greatly increase chance of inflicting all ailments under rainy day or special weather warning.",
+                "level": "60"
+            },
+            "bloodbath": {
+                "name": "Bloodbath",
+                "cost": "22% HP",
+                "effect": "Heavy Physical damage and inflict Fear (low odds) to all foes.",
+                "level": "61"
+            },
+            "ghastly_wail": {
+                "name": "Ghastly Wail",
+                "cost": "28 SP",
+                "effect": "Instantly kill all foes under Fear.",
+                "level": "63"
+            },
+            "megidola": {
+                "name": "Megidola",
+                "cost": "24 SP",
+                "effect": "Heavy Almighty damage to all foes.",
+                "level": "64"
+            }
+        }
+    },
+    "mara": {
+        "name": "Mara",
+        "arcana": "Tower",
+        "level": "73",
+        "trait": "Mighty Gaze: Strengthen multi-target magic attacks by 20%.",
+        "item": "Mapsiodyne",
+        "itemAlarm": "Psycho Force",
+        "baseStats": {
+            "strength": "51",
+            "magic": "43",
+            "endurance": "43",
+            "agility": "45",
+            "luck": "44"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "block",
+            "fire": "absorb",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "reflect",
+            "nuke": "none",
+            "bless": "resist",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "mapsiodyne": {
+                "name": "Mapsiodyne",
+                "cost": "22 SP",
+                "effect": "Heavy Psy damage to all foes.",
+                "level": "Innate"
+            },
+            "one-shot_kill": {
+                "name": "One-shot Kill",
+                "cost": "17% HP",
+                "effect": "Severe Gun damage to 1 foe, high critical rate.",
+                "level": "Innate"
+            },
+            "tetra_break": {
+                "name": "Tetra Break",
+                "cost": "18 SP",
+                "effect": "Remove physical-repellent shields from all foes.",
+                "level": "Innate"
+            },
+            "charge": {
+                "name": "Charge",
+                "cost": "15 SP",
+                "effect": "Next Physical or Gun attack inflicts 2.5x damage for user.",
+                "level": "74"
+            },
+            "brain_buster": {
+                "name": "Brain Buster",
+                "cost": "22% HP",
+                "effect": "Heavy Physical damage and inflict Brainwash (low odds) to all foes.",
+                "level": "76"
+            },
+            "psy_amp": {
+                "name": "Psy Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Psy attacks by 50%.",
+                "level": "77"
+            },
+            "psycho_force": {
+                "name": "Psycho Force",
+                "cost": "48 SP",
+                "effect": "Severe Psy damage to 1 foe.",
+                "level": "78"
+            }
+        }
+    },
+    "yoshitsune": {
+        "name": "Yoshitsune",
+        "arcana": "Tower",
+        "level": "87",
+        "trait": "Retaliating Body: Doubles Counter damage.",
+        "item": "Usumidori",
+        "itemAlarm": "Usumidori R",
+        "baseStats": {
+            "strength": "63",
+            "magic": "52",
+            "endurance": "50",
+            "agility": "54",
+            "luck": "49"
+        },
+        "affinities": {
+            "phys": "block",
+            "gun": "none",
+            "fire": "resist",
+            "ice": "none",
+            "elec": "reflect",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "reflect",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "brave_blade": {
+                "name": "Brave Blade",
+                "cost": "24% HP",
+                "effect": "Colossal Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "charge": {
+                "name": "Charge",
+                "cost": "15 SP",
+                "effect": "Next Physical or Gun attack inflicts 2.5x damage for user.",
+                "level": "Innate"
+            },
+            "ziodyne": {
+                "name": "Ziodyne",
+                "cost": "12 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "last_stand": {
+                "name": "Last Stand",
+                "cost": "Passive",
+                "effect": "Reduce hit rate by 2/3 of all incoming attack when being ambushed.",
+                "level": "89"
+            },
+            "fast_heal": {
+                "name": "Fast Heal",
+                "cost": "Passive",
+                "effect": "Half the time needed to recover from ailments.",
+                "level": "90"
+            },
+            "elec_amp": {
+                "name": "Elec Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Elec attacks by 50%.",
+                "level": "92"
+            },
+            "hassou_tobi": {
+                "name": "Hassou Tobi",
+                "cost": "25% HP",
+                "effect": "Light Physical damage to all foes 8x.",
+                "level": "94"
+            }
+        }
+    },
+    "mada": {
+        "name": "Mada",
+        "arcana": "Tower",
+        "level": "90",
+        "trait": "Drunken Passion: Reduce cost of Fire skills by 75%.",
+        "item": "Spiral Inferno Ring",
+        "itemAlarm": "Dark Flame Band",
+        "baseStats": {
+            "strength": "55",
+            "magic": "54",
+            "endurance": "61",
+            "agility": "59",
+            "luck": "48"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "absorb",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "none",
+            "psy": "resist",
+            "nuke": "block",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "inferno": {
+                "name": "Inferno",
+                "cost": "48 SP",
+                "effect": "Severe Fire damage and inflict Burn (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "fire_amp": {
+                "name": "Fire Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Fire attacks by 50%.",
+                "level": "Innate"
+            },
+            "burn_boost": {
+                "name": "Burn Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Burn.",
+                "level": "Innate"
+            },
+            "fortify_spirit": {
+                "name": "Fortify Spirit",
+                "cost": "Passive",
+                "effect": "Reduce susceptibility to all ailments.",
+                "level": "91"
+            },
+            "blazing_hell": {
+                "name": "Blazing Hell",
+                "cost": "54 SP",
+                "effect": "Severe Fire damage and inflict Burn (low odds) to all foes.",
+                "level": "92"
+            },
+            "amrita_shower": {
+                "name": "Amrita Shower",
+                "cost": "12 SP",
+                "effect": "Cure all non-special ailments of party.",
+                "level": "93"
+            },
+            "enduring_soul": {
+                "name": "Enduring Soul",
+                "cost": "Passive",
+                "effect": "Survive one fatal blow with HP fully restored.",
+                "level": "95"
+            },
+            "spell_master": {
+                "name": "Spell Master",
+                "cost": "Passive",
+                "effect": "Half SP cost for magic skills.",
+                "level": "96"
+            }
+        }
     }
 }
