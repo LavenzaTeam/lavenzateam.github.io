@@ -15796,5 +15796,653 @@
                 "level": "96"
             }
         }
+    },
+    "kodama": {
+        "name": "Kodama",
+        "arcana": "Star",
+        "level": "11",
+        "trait": "Skillful Combo: Increase Attack after Baton Pass. Only valid for single-target attacks.",
+        "item": "Psy Ring",
+        "itemAlarm": "Spiral Psy Ring",
+        "baseStats": {
+            "strength": "7",
+            "magic": "11",
+            "endurance": "8",
+            "agility": "10",
+            "luck": "4"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "weak",
+            "ice": "resist",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "garu": {
+                "name": "Garu",
+                "cost": "3 SP",
+                "effect": "Light Wind damage to 1 foe.",
+                "level": "Innate"
+            },
+            "rakunda": {
+                "name": "Rakunda",
+                "cost": "8 SP",
+                "effect": "Decrease Defense of 1 foe for 3 turns.",
+                "level": "Innate"
+            },
+            "psi": {
+                "name": "Psi",
+                "cost": "4 SP",
+                "effect": "Light Psy damage to 1 foe.",
+                "level": "12"
+            },
+            "evil_touch": {
+                "name": "Evil Touch",
+                "cost": "3 SP",
+                "effect": "Inflict Fear (high odds) 1 foe.",
+                "level": "13"
+            },
+            "fear_boost": {
+                "name": "Fear Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Fear.",
+                "level": "14"
+            },
+            "tarukaja": {
+                "name": "Tarukaja",
+                "cost": "8 SP",
+                "effect": "Increase Attack of 1 ally for 3 turns.",
+                "level": "15"
+            },
+            "resist_fear": {
+                "name": "Resist Fear",
+                "cost": "Passive",
+                "effect": "Reduce susceptibility to Fear.",
+                "level": "17"
+            }
+        }
+    },
+    "fuu-ki": {
+        "name": "Fuu-Ki",
+        "arcana": "Star",
+        "level": "23",
+        "trait": "Intense Focus: Strengthen single-target magic attacks by 20%.",
+        "item": "Wind Boost",
+        "itemAlarm": "Wind Amp",
+        "baseStats": {
+            "strength": "14",
+            "magic": "17",
+            "endurance": "16",
+            "agility": "15",
+            "luck": "14"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "none",
+            "elec": "weak",
+            "wind": "absorb",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "tetra_break": {
+                "name": "Tetra Break",
+                "cost": "18 SP",
+                "effect": "Remove physical-repellent shields from all foes.",
+                "level": "Innate"
+            },
+            "tarukaja": {
+                "name": "Tarukaja",
+                "cost": "8 SP",
+                "effect": "Increase Attack of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "garula": {
+                "name": "Garula",
+                "cost": "6 SP",
+                "effect": "Medium Wind damage to 1 foe.",
+                "level": "Innate"
+            },
+            "wind_boost": {
+                "name": "Wind Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Wind attacks by 25%.",
+                "level": "25"
+            },
+            "magarula": {
+                "name": "Magarula",
+                "cost": "14 SP",
+                "effect": "Medium Wind damage to all foes.",
+                "level": "26"
+            },
+            "resist_wind": {
+                "name": "Resist Wind",
+                "cost": "Passive",
+                "effect": "Reduce damage from Wind attacks.",
+                "level": "27"
+            }
+        }
+    },
+    "neko_shogun": {
+        "name": "Neko Shogun",
+        "arcana": "Star",
+        "level": "30",
+        "trait": "Pinch Anchor: Allows use of ambush-only skills after Baton Pass.",
+        "item": "Catnap",
+        "itemAlarm": "Cat Buster",
+        "baseStats": {
+            "strength": "19",
+            "magic": "20",
+            "endurance": "19",
+            "agility": "21",
+            "luck": "18"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "resist",
+            "wind": "weak",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "block",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "psio": {
+                "name": "Psio",
+                "cost": "8 SP",
+                "effect": "Medium Psy damage to 1 foe.",
+                "level": "Innate"
+            },
+            "diarama": {
+                "name": "Diarama",
+                "cost": "6 SP",
+                "effect": "Moderately restore HP of 1 ally.",
+                "level": "Innate"
+            },
+            "masukukaja": {
+                "name": "Masukukaja",
+                "cost": "24 SP",
+                "effect": "Increase Agility of party for 3 turns.",
+                "level": "Innate"
+            },
+            "invigorate_1": {
+                "name": "Invigorate 1",
+                "cost": "Passive",
+                "effect": "Restore 3 SP each turn in battle.",
+                "level": "31"
+            },
+            "cornered_fang": {
+                "name": "Cornered Fang",
+                "cost": "10% HP",
+                "effect": "Medium Physical damage to 1 foe. Stronger when being ambushed.",
+                "level": "33"
+            },
+            "defense_master": {
+                "name": "Defense Master",
+                "cost": "Passive",
+                "effect": "Automatic Rakukaja at the start of battle.",
+                "level": "34"
+            },
+            "fortified_moxy": {
+                "name": "Fortified Moxy",
+                "cost": "Passive",
+                "effect": "Increase critical rate in ambush.",
+                "level": "36"
+            }
+        }
+    },
+    "kaiwan": {
+        "name": "Kaiwan",
+        "arcana": "Star",
+        "level": "36",
+        "trait": "Psychic Bloodline: Reduce cost of Psy skills by 50%.",
+        "item": "Makajama",
+        "itemAlarm": "Makajamaon",
+        "baseStats": {
+            "strength": "23",
+            "magic": "26",
+            "endurance": "24",
+            "agility": "22",
+            "luck": "20"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "block",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "block",
+            "nuke": "weak",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "makajama": {
+                "name": "Makajama",
+                "cost": "3 SP",
+                "effect": "Inflict Forget (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "psio": {
+                "name": "Psio",
+                "cost": "8 SP",
+                "effect": "Medium Psy damage to 1 foe.",
+                "level": "Innate"
+            },
+            "forget_boost": {
+                "name": "Forget Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Forget.",
+                "level": "37"
+            },
+            "speed_master": {
+                "name": "Speed Master",
+                "cost": "Passive",
+                "effect": "Automatic Sukukaja at the start of battle.",
+                "level": "38"
+            },
+            "makajamaon": {
+                "name": "Makajamaon",
+                "cost": "8 SP",
+                "effect": "Inflict Forget (med odds) to all foes.",
+                "level": "39"
+            },
+            "psiodyne": {
+                "name": "Psiodyne",
+                "cost": "12 SP",
+                "effect": "Heavy Psy damage to 1 foe.",
+                "level": "40"
+            },
+            "marakunda": {
+                "name": "Marakunda",
+                "cost": "24 SP",
+                "effect": "Decrease Defense of all foes for 3 turns.",
+                "level": "41"
+            }
+        }
+    },
+    "garuda": {
+        "name": "Garuda",
+        "arcana": "Star",
+        "level": "52",
+        "trait": "Wind Bloodline: Reduce cost of Wind skills by 50%.",
+        "item": "Garudyne",
+        "itemAlarm": "Magarudyne",
+        "baseStats": {
+            "strength": "30",
+            "magic": "36",
+            "endurance": "29",
+            "agility": "39",
+            "luck": "29"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "resist",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "reflect",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "garudyne": {
+                "name": "Garudyne",
+                "cost": "10 SP",
+                "effect": "Heavy Wind damage to 1 foe.",
+                "level": "Innate"
+            },
+            "mind_slice": {
+                "name": "Mind Slice",
+                "cost": "19% HP",
+                "effect": "Medium Physical damage and inflict Confusion (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "amrita_shower": {
+                "name": "Amrita Shower",
+                "cost": "12 SP",
+                "effect": "Cure all non-special ailments of party.",
+                "level": "53"
+            },
+            "masukukaja": {
+                "name": "Masukukaja",
+                "cost": "24 SP",
+                "effect": "Increase Agility of party for 3 turns.",
+                "level": "54"
+            },
+            "evade_elec": {
+                "name": "Evade Elec",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against Electric attacks.",
+                "level": "55"
+            },
+            "magarudyne": {
+                "name": "Magarudyne",
+                "cost": "20 SP",
+                "effect": "Heavy Wind damage to all foes.",
+                "level": "57"
+            },
+            "wind_amp": {
+                "name": "Wind Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Wind attacks by 50%.",
+                "level": "59"
+            }
+        }
+    },
+    "vasuki": {
+        "name": "Vasuki",
+        "arcana": "Star",
+        "level": "68",
+        "trait": "Foul Stench: Increase chance of inflicting Ailments.",
+        "item": "K. Gouhou",
+        "itemAlarm": "K. Gouhou EX",
+        "baseStats": {
+            "strength": "42",
+            "magic": "45",
+            "endurance": "44",
+            "agility": "42",
+            "luck": "38"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "block",
+            "elec": "block",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "weak",
+            "almighty": "none"
+        },
+        "skills": {
+            "mahamaon": {
+                "name": "Mahamaon",
+                "cost": "26 SP",
+                "effect": "Medium chance of instantly killing all foes. Bless-type.",
+                "level": "Innate"
+            },
+            "brain_jack": {
+                "name": "Brain Jack",
+                "cost": "8 SP",
+                "effect": "Inflict Brainwash (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "triple_down": {
+                "name": "Triple Down",
+                "cost": "16% HP",
+                "effect": "Light Gun damage to all foes 3x.",
+                "level": "Innate"
+            },
+            "trigger_happy": {
+                "name": "Trigger Happy",
+                "cost": "Passive",
+                "effect": "Increase critical rate of Gun attacks.",
+                "level": "70"
+            },
+            "makarakarn": {
+                "name": "Makarakarn",
+                "cost": "24 SP",
+                "effect": "Erect a shield on 1 ally to repel 1 (non-Almighty) magical attack.",
+                "level": "71"
+            },
+            "brainwash_boost": {
+                "name": "Brainwash Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Brainwash.",
+                "level": "72"
+            },
+            "null_curse": {
+                "name": "Null Curse",
+                "cost": "Passive",
+                "effect": "Impart immunity against Curse attacks.",
+                "level": "73"
+            }
+        }
+    },
+    "sraosha": {
+        "name": "Sraosha",
+        "arcana": "Star",
+        "level": "80",
+        "trait": "Blessed Bloodline: Reduce cost of Bless skills by 50%.",
+        "item": "Archangel Bra",
+        "itemAlarm": "High Archangel Bra",
+        "baseStats": {
+            "strength": "47",
+            "magic": "56",
+            "endurance": "45",
+            "agility": "56",
+            "luck": "43"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "absorb",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "reflect",
+            "curse": "weak",
+            "almighty": "none"
+        },
+        "skills": {
+            "kougaon": {
+                "name": "Kougaon",
+                "cost": "12 SP",
+                "effect": "Heavy Bless damage to 1 foe.",
+                "level": "Innate"
+            },
+            "mahamaon": {
+                "name": "Mahamaon",
+                "cost": "26 SP",
+                "effect": "Medium chance of instantly killing all foes. Bless-type.",
+                "level": "Innate"
+            },
+            "hama_boost": {
+                "name": "Hama Boost",
+                "cost": "Passive",
+                "effect": "Increase success rate of instant death by Bless skills.",
+                "level": "Innate"
+            },
+            "makougaon": {
+                "name": "Makougaon",
+                "cost": "22 SP",
+                "effect": "Heavy Bless damage to all foes.",
+                "level": "81"
+            },
+            "angelic_grace": {
+                "name": "Angelic Grace",
+                "cost": "Passive",
+                "effect": "Double evasion rate against all attacks except Hama/Mudo/Almighty.",
+                "level": "83"
+            },
+            "amrita_shower": {
+                "name": "Amrita Shower",
+                "cost": "12 SP",
+                "effect": "Cure all non-special ailments of party.",
+                "level": "84"
+            },
+            "debilitate": {
+                "name": "Debilitate",
+                "cost": "30 SP",
+                "effect": "Decrease Attack/Defense/Agility of 1 foe for 3 turns.",
+                "level": "85"
+            }
+        }
+    },
+    "hastur": {
+        "name": "Hastur",
+        "arcana": "Star",
+        "level": "84",
+        "trait": "Gluttonmouth: Increase amount of HP restored to self by 50%.",
+        "item": "Spiral Gale Ring",
+        "itemAlarm": "Storm Sculpture",
+        "baseStats": {
+            "strength": "51",
+            "magic": "59",
+            "endurance": "52",
+            "agility": "56",
+            "luck": "41"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "resist",
+            "ice": "none",
+            "elec": "none",
+            "wind": "absorb",
+            "psy": "block",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "debilitate": {
+                "name": "Debilitate",
+                "cost": "30 SP",
+                "effect": "Decrease Attack/Defense/Agility of 1 foe for 3 turns.",
+                "level": "Innate"
+            },
+            "vacuum_wave": {
+                "name": "Vacuum Wave",
+                "cost": "48 SP",
+                "effect": "Severe Wind damage to all foes.",
+                "level": "Innate"
+            },
+            "nocturnal_flash": {
+                "name": "Nocturnal Flash",
+                "cost": "8 SP",
+                "effect": "Inflict Dizzy (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "abyssal_eye": {
+                "name": "Abyssal Eye",
+                "cost": "50 SP",
+                "effect": "Severe Almighty damage to all foes.",
+                "level": "86"
+            },
+            "wind_amp": {
+                "name": "Wind Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Wind attacks by 50%.",
+                "level": "87"
+            },
+            "spirit_drain": {
+                "name": "Spirit Drain",
+                "cost": "3 SP",
+                "effect": "Drain SP from 1 foe. Almighty-type.",
+                "level": "88"
+            },
+            "repel_wind": {
+                "name": "Repel Wind",
+                "cost": "Passive",
+                "effect": "Repel Wind attacks.",
+                "level": "89"
+            }
+        }
+    },
+    "lucifer": {
+        "name": "Lucifer",
+        "arcana": "Star",
+        "level": "93",
+        "trait": "Allure of Wisdom: Reduce cost of magic skills by 75%.",
+        "item": "Tyrant Pistol",
+        "itemAlarm": "Tyrant Pistol EX",
+        "baseStats": {
+            "strength": "61",
+            "magic": "59",
+            "endurance": "59",
+            "agility": "52",
+            "luck": "55"
+        },
+        "affinities": {
+            "phys": "block",
+            "gun": "block",
+            "fire": "resist",
+            "ice": "resist",
+            "elec": "resist",
+            "wind": "resist",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "absorb",
+            "almighty": "none"
+        },
+        "skills": {
+            "gigantomachia": {
+                "name": "Gigantomachia",
+                "cost": "25% HP",
+                "effect": "Colossal Physical damage to all foes.",
+                "level": "Innate"
+            },
+            "drain_curse": {
+                "name": "Drain Curse",
+                "cost": "Passive",
+                "effect": "Absorb Curse attacks.",
+                "level": "Innate"
+            },
+            "morning_star": {
+                "name": "Morning Star",
+                "cost": "54 SP",
+                "effect": "Severe Almighty damage to all foes.",
+                "level": "94"
+            },
+            "spell_master": {
+                "name": "Spell Master",
+                "cost": "Passive",
+                "effect": "Half SP cost for magic skills.",
+                "level": "95"
+            },
+            "heat_riser": {
+                "name": "Heat Riser",
+                "cost": "30 SP",
+                "effect": "Increase Attack/Defense/Agility of 1 ally for 3 turns.",
+                "level": "96"
+            },
+            "repel_bless": {
+                "name": "Repel Bless",
+                "cost": "Passive",
+                "effect": "Repel Bless attacks.",
+                "level": "97"
+            },
+            "insta-heal": {
+                "name": "Insta-Heal",
+                "cost": "Passive",
+                "effect": "Recover from an ailment in 1 turn.",
+                "level": "98"
+            },
+            "drain_phys": {
+                "name": "Drain Phys",
+                "cost": "Passive",
+                "effect": "Absorb Physical attacks.",
+                "level": "99"
+            }
+        }
     }
 }
