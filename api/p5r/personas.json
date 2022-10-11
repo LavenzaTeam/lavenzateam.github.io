@@ -16444,5 +16444,923 @@
                 "level": "99"
             }
         }
+    },
+    "succubus": {
+        "name": "Succubus",
+        "arcana": "Moon",
+        "level": "7",
+        "trait": "Foul Odor: Increase chance of inflicting Ailments after Baton Pass.",
+        "item": "Brain Shot",
+        "itemAlarm": "Pink Buster",
+        "baseStats": {
+            "strength": "4",
+            "magic": "7",
+            "endurance": "5",
+            "agility": "8",
+            "luck": "4"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "resist",
+            "ice": "none",
+            "elec": "none",
+            "wind": "weak",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "dormina": {
+                "name": "Dormina",
+                "cost": "3 SP",
+                "effect": "Inflict Sleep (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "rebellion": {
+                "name": "Rebellion",
+                "cost": "5 SP",
+                "effect": "Increase critical rate of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "agi": {
+                "name": "Agi",
+                "cost": "4 SP",
+                "effect": "Light Fire damage and inflict Burn (low odds) to 1 foe.",
+                "level": "8"
+            },
+            "dekaja": {
+                "name": "Dekaja",
+                "cost": "10 SP",
+                "effect": "Negate all -kaja buff effects of all foes.",
+                "level": "10"
+            },
+            "sleep_boost": {
+                "name": "Sleep Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Sleep.",
+                "level": "11"
+            },
+            "mudo": {
+                "name": "Mudo",
+                "cost": "6 SP",
+                "effect": "Low chance of instantly killing 1 foe. Curse-type.",
+                "level": "12"
+            }
+        }
+    },
+    "onmoraki": {
+        "name": "Onmoraki",
+        "arcana": "Moon",
+        "level": "12",
+        "trait": "Intense Focus: Strengthen single-target magic attacks by 20%.",
+        "item": "Grudge Ring",
+        "itemAlarm": "Spiral Grudge Ring",
+        "baseStats": {
+            "strength": "9",
+            "magic": "12",
+            "endurance": "7",
+            "agility": "10",
+            "luck": "5"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "resist",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "eiha": {
+                "name": "Eiha",
+                "cost": "4 SP",
+                "effect": "Light Curse damage to 1 foe.",
+                "level": "Innate"
+            },
+            "ice_wall": {
+                "name": "Ice Wall",
+                "cost": "18 SP",
+                "effect": "Erect a shield on 1 ally to reduce Ice damage and cover innate Fire weakness for 3 turns.",
+                "level": "Innate"
+            },
+            "agi": {
+                "name": "Agi",
+                "cost": "4 SP",
+                "effect": "Light Fire damage and inflict Burn (low odds) to 1 foe.",
+                "level": "13"
+            },
+            "evil_touch": {
+                "name": "Evil Touch",
+                "cost": "3 SP",
+                "effect": "Inflict Fear (high odds) 1 foe.",
+                "level": "14"
+            },
+            "pulinpa": {
+                "name": "Pulinpa",
+                "cost": "3 SP",
+                "effect": "Inflict Confusion (high odds) 1 foe.",
+                "level": "15"
+            },
+            "confuse_boost": {
+                "name": "Confuse Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Confuse.",
+                "level": "17"
+            }
+        }
+    },
+    "kaguya": {
+        "name": "Kaguya",
+        "arcana": "Moon",
+        "level": "16",
+        "trait": "Inviolable Beauty: Triples Counter damage. Also boosts damage from repelling Physical attacks and Repel Phys.",
+        "item": "Moonlight Robe",
+        "itemAlarm": "Moonlight Robe R",
+        "baseStats": {
+            "strength": "11",
+            "magic": "15",
+            "endurance": "12",
+            "agility": "11",
+            "luck": "6"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "weak",
+            "ice": "none",
+            "elec": "none",
+            "wind": "resist",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "block",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "shining_arrows": {
+                "name": "Shining Arrows",
+                "cost": "22 SP",
+                "effect": "Light Bless damage to all foes 4x to 8x.",
+                "level": "Innate"
+            },
+            "mediarama": {
+                "name": "Mediarama",
+                "cost": "12 SP",
+                "effect": "Moderately restore HP of party.",
+                "level": "Innate"
+            },
+            "counterstrike": {
+                "name": "Counterstrike",
+                "cost": "Passive",
+                "effect": "15% chance of reflecting Physical attacks. Doesn't stack.",
+                "level": "Innate"
+            },
+            "divine_grace": {
+                "name": "Divine Grace",
+                "cost": "Passive",
+                "effect": "Effects of healing magic are increased by 50%.",
+                "level": "17"
+            },
+            "amrita_shower": {
+                "name": "Amrita Shower",
+                "cost": "12 SP",
+                "effect": "Cure all non-special ailments of party.",
+                "level": "18"
+            },
+            "diarahan": {
+                "name": "Diarahan",
+                "cost": "18 SP",
+                "effect": "Fully restore HP of 1 ally.",
+                "level": "21"
+            },
+            "repel_phsy": {
+                "name": "Repel Phys",
+                "cost": "Passive",
+                "effect": "Repel Physical attacks.",
+                "level": "22"
+            }
+        }
+    },
+    "black_ooze": {
+        "name": "Black Ooze",
+        "arcana": "Moon",
+        "level": "18",
+        "trait": "Rare Antibody: Reduce susceptibility to all ailments.",
+        "item": "Headbutt",
+        "itemAlarm": "Memory Blow",
+        "baseStats": {
+            "strength": "15",
+            "magic": "7",
+            "endurance": "16",
+            "agility": "8",
+            "luck": "15"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "resist",
+            "elec": "weak",
+            "wind": "none",
+            "psy": "weak",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "sledgehammer": {
+                "name": "Sledgehammer",
+                "cost": "10% HP",
+                "effect": "Medium Physical damage and inflict Dizzy (med odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "evil_touch": {
+                "name": "Evil Touch",
+                "cost": "3 SP",
+                "effect": "Inflict Fear (high odds) 1 foe.",
+                "level": "Innate"
+            },
+            "foul_breath": {
+                "name": "Foul Breath",
+                "cost": "8 SP",
+                "effect": "Increase susceptibility to all ailments of 1 foe.",
+                "level": "Innate"
+            },
+            "ambient_aid": {
+                "name": "Ambient Aid",
+                "cost": "Passive",
+                "effect": "Greatly increase chance of inflicting all ailments under rainy day or special weather warning.",
+                "level": "20"
+            },
+            "headbutt": {
+                "name": "Headbutt",
+                "cost": "9% HP",
+                "effect": "Light Physical damage and inflict Forget (med odds) to 1 foe.",
+                "level": "21"
+            },
+            "brain_jack": {
+                "name": "Brain Jack",
+                "cost": "8 SP",
+                "effect": "Inflict Brainwash (med odds) to all foes.",
+                "level": "23"
+            },
+            "flash_bomb": {
+                "name": "Flash Bomb",
+                "cost": "19% HP",
+                "effect": "Medium Physical damage and inflict Dizzy (low odds) to all foes.",
+                "level": "24"
+            }
+        }
+    },
+    "sui-ki": {
+        "name": "Sui-Ki",
+        "arcana": "Moon",
+        "level": "24",
+        "trait": "Frigid Bloodline: Reduce cost of Ice skills by 50%.",
+        "item": "Bufula",
+        "itemAlarm": "Mabufula",
+        "baseStats": {
+            "strength": "16",
+            "magic": "15",
+            "endurance": "15",
+            "agility": "18",
+            "luck": "15"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "absorb",
+            "elec": "resist",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "weak",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "mabufu": {
+                "name": "Mabufu",
+                "cost": "10 SP",
+                "effect": "Light Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "sledgehammer": {
+                "name": "Sledgehammer",
+                "cost": "10% HP",
+                "effect": "Medium Physical damage and inflict Dizzy (med odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "bufula": {
+                "name": "Bufula",
+                "cost": "8 SP",
+                "effect": "Medium Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "null_ice": {
+                "name": "Null Ice",
+                "cost": "Passive",
+                "effect": "Impart immunity against Ice attacks.",
+                "level": "26"
+            },
+            "wage_war": {
+                "name": "Wage War",
+                "cost": "8 SP",
+                "effect": "Inflict Rage (med odds) to all foes.",
+                "level": "27"
+            },
+            "mabufula": {
+                "name": "Mabufula",
+                "cost": "16 SP",
+                "effect": "Medium Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "28"
+            },
+            "dodge_fire": {
+                "name": "Dodge Fire",
+                "cost": "Passive",
+                "effect": "Double evasion rate against Fire attacks.",
+                "level": "29"
+            }
+        }
+    },
+    "kaguya_picaro": {
+        "name": "Kaguya Picaro",
+        "arcana": "Moon",
+        "level": "25",
+        "trait": "Inviolable Beauty: Triples Counter damage. Also boosts damage from repelling Physical attacks and Repel Phys.",
+        "item": "Diarahan",
+        "itemAlarm": "Mediarahan",
+        "baseStats": {
+            "strength": "17",
+            "magic": "20",
+            "endurance": "19",
+            "agility": "15",
+            "luck": "11"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "weak",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "block",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "shining_arrows": {
+                "name": "Shining Arrows",
+                "cost": "22 SP",
+                "effect": "Light Bless damage to all foes 4x to 8x.",
+                "level": "Innate"
+            },
+            "mediarama": {
+                "name": "Mediarama",
+                "cost": "12 SP",
+                "effect": "Moderately restore HP of party.",
+                "level": "Innate"
+            },
+            "high_counter": {
+                "name": "High Counter",
+                "cost": "Passive",
+                "effect": "20% chance of reflecting a physical attack.",
+                "level": "Innate"
+            },
+            "divine_grace": {
+                "name": "Divine Grace",
+                "cost": "Passive",
+                "effect": "Effects of healing magic are increased by 50%.",
+                "level": "26"
+            },
+            "amrita_shower": {
+                "name": "Amrita Shower",
+                "cost": "12 SP",
+                "effect": "Cure all non-special ailments of party.",
+                "level": "27"
+            },
+            "diarahan": {
+                "name": "Diarahan",
+                "cost": "18 SP",
+                "effect": "Fully restore HP of 1 ally.",
+                "level": "30"
+            },
+            "repel_phsy": {
+                "name": "Repel Phys",
+                "cost": "Passive",
+                "effect": "Repel Physical attacks.",
+                "level": "31"
+            }
+        }
+    },
+    "mothman": {
+        "name": "Mothman",
+        "arcana": "Moon",
+        "level": "33",
+        "trait": "Static Electricity: Increase chance of inflicting Shock on downed foes.",
+        "item": "Skull Cracker",
+        "itemAlarm": "Mind Slice",
+        "baseStats": {
+            "strength": "21",
+            "magic": "24",
+            "endurance": "16",
+            "agility": "24",
+            "luck": "21"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "weak",
+            "fire": "none",
+            "ice": "none",
+            "elec": "block",
+            "wind": "none",
+            "psy": "resist",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "skull_cracker": {
+                "name": "Skull Cracker",
+                "cost": "10% HP",
+                "effect": "Medium Physical damage and inflict Confusion (med odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "mazionga": {
+                "name": "Mazionga",
+                "cost": "16 SP",
+                "effect": "Medium Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "shock_boost": {
+                "name": "Shock Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Shock.",
+                "level": "Innate"
+            },
+            "tentarafoo": {
+                "name": "Tentarafoo",
+                "cost": "8 SP",
+                "effect": "Inflict Confusion (med odds) to all foes.",
+                "level": "35"
+            },
+            "ambient_aid": {
+                "name": "Ambient Aid",
+                "cost": "Passive",
+                "effect": "Greatly increase chance of inflicting all ailments under rainy day or special weather warning.",
+                "level": "36"
+            },
+            "makajamaon": {
+                "name": "Makajamaon",
+                "cost": "8 SP",
+                "effect": "Inflict Forget (med odds) to all foes.",
+                "level": "37"
+            },
+            "ziodyne": {
+                "name": "Ziodyne",
+                "cost": "12 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "38"
+            }
+        }
+    },
+    "girimehkala": {
+        "name": "Girimehkala",
+        "arcana": "Moon",
+        "level": "43",
+        "trait": "Cursed Bloodline: Reduce cost of Curse skills by 50%.",
+        "item": "Swift Strike",
+        "itemAlarm": "Deathbound",
+        "baseStats": {
+            "strength": "32",
+            "magic": "24",
+            "endurance": "32",
+            "agility": "29",
+            "luck": "19"
+        },
+        "affinities": {
+            "phys": "reflect",
+            "gun": "reflect",
+            "fire": "resist",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "mudoon": {
+                "name": "Mudoon",
+                "cost": "12 SP",
+                "effect": "Medium chance of instantly killing 1 foe. Curse-type.",
+                "level": "Innate"
+            },
+            "marakunda": {
+                "name": "Marakunda",
+                "cost": "24 SP",
+                "effect": "Decrease Defense of all foes for 3 turns.",
+                "level": "Innate"
+            },
+            "deathbound": {
+                "name": "Deathbound",
+                "cost": "22% HP",
+                "effect": "Medium Physical damage to all foes 1x to 2x.",
+                "level": "Innate"
+            },
+            "agidyne": {
+                "name": "Agidyne",
+                "cost": "12 SP",
+                "effect": "Heavy Fire damage and inflict Burn (low odds) to 1 foe.",
+                "level": "45"
+            },
+            "wage_war": {
+                "name": "Wage War",
+                "cost": "8 SP",
+                "effect": "Inflict Rage (med odds) to all foes.",
+                "level": "47"
+            },
+            "repel_phsy": {
+                "name": "Repel Phys",
+                "cost": "Passive",
+                "effect": "Repel Physical attacks.",
+                "level": "50"
+            }
+        }
+    },
+    "tsukiyomi": {
+        "name": "Tsukiyomi",
+        "arcana": "Moon",
+        "level": "50",
+        "trait": "Bolstering Force: Increases Attack by 50% during 1 More.",
+        "item": "Black Moon",
+        "itemAlarm": "Black Moon R",
+        "baseStats": {
+            "strength": "38",
+            "magic": "32",
+            "endurance": "33",
+            "agility": "37",
+            "luck": "17"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "weak",
+            "bless": "resist",
+            "curse": "reflect",
+            "almighty": "none"
+        },
+        "skills": {
+            "abyssal_wings": {
+                "name": "Abyssal Wings",
+                "cost": "30 SP",
+                "effect": "Severe Curse damage to all foes.",
+                "level": "Innate"
+            },
+            "drain_curse": {
+                "name": "Drain Curse",
+                "cost": "Passive",
+                "effect": "Absorb Curse attacks.",
+                "level": "Innate"
+            },
+            "myriad_slashes": {
+                "name": "Myriad Slashes",
+                "cost": "20% HP",
+                "effect": "Medium Physical damage to 1 foe 2x to 3x.",
+                "level": "Innate"
+            },
+            "life_drain": {
+                "name": "Life Drain",
+                "cost": "3 SP",
+                "effect": "Drain HP from 1 foe. Almighty-type.",
+                "level": "Innate"
+            },
+            "curse_amp": {
+                "name": "Curse Amp",
+                "cost": "Passive",
+                "effect": "Strengthen (non instant death) Curse attacks by 50%.",
+                "level": "53"
+            },
+            "vorpal_blade": {
+                "name": "Vorpal Blade",
+                "cost": "23% HP",
+                "effect": "Severe Physical damage to all foes.",
+                "level": "55"
+            },
+            "arms_master": {
+                "name": "Arms Master",
+                "cost": "Passive",
+                "effect": "Half HP cost for physical skills.",
+                "level": "56"
+            }
+        }
+    },
+    "tsukiyomi_picaro": {
+        "name": "Tsukiyomi Picaro",
+        "arcana": "Moon",
+        "level": "55",
+        "trait": "Bolstering Force: Increases Attack by 50% during 1 More.",
+        "item": "Spell Master",
+        "itemAlarm": "Arms Master",
+        "baseStats": {
+            "strength": "41",
+            "magic": "35",
+            "endurance": "36",
+            "agility": "40",
+            "luck": "20"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "weak",
+            "bless": "resist",
+            "curse": "reflect",
+            "almighty": "none"
+        },
+        "skills": {
+            "abyssal_wings": {
+                "name": "Abyssal Wings",
+                "cost": "30 SP",
+                "effect": "Severe Curse damage to all foes.",
+                "level": "Innate"
+            },
+            "drain_curse": {
+                "name": "Drain Curse",
+                "cost": "Passive",
+                "effect": "Absorb Curse attacks.",
+                "level": "Innate"
+            },
+            "myriad_slashes": {
+                "name": "Myriad Slashes",
+                "cost": "20% HP",
+                "effect": "Medium Physical damage to 1 foe 2x to 3x.",
+                "level": "Innate"
+            },
+            "spirit_drain": {
+                "name": "Spirit Drain",
+                "cost": "3 SP",
+                "effect": "Drain SP from 1 foe. Almighty-type.",
+                "level": "Innate"
+            },
+            "curse_amp": {
+                "name": "Curse Amp",
+                "cost": "Passive",
+                "effect": "Strengthen (non instant death) Curse attacks by 50%.",
+                "level": "58"
+            },
+            "vorpal_blade": {
+                "name": "Vorpal Blade",
+                "cost": "23% HP",
+                "effect": "Severe Physical damage to all foes.",
+                "level": "60"
+            },
+            "spell_master": {
+                "name": "Spell Master",
+                "cost": "Passive",
+                "effect": "Half SP cost for magic skills.",
+                "level": "61"
+            }
+        }
+    },
+    "lilith": {
+        "name": "Lilith",
+        "arcana": "Moon",
+        "level": "60",
+        "trait": "Mighty Gaze: Strengthen multi-target magic attacks by 20%.",
+        "item": "Null Nuke",
+        "itemAlarm": "Repel Nuke",
+        "baseStats": {
+            "strength": "33",
+            "magic": "43",
+            "endurance": "37",
+            "agility": "39",
+            "luck": "35"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "weak",
+            "ice": "reflect",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "reflect",
+            "bless": "none",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "mabufudyne": {
+                "name": "Mabufudyne",
+                "cost": "22 SP",
+                "effect": "Heavy Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "makarakarn": {
+                "name": "Makarakarn",
+                "cost": "24 SP",
+                "effect": "Erect a shield on 1 ally to repel 1 (non-Almighty) magical attack.",
+                "level": "Innate"
+            },
+            "freidyne": {
+                "name": "Freidyne",
+                "cost": "12 SP",
+                "effect": "Heavy Nuke damage to 1 foe.",
+                "level": "Innate"
+            },
+            "mafreidyne": {
+                "name": "Mafreidyne",
+                "cost": "22 SP",
+                "effect": "Heavy Nuke damage to all foes.",
+                "level": "62"
+            },
+            "spirit_drain": {
+                "name": "Spirit Drain",
+                "cost": "3 SP",
+                "effect": "Drain SP from 1 foe. Almighty-type.",
+                "level": "63"
+            },
+            "freeze_boost": {
+                "name": "Freeze Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Freeze.",
+                "level": "64"
+            },
+            "nuke_amp": {
+                "name": "Nuke Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Nuclear attacks by 50%.",
+                "level": "65"
+            }
+        }
+    },
+    "byakhee": {
+        "name": "Byakhee",
+        "arcana": "Moon",
+        "level": "70",
+        "trait": "Heated Bloodline: Reduce cost of Fire skills by 50%.",
+        "item": "Null Wind",
+        "itemAlarm": "Repel Wind",
+        "baseStats": {
+            "strength": "42",
+            "magic": "49",
+            "endurance": "43",
+            "agility": "51",
+            "luck": "52"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "block",
+            "ice": "weak",
+            "elec": "none",
+            "wind": "block",
+            "psy": "none",
+            "nuke": "weak",
+            "bless": "none",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "agidyne": {
+                "name": "Agidyne",
+                "cost": "12 SP",
+                "effect": "Heavy Fire damage and inflict Burn (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "stagnant_air": {
+                "name": "Stagnant Air",
+                "cost": "5 SP",
+                "effect": "Increase susceptibility to all ailments of all combatants.",
+                "level": "Innate"
+            },
+            "death_scythe": {
+                "name": "Death Scythe",
+                "cost": "20% HP",
+                "effect": "Severe Physical damage and inflict Fear (med odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "maragidyne": {
+                "name": "Maragidyne",
+                "cost": "22 SP",
+                "effect": "Heavy Fire damage and inflict Burn (low odds) to all foes.",
+                "level": "72"
+            },
+            "ailment_boost": {
+                "name": "Ailment Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting all ailments.",
+                "level": "73"
+            },
+            "fire_break": {
+                "name": "Fire Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Fire resistances of all foes for 3 turns.",
+                "level": "74"
+            },
+            "heat_riser": {
+                "name": "Heat Riser",
+                "cost": "30 SP",
+                "effect": "Increase Attack/Defense/Agility of 1 ally for 3 turns.",
+                "level": "75"
+            }
+        }
+    },
+    "sandalphon": {
+        "name": "Sandalphon",
+        "arcana": "Moon",
+        "level": "75",
+        "trait": "Omen: Greatly increase success rate of Instant Death skills.",
+        "item": "Sword of Sinai",
+        "itemAlarm": "Sword of Sinai II",
+        "baseStats": {
+            "strength": "46",
+            "magic": "51",
+            "endurance": "49",
+            "agility": "48",
+            "luck": "38"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "reflect",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "mahamaon": {
+                "name": "Mahamaon",
+                "cost": "26 SP",
+                "effect": "Medium chance of instantly killing all foes. Bless-type.",
+                "level": "Innate"
+            },
+            "samarecarm": {
+                "name": "Samarecarm",
+                "cost": "18 SP",
+                "effect": "Revive 1 ally with all HP recovered.",
+                "level": "Innate"
+            },
+            "amrita_shower": {
+                "name": "Amrita Shower",
+                "cost": "12 SP",
+                "effect": "Cure all non-special ailments of party.",
+                "level": "Innate"
+            },
+            "angelic_grace": {
+                "name": "Angelic Grace",
+                "cost": "Passive",
+                "effect": "Double evasion rate against all attacks except Hama/Mudo/Almighty.",
+                "level": "77"
+            },
+            "repel_curse": {
+                "name": "Repel Curse",
+                "cost": "Passive",
+                "effect": "Repel Curse attacks.",
+                "level": "78"
+            },
+            "sword_dance": {
+                "name": "Sword Dance",
+                "cost": "21% HP",
+                "effect": "Colossal Physical damage to 1 foe, high critical rate.",
+                "level": "79"
+            },
+            "megidolaon": {
+                "name": "Megidolaon",
+                "cost": "38 SP",
+                "effect": "Severe Almighty damage to all foes.",
+                "level": "81"
+            }
+        }
     }
 }
