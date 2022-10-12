@@ -17938,5 +17938,659 @@
                 "level": "81"
             }
         }
+    },
+    "anubis": {
+        "name": "Anubis",
+        "arcana": "Judgement",
+        "level": "34",
+        "trait": "Deathly Illness: Increase success rate of Instant Death skills.",
+        "item": "Makouga",
+        "itemAlarm": "Kougaon",
+        "baseStats": {
+            "strength": "19",
+            "magic": "24",
+            "endurance": "22",
+            "agility": "21",
+            "luck": "23"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "resist",
+            "nuke": "none",
+            "bless": "block",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "hamaon": {
+                "name": "Hamaon",
+                "cost": "12 SP",
+                "effect": "Medium chance of instantly killing 1 foe. Bless-type.",
+                "level": "Innate"
+            },
+            "mudoon": {
+                "name": "Mudoon",
+                "cost": "12 SP",
+                "effect": "Medium chance of instantly killing 1 foe. Curse-type.",
+                "level": "Innate"
+            },
+            "makouga": {
+                "name": "Makouga",
+                "cost": "16 SP",
+                "effect": "Medium Bless damage to all foes.",
+                "level": "Innate"
+            },
+            "maeiga": {
+                "name": "Maeiga",
+                "cost": "16 SP",
+                "effect": "Medium Curse damage to all foes.",
+                "level": "36"
+            },
+            "dekunda": {
+                "name": "Dekunda",
+                "cost": "10 SP",
+                "effect": "Negate all -nda debuff effects of party.",
+                "level": "37"
+            },
+            "resist_bless": {
+                "name": "Resist Bless",
+                "cost": "Passive",
+                "effect": "Reduce damage from Bless attacks.",
+                "level": "38"
+            }
+        }
+    },
+    "trumpeter": {
+        "name": "Trumpeter",
+        "arcana": "Judgement",
+        "level": "59",
+        "trait": "Relentless: Increase Attack by 50% when striking foe's weakness. Only valid for single-target attacks.",
+        "item": "Reactor Ring",
+        "itemAlarm": "Spiral Reactor Ring",
+        "baseStats": {
+            "strength": "33",
+            "magic": "42",
+            "endurance": "40",
+            "agility": "38",
+            "luck": "31"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "absorb",
+            "elec": "reflect",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "reflect",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "mafreidyne": {
+                "name": "Mafreidyne",
+                "cost": "22 SP",
+                "effect": "Heavy Nuke damage to all foes.",
+                "level": "Innate"
+            },
+            "abysmal_surge": {
+                "name": "Abysmal Surge",
+                "cost": "8 SP",
+                "effect": "Inflict Despair (med odds) to all foes.",
+                "level": "Innate"
+            },
+            "brain_buster": {
+                "name": "Brain Buster",
+                "cost": "22% HP",
+                "effect": "Heavy Physical damage and inflict Brainwash (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "fortify_spirit": {
+                "name": "Fortify Spirit",
+                "cost": "Passive",
+                "effect": "Reduce susceptibility to all ailments.",
+                "level": "61"
+            },
+            "cripple": {
+                "name": "Cripple",
+                "cost": "Passive",
+                "effect": "Strengthen Gun attacks by 50%.",
+                "level": "62"
+            },
+            "life_aid": {
+                "name": "Life Aid",
+                "cost": "Passive",
+                "effect": "Restore 8% HP and SP after victory.",
+                "level": "63"
+            },
+            "debilitate": {
+                "name": "Debilitate",
+                "cost": "30 SP",
+                "effect": "Decrease Attack/Defense/Agility of 1 foe for 3 turns.",
+                "level": "65"
+            }
+        }
+    },
+    "yamato-no-orochi": {
+        "name": "Yamata-no-Orochi",
+        "arcana": "Judgement",
+        "level": "64",
+        "trait": "Cold-Blooded: Increase chance of inflicting Freeze during 1 More.",
+        "item": "Triple Down",
+        "itemAlarm": "One-shot Kill",
+        "baseStats": {
+            "strength": "44",
+            "magic": "38",
+            "endurance": "48",
+            "agility": "36",
+            "luck": "33"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "none",
+            "fire": "none",
+            "ice": "absorb",
+            "elec": "none",
+            "wind": "resist",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "one-shot_kill": {
+                "name": "One-shot Kill",
+                "cost": "17% HP",
+                "effect": "Severe Gun damage to 1 foe, high critical rate.",
+                "level": "Innate"
+            },
+            "mabufudyne": {
+                "name": "Mabufudyne",
+                "cost": "22 SP",
+                "effect": "Heavy Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "freeze_boost": {
+                "name": "Freeze Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Freeze.",
+                "level": "Innate"
+            },
+            "drain_ice": {
+                "name": "Drain Ice",
+                "cost": "Passive",
+                "effect": "Absorb Ice attacks.",
+                "level": "66"
+            },
+            "ice_amp": {
+                "name": "Ice Amp",
+                "cost": "Passive",
+                "effect": "Strengthen Ice attacks by 50%.",
+                "level": "67"
+            },
+            "diamond_dust": {
+                "name": "Diamond Dust",
+                "cost": "48 SP",
+                "effect": "Severe Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "level": "69"
+            }
+        }
+    },
+    "abaddon": {
+        "name": "Abaddon",
+        "arcana": "Judgement",
+        "level": "75",
+        "trait": "Gluttonmouth: Increase amount of HP restored to self by 50%.",
+        "item": "Megaton Belt",
+        "itemAlarm": "God's Hand Belt",
+        "baseStats": {
+            "strength": "51",
+            "magic": "42",
+            "endurance": "58",
+            "agility": "38",
+            "luck": "43"
+        },
+        "affinities": {
+            "phys": "absorb",
+            "gun": "absorb",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "resist",
+            "curse": "absorb",
+            "almighty": "none"
+        },
+        "skills": {
+            "mabufudyne": {
+                "name": "Mabufudyne",
+                "cost": "22 SP",
+                "effect": "Heavy Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "megaton_raid": {
+                "name": "Megaton Raid",
+                "cost": "16% HP",
+                "effect": "Severe Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "enduring_soul": {
+                "name": "Enduring Soul",
+                "cost": "Passive",
+                "effect": "Survive one fatal blow with HP fully restored.",
+                "level": "Innate"
+            },
+            "flash_bomb": {
+                "name": "Flash Bomb",
+                "cost": "19% HP",
+                "effect": "Medium Physical damage and inflict Dizzy (low odds) to all foes.",
+                "level": "78"
+            },
+            "ailment_boost": {
+                "name": "Ailment Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting all ailments.",
+                "level": "79"
+            },
+            "drain_phys": {
+                "name": "Drain Phys",
+                "cost": "Passive",
+                "effect": "Absorb Physical attacks.",
+                "level": "80"
+            },
+            "gigantomachia": {
+                "name": "Gigantomachia",
+                "cost": "25% HP",
+                "effect": "Colossal Physical damage to all foes.",
+                "level": "81"
+            }
+        }
+    },
+    "messiah": {
+        "name": "Messiah",
+        "arcana": "Judgement",
+        "level": "81",
+        "trait": "Hallowed Spirit: Doubles amount of HP/SP restored to self.",
+        "item": "Sirius Armor",
+        "itemAlarm": "Sirius Armor EX",
+        "baseStats": {
+            "strength": "50",
+            "magic": "50",
+            "endurance": "50",
+            "agility": "50",
+            "luck": "50"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "resist",
+            "ice": "resist",
+            "elec": "resist",
+            "wind": "resist",
+            "psy": "resist",
+            "nuke": "resist",
+            "bless": "reflect",
+            "curse": "weak",
+            "almighty": "none"
+        },
+        "skills": {
+            "oratorio": {
+                "name": "Oratorio",
+                "cost": "38 SP",
+                "effect": "Fully restore HP of party. Nullify all stat debuffs.",
+                "level": "Innate"
+            },
+            "megidolaon": {
+                "name": "Megidolaon",
+                "cost": "38 SP",
+                "effect": "Severe Almighty damage to all foes.",
+                "level": "Innate"
+            },
+            "gods_hand": {
+                "name": "God's Hand",
+                "cost": "25% HP",
+                "effect": "Colossal Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "regenerate_3": {
+                "name": "Regenerate 3",
+                "cost": "Passive",
+                "effect": "Restore 6% of max HP each turn in battle.",
+                "level": "82"
+            },
+            "enduring_soul": {
+                "name": "Enduring Soul",
+                "cost": "Passive",
+                "effect": "Survive one fatal blow with HP fully restored.",
+                "level": "83"
+            },
+            "invigorate_3": {
+                "name": "Invigorate 3",
+                "cost": "Passive",
+                "effect": "Restore 7 SP each turn in battle.",
+                "level": "84"
+            },
+            "drain_phys": {
+                "name": "Drain Phys",
+                "cost": "Passive",
+                "effect": "Absorb Physical attacks.",
+                "level": "85"
+            },
+            "almighty_boost": {
+                "name": "Almighty Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Almighty attacks by 25%.",
+                "level": "87"
+            }
+        }
+    },
+    "shiva": {
+        "name": "Shiva",
+        "arcana": "Judgement",
+        "level": "82",
+        "trait": "Psychic Bloodline: Reduce cost of Psy skills by 50%.",
+        "item": "Megido Fire",
+        "itemAlarm": "Megido Blaster",
+        "baseStats": {
+            "strength": "55",
+            "magic": "54",
+            "endurance": "53",
+            "agility": "53",
+            "luck": "38"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "block",
+            "elec": "reflect",
+            "wind": "none",
+            "psy": "absorb",
+            "nuke": "weak",
+            "bless": "block",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "psycho_force": {
+                "name": "Psycho Force",
+                "cost": "48 SP",
+                "effect": "Severe Psy damage to 1 foe.",
+                "level": "Innate"
+            },
+            "maziodyne": {
+                "name": "Maziodyne",
+                "cost": "22 SP",
+                "effect": "Heavy Elec damage and inflict Shock (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "enduring_soul": {
+                "name": "Enduring Soul",
+                "cost": "Passive",
+                "effect": "Survive one fatal blow with HP fully restored.",
+                "level": "Innate"
+            },
+            "riot_gun": {
+                "name": "Riot Gun",
+                "cost": "24% HP",
+                "effect": "Severe Gun damage to all foes.",
+                "level": "85"
+            },
+            "megidolaon": {
+                "name": "Megidolaon",
+                "cost": "38 SP",
+                "effect": "Severe Almighty damage to all foes.",
+                "level": "86"
+            },
+            "auto-mataru": {
+                "name": "Auto-Mataru",
+                "cost": "Passive",
+                "effect": "Automatic Matarukaja at the start of battle.",
+                "level": "87"
+            },
+            "psycho_blast": {
+                "name": "Psycho Blast",
+                "cost": "54 SP",
+                "effect": "Severe Psy damage to all foes.",
+                "level": "88"
+            }
+        }
+    },
+    "michael": {
+        "name": "Michael",
+        "arcana": "Judgement",
+        "level": "87",
+        "trait": "Potent Hypnosis: Increase buff timers by 1 turn for party.",
+        "item": "Judge of Hell",
+        "itemAlarm": "Judge End",
+        "baseStats": {
+            "strength": "57",
+            "magic": "54",
+            "endurance": "55",
+            "agility": "56",
+            "luck": "46"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "reflect",
+            "curse": "block",
+            "almighty": "none"
+        },
+        "skills": {
+            "divine_judgement": {
+                "name": "Divine Judgement",
+                "cost": "38 SP",
+                "effect": "Half remaining HP of 1 foe. Bless-type.",
+                "level": "Innate"
+            },
+            "mabufudyne": {
+                "name": "Mabufudyne",
+                "cost": "22 SP",
+                "effect": "Heavy Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "debilitate": {
+                "name": "Debilitate",
+                "cost": "30 SP",
+                "effect": "Decrease Attack/Defense/Agility of 1 foe for 3 turns.",
+                "level": "Innate"
+            },
+            "sword_dance": {
+                "name": "Sword Dance",
+                "cost": "21% HP",
+                "effect": "Colossal Physical damage to 1 foe, high critical rate.",
+                "level": "89"
+            },
+            "mahamaon": {
+                "name": "Mahamaon",
+                "cost": "26 SP",
+                "effect": "Medium chance of instantly killing all foes. Bless-type.",
+                "level": "90"
+            },
+            "megidolaon": {
+                "name": "Megidolaon",
+                "cost": "38 SP",
+                "effect": "Severe Almighty damage to all foes.",
+                "level": "91"
+            },
+            "cosmic_flare": {
+                "name": "Cosmic Flare",
+                "cost": "54 SP",
+                "effect": "Severe Nuke damage to all foes.",
+                "level": "92"
+            }
+        }
+    },
+    "messiah_picaro": {
+        "name": "Messiah Picaro",
+        "arcana": "Judgement",
+        "level": "90",
+        "trait": "Hallowed Spirit: Doubles amount of HP/SP restored to self.",
+        "item": "Insta-Heal",
+        "itemAlarm": "Firm Stance",
+        "baseStats": {
+            "strength": "56",
+            "magic": "56",
+            "endurance": "55",
+            "agility": "55",
+            "luck": "55"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "resist",
+            "ice": "resist",
+            "elec": "resist",
+            "wind": "resist",
+            "psy": "resist",
+            "nuke": "resist",
+            "bless": "reflect",
+            "curse": "weak",
+            "almighty": "none"
+        },
+        "skills": {
+            "oratorio": {
+                "name": "Oratorio",
+                "cost": "38 SP",
+                "effect": "Fully restore HP of party. Nullify all stat debuffs.",
+                "level": "Innate"
+            },
+            "megidolaon": {
+                "name": "Megidolaon",
+                "cost": "38 SP",
+                "effect": "Severe Almighty damage to all foes.",
+                "level": "Innate"
+            },
+            "agneyastra": {
+                "name": "Agneyastra",
+                "cost": "24% HP",
+                "effect": "Medium Physical damage to all foes 1x to 3x.",
+                "level": "Innate"
+            },
+            "insta-heal": {
+                "name": "Insta-Heal",
+                "cost": "Passive",
+                "effect": "Recover from an ailment in 1 turn.",
+                "level": "91"
+            },
+            "enduring_soul": {
+                "name": "Enduring Soul",
+                "cost": "Passive",
+                "effect": "Survive one fatal blow with HP fully restored.",
+                "level": "92"
+            },
+            "life_aid": {
+                "name": "Life Aid",
+                "cost": "Passive",
+                "effect": "Restore 8% HP and SP after victory.",
+                "level": "93"
+            },
+            "firm_stance": {
+                "name": "Firm Stance",
+                "cost": "Passive",
+                "effect": "Half all incoming damage by sacrificing evasion completely.",
+                "level": "94"
+            },
+            "almighty_boost": {
+                "name": "Almighty Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Almighty attacks by 25%.",
+                "level": "96"
+            }
+        }
+    },
+    "satan": {
+        "name": "Satan",
+        "arcana": "Judgement",
+        "level": "92",
+        "trait": "Cocytus: Reduce cost of Ice skills by 75%.",
+        "item": "Tantric Oath",
+        "itemAlarm": "Tantric Oath R",
+        "baseStats": {
+            "strength": "62",
+            "magic": "59",
+            "endurance": "55",
+            "agility": "52",
+            "luck": "55"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "reflect",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "reflect",
+            "almighty": "none"
+        },
+        "skills": {
+            "diamond_dust": {
+                "name": "Diamond Dust",
+                "cost": "48 SP",
+                "effect": "Severe Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "ice_age": {
+                "name": "Ice Age",
+                "cost": "54 SP",
+                "effect": "Severe Ice damage and inflict Freeze (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "regenerate_3": {
+                "name": "Regenerate 3",
+                "cost": "Passive",
+                "effect": "Restore 6% of max HP each turn in battle.",
+                "level": "Innate"
+            },
+            "black_viper": {
+                "name": "Black Viper",
+                "cost": "48 SP",
+                "effect": "Severe Almighty damage to 1 foe.",
+                "level": "94"
+            },
+            "invigorate_3": {
+                "name": "Invigorate 3",
+                "cost": "Passive",
+                "effect": "Restore 7 SP each turn in battle.",
+                "level": "95"
+            },
+            "fortify_spirit": {
+                "name": "Fortify Spirit",
+                "cost": "Passive",
+                "effect": "Reduce susceptibility to all ailments.",
+                "level": "96"
+            },
+            "concentrate": {
+                "name": "Concentrate",
+                "cost": "15 SP",
+                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "level": "97"
+            },
+            "drain_ice": {
+                "name": "Drain Ice",
+                "cost": "Passive",
+                "effect": "Absorb Ice attacks.",
+                "level": "98"
+            }
+        }
     }
 }
