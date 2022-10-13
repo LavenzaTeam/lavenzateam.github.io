@@ -18592,5 +18592,923 @@
                 "level": "98"
             }
         }
+    },
+    "cendrillon": {
+        "name": "Cendrillon",
+        "arcana": "Faith",
+        "level": "75",
+        "trait": "Veil of Midnight: Increases chance of ally not being Downed when attacked.",
+        "item": "N/A",
+        "itemAlarm": "N/A",
+        "baseStats": {
+            "strength": "55",
+            "magic": "46",
+            "endurance": "36",
+            "agility": "51",
+            "luck": "44"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "block",
+            "curse": "weak",
+            "almighty": "none"
+        },
+        "skills": {
+            "apt_pupil": {
+                "name": "Apt Pupil",
+                "cost": "Passive",
+                "effect": "Increase critical rate.",
+                "level": "Innate"
+            },
+            "vorpal_blade": {
+                "name": "Vorpal Blade",
+                "cost": "23% HP",
+                "effect": "Severe Physical damage to all foes.",
+                "level": "Innate"
+            },
+            "kougaon": {
+                "name": "Kougaon",
+                "cost": "12 SP",
+                "effect": "Heavy Bless damage to 1 foe.",
+                "level": "Innate"
+            },
+            "sword_dance": {
+                "name": "Sword Dance",
+                "cost": "21% HP",
+                "effect": "Colossal Physical damage to 1 foe, high critical rate.",
+                "level": "Innate"
+            },
+            "makougaon": {
+                "name": "Makougaon",
+                "cost": "22 SP",
+                "effect": "Heavy Bless damage to all foes.",
+                "level": "Innate"
+            },
+            "diarahan": {
+                "name": "Diarahan",
+                "cost": "18 SP",
+                "effect": "Fully restore HP of 1 ally.",
+                "level": "Innate"
+            },
+            "bless_amp": {
+                "name": "Bless Amp",
+                "cost": "Passive",
+                "effect": "Strengthen (non instant death) Bless attacks by 50%.",
+                "level": "Innate"
+            },
+            "ali_dance": {
+                "name": "Ali Dance",
+                "cost": "Passive",
+                "effect": "Half hit rate of all incoming attacks.",
+                "level": "Innate"
+            },
+            "brave_step": {
+                "name": "Brave Step",
+                "cost": "16 SP",
+                "effect": "Increase critical rate of party for 3 turns.",
+                "level": "80"
+            }
+        }
+    },
+    "vanadis": {
+        "name": "Vanadis",
+        "arcana": "Faith",
+        "level": "Inherited",
+        "trait": "Veil of Midnight: Increases chance of ally not being Downed when attacked.",
+        "item": "N/A",
+        "itemAlarm": "N/A",
+        "baseStats": {
+            "strength": "Inherited",
+            "magic": "Inherited",
+            "endurance": "Inherited",
+            "agility": "Inherited",
+            "luck": "Inherited"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "block",
+            "curse": "weak",
+            "almighty": "none"
+        },
+        "skills": {
+            "apt_pupil": {
+                "name": "Apt Pupil",
+                "cost": "Passive",
+                "effect": "Increase critical rate.",
+                "level": "Innate"
+            },
+            "vorpal_blade": {
+                "name": "Vorpal Blade",
+                "cost": "23% HP",
+                "effect": "Severe Physical damage to all foes.",
+                "level": "Innate"
+            },
+            "kougaon": {
+                "name": "Kougaon",
+                "cost": "12 SP",
+                "effect": "Heavy Bless damage to 1 foe.",
+                "level": "Innate"
+            },
+            "sword_dance": {
+                "name": "Sword Dance",
+                "cost": "21% HP",
+                "effect": "Colossal Physical damage to 1 foe, high critical rate.",
+                "level": "Innate"
+            },
+            "makougaon": {
+                "name": "Makougaon",
+                "cost": "22 SP",
+                "effect": "Heavy Bless damage to all foes.",
+                "level": "Innate"
+            },
+            "diarahan": {
+                "name": "Diarahan",
+                "cost": "18 SP",
+                "effect": "Fully restore HP of 1 ally.",
+                "level": "Innate"
+            },
+            "bless_amp": {
+                "name": "Bless Amp",
+                "cost": "Passive",
+                "effect": "Strengthen (non instant death) Bless attacks by 50%.",
+                "level": "Innate"
+            },
+            "ali_dance": {
+                "name": "Ali Dance",
+                "cost": "Passive",
+                "effect": "Half hit rate of all incoming attacks.",
+                "level": "Innate"
+            },
+            "brave_step": {
+                "name": "Brave Step",
+                "cost": "16 SP",
+                "effect": "Increase critical rate of party for 3 turns.",
+                "level": "80"
+            },
+            "evade_curse": {
+                "name": "Evade Curse",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against (non instant death) Curse attacks.",
+                "level": "Max Faith SL"
+            }
+        }
+    },
+    "ella": {
+        "name": "Ella",
+        "arcana": "Faith",
+        "level": "Inherited",
+        "trait": "Veil of Midnight: Increases chance of ally not being Downed when attacked.",
+        "item": "N/A",
+        "itemAlarm": "N/A",
+        "baseStats": {
+            "strength": "Inherited",
+            "magic": "Inherited",
+            "endurance": "Inherited",
+            "agility": "Inherited",
+            "luck": "Inherited"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "resist",
+            "bless": "block",
+            "curse": "weak",
+            "almighty": "none"
+        },
+        "skills": {
+            "apt_pupil": {
+                "name": "Apt Pupil",
+                "cost": "Passive",
+                "effect": "Increase critical rate.",
+                "level": "Innate"
+            },
+            "vorpal_blade": {
+                "name": "Vorpal Blade",
+                "cost": "23% HP",
+                "effect": "Severe Physical damage to all foes.",
+                "level": "Innate"
+            },
+            "kougaon": {
+                "name": "Kougaon",
+                "cost": "12 SP",
+                "effect": "Heavy Bless damage to 1 foe.",
+                "level": "Innate"
+            },
+            "sword_dance": {
+                "name": "Sword Dance",
+                "cost": "21% HP",
+                "effect": "Colossal Physical damage to 1 foe, high critical rate.",
+                "level": "Innate"
+            },
+            "makougaon": {
+                "name": "Makougaon",
+                "cost": "22 SP",
+                "effect": "Heavy Bless damage to all foes.",
+                "level": "Innate"
+            },
+            "diarahan": {
+                "name": "Diarahan",
+                "cost": "18 SP",
+                "effect": "Fully restore HP of 1 ally.",
+                "level": "Innate"
+            },
+            "bless_amp": {
+                "name": "Bless Amp",
+                "cost": "Passive",
+                "effect": "Strengthen (non instant death) Bless attacks by 50%.",
+                "level": "Innate"
+            },
+            "ali_dance": {
+                "name": "Ali Dance",
+                "cost": "Passive",
+                "effect": "Half hit rate of all incoming attacks.",
+                "level": "Innate"
+            },
+            "brave_step": {
+                "name": "Brave Step",
+                "cost": "16 SP",
+                "effect": "Increase critical rate of party for 3 turns.",
+                "level": "80"
+            },
+            "evade_curse": {
+                "name": "Evade Curse",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against (non instant death) Curse attacks.",
+                "level": "Max Faith SL"
+            },
+            "masquerade": {
+                "name": "Masquerade",
+                "cost": "25% HP",
+                "effect": "Severe Physical damage to 1 foe 2x.",
+                "level": "Third Awakening Skill"
+            }
+        }
+    },
+    "phoenix": {
+        "name": "Phoenix",
+        "arcana": "Faith",
+        "level": "21",
+        "trait": "Atomic Bloodline: Reduce cost of Nuke skills by 50%.",
+        "item": "Heavensent Dress",
+        "itemAlarm": "Godsent Dress",
+        "baseStats": {
+            "strength": "12",
+            "magic": "15",
+            "endurance": "15",
+            "agility": "17",
+            "luck": "11"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "resist",
+            "elec": "weak",
+            "wind": "block",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "freila": {
+                "name": "Freila",
+                "cost": "8 SP",
+                "effect": "Medium Nuke damage to 1 foe.",
+                "level": "Innate"
+            },
+            "dream_needle": {
+                "name": "Dream Needle",
+                "cost": "8% HP",
+                "effect": "Light Gun damage and inflict Sleep (med odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "diarama": {
+                "name": "Diarama",
+                "cost": "6 SP",
+                "effect": "Moderately restore HP of 1 ally.",
+                "level": "22"
+            },
+            "recarm": {
+                "name": "Recarm",
+                "cost": "8 SP",
+                "effect": "Revive 1 ally with 50% HP recovered.",
+                "level": "23"
+            },
+            "nuke_boost": {
+                "name": "Nuke Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Nuclear attacks by 25%.",
+                "level": "25"
+            },
+            "mafreila": {
+                "name": "Mafreila",
+                "cost": "16 SP",
+                "effect": "Medium Nuke damage to all foes.",
+                "level": "26"
+            }
+        }
+    },
+    "tam_lin": {
+        "name": "Tam Lin",
+        "arcana": "Faith",
+        "level": "27",
+        "trait": "Gluttonmouth: Increase amount of HP restored to self by 50%.",
+        "item": "Fairy Knight Armor",
+        "itemAlarm": "Fairy Hero Armor",
+        "baseStats": {
+            "strength": "21",
+            "magic": "16",
+            "endurance": "18",
+            "agility": "16",
+            "luck": "17"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "none",
+            "fire": "block",
+            "ice": "none",
+            "elec": "none",
+            "wind": "resist",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "absorb",
+            "curse": "weak",
+            "almighty": "none"
+        },
+        "skills": {
+            "assault_dive": {
+                "name": "Assault Dive",
+                "cost": "13% HP",
+                "effect": "Heavy Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "brainshake": {
+                "name": "Brainshake",
+                "cost": "9% HP",
+                "effect": "Light Physical damage and inflict Brainwash (med odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "rebellion": {
+                "name": "Rebellion",
+                "cost": "5 SP",
+                "effect": "Increase critical rate of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "sharp_student": {
+                "name": "Sharp Student",
+                "cost": "Passive",
+                "effect": "Lower odds of receiving critical hit.",
+                "level": "28"
+            },
+            "brain_buster": {
+                "name": "Brain Buster",
+                "cost": "22% HP",
+                "effect": "Heavy Physical damage and inflict Brainwash (low odds) to all foes.",
+                "level": "30"
+            },
+            "brainwash_boost": {
+                "name": "Brainwash Boost",
+                "cost": "Passive",
+                "effect": "Increase chance of inflicting Brainwash.",
+                "level": "31"
+            },
+            "heat_up": {
+                "name": "Heat Up",
+                "cost": "Passive",
+                "effect": "Random chance to restore 5% of max HP & 10 SP in battle.",
+                "level": "32"
+            }
+        }
+    },
+    "unicorn": {
+        "name": "Unicorn",
+        "arcana": "Faith",
+        "level": "39",
+        "trait": "Blessed Bloodline: Reduce cost of Bless skills by 50%.",
+        "item": "Mahama",
+        "itemAlarm": "Hamaon",
+        "baseStats": {
+            "strength": "20",
+            "magic": "27",
+            "endurance": "25",
+            "agility": "28",
+            "luck": "24"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "block",
+            "elec": "none",
+            "wind": "none",
+            "psy": "resist",
+            "nuke": "none",
+            "bless": "block",
+            "curse": "weak",
+            "almighty": "none"
+        },
+        "skills": {
+            "assault_dive": {
+                "name": "Assault Dive",
+                "cost": "13% HP",
+                "effect": "Heavy Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "mahama": {
+                "name": "Mahama",
+                "cost": "14 SP",
+                "effect": "Low chance of instantly killing all foes. Bless-type.",
+                "level": "Innate"
+            },
+            "dekunda": {
+                "name": "Dekunda",
+                "cost": "10 SP",
+                "effect": "Negate all -nda debuff effects of party.",
+                "level": "Innate"
+            },
+            "samarecarm": {
+                "name": "Samarecarm",
+                "cost": "18 SP",
+                "effect": "Revive 1 ally with all HP recovered.",
+                "level": "41"
+            },
+            "swift_strike": {
+                "name": "Swift Strike",
+                "cost": "17% HP",
+                "effect": "Minuscule Physical damage to all foes 2x to 4x.",
+                "level": "42"
+            },
+            "kougaon": {
+                "name": "Kougaon",
+                "cost": "12 SP",
+                "effect": "Heavy Bless damage to 1 foe.",
+                "level": "43"
+            },
+            "hamaon": {
+                "name": "Hamaon",
+                "cost": "12 SP",
+                "effect": "Medium chance of instantly killing 1 foe. Bless-type.",
+                "level": "44"
+            }
+        }
+    },
+    "okuninushi": {
+        "name": "Okuninushi",
+        "arcana": "Faith",
+        "level": "54",
+        "trait": "Psychic Bloodline: Reduce cost of Psy skills by 50%.",
+        "item": "Official's Robe",
+        "itemAlarm": "Official's Robe R",
+        "baseStats": {
+            "strength": "39",
+            "magic": "35",
+            "endurance": "33",
+            "agility": "32",
+            "luck": "30"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "none",
+            "ice": "none",
+            "elec": "reflect",
+            "wind": "weak",
+            "psy": "block",
+            "nuke": "weak",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "mapsio": {
+                "name": "Mapsio",
+                "cost": "16 SP",
+                "effect": "Medium Psy damage to all foes.",
+                "level": "Innate"
+            },
+            "myriad_slashes": {
+                "name": "Myriad Slashes",
+                "cost": "20% HP",
+                "effect": "Medium Physical damage to 1 foe 2x to 3x.",
+                "level": "Innate"
+            },
+            "matarukaja": {
+                "name": "Matarukaja",
+                "cost": "24 SP",
+                "effect": "Increase Attack of party for 3 turns.",
+                "level": "Innate"
+            },
+            "psy_boost": {
+                "name": "Psy Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Psy attacks by 25%.",
+                "level": "55"
+            },
+            "psy_break": {
+                "name": "Psy Break",
+                "cost": "15 SP",
+                "effect": "Suppress innate Psy resistances of all foes for 3 turns.",
+                "level": "56"
+            },
+            "evade_nuke": {
+                "name": "Evade Nuke",
+                "cost": "Passive",
+                "effect": "Triple evasion rate against Nuclear attacks.",
+                "level": "57"
+            },
+            "heat_wave": {
+                "name": "Heat Wave",
+                "cost": "20% HP",
+                "effect": "Heavy Physical damage to all foes.",
+                "level": "59"
+            }
+        }
+    },
+    "orichalcum": {
+        "name": "Orichalcum",
+        "arcana": "Faith",
+        "level": "60",
+        "trait": "Gluttonmouth: Increase amount of HP restored to self by 50%. / Blessed Bloodline: Reduce cost of Bless skills by 50%. / Immunity: Impart immunity against all ailments.",
+        "item": "Orichalcum",
+        "itemAlarm": "Orichalcum R",
+        "baseStats": {
+            "strength": "60",
+            "magic": "60",
+            "endurance": "60",
+            "agility": "60",
+            "luck": "60"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "weak",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "inferno": {
+                "name": "Inferno",
+                "cost": "48 SP",
+                "effect": "Severe Fire damage and inflict Burn (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "diamond_dust": {
+                "name": "Diamond Dust",
+                "cost": "48 SP",
+                "effect": "Severe Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "panta_rhei": {
+                "name": "Panta Rhei",
+                "cost": "42 SP",
+                "effect": "Severe Wind damage to 1 foe.",
+                "level": "Innate"
+            },
+            "thunder_reign": {
+                "name": "Thunder Reign",
+                "cost": "48 SP",
+                "effect": "Severe Elec damage and inflict Shock (low odds) to 1 foe.",
+                "level": "Innate"
+            },
+            "psycho_force": {
+                "name": "Psycho Force",
+                "cost": "48 SP",
+                "effect": "Severe Psy damage to 1 foe.",
+                "level": "Innate"
+            },
+            "atomic_flare": {
+                "name": "Atomic Flare",
+                "cost": "48 SP",
+                "effect": "Severe Nuke damage to 1 foe.",
+                "level": "Innate"
+            },
+            "divine_judgement": {
+                "name": "Divine Judgement",
+                "cost": "38 SP",
+                "effect": "Half remaining HP of 1 foe. Bless-type.",
+                "level": "Innate"
+            },
+            "demonic_decree": {
+                "name": "Demonic Decree",
+                "cost": "38 SP",
+                "effect": "Half remaining HP of 1 foe. Curse-type.",
+                "level": "Innate"
+            }
+        }
+    },
+    "atavaka": {
+        "name": "Atavaka",
+        "arcana": "Faith",
+        "level": "65",
+        "trait": "Savior Bloodline: Reduce cost of Healing skills by 50%.",
+        "item": "Brave Blade",
+        "itemAlarm": "Sword Dance",
+        "baseStats": {
+            "strength": "51",
+            "magic": "36",
+            "endurance": "43",
+            "agility": "38",
+            "luck": "34"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "block",
+            "fire": "reflect",
+            "ice": "none",
+            "elec": "none",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "none",
+            "curse": "resist",
+            "almighty": "none"
+        },
+        "skills": {
+            "maragidyne": {
+                "name": "Maragidyne",
+                "cost": "22 SP",
+                "effect": "Heavy Fire damage and inflict Burn (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "oni-kagura": {
+                "name": "Oni-Kagura",
+                "cost": "16% HP",
+                "effect": "Medium Physical damage and inflict Rage (low odds) to all foes.",
+                "level": "Innate"
+            },
+            "mediarahan": {
+                "name": "Mediarahan",
+                "cost": "30 SP",
+                "effect": "Fully restore HP of party.",
+                "level": "Innate"
+            },
+            "high_counter": {
+                "name": "High Counter",
+                "cost": "Passive",
+                "effect": "20% chance of reflecting a physical attack.",
+                "level": "67"
+            },
+            "samarecarm": {
+                "name": "Samarecarm",
+                "cost": "18 SP",
+                "effect": "Revive 1 ally with all HP recovered.",
+                "level": "68"
+            },
+            "brave_blade": {
+                "name": "Brave Blade",
+                "cost": "24% HP",
+                "effect": "Colossal Physical damage to 1 foe.",
+                "level": "70"
+            },
+            "attack_master": {
+                "name": "Attack Master",
+                "cost": "Passive",
+                "effect": "Automatic Tarukaja at the start of battle.",
+                "level": "71"
+            }
+        }
+    },
+    "cu_chulainn": {
+        "name": "Cu Chulainn",
+        "arcana": "Faith",
+        "level": "76",
+        "trait": "Potent Hypnosis: Increase buff timers by 1 turn for party.",
+        "item": "One-shot Kill",
+        "itemAlarm": "Riot Gun",
+        "baseStats": {
+            "strength": "55",
+            "magic": "44",
+            "endurance": "46",
+            "agility": "48",
+            "luck": "42"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "none",
+            "elec": "weak",
+            "wind": "reflect",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "block",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "one-shot_kill": {
+                "name": "One-shot Kill",
+                "cost": "17% HP",
+                "effect": "Severe Gun damage to 1 foe, high critical rate.",
+                "level": "Innate"
+            },
+            "rebellion": {
+                "name": "Rebellion",
+                "cost": "5 SP",
+                "effect": "Increase critical rate of 1 ally for 3 turns.",
+                "level": "Innate"
+            },
+            "high_counter": {
+                "name": "High Counter",
+                "cost": "Passive",
+                "effect": "20% chance of reflecting a physical attack.",
+                "level": "Innate"
+            },
+            "matarukaja": {
+                "name": "Matarukaja",
+                "cost": "24 SP",
+                "effect": "Increase Attack of party for 3 turns.",
+                "level": "78"
+            },
+            "brave_blade": {
+                "name": "Brave Blade",
+                "cost": "24% HP",
+                "effect": "Colossal Physical damage to 1 foe.",
+                "level": "79"
+            },
+            "charge": {
+                "name": "Charge",
+                "cost": "15 SP",
+                "effect": "Next Physical or Gun attack inflicts 2.5x damage for user.",
+                "level": "80"
+            },
+            "apt_pupil": {
+                "name": "Apt Pupil",
+                "cost": "Passive",
+                "effect": "Increase critical rate.",
+                "level": "81"
+            }
+        }
+    },
+    "siegfried": {
+        "name": "Siegfried",
+        "arcana": "Faith",
+        "level": "84",
+        "trait": "Retaliating Body: Doubles Counter damage.",
+        "item": "Vorpal Blade Belt",
+        "itemAlarm": "Brave Belt",
+        "baseStats": {
+            "strength": "61",
+            "magic": "43",
+            "endurance": "55",
+            "agility": "55",
+            "luck": "45"
+        },
+        "affinities": {
+            "phys": "block",
+            "gun": "resist",
+            "fire": "none",
+            "ice": "resist",
+            "elec": "block",
+            "wind": "none",
+            "psy": "none",
+            "nuke": "weak",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "brave_blade": {
+                "name": "Brave Blade",
+                "cost": "24% HP",
+                "effect": "Colossal Physical damage to 1 foe.",
+                "level": "Innate"
+            },
+            "masukukaja": {
+                "name": "Masukukaja",
+                "cost": "24 SP",
+                "effect": "Increase Agility of party for 3 turns.",
+                "level": "Innate"
+            },
+            "high_counter": {
+                "name": "High Counter",
+                "cost": "Passive",
+                "effect": "20% chance of reflecting a physical attack.",
+                "level": "Innate"
+            },
+            "charge": {
+                "name": "Charge",
+                "cost": "15 SP",
+                "effect": "Next Physical or Gun attack inflicts 2.5x damage for user.",
+                "level": "85"
+            },
+            "apt_pupil": {
+                "name": "Apt Pupil",
+                "cost": "Passive",
+                "effect": "Increase critical rate.",
+                "level": "87"
+            },
+            "vorpal_blade": {
+                "name": "Vorpal Blade",
+                "cost": "23% HP",
+                "effect": "Severe Physical damage to all foes.",
+                "level": "89"
+            },
+            "auto-mataru": {
+                "name": "Auto-Mataru",
+                "cost": "Passive",
+                "effect": "Automatic Matarukaja at the start of battle.",
+                "level": "90"
+            }
+        }
+    },
+    "maria": {
+        "name": "Maria",
+        "arcana": "Faith",
+        "level": "93",
+        "trait": "Ave Maria: Reduce cost of Support skills by 75%.",
+        "item": "Spiral Heal Charm",
+        "itemAlarm": "Rosary of Purity",
+        "baseStats": {
+            "strength": "52",
+            "magic": "66",
+            "endurance": "53",
+            "agility": "54",
+            "luck": "61"
+        },
+        "affinities": {
+            "phys": "none",
+            "gun": "none",
+            "fire": "weak",
+            "ice": "none",
+            "elec": "resist",
+            "wind": "block",
+            "psy": "none",
+            "nuke": "none",
+            "bless": "absorb",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "invigorate_3": {
+                "name": "Invigorate 3",
+                "cost": "Passive",
+                "effect": "Restore 7 SP each turn in battle.",
+                "level": "Innate"
+            },
+            "salvation": {
+                "name": "Salvation",
+                "cost": "48 SP",
+                "effect": "Fully restore HP of party and cure all non-special ailments.",
+                "level": "Innate"
+            },
+            "holy_benevolence": {
+                "name": "Holy Benevolence",
+                "cost": "27 SP",
+                "effect": "Revive party with all HP recovered.",
+                "level": "Innate"
+            },
+            "heat_riser": {
+                "name": "Heat Riser",
+                "cost": "30 SP",
+                "effect": "Increase Attack/Defense/Agility of 1 ally for 3 turns.",
+                "level": "94"
+            },
+            "holy_embrace": {
+                "name": "Holy Embrace",
+                "cost": "Passive",
+                "effect": "Restore 25% of max HP each turn in battle.",
+                "level": "96"
+            },
+            "angelic_grace": {
+                "name": "Angelic Grace",
+                "cost": "Passive",
+                "effect": "Double evasion rate against all attacks except Hama/Mudo/Almighty.",
+                "level": "97"
+            },
+            "holy_whisper": {
+                "name": "Holy Whisper",
+                "cost": "Passive",
+                "effect": "Restore 15% of max HP & 15 SP each turn in battle.",
+                "level": "98"
+            }
+        }
     }
 }
