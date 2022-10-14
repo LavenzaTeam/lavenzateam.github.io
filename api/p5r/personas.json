@@ -20080,5 +20080,161 @@
                 "level": "85"
             }
         }
+    },
+    "izanagi-no-okami": {
+        "name": "Izanagi-no-Okami",
+        "arcana": "World",
+        "level": "80",
+        "trait": "Country Maker: Increases Attack/Defense based on Inmate Registry completion. At 100%, stats are doubled.",
+        "item": "White Headband",
+        "itemAlarm": "White Headband R",
+        "baseStats": {
+            "strength": "52",
+            "magic": "56",
+            "endurance": "46",
+            "agility": "48",
+            "luck": "45"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "resist",
+            "fire": "resist",
+            "ice": "resist",
+            "elec": "resist",
+            "wind": "resist",
+            "psy": "resist",
+            "nuke": "resist",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "myriad_truths": {
+                "name": "Myriad Truths",
+                "cost": "40 SP",
+                "effect": "Heavy Almighty damage to all foes 3x.",
+                "level": "Innate"
+            },
+            "victory_cry": {
+                "name": "Victory Cry",
+                "cost": "Passive",
+                "effect": "Fully restore HP and SP after victory.",
+                "level": "Innate"
+            },
+            "angelic_grace": {
+                "name": "Angelic Grace",
+                "cost": "Passive",
+                "effect": "Double evasion rate against all attacks except Hama/Mudo/Almighty.",
+                "level": "Innate"
+            },
+            "concentrate": {
+                "name": "Concentrate",
+                "cost": "15 SP",
+                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "level": "81"
+            },
+            "heat_riser": {
+                "name": "Heat Riser",
+                "cost": "30 SP",
+                "effect": "Increase Attack/Defense/Agility of 1 ally for 3 turns.",
+                "level": "82"
+            },
+            "heat_up": {
+                "name": "Heat Up",
+                "cost": "Passive",
+                "effect": "Random chance to restore 5% of max HP & 10 SP in battle.",
+                "level": "83"
+            },
+            "salvation": {
+                "name": "Salvation",
+                "cost": "48 SP",
+                "effect": "Fully restore HP of party and cure all non-special ailments.",
+                "level": "84"
+            },
+            "almighty_boost": {
+                "name": "Almighty Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Almighty attacks by 25%.",
+                "level": "85"
+            }
+        }
+    },
+    "izanagi-no-okami_picaro": {
+        "name": "Izanagi-no-Okami Picaro",
+        "arcana": "World",
+        "level": "89",
+        "trait": "Country Maker: Increases Attack/Defense based on Inmate Registry completion. At 100%, stats are doubled.",
+        "item": "Mediarahan",
+        "itemAlarm": "Salvation",
+        "baseStats": {
+            "strength": "54",
+            "magic": "61",
+            "endurance": "56",
+            "agility": "58",
+            "luck": "45"
+        },
+        "affinities": {
+            "phys": "resist",
+            "gun": "resist",
+            "fire": "resist",
+            "ice": "resist",
+            "elec": "resist",
+            "wind": "resist",
+            "psy": "resist",
+            "nuke": "resist",
+            "bless": "none",
+            "curse": "none",
+            "almighty": "none"
+        },
+        "skills": {
+            "myriad_truths": {
+                "name": "Myriad Truths",
+                "cost": "40 SP",
+                "effect": "Heavy Almighty damage to all foes 3x.",
+                "level": "Innate"
+            },
+            "victory_cry": {
+                "name": "Victory Cry",
+                "cost": "Passive",
+                "effect": "Fully restore HP and SP after victory.",
+                "level": "Innate"
+            },
+            "angelic_grace": {
+                "name": "Angelic Grace",
+                "cost": "Passive",
+                "effect": "Double evasion rate against all attacks except Hama/Mudo/Almighty.",
+                "level": "Innate"
+            },
+            "concentrate": {
+                "name": "Concentrate",
+                "cost": "15 SP",
+                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "level": "90"
+            },
+            "debilitate": {
+                "name": "Debilitate",
+                "cost": "30 SP",
+                "effect": "Decrease Attack/Defense/Agility of 1 foe for 3 turns.",
+                "level": "91"
+            },
+            "enduring_soul": {
+                "name": "Enduring Soul",
+                "cost": "Passive",
+                "effect": "Survive one fatal blow with HP fully restored.",
+                "level": "92"
+            },
+            "salvation": {
+                "name": "Salvation",
+                "cost": "48 SP",
+                "effect": "Fully restore HP of party and cure all non-special ailments.",
+                "level": "93"
+            },
+            "almighty_boost": {
+                "name": "Almighty Boost",
+                "cost": "Passive",
+                "effect": "Strengthen Almighty attacks by 25%.",
+                "level": "94"
+            }
+        }
     }
 }
