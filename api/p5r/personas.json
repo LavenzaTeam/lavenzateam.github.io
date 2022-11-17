@@ -29,30 +29,35 @@
         "skills": {
             "eiha": {
                 "name": "Eiha",
+                "type": "dark",
                 "cost": "4 SP",
                 "effect": "Light Curse damage to 1 foe.",
                 "level": "Innate"
             },
             "cleave": {
                 "name": "Cleave",
+                "type": "phys",
                 "cost": "6% HP",
                 "effect": "Light Physical damage to 1 foe.",
                 "level": "2"
             },
             "sukunda": {
                 "name": "Sukunda",
+                "type": "buff",
                 "cost": "8 SP",
                 "effect": "Decrease Agility of 1 foe for 3 turns.",
                 "level": "4"
             },
             "dream_needle": {
                 "name": "Dream Needle",
+                "type": "phys",
                 "cost": "8% HP",
                 "effect": "Light Gun damage and inflict Sleep (med odds) to 1 foe.",
                 "level": "5"
             },
             "adverse_resolve": {
                 "name": "Adverse Resolve",
+                "type": "passive",
                 "cost": "Passive",
                 "effect": "Increase critical rate when surrounded.",
                 "level": "7"
