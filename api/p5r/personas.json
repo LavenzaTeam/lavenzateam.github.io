@@ -29,7 +29,7 @@
         "skills": {
             "eiha": {
                 "name": "Eiha",
-                "type": "dark",
+                "type": "curse",
                 "cost": "4 SP",
                 "effect": "Light Curse damage to 1 foe.",
                 "level": "Innate"
