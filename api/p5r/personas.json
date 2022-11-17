@@ -4,8 +4,14 @@
         "arcana": "Fool",
         "level": "1",
         "trait": "Prince Anchor: Allows use of ambush-only skills after Baton Pass",
-        "item": "Arsene's Cane",
-        "itemAlarm": "The Great Thief Stick",
+        "item": {
+            "name": "Arsene's Cane",
+            "type": "jokerMelee"
+        },
+        "itemAlarm": {
+            "name": "The Great Thief Stick",
+            "type": "jokerMelee"
+        },
         "baseStats": {
             "strength": "2",
             "magic": "2",
