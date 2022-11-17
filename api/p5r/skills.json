@@ -1,7 +1,7 @@
 {
     "lunge": {
         "name": "Lunge",
-	"type": "phys",
+	    "type": "phys",
         "cost": "5% HP",
         "effect": "Light Physical damage to 1 foe.",
         "card": "Bicorn"
