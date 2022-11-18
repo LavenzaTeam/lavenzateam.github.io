@@ -1206,8 +1206,14 @@
         "arcana": "Magician",
         "level": "1",
         "trait": "Proud Presence: Increases effect of allies' healing skills.",
-        "item": "N/A",
-        "itemAlarm": "N/A",
+        "item": {
+            "name": "N/A",
+            "type": "none"
+        },
+        "itemAlarm": {
+            "name": "N/A",
+            "type": "none"
+        },
         "baseStats": {
             "strength": "2",
             "magic": "3",
@@ -1356,8 +1362,14 @@
         "arcana": "Magician",
         "level": "Inherited",
         "trait": "Proud Presence: Increases effect of allies' healing skills.",
-        "item": "N/A",
-        "itemAlarm": "N/A",
+        "item": {
+            "name": "N/A",
+            "type": "none"
+        },
+        "itemAlarm": {
+            "name": "N/A",
+            "type": "none"
+        },
         "baseStats": {
             "strength": "Inherited",
             "magic": "Inherited",
@@ -1511,8 +1523,14 @@
         "arcana": "Magician",
         "level": "Inherited",
         "trait": "Majestic Presence: Increases effect of allies' healing skills. May decrease SP cost.",
-        "item": "N/A",
-        "itemAlarm": "N/A",
+        "item": {
+            "name": "N/A",
+            "type": "none"
+        },
+        "itemAlarm": {
+            "name": "N/A",
+            "type": "none"
+        },
         "baseStats": {
             "strength": "Inherited",
             "magic": "Inherited",
@@ -1671,8 +1689,14 @@
         "arcana": "Magician",
         "level": "2",
         "trait": "Thermal Conduct: Increase chance of inflicting Burn after Baton Pass.",
-        "item": "Pumpkin Bomb",
-        "itemAlarm": "Pumpkin Buster",
+        "item": {
+            "name": "Pumpkin Bomb",
+            "type": "ryujiGun"
+        },
+        "itemAlarm": {
+            "name": "Pumpkin Buster",
+            "type": "ryujiGun"
+        },
         "baseStats": {
             "strength": "2",
             "magic": "3",
@@ -1726,8 +1750,14 @@
         "arcana": "Magician",
         "level": "5",
         "trait": "Thermal Conduct: Increase chance of inflicting Burn after Baton Pass.",
-        "item": "Agi",
-        "itemAlarm": "Maragi",
+        "item": {
+            "name": "Agi",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Maragi",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "6",
             "magic": "4",
@@ -1786,8 +1816,14 @@
         "arcana": "Magician",
         "level": "11",
         "trait": "Frigid Bloodline: Reduce cost of Ice skills by 50%.",
-        "item": "Frost Hood",
-        "itemAlarm": "Frost Ace Hood",
+        "item": {
+            "name": "Frost Hood",
+            "type": "armorMorgana"
+        },
+        "itemAlarm": {
+            "name": "Frost Ace Hood",
+            "type": "armorMorgana"
+        },
         "baseStats": {
             "strength": "8",
             "magic": "9",
@@ -1846,8 +1882,14 @@
         "arcana": "Magician",
         "level": "17",
         "trait": "Foul Odor: Increase chance of inflicting Ailments after Baton Pass.",
-        "item": "Pawzooka",
-        "itemAlarm": "Paw-omber",
+        "item": {
+            "name": "Pawzooka",
+            "type": "haruGun"
+        },
+        "itemAlarm": {
+            "name": "Paw-omber",
+            "type": "haruGun"
+        },
         "baseStats": {
             "strength": "13",
             "magic": "10",
@@ -1911,8 +1953,14 @@
         "arcana": "Magician",
         "level": "23",
         "trait": "Foul Odor: Increase chance of inflicting Ailments after Baton Pass.",
-        "item": "Dormina",
-        "itemAlarm": "Lullaby",
+        "item": {
+            "name": "Dormina",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Lullaby",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "11",
             "magic": "13",
@@ -1976,8 +2024,14 @@
         "arcana": "Magician",
         "level": "28",
         "trait": "Draining Mouth: Doubles effect of Drain-type skills and passives.",
-        "item": "Curse Ring",
-        "itemAlarm": "Spiral Curse Ring",
+        "item": {
+            "name": "Curse Ring",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Spiral Curse Ring",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "16",
             "magic": "19",
@@ -2046,8 +2100,14 @@
         "arcana": "Magician",
         "level": "43",
         "trait": "Static Electricity: Increase chance of inflicting Shock on downed foes.",
-        "item": "Masquerade Ribbon",
-        "itemAlarm": "Masquerade Ribbon R",
+        "item": {
+            "name": "Masquerade Ribbon",
+            "type": "annMelee"
+        },
+        "itemAlarm": {
+            "name": "Masquerade Ribbon R",
+            "type": "annMelee"
+        },
         "baseStats": {
             "strength": "23",
             "magic": "35",
@@ -2111,8 +2171,14 @@
         "arcana": "Magician",
         "level": "48",
         "trait": "Cursed Bloodline: Reduce cost of Curse skills by 50%.",
-        "item": "Maeiga",
-        "itemAlarm": "Eigaon",
+        "item": {
+            "name": "Maeiga",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Eigaon",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "28",
             "magic": "34",
@@ -2171,8 +2237,14 @@
         "arcana": "Magician",
         "level": "63",
         "trait": "Bloodstained Eyes: Increase allies' evasion against foes inflicted with ailments.",
-        "item": "Psiodyne",
-        "itemAlarm": "Mapsiodyne",
+        "item": {
+            "name": "Psiodyne",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Mapsiodyne",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "41",
             "magic": "39",
@@ -2236,8 +2308,14 @@
         "arcana": "Magician",
         "level": "83",
         "trait": "Heated Bloodline: Reduce cost of Fire skills by 50%.",
-        "item": "Maragidyne",
-        "itemAlarm": "Inferno",
+        "item": {
+            "name": "Maragidyne",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Inferno",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "55",
             "magic": "54",
@@ -2301,8 +2379,14 @@
         "arcana": "Magician",
         "level": "86",
         "trait": "Will of the Sword: Triples Charge/Concentrate skill damage. Automatic Concentrate at the start of battle.",
-        "item": "Hinokagutsuchi",
-        "itemAlarm": "Hinokagutsuchi II",
+        "item": {
+            "name": "Hinokagutsuchi",
+            "type": "akechiMelee"
+        },
+        "itemAlarm": {
+            "name": "Hinokagutsuchi II",
+            "type": "akechiMelee"
+        },
         "baseStats": {
             "strength": "60",
             "magic": "58",
