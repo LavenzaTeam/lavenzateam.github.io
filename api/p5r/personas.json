@@ -65,8 +65,14 @@
         "arcana": "Fool",
         "level": "8",
         "trait": "Striking Weight: Strengthen Physical attacks by 20%. Doesn't apply to Gun skills.",
-        "item": "Lucky Punch",
-        "itemAlarm": "Miracle Punch",
+        "item": {
+            "name": "Lucky Punch",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Miracle Punch",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "7",
             "magic": "3",
@@ -120,8 +126,14 @@
         "arcana": "Fool",
         "level": "11",
         "trait": "Circle of Sadness: Revives with 1 HP when KO'd. Usable 4 times in battle.",
-        "item": "Graceful Harp",
-        "itemAlarm": "Graceful Harp R",
+        "item": {
+            "name": "Graceful Harp",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Graceful Harp R",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "8",
             "magic": "9",
@@ -185,8 +197,14 @@
         "arcana": "Fool",
         "level": "13",
         "trait": "Circle of Sadness: Revives with 1 HP when KO'd. Usable 4 times in battle.",
-        "item": "Endure",
-        "itemAlarm": "Enduring Soul",
+        "item": {
+            "name": "Endure",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Enduring Soul",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "9",
             "magic": "11",
@@ -250,8 +268,14 @@
         "arcana": "Fool",
         "level": "16",
         "trait": "Skillful Combo: Increase Attack after Baton Pass. Only valid for single-target attacks.",
-        "item": "Magaru",
-        "itemAlarm": "Garula",
+        "item": {
+            "name": "Magaru",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Garula",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "8",
             "magic": "14",
@@ -310,8 +334,14 @@
         "arcana": "Fool",
         "level": "20",
         "trait": "God Maker: Increases chance of triggering ally's Persona traits.",
-        "item": "White Headband",
-        "itemAlarm": "White Headband R",
+        "item": {
+            "name": "White Headband",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "White Headband R",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "14",
             "magic": "13",
@@ -375,8 +405,14 @@
         "arcana": "Fool",
         "level": "23",
         "trait": "God Maker: Increases chance of triggering ally's Persona traits.",
-        "item": "Growth 2",
-        "itemAlarm": "Growth 3",
+        "item": {
+            "name": "Growth 2",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Growth 3",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "16",
             "magic": "15",
@@ -440,8 +476,14 @@
         "arcana": "Fool",
         "level": "26",
         "trait": "Circle of Sadness: Revives with 1 HP when KO'd. Usable 4 times in battle.",
-        "item": "Hades Harp",
-        "itemAlarm": "Hades Harp R",
+        "item": {
+            "name": "Hades Harp",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Hades Harp R",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "17",
             "magic": "17",
@@ -505,8 +547,14 @@
         "arcana": "Fool",
         "level": "29",
         "trait": "Circle of Sadness: Revives with 1 HP when KO'd. Usable 4 times in battle.",
-        "item": "Agidyne",
-        "itemAlarm": "Maragidyne",
+        "item": {
+            "name": "Agidyne",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Maragidyne",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "19",
             "magic": "19",
@@ -570,8 +618,14 @@
         "arcana": "Fool",
         "level": "38",
         "trait": "Draining Mouth: Doubles effect of Drain-type skills and passives.",
-        "item": "Foul Breath",
-        "itemAlarm": "Stagnant Air",
+        "item": {
+            "name": "Foul Breath",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Stagnant Air",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "24",
             "magic": "24",
@@ -635,8 +689,14 @@
         "arcana": "Fool",
         "level": "42",
         "trait": "Retaliating Body: Doubles Counter damage.",
-        "item": "Counterstrike",
-        "itemAlarm": "High Counter",
+        "item": {
+            "name": "Counterstrike",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "High Counter",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "32",
             "magic": "24",
@@ -695,8 +755,14 @@
         "arcana": "Fool",
         "level": "49",
         "trait": "Potent Hypnosis: Increase buff timers by 1 turn for party.",
-        "item": "Bear Gloves",
-        "itemAlarm": "Big Bear Gloves",
+        "item": {
+            "name": "Bear Gloves",
+            "type": "makotoMelee"
+        },
+        "itemAlarm": {
+            "name": "Big Bear Gloves",
+            "type": "makotoMelee"
+        },
         "baseStats": {
             "strength": "35",
             "magic": "33",
@@ -760,8 +826,14 @@
         "arcana": "Fool",
         "level": "50",
         "trait": "Cursed Bloodline: Reduce cost of Curse skills by 50%. / Foul Stench: Increase chance of inflicting Ailments. / Ailment Hunter: Increases Attack by 25% per ailment inflicted on foe.",
-        "item": "Crystal Skull",
-        "itemAlarm": "Crystal Skull R",
+        "item": {
+            "name": "Crystal Skull",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Crystal Skull R",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "50",
             "magic": "50",
@@ -830,8 +902,14 @@
         "arcana": "Fool",
         "level": "67",
         "trait": "Frigid Bloodline: Reduce cost of Ice skills by 50%.",
-        "item": "Naraka Whip",
-        "itemAlarm": "Dainaraka Whip",
+        "item": {
+            "name": "Naraka Whip",
+            "type": "annMelee"
+        },
+        "itemAlarm": {
+            "name": "Dainaraka Whip",
+            "type": "annMelee"
+        },
         "baseStats": {
             "strength": "44",
             "magic": "46",
@@ -895,8 +973,14 @@
         "arcana": "Fool",
         "level": "76",
         "trait": "Hazy Presence: Increases chance of triggering ally's Follow Up attack.",
-        "item": "Picaresque Hat",
-        "itemAlarm": "Picaresque Crown",
+        "item": {
+            "name": "Picaresque Hat",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Picaresque Crown",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "47",
             "magic": "49",
@@ -965,8 +1049,14 @@
         "arcana": "Fool",
         "level": "83",
         "trait": "Vahana's Wings: Reduce cost of Wind skills by 75%.",
-        "item": "Sudarshana",
-        "itemAlarm": "Sudarshana EX",
+        "item": {
+            "name": "Sudarshana",
+            "type": "morganaGun"
+        },
+        "itemAlarm": {
+            "name": "Sudarshana EX",
+            "type": "morganaGun"
+        },
         "baseStats": {
             "strength": "56",
             "magic": "51",
@@ -1035,8 +1125,14 @@
         "arcana": "Fool",
         "level": "95",
         "trait": "Pagan Allure: Strengthen magic attacks by 50%.",
-        "item": "Paradise Lost",
-        "itemAlarm": "Paradise Lost R",
+        "item": {
+            "name": "Paradise Lost",
+            "type": "jokerMelee"
+        },
+        "itemAlarm": {
+            "name": "Paradise Lost R",
+            "type": "jokerMelee"
+        },
         "baseStats": {
             "strength": "63",
             "magic": "60",
