@@ -45,7 +45,7 @@
             },
             "sukunda": {
                 "name": "Sukunda",
-                "type": "buff",
+                "type": "support",
                 "level": "4"
             },
             "dream_needle": {
@@ -95,7 +95,7 @@
             },
             "sukunda": {
                 "name": "Sukunda",
-                "type": "buff",
+                "type": "support",
                 "level": "Innate"
             },
             "lucky_punch": {
@@ -110,7 +110,7 @@
             },
             "dekaja": {
                 "name": "Dekaja",
-                "type": "buff",
+                "type": "support",
                 "level": "12"
             }
         }
@@ -145,7 +145,7 @@
         "skills": {
             "neo_cadenza": {
                 "name": "Neo Cadenza",
-                "type": "support",
+                "type": "healing",
                 "level": "Innate"
             },
             "agi": {
@@ -155,7 +155,7 @@
             },
             "tarunda": {
                 "name": "Tarunda",
-                "type": "buff",
+                "type": "support",
                 "level": "Innate"
             },
             "endure": {
@@ -170,7 +170,7 @@
             },
             "marakukaja": {
                 "name": "Marakukaja",
-                "type": "buff",
+                "type": "support",
                 "level": "14"
             },
             "dodge_curse": {
@@ -210,7 +210,7 @@
         "skills": {
             "neo_cadenza": {
                 "name": "Neo Cadenza",
-                "type": "support",
+                "type": "healing",
                 "level": "Innate"
             },
             "maragi": {
@@ -220,7 +220,7 @@
             },
             "rakunda": {
                 "name": "Rakunda",
-                "type": "buff",
+                "type": "support",
                 "level": "Innate"
             },
             "endure": {
@@ -235,7 +235,7 @@
             },
             "marakukaja": {
                 "name": "Marakukaja",
-                "type": "buff",
+                "type": "support",
                 "level": "16"
             },
             "dodge_curse": {
@@ -280,7 +280,7 @@
             },
             "media": {
                 "name": "Media",
-                "type": "support",
+                "type": "healing",
                 "level": "Innate"
             },
             "dormina": {
@@ -290,7 +290,7 @@
             },
             "diarama": {
                 "name": "Diarama",
-                "type": "support",
+                "type": "healing",
                 "level": "19"
             },
             "pulinpa": {
@@ -345,7 +345,7 @@
             },
             "tarukaja": {
                 "name": "Tarukaja",
-                "type": "buff",
+                "type": "support",
                 "level": "Innate"
             },
             "rising_slash": {
@@ -410,7 +410,7 @@
             },
             "rakukaja": {
                 "name": "Rakukaja",
-                "type": "buff",
+                "type": "support",
                 "level": "Innate"
             },
             "rising_slash": {
@@ -465,7 +465,7 @@
         "skills": {
             "cadenza": {
                 "name": "Cadenza",
-                "type": "support",
+                "type": "healing",
                 "level": "Innate"
             },
             "agilao": {
@@ -475,7 +475,7 @@
             },
             "tarunda": {
                 "name": "Tarunda",
-                "type": "buff",
+                "type": "support",
                 "level": "Innate"
             },
             "endure": {
@@ -490,7 +490,7 @@
             },
             "marakukaja": {
                 "name": "Marakukaja",
-                "type": "buff",
+                "type": "support",
                 "level": "30"
             },
             "fire_boost": {
@@ -530,7 +530,7 @@
         "skills": {
             "cadenza": {
                 "name": "Cadenza",
-                "type": "support",
+                "type": "healing",
                 "level": "Innate"
             },
             "maragion": {
@@ -540,7 +540,7 @@
             },
             "matarunda": {
                 "name": "Matarunda",
-                "type": "buff",
+                "type": "support",
                 "level": "Innate"
             },
             "endure": {
@@ -555,7 +555,7 @@
             },
             "matarukaja": {
                 "name": "Matarukaja",
-                "type": "buff",
+                "type": "support",
                 "level": "33"
             },
             "fire_boost": {
@@ -615,7 +615,7 @@
             },
             "tetra_break": {
                 "name": "Tetra Break",
-                "type": "buff",
+                "type": "support",
                 "level": "40"
             },
             "null_dizzy": {
@@ -680,7 +680,7 @@
             },
             "matarukaja": {
                 "name": "Matarukaja",
-                "type": "buff",
+                "type": "support",
                 "level": "45"
             },
             "heat_wave": {
@@ -725,7 +725,7 @@
             },
             "masukunda": {
                 "name": "Masukunda",
-                "type": "buff",
+                "type": "support",
                 "level": "Innate"
             },
             "psiodyne": {
@@ -940,7 +940,7 @@
             },
             "heat_riser": {
                 "name": "Heat Riser",
-                "type": "buff",
+                "type": "support",
                 "level": "79"
             },
             "curse_amp": {
@@ -950,7 +950,7 @@
             },
             "concentrate": {
                 "name": "Concentrate",
-                "type": "buff",
+                "type": "support",
                 "level": "81"
             },
             "life_aid": {
@@ -1010,7 +1010,7 @@
             },
             "concentrate": {
                 "name": "Concentrate",
-                "type": "buff",
+                "type": "support",
                 "level": "86"
             },
             "repel_fire": {
@@ -1085,7 +1085,7 @@
             },
             "heat_riser": {
                 "name": "Heat Riser",
-                "type": "buff",
+                "type": "support",
                 "level": "97"
             },
             "tyrants_mind": {
@@ -1140,17 +1140,17 @@
             },
             "dia": {
                 "name": "Dia",
-                "type": "support",
+                "type": "healing",
                 "level": "Innate"
             },
             "patra": {
                 "name": "Patra",
-                "type": "support",
+                "type": "healing",
                 "level": "5"
             },
             "media": {
                 "name": "Media",
-                "type": "support",
+                "type": "healing",
                 "level": "11"
             },
             "lucky_punch": {
@@ -1170,12 +1170,12 @@
             },
             "me_patra": {
                 "name": "Me Patra",
-                "type": "support",
+                "type": "healing",
                 "level": "21"
             },
             "diarama": {
                 "name": "Diarama",
-                "type": "support",
+                "type": "healing",
                 "level": "24"
             },
             "garula": {
@@ -1185,17 +1185,17 @@
             },
             "recarm": {
                 "name": "Recarm",
-                "type": "support",
+                "type": "healing",
                 "level": "28"
             },
             "wind_break": {
                 "name": "Wind Break",
-                "type": "buff",
+                "type": "support",
                 "level": "32"
             },
             "mediarama": {
                 "name": "Mediarama",
-                "type": "support",
+                "type": "healing",
                 "level": "34"
             },
             "magarula": {
@@ -1215,12 +1215,12 @@
             },
             "samarecarm": {
                 "name": "Samarecarm",
-                "type": "support",
+                "type": "healing",
                 "level": "45"
             },
             "diarahan": {
                 "name": "Diarahan",
-                "type": "support",
+                "type": "healing",
                 "level": "49"
             },
             "garudyne": {
@@ -1230,12 +1230,12 @@
             },
             "masukunda": {
                 "name": "Masukunda",
-                "type": "buff",
+                "type": "support",
                 "level": "55"
             },
             "mediarahan": {
                 "name": "Mediarahan",
-                "type": "support",
+                "type": "healing",
                 "level": "58"
             },
             "magarudyne": {
@@ -1250,7 +1250,7 @@
             },
             "salvation": {
                 "name": "Salvation",
-                "type": "support",
+                "type": "healing",
                 "level": "75"
             }
         }
@@ -1290,17 +1290,17 @@
             },
             "dia": {
                 "name": "Dia",
-                "type": "support",
+                "type": "healing",
                 "level": "Innate"
             },
             "patra": {
                 "name": "Patra",
-                "type": "support",
+                "type": "healing",
                 "level": "5"
             },
             "media": {
                 "name": "Media",
-                "type": "support",
+                "type": "healing",
                 "level": "11"
             },
             "lucky_punch": {
@@ -1320,12 +1320,12 @@
             },
             "me_patra": {
                 "name": "Me Patra",
-                "type": "support",
+                "type": "healing",
                 "level": "21"
             },
             "diarama": {
                 "name": "Diarama",
-                "type": "support",
+                "type": "healing",
                 "level": "24"
             },
             "garula": {
@@ -1335,17 +1335,17 @@
             },
             "recarm": {
                 "name": "Recarm",
-                "type": "support",
+                "type": "healing",
                 "level": "28"
             },
             "wind_break": {
                 "name": "Wind Break",
-                "type": "buff",
+                "type": "support",
                 "level": "32"
             },
             "mediarama": {
                 "name": "Mediarama",
-                "type": "support",
+                "type": "healing",
                 "level": "34"
             },
             "magarula": {
@@ -1365,12 +1365,12 @@
             },
             "samarecarm": {
                 "name": "Samarecarm",
-                "type": "support",
+                "type": "healing",
                 "level": "45"
             },
             "diarahan": {
                 "name": "Diarahan",
-                "type": "support",
+                "type": "healing",
                 "level": "49"
             },
             "garudyne": {
@@ -1380,12 +1380,12 @@
             },
             "masukunda": {
                 "name": "Masukunda",
-                "type": "buff",
+                "type": "support",
                 "level": "55"
             },
             "mediarahan": {
                 "name": "Mediarahan",
-                "type": "support",
+                "type": "healing",
                 "level": "58"
             },
             "magarudyne": {
@@ -1400,7 +1400,7 @@
             },
             "salvation": {
                 "name": "Salvation",
-                "type": "support",
+                "type": "healing",
                 "level": "75"
             },
             "evade_elec": {
@@ -1445,17 +1445,17 @@
             },
             "dia": {
                 "name": "Dia",
-                "type": "support",
+                "type": "healing",
                 "level": "Innate"
             },
             "patra": {
                 "name": "Patra",
-                "type": "support",
+                "type": "healing",
                 "level": "5"
             },
             "media": {
                 "name": "Media",
-                "type": "support",
+                "type": "healing",
                 "level": "11"
             },
             "lucky_punch": {
@@ -1475,12 +1475,12 @@
             },
             "me_patra": {
                 "name": "Me Patra",
-                "type": "support",
+                "type": "healing",
                 "level": "21"
             },
             "diarama": {
                 "name": "Diarama",
-                "type": "support",
+                "type": "healing",
                 "level": "24"
             },
             "garula": {
@@ -1490,17 +1490,17 @@
             },
             "recarm": {
                 "name": "Recarm",
-                "type": "support",
+                "type": "healing",
                 "level": "28"
             },
             "wind_break": {
                 "name": "Wind Break",
-                "type": "buff",
+                "type": "support",
                 "level": "32"
             },
             "mediarama": {
                 "name": "Mediarama",
-                "type": "support",
+                "type": "healing",
                 "level": "34"
             },
             "magarula": {
@@ -1520,12 +1520,12 @@
             },
             "samarecarm": {
                 "name": "Samarecarm",
-                "type": "support",
+                "type": "healing",
                 "level": "45"
             },
             "diarahan": {
                 "name": "Diarahan",
-                "type": "support",
+                "type": "healing",
                 "level": "49"
             },
             "garudyne": {
@@ -1535,12 +1535,12 @@
             },
             "masukunda": {
                 "name": "Masukunda",
-                "type": "buff",
+                "type": "support",
                 "level": "55"
             },
             "mediarahan": {
                 "name": "Mediarahan",
-                "type": "support",
+                "type": "healing",
                 "level": "58"
             },
             "magarudyne": {
@@ -1555,7 +1555,7 @@
             },
             "salvation": {
                 "name": "Salvation",
-                "type": "support",
+                "type": "healing",
                 "level": "75"
             },
             "evade_elec": {
@@ -1605,7 +1605,7 @@
             },
             "rakunda": {
                 "name": "Rakunda",
-                "type": "buff",
+                "type": "support",
                 "level": "Innate"
             },
             "sharp_student": {
@@ -1665,7 +1665,7 @@
             },
             "tarukaja": {
                 "name": "Tarukaja",
-                "type": "buff",
+                "type": "support",
                 "level": "Innate"
             },
             "resist_sleep": {
@@ -1675,12 +1675,12 @@
             },
             "sukukaja": {
                 "name": "Sukukaja",
-                "type": "buff",
+                "type": "support",
                 "level": "7"
             },
             "media": {
                 "name": "Media",
-                "type": "support",
+                "type": "healing",
                 "level": "9"
             }
         }
@@ -1720,12 +1720,12 @@
             },
             "ice_break": {
                 "name": "Ice Break",
-                "type": "buff",
+                "type": "support",
                 "level": "Innate"
             },
             "baisudi": {
                 "name": "Baisudi",
-                "type": "support",
+                "type": "healing",
                 "level": "Innate"
             },
             "mabufu": {
@@ -1735,7 +1735,7 @@
             },
             "rakunda": {
                 "name": "Rakunda",
-                "type": "buff",
+                "type": "support",
                 "level": "13"
             },
             "freeze_boost": {
@@ -1795,12 +1795,12 @@
             },
             "wind_break": {
                 "name": "Wind Break",
-                "type": "buff",
+                "type": "support",
                 "level": "20"
             },
             "elec_wall": {
                 "name": "Elec Wall",
-                "type": "buff",
+                "type": "support",
                 "level": "21"
             },
             "dodge_elec": {
@@ -1855,7 +1855,7 @@
             },
             "sukunda": {
                 "name": "Sukunda",
-                "type": "buff",
+                "type": "support",
                 "level": "24"
             },
             "null_sleep": {
@@ -1990,12 +1990,12 @@
             },
             "matarunda": {
                 "name": "Matarunda",
-                "type": "buff",
+                "type": "support",
                 "level": "44"
             },
             "makara_break": {
                 "name": "Makara Break",
-                "type": "buff",
+                "type": "support",
                 "level": "46"
             },
             "agidyne": {
@@ -2005,7 +2005,7 @@
             },
             "concentrate": {
                 "name": "Concentrate",
-                "type": "buff",
+                "type": "support",
                 "level": "48"
             }
         }
@@ -2060,7 +2060,7 @@
             },
             "matarunda": {
                 "name": "Matarunda",
-                "type": "buff",
+                "type": "support",
                 "level": "51"
             },
             "mudoon": {
@@ -2110,7 +2110,7 @@
             },
             "masukunda": {
                 "name": "Masukunda",
-                "type": "buff",
+                "type": "support",
                 "level": "Innate"
             },
             "survival_trick": {
@@ -2185,7 +2185,7 @@
             },
             "marakunda": {
                 "name": "Marakunda",
-                "type": "buff",
+                "type": "support",
                 "level": "85"
             },
             "evade_ice": {
@@ -2235,7 +2235,7 @@
             },
             "matarukaja": {
                 "name": "Matarukaja",
-                "type": "buff",
+                "type": "support",
                 "level": "Innate"
             },
             "apt_pupil": {
@@ -2245,7 +2245,7 @@
             },
             "charge": {
                 "name": "Charge",
-                "type": "buff",
+                "type": "support",
                 "level": "88"
             },
             "brave_blade": {
