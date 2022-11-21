@@ -4579,8 +4579,14 @@
         "arcana": "Emperor",
         "level": "15",
         "trait": "Scoundrel Eyes: May slightly increase allies' chance to avoid physical attacks.",
-        "item": "N/A",
-        "itemAlarm": "N/A",
+        "item": {
+            "name": "N/A",
+            "type": "none"
+        },
+        "itemAlarm": {
+            "name": "N/A",
+            "type": "none"
+        },
         "baseStats": {
             "strength": "13",
             "magic": "10",
@@ -4604,134 +4610,112 @@
         "skills": {
             "bufu": {
                 "name": "Bufu",
-                "cost": "4 SP",
-                "effect": "Light Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "type": "ice",
                 "level": "Innate"
             },
             "giant_slice": {
                 "name": "Giant Slice",
-                "cost": "9% HP",
-                "effect": "Medium Physical damage to 1 foe. Stronger under Baton Pass.",
+                "type": "phys",
                 "level": "Innate"
             },
             "sukukaja": {
                 "name": "Sukukaja",
-                "cost": "8 SP",
-                "effect": "Increase Agility of 1 ally for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "vicious_strike": {
                 "name": "Vicious Strike",
-                "cost": "18% HP",
-                "effect": "Medium Physical damage to all foes.",
+                "type": "phys",
                 "level": "18"
             },
             "mabufu": {
                 "name": "Mabufu",
-                "cost": "10 SP",
-                "effect": "Light Ice damage and inflict Freeze (low odds) to all foes.",
+                "type": "ice",
                 "level": "20"
             },
             "counter": {
                 "name": "Counter",
-                "cost": "Passive",
-                "effect": "10% chance of reflecting Physical attacks. Doesn't stack.",
+                "type": "passive",
                 "level": "22"
             },
             "rising_slash": {
                 "name": "Rising Slash",
-                "cost": "14% HP",
-                "effect": "Heavy Physical damage to 1 foe. Stronger under Baton Pass.",
+                "type": "phys",
                 "level": "23"
             },
             "dormin_rush": {
                 "name": "Dormin Rush",
-                "cost": "16% HP",
-                "effect": "Medium Physical damage and inflict Sleep (low odds) to all foes.",
+                "type": "phys",
                 "level": "27"
             },
             "bufula": {
                 "name": "Bufula",
-                "cost": "8 SP",
-                "effect": "Medium Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "type": "ice",
                 "level": "29"
             },
             "speed_master": {
                 "name": "Speed Master",
-                "cost": "Passive",
-                "effect": "Automatic Sukukaja at the start of battle.",
+                "type": "passive",
                 "level": "31"
             },
             "tempest_slash": {
                 "name": "Tempest Slash",
-                "cost": "17% HP",
-                "effect": "Minuscule Physical damage to 1 foe 3x to 5x.",
+                "type": "phys",
                 "level": "34"
             },
             "counterstrike": {
                 "name": "Counterstrike",
-                "cost": "Passive",
-                "effect": "15% chance of reflecting Physical attacks. Doesn't stack.",
+                "type": "passive",
                 "level": "37"
             },
             "mabufula": {
                 "name": "Mabufula",
-                "cost": "16 SP",
-                "effect": "Medium Ice damage and inflict Freeze (low odds) to all foes.",
+                "type": "ice",
                 "level": "40"
             },
             "heat_wave": {
                 "name": "Heat Wave",
-                "cost": "20% HP",
-                "effect": "Heavy Physical damage to all foes.",
+                "type": "phys",
                 "level": "43"
             },
             "deadly_fury": {
                 "name": "Deadly Fury",
-                "cost": "18% HP",
-                "effect": "Severe Physical damage to 1 foe. Stronger under Baton Pass.",
+                "type": "phys",
                 "level": "47"
             },
             "masukukaja": {
                 "name": "Masukukaja",
-                "cost": "24 SP",
-                "effect": "Increase Agility of party for 3 turns.",
+                "type": "support",
                 "level": "49"
             },
             "bufudyne": {
                 "name": "Bufudyne",
-                "cost": "12 SP",
-                "effect": "Heavy Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "type": "ice",
                 "level": "53"
             },
             "high_counter": {
                 "name": "High Counter",
-                "cost": "Passive",
-                "effect": "20% chance of reflecting a physical attack.",
+                "type": "passive",
                 "level": "58"
             },
             "myriad_slashes": {
                 "name": "Myriad Slashes",
-                "cost": "20% HP",
-                "effect": "Medium Physical damage to 1 foe 2x to 3x.",
+                "type": "phys",
                 "level": "62"
             },
             "mabufudyne": {
                 "name": "Mabufudyne",
-                "cost": "22 SP",
-                "effect": "Heavy Ice damage and inflict Freeze (low odds) to all foes.",
+                "type": "ice",
                 "level": "65"
             },
             "vorpal_blade": {
                 "name": "Vorpal Blade",
-                "cost": "23% HP",
-                "effect": "Severe Physical damage to all foes.",
+                "type": "phys",
                 "level": "69"
             },
             "brave_blade": {
                 "name": "Brave Blade",
-                "cost": "24% HP",
-                "effect": "Colossal Physical damage to 1 foe.",
+                "type": "phys",
                 "level": "73"
             }
         }
@@ -4741,8 +4725,14 @@
         "arcana": "Emperor",
         "level": "Inherited",
         "trait": "Scoundrel Eyes: May slightly increase allies' chance to avoid physical attacks.",
-        "item": "N/A",
-        "itemAlarm": "N/A",
+        "item": {
+            "name": "N/A",
+            "type": "none"
+        },
+        "itemAlarm": {
+            "name": "N/A",
+            "type": "none"
+        },
         "baseStats": {
             "strength": "Inherited",
             "magic": "Inherited",
@@ -4766,140 +4756,117 @@
         "skills": {
             "bufu": {
                 "name": "Bufu",
-                "cost": "4 SP",
-                "effect": "Light Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "type": "ice",
                 "level": "Innate"
             },
             "giant_slice": {
                 "name": "Giant Slice",
-                "cost": "9% HP",
-                "effect": "Medium Physical damage to 1 foe. Stronger under Baton Pass.",
+                "type": "phys",
                 "level": "Innate"
             },
             "sukukaja": {
                 "name": "Sukukaja",
-                "cost": "8 SP",
-                "effect": "Increase Agility of 1 ally for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "vicious_strike": {
                 "name": "Vicious Strike",
-                "cost": "18% HP",
-                "effect": "Medium Physical damage to all foes.",
+                "type": "phys",
                 "level": "18"
             },
             "mabufu": {
                 "name": "Mabufu",
-                "cost": "10 SP",
-                "effect": "Light Ice damage and inflict Freeze (low odds) to all foes.",
+                "type": "ice",
                 "level": "20"
             },
             "counter": {
                 "name": "Counter",
-                "cost": "Passive",
-                "effect": "10% chance of reflecting Physical attacks. Doesn't stack.",
+                "type": "passive",
                 "level": "22"
             },
             "rising_slash": {
                 "name": "Rising Slash",
-                "cost": "14% HP",
-                "effect": "Heavy Physical damage to 1 foe. Stronger under Baton Pass.",
+                "type": "phys",
                 "level": "23"
             },
             "dormin_rush": {
                 "name": "Dormin Rush",
-                "cost": "16% HP",
-                "effect": "Medium Physical damage and inflict Sleep (low odds) to all foes.",
+                "type": "phys",
                 "level": "27"
             },
             "bufula": {
                 "name": "Bufula",
-                "cost": "8 SP",
-                "effect": "Medium Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "type": "ice",
                 "level": "29"
             },
             "speed_master": {
                 "name": "Speed Master",
-                "cost": "Passive",
-                "effect": "Automatic Sukukaja at the start of battle.",
+                "type": "passive",
                 "level": "31"
             },
             "tempest_slash": {
                 "name": "Tempest Slash",
-                "cost": "17% HP",
-                "effect": "Minuscule Physical damage to 1 foe 3x to 5x.",
+                "type": "phys",
                 "level": "34"
             },
             "counterstrike": {
                 "name": "Counterstrike",
-                "cost": "Passive",
-                "effect": "15% chance of reflecting Physical attacks. Doesn't stack.",
+                "type": "passive",
                 "level": "37"
             },
             "mabufula": {
                 "name": "Mabufula",
-                "cost": "16 SP",
-                "effect": "Medium Ice damage and inflict Freeze (low odds) to all foes.",
+                "type": "ice",
                 "level": "40"
             },
             "heat_wave": {
                 "name": "Heat Wave",
-                "cost": "20% HP",
-                "effect": "Heavy Physical damage to all foes.",
+                "type": "phys",
                 "level": "43"
             },
             "deadly_fury": {
                 "name": "Deadly Fury",
-                "cost": "18% HP",
-                "effect": "Severe Physical damage to 1 foe. Stronger under Baton Pass.",
+                "type": "phys",
                 "level": "47"
             },
             "masukukaja": {
                 "name": "Masukukaja",
-                "cost": "24 SP",
-                "effect": "Increase Agility of party for 3 turns.",
+                "type": "support",
                 "level": "49"
             },
             "bufudyne": {
                 "name": "Bufudyne",
-                "cost": "12 SP",
-                "effect": "Heavy Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "type": "ice",
                 "level": "53"
             },
             "high_counter": {
                 "name": "High Counter",
-                "cost": "Passive",
-                "effect": "20% chance of reflecting a physical attack.",
+                "type": "passive",
                 "level": "58"
             },
             "myriad_slashes": {
                 "name": "Myriad Slashes",
-                "cost": "20% HP",
-                "effect": "Medium Physical damage to 1 foe 2x to 3x.",
+                "type": "phys",
                 "level": "62"
             },
             "mabufudyne": {
                 "name": "Mabufudyne",
-                "cost": "22 SP",
-                "effect": "Heavy Ice damage and inflict Freeze (low odds) to all foes.",
+                "type": "ice",
                 "level": "65"
             },
             "vorpal_blade": {
                 "name": "Vorpal Blade",
-                "cost": "23% HP",
-                "effect": "Severe Physical damage to all foes.",
+                "type": "phys",
                 "level": "69"
             },
             "brave_blade": {
                 "name": "Brave Blade",
-                "cost": "24% HP",
-                "effect": "Colossal Physical damage to 1 foe.",
+                "type": "phys",
                 "level": "73"
             },
             "evade_fire": {
                 "name": "Evade Fire",
-                "cost": "Passive",
-                "effect": "Triple evasion rate against Fire attacks.",
+                "type": "passive",
                 "level": "Max Emperor SL"
             }
         }
@@ -4909,8 +4876,14 @@
         "arcana": "Emperor",
         "level": "Inherited",
         "trait": "Unparalleled Eyes: May increase allies' chance to avoid physical attacks.",
-        "item": "N/A",
-        "itemAlarm": "N/A",
+        "item": {
+            "name": "N/A",
+            "type": "none"
+        },
+        "itemAlarm": {
+            "name": "N/A",
+            "type": "none"
+        },
         "baseStats": {
             "strength": "Inherited",
             "magic": "Inherited",
@@ -4934,146 +4907,122 @@
         "skills": {
             "bufu": {
                 "name": "Bufu",
-                "cost": "4 SP",
-                "effect": "Light Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "type": "ice",
                 "level": "Innate"
             },
             "giant_slice": {
                 "name": "Giant Slice",
-                "cost": "9% HP",
-                "effect": "Medium Physical damage to 1 foe. Stronger under Baton Pass.",
+                "type": "phys",
                 "level": "Innate"
             },
             "sukukaja": {
                 "name": "Sukukaja",
-                "cost": "8 SP",
-                "effect": "Increase Agility of 1 ally for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "vicious_strike": {
                 "name": "Vicious Strike",
-                "cost": "18% HP",
-                "effect": "Medium Physical damage to all foes.",
+                "type": "phys",
                 "level": "18"
             },
             "mabufu": {
                 "name": "Mabufu",
-                "cost": "10 SP",
-                "effect": "Light Ice damage and inflict Freeze (low odds) to all foes.",
+                "type": "ice",
                 "level": "20"
             },
             "counter": {
                 "name": "Counter",
-                "cost": "Passive",
-                "effect": "10% chance of reflecting Physical attacks. Doesn't stack.",
+                "type": "passive",
                 "level": "22"
             },
             "rising_slash": {
                 "name": "Rising Slash",
-                "cost": "14% HP",
-                "effect": "Heavy Physical damage to 1 foe. Stronger under Baton Pass.",
+                "type": "phys",
                 "level": "23"
             },
             "dormin_rush": {
                 "name": "Dormin Rush",
-                "cost": "16% HP",
-                "effect": "Medium Physical damage and inflict Sleep (low odds) to all foes.",
+                "type": "phys",
                 "level": "27"
             },
             "bufula": {
                 "name": "Bufula",
-                "cost": "8 SP",
-                "effect": "Medium Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "type": "ice",
                 "level": "29"
             },
             "speed_master": {
                 "name": "Speed Master",
-                "cost": "Passive",
-                "effect": "Automatic Sukukaja at the start of battle.",
+                "type": "passive",
                 "level": "31"
             },
             "tempest_slash": {
                 "name": "Tempest Slash",
-                "cost": "17% HP",
-                "effect": "Minuscule Physical damage to 1 foe 3x to 5x.",
+                "type": "phys",
                 "level": "34"
             },
             "counterstrike": {
                 "name": "Counterstrike",
-                "cost": "Passive",
-                "effect": "15% chance of reflecting Physical attacks. Doesn't stack.",
+                "type": "passive",
                 "level": "37"
             },
             "mabufula": {
                 "name": "Mabufula",
-                "cost": "16 SP",
-                "effect": "Medium Ice damage and inflict Freeze (low odds) to all foes.",
+                "type": "ice",
                 "level": "40"
             },
             "heat_wave": {
                 "name": "Heat Wave",
-                "cost": "20% HP",
-                "effect": "Heavy Physical damage to all foes.",
+                "type": "phys",
                 "level": "43"
             },
             "deadly_fury": {
                 "name": "Deadly Fury",
-                "cost": "18% HP",
-                "effect": "Severe Physical damage to 1 foe. Stronger under Baton Pass.",
+                "type": "phys",
                 "level": "47"
             },
             "masukukaja": {
                 "name": "Masukukaja",
-                "cost": "24 SP",
-                "effect": "Increase Agility of party for 3 turns.",
+                "type": "support",
                 "level": "49"
             },
             "bufudyne": {
                 "name": "Bufudyne",
-                "cost": "12 SP",
-                "effect": "Heavy Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "type": "ice",
                 "level": "53"
             },
             "high_counter": {
                 "name": "High Counter",
-                "cost": "Passive",
-                "effect": "20% chance of reflecting a physical attack.",
+                "type": "passive",
                 "level": "58"
             },
             "myriad_slashes": {
                 "name": "Myriad Slashes",
-                "cost": "20% HP",
-                "effect": "Medium Physical damage to 1 foe 2x to 3x.",
+                "type": "phys",
                 "level": "62"
             },
             "mabufudyne": {
                 "name": "Mabufudyne",
-                "cost": "22 SP",
-                "effect": "Heavy Ice damage and inflict Freeze (low odds) to all foes.",
+                "type": "ice",
                 "level": "65"
             },
             "vorpal_blade": {
                 "name": "Vorpal Blade",
-                "cost": "23% HP",
-                "effect": "Severe Physical damage to all foes.",
+                "type": "phys",
                 "level": "69"
             },
             "brave_blade": {
                 "name": "Brave Blade",
-                "cost": "24% HP",
-                "effect": "Colossal Physical damage to 1 foe.",
+                "type": "phys",
                 "level": "73"
             },
             "evade_fire": {
                 "name": "Evade Fire",
-                "cost": "Passive",
-                "effect": "Triple evasion rate against Fire attacks.",
+                "type": "passive",
                 "level": "Max Emperor SL"
             },
             "hyakka_ryouran": {
                 "name": "Hyakka Ryouran",
-                "cost": "90 SP",
-                "effect": "Increase Attack/Defense/Agility of party for 3 turns.",
+                "type": "support",
                 "level": "Third Awakening Skill"
             }
         }
@@ -5083,8 +5032,14 @@
         "arcana": "Emperor",
         "level": "10",
         "trait": "Skillful Technique: Strengthen Technical damage by 25%. / Skillful Combo: Increase Attack after Baton Pass. Only valid for single-target attacks. / Mighty Gaze: Strengthen multi-target magic attacks by 20%.",
-        "item": "Regent",
-        "itemAlarm": "Regent R",
+        "item": {
+            "name": "Regent",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Regent R",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "10",
             "magic": "10",
@@ -5108,50 +5063,42 @@
         "skills": {
             "maragi": {
                 "name": "Maragi",
-                "cost": "10 SP",
-                "effect": "Light Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "Innate"
             },
             "mabufu": {
                 "name": "Mabufu",
-                "cost": "10 SP",
-                "effect": "Light Ice damage and inflict Freeze (low odds) to all foes.",
+                "type": "ice",
                 "level": "Innate"
             },
             "magaru": {
                 "name": "Magaru",
-                "cost": "8 SP",
-                "effect": "Light Wind damage to all foes.",
+                "type": "wind",
                 "level": "Innate"
             },
             "mazio": {
                 "name": "Mazio",
-                "cost": "10 SP",
-                "effect": "Light Elec damage and inflict Shock (low odds) to all foes.",
+                "type": "elec",
                 "level": "Innate"
             },
             "mapsi": {
                 "name": "Mapsi",
-                "cost": "10 SP",
-                "effect": "Light Psy damage to all foes.",
+                "type": "psy",
                 "level": "Innate"
             },
             "mafrei": {
                 "name": "Mafrei",
-                "cost": "10 SP",
-                "effect": "Light Nuke damage to all foes.",
+                "type": "nuke",
                 "level": "Innate"
             },
             "makouha": {
                 "name": "Makouha",
-                "cost": "10 SP",
-                "effect": "Light Bless damage to all foes.",
+                "type": "bless",
                 "level": "Innate"
             },
             "maeiha": {
                 "name": "Maeiha",
-                "cost": "10 SP",
-                "effect": "Light Curse damage to all foes.",
+                "type": "curse",
                 "level": "Innate"
             }
         }
@@ -5161,8 +5108,14 @@
         "arcana": "Emperor",
         "level": "16",
         "trait": "Thermal Conduct: Increase chance of inflicting Burn after Baton Pass.",
-        "item": "Tarukaja",
-        "itemAlarm": "Matarukaja",
+        "item": {
+            "name": "Tarukaja",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Matarukaja",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "12",
             "magic": "10",
@@ -5186,38 +5139,32 @@
         "skills": {
             "maragi": {
                 "name": "Maragi",
-                "cost": "10 SP",
-                "effect": "Light Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "Innate"
             },
             "sharp_student": {
                 "name": "Sharp Student",
-                "cost": "Passive",
-                "effect": "Lower odds of receiving critical hit.",
+                "type": "passive",
                 "level": "Innate"
             },
             "tarukaja": {
                 "name": "Tarukaja",
-                "cost": "8 SP",
-                "effect": "Increase Attack of 1 ally for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "double_fangs": {
                 "name": "Double Fangs",
-                "cost": "10% HP",
-                "effect": "Light Physical damage to 1 foe 2x.",
+                "type": "phys",
                 "level": "18"
             },
             "sukunda": {
                 "name": "Sukunda",
-                "cost": "8 SP",
-                "effect": "Decrease Agility of 1 foe for 3 turns.",
+                "type": "support",
                 "level": "19"
             },
             "memory_blow": {
                 "name": "Memory Blow",
-                "cost": "15% HP",
-                "effect": "Light Physical damage and inflict Forget (low odds) to all foes.",
+                "type": "phys",
                 "level": "20"
             }
         }
@@ -5227,8 +5174,14 @@
         "arcana": "Emperor",
         "level": "25",
         "trait": "Retaliating Body: Doubles Counter damage.",
-        "item": "Rebellion Anklet",
-        "itemAlarm": "Revolution Anklet",
+        "item": {
+            "name": "Rebellion Anklet",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Revolution Anklet",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "19",
             "magic": "16",
@@ -5252,38 +5205,32 @@
         "skills": {
             "giant_slice": {
                 "name": "Giant Slice",
-                "cost": "9% HP",
-                "effect": "Medium Physical damage to 1 foe. Stronger under Baton Pass.",
+                "type": "phys",
                 "level": "Innate"
             },
             "dormin_rush": {
                 "name": "Dormin Rush",
-                "cost": "16% HP",
-                "effect": "Medium Physical damage and inflict Sleep (low odds) to all foes.",
+                "type": "phys",
                 "level": "Innate"
             },
             "counter": {
                 "name": "Counter",
-                "cost": "Passive",
-                "effect": "10% chance of reflecting Physical attacks. Doesn't stack.",
+                "type": "passive",
                 "level": "Innate"
             },
             "charge": {
                 "name": "Charge",
-                "cost": "15 SP",
-                "effect": "Next Physical or Gun attack inflicts 2.5x damage for user.",
+                "type": "support",
                 "level": "27"
             },
             "rebellion": {
                 "name": "Rebellion",
-                "cost": "5 SP",
-                "effect": "Increase critical rate of 1 ally for 3 turns.",
+                "type": "support",
                 "level": "29"
             },
             "rising_slash": {
                 "name": "Rising Slash",
-                "cost": "14% HP",
-                "effect": "Heavy Physical damage to 1 foe. Stronger under Baton Pass.",
+                "type": "phys",
                 "level": "30"
             }
         }
@@ -5293,8 +5240,14 @@
         "arcana": "Emperor",
         "level": "36",
         "trait": "Skillful Technique: Strengthen Technical damage by 25%.",
-        "item": "Mafreila",
-        "itemAlarm": "Freidyne",
+        "item": {
+            "name": "Mafreila",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Freidyne",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "21",
             "magic": "28",
@@ -5318,44 +5271,37 @@
         "skills": {
             "taunt": {
                 "name": "Taunt",
-                "cost": "3 SP",
-                "effect": "Inflict Rage (high odds) 1 foe.",
+                "type": "ailment",
                 "level": "Innate"
             },
             "freila": {
                 "name": "Freila",
-                "cost": "8 SP",
-                "effect": "Medium Nuke damage to 1 foe.",
+                "type": "nuke",
                 "level": "Innate"
             },
             "masukunda": {
                 "name": "Masukunda",
-                "cost": "24 SP",
-                "effect": "Decrease Agility of all foes for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "megido": {
                 "name": "Megido",
-                "cost": "15 SP",
-                "effect": "Medium Almighty damage to all foes.",
+                "type": "almighty",
                 "level": "37"
             },
             "psy_wall": {
                 "name": "Psy Wall",
-                "cost": "18 SP",
-                "effect": "Erect a shield on 1 ally to reduce Psy damage and cover innate Fire weakness for 3 turns.",
+                "type": "support",
                 "level": "39"
             },
             "concentrate": {
                 "name": "Concentrate",
-                "cost": "15 SP",
-                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "type": "support",
                 "level": "40"
             },
             "growth_2": {
                 "name": "Growth 2",
-                "cost": "Passive",
-                "effect": "Persona gains 50% EXP while inactive.",
+                "type": "passive",
                 "level": "42"
             }
         }
@@ -5365,8 +5311,14 @@
         "arcana": "Emperor",
         "level": "52",
         "trait": "Blessed Bloodline: Reduce cost of Bless skills by 50%.",
-        "item": "Ziodyne",
-        "itemAlarm": "Maziodyne",
+        "item": {
+            "name": "Ziodyne",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Maziodyne",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "33",
             "magic": "35",
@@ -5390,38 +5342,32 @@
         "skills": {
             "ziodyne": {
                 "name": "Ziodyne",
-                "cost": "12 SP",
-                "effect": "Heavy Elec damage and inflict Shock (low odds) to 1 foe.",
+                "type": "elec",
                 "level": "Innate"
             },
             "wage_war": {
                 "name": "Wage War",
-                "cost": "8 SP",
-                "effect": "Inflict Rage (med odds) to all foes.",
+                "type": "ailment",
                 "level": "Innate"
             },
             "elec_break": {
                 "name": "Elec Break",
-                "cost": "15 SP",
-                "effect": "Suppress innate Elec resistances of all foes for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "invigorate_2": {
                 "name": "Invigorate 2",
-                "cost": "Passive",
-                "effect": "Restore 5 SP each turn in battle.",
+                "type": "passive",
                 "level": "54"
             },
             "null_elec": {
                 "name": "Null Elec",
-                "cost": "Passive",
-                "effect": "Impart immunity against Electric attacks.",
+                "type": "passive",
                 "level": "55"
             },
             "maziodyne": {
                 "name": "Maziodyne",
-                "cost": "22 SP",
-                "effect": "Heavy Elec damage and inflict Shock (low odds) to all foes.",
+                "type": "elec",
                 "level": "57"
             }
         }
@@ -5431,8 +5377,14 @@
         "arcana": "Emperor",
         "level": "61",
         "trait": "Frigid Bloodline: Reduce cost of Ice skills by 50%.",
-        "item": "King Frost Cape",
-        "itemAlarm": "King Frost Cape EX",
+        "item": {
+            "name": "King Frost Cape",
+            "type": "armorNeutral"
+        },
+        "itemAlarm": {
+            "name": "King Frost Cape EX",
+            "type": "armorNeutral"
+        },
         "baseStats": {
             "strength": "40",
             "magic": "44",
@@ -5456,44 +5408,37 @@
         "skills": {
             "bufudyne": {
                 "name": "Bufudyne",
-                "cost": "12 SP",
-                "effect": "Heavy Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "type": "ice",
                 "level": "Innate"
             },
             "ice_break": {
                 "name": "Ice Break",
-                "cost": "15 SP",
-                "effect": "Suppress innate Ice resistances of all foes for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "megaton_raid": {
                 "name": "Megaton Raid",
-                "cost": "16% HP",
-                "effect": "Severe Physical damage to 1 foe.",
+                "type": "phys",
                 "level": "Innate"
             },
             "freeze_boost": {
                 "name": "Freeze Boost",
-                "cost": "Passive",
-                "effect": "Increase chance of inflicting Freeze.",
+                "type": "passive",
                 "level": "62"
             },
             "mabufudyne": {
                 "name": "Mabufudyne",
-                "cost": "22 SP",
-                "effect": "Heavy Ice damage and inflict Freeze (low odds) to all foes.",
+                "type": "ice",
                 "level": "64"
             },
             "concentrate": {
                 "name": "Concentrate",
-                "cost": "15 SP",
-                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "type": "support",
                 "level": "65"
             },
             "ice_amp": {
                 "name": "Ice Amp",
-                "cost": "Passive",
-                "effect": "Strengthen Ice attacks by 50%.",
+                "type": "passive",
                 "level": "67"
             }
         }
@@ -5503,8 +5448,14 @@
         "arcana": "Emperor",
         "level": "66",
         "trait": "Static Electricity: Increase chance of inflicting Shock on downed foes.",
-        "item": "Heat Wave",
-        "itemAlarm": "Vorpal Blade",
+        "item": {
+            "name": "Heat Wave",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Vorpal Blade",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "40",
             "magic": "44",
@@ -5528,50 +5479,42 @@
         "skills": {
             "ziodyne": {
                 "name": "Ziodyne",
-                "cost": "12 SP",
-                "effect": "Heavy Elec damage and inflict Shock (low odds) to 1 foe.",
+                "type": "elec",
                 "level": "Innate"
             },
             "nocturnal_flash": {
                 "name": "Nocturnal Flash",
-                "cost": "8 SP",
-                "effect": "Inflict Dizzy (med odds) to all foes.",
+                "type": "ailment",
                 "level": "Innate"
             },
             "heat_wave": {
                 "name": "Heat Wave",
-                "cost": "20% HP",
-                "effect": "Heavy Physical damage to all foes.",
+                "type": "phys",
                 "level": "Innate"
             },
             "matarukaja": {
                 "name": "Matarukaja",
-                "cost": "24 SP",
-                "effect": "Increase Attack of party for 3 turns.",
+                "type": "support",
                 "level": "68"
             },
             "myriad_slashes": {
                 "name": "Myriad Slashes",
-                "cost": "20% HP",
-                "effect": "Medium Physical damage to 1 foe 2x to 3x.",
+                "type": "phys",
                 "level": "69"
             },
             "evade_nuke": {
                 "name": "Evade Nuke",
-                "cost": "Passive",
-                "effect": "Triple evasion rate against Nuclear attacks.",
+                "type": "passive",
                 "level": "70"
             },
             "samarecarm": {
                 "name": "Samarecarm",
-                "cost": "18 SP",
-                "effect": "Revive 1 ally with all HP recovered.",
+                "type": "healing",
                 "level": "71"
             },
             "elec_amp": {
                 "name": "Elec Amp",
-                "cost": "Passive",
-                "effect": "Strengthen Elec attacks by 50%.",
+                "type": "passive",
                 "level": "72"
             }
         }
@@ -5581,8 +5524,14 @@
         "arcana": "Emperor",
         "level": "82",
         "trait": "Wind Bloodline: Reduce cost of Wind skills by 50%.",
-        "item": "Yagrush",
-        "itemAlarm": "Yagrush EX",
+        "item": {
+            "name": "Yagrush",
+            "type": "haruGun"
+        },
+        "itemAlarm": {
+            "name": "Yagrush EX",
+            "type": "haruGun"
+        },
         "baseStats": {
             "strength": "54",
             "magic": "58",
@@ -5606,44 +5555,37 @@
         "skills": {
             "panta_rhei": {
                 "name": "Panta Rhei",
-                "cost": "42 SP",
-                "effect": "Severe Wind damage to 1 foe.",
+                "type": "wind",
                 "level": "Innate"
             },
             "revolution": {
                 "name": "Revolution",
-                "cost": "5 SP",
-                "effect": "Increase critical rate of all combatants for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "matarukaja": {
                 "name": "Matarukaja",
-                "cost": "24 SP",
-                "effect": "Increase Attack of party for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "ayamur": {
                 "name": "Ayamur",
-                "cost": "25% HP",
-                "effect": "Medium Physical damage to 1 foe 3x, high accuracy.",
+                "type": "phys",
                 "level": "84"
             },
             "tetraja": {
                 "name": "Tetraja",
-                "cost": "24 SP",
-                "effect": "Erect shields on party to nullify one instant death attack of Bless or Curse types.",
+                "type": "support",
                 "level": "85"
             },
             "charge": {
                 "name": "Charge",
-                "cost": "15 SP",
-                "effect": "Next Physical or Gun attack inflicts 2.5x damage for user.",
+                "type": "support",
                 "level": "86"
             },
             "vacuum_wave": {
                 "name": "Vacuum Wave",
-                "cost": "48 SP",
-                "effect": "Severe Wind damage to all foes.",
+                "type": "wind",
                 "level": "87"
             }
         }
@@ -5653,8 +5595,14 @@
         "arcana": "Emperor",
         "level": "84",
         "trait": "Bargain Bolts: Reduce cost of Elec skills by 75%.",
-        "item": "Wild Hunt",
-        "itemAlarm": "Gungnir",
+        "item": {
+            "name": "Wild Hunt",
+            "type": "annGun"
+        },
+        "itemAlarm": {
+            "name": "Gungnir",
+            "type": "annGun"
+        },
         "baseStats": {
             "strength": "53",
             "magic": "58",
@@ -5678,44 +5626,37 @@
         "skills": {
             "thunder_reign": {
                 "name": "Thunder Reign",
-                "cost": "48 SP",
-                "effect": "Severe Elec damage and inflict Shock (low odds) to 1 foe.",
+                "type": "elec",
                 "level": "Innate"
             },
             "myriad_slashes": {
                 "name": "Myriad Slashes",
-                "cost": "20% HP",
-                "effect": "Medium Physical damage to 1 foe 2x to 3x.",
+                "type": "phys",
                 "level": "Innate"
             },
             "marakukaja": {
                 "name": "Marakukaja",
-                "cost": "24 SP",
-                "effect": "Increase Defense of party for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "wild_thunder": {
                 "name": "Wild Thunder",
-                "cost": "54 SP",
-                "effect": "Severe Elec damage and inflict Shock (low odds) to all foes.",
+                "type": "elec",
                 "level": "86"
             },
             "concentrate": {
                 "name": "Concentrate",
-                "cost": "15 SP",
-                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "type": "support",
                 "level": "87"
             },
             "fast_heal": {
                 "name": "Fast Heal",
-                "cost": "Passive",
-                "effect": "Half the time needed to recover from ailments.",
+                "type": "passive",
                 "level": "88"
             },
             "elec_amp": {
                 "name": "Elec Amp",
-                "cost": "Passive",
-                "effect": "Strengthen Elec attacks by 50%.",
+                "type": "passive",
                 "level": "89"
             }
         }
