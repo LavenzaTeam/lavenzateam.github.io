@@ -5666,8 +5666,14 @@
         "arcana": "Hierophant",
         "level": "9",
         "trait": "Crisis Control: Decrease damage received when struck by weakness.",
-        "item": "Cleave",
-        "itemAlarm": "Power Slash",
+        "item": {
+            "name": "Cleave",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Power Slash",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "9",
             "magic": "6",
@@ -5691,32 +5697,27 @@
         "skills": {
             "cleave": {
                 "name": "Cleave",
-                "cost": "6% HP",
-                "effect": "Light Physical damage to 1 foe.",
+                "type": "phys",
                 "level": "Innate"
             },
             "rakukaja": {
                 "name": "Rakukaja",
-                "cost": "8 SP",
-                "effect": "Increase Defense of 1 ally for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "tarukaja": {
                 "name": "Tarukaja",
-                "cost": "8 SP",
-                "effect": "Increase Attack of 1 ally for 3 turns.",
+                "type": "support",
                 "level": "10"
             },
             "dodge_fire": {
                 "name": "Dodge Fire",
-                "cost": "Passive",
-                "effect": "Double evasion rate against Fire attacks.",
+                "type": "passive",
                 "level": "11"
             },
             "power_slash": {
                 "name": "Power Slash",
-                "cost": "10% HP",
-                "effect": "Medium Physical damage to 1 foe.",
+                "type": "phys",
                 "level": "13"
             }
         }
@@ -5726,8 +5727,14 @@
         "arcana": "Hierophant",
         "level": "17",
         "trait": "Mighty Gaze: Strengthen multi-target magic attacks by 20%.",
-        "item": "Rakunda",
-        "itemAlarm": "Marakunda",
+        "item": {
+            "name": "Rakunda",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Marakunda",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "11",
             "magic": "14",
@@ -5751,38 +5758,32 @@
         "skills": {
             "maragi": {
                 "name": "Maragi",
-                "cost": "10 SP",
-                "effect": "Light Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "Innate"
             },
             "sukukaja": {
                 "name": "Sukukaja",
-                "cost": "8 SP",
-                "effect": "Increase Agility of 1 ally for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "dekaja": {
                 "name": "Dekaja",
-                "cost": "10 SP",
-                "effect": "Negate all -kaja buff effects of all foes.",
+                "type": "support",
                 "level": "Innate"
             },
             "marakunda": {
                 "name": "Marakunda",
-                "cost": "24 SP",
-                "effect": "Decrease Defense of all foes for 3 turns.",
+                "type": "support",
                 "level": "19"
             },
             "fire_break": {
                 "name": "Fire Break",
-                "cost": "15 SP",
-                "effect": "Suppress innate Fire resistances of all foes for 3 turns.",
+                "type": "support",
                 "level": "20"
             },
             "makajamaon": {
                 "name": "Makajamaon",
-                "cost": "8 SP",
-                "effect": "Inflict Forget (med odds) to all foes.",
+                "type": "ailment",
                 "level": "21"
             }
         }
@@ -5792,8 +5793,14 @@
         "arcana": "Hierophant",
         "level": "25",
         "trait": "Wind Bloodline: Reduce cost of Wind skills by 50%.",
-        "item": "Garula",
-        "itemAlarm": "Magarula",
+        "item": {
+            "name": "Garula",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Garula",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "14",
             "magic": "18",
@@ -5817,38 +5824,32 @@
         "skills": {
             "garula": {
                 "name": "Garula",
-                "cost": "6 SP",
-                "effect": "Medium Wind damage to 1 foe.",
+                "type": "wind",
                 "level": "Innate"
             },
             "masukukaja": {
                 "name": "Masukukaja",
-                "cost": "24 SP",
-                "effect": "Increase Agility of party for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "wind_break": {
                 "name": "Wind Break",
-                "cost": "15 SP",
-                "effect": "Suppress innate Wind resistances of all foes for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "assault_dive": {
                 "name": "Assault Dive",
-                "cost": "13% HP",
-                "effect": "Heavy Physical damage to 1 foe.",
+                "type": "phys",
                 "level": "27"
             },
             "dekaja": {
                 "name": "Dekaja",
-                "cost": "10 SP",
-                "effect": "Negate all -kaja buff effects of all foes.",
+                "type": "support",
                 "level": "28"
             },
             "null_forget": {
                 "name": "Null Forget",
-                "cost": "Passive",
-                "effect": "Impart immunity against Forget.",
+                "type": "passive",
                 "level": "29"
             }
         }
@@ -5858,8 +5859,14 @@
         "arcana": "Hierophant",
         "level": "40",
         "trait": "Draining Mouth: Doubles effect of Drain-type skills and passives.",
-        "item": "Spiral Blessing Ring",
-        "itemAlarm": "Divine Ring",
+        "item": {
+            "name": "Spiral Blessing Ring",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Divine Ring",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "21",
             "magic": "33",
@@ -5883,44 +5890,37 @@
         "skills": {
             "spirit_drain": {
                 "name": "Spirit Drain",
-                "cost": "3 SP",
-                "effect": "Drain SP from 1 foe. Almighty-type.",
+                "type": "almighty",
                 "level": "Innate"
             },
             "makouga": {
                 "name": "Makouga",
-                "cost": "16 SP",
-                "effect": "Medium Bless damage to all foes.",
+                "type": "bless",
                 "level": "Innate"
             },
             "samsara": {
                 "name": "Samsara",
-                "cost": "40 SP",
-                "effect": "High chance of instantly killing all foes. Bless-type.",
+                "type": "bless",
                 "level": "41"
             },
             "bless_boost": {
                 "name": "Bless Boost",
-                "cost": "Passive",
-                "effect": "Strengthen (non instant death) Bless attacks by 25%.",
+                "type": "passive",
                 "level": "42"
             },
             "diarahan": {
                 "name": "Diarahan",
-                "cost": "18 SP",
-                "effect": "Fully restore HP of 1 ally.",
+                "type": "healing",
                 "level": "43"
             },
             "me_patra": {
                 "name": "Me Patra",
-                "cost": "8 SP",
-                "effect": "Cure Dizzy/Forget/Sleep/Hunger of party.",
+                "type": "healing",
                 "level": "44"
             },
             "null_rage": {
                 "name": "Null Rage",
-                "cost": "Passive",
-                "effect": "Impart immunity against Rage.",
+                "type": "passive",
                 "level": "45"
             }
         }
@@ -5930,8 +5930,14 @@
         "arcana": "Hierophant",
         "level": "52",
         "trait": "Ailment Hunter: Increases Attack by 25% per ailment inflicted on foe.",
-        "item": "Spiral Karma Ring",
-        "itemAlarm": "Mystic Ring",
+        "item": {
+            "name": "Spiral Karma Ring",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Mystic Ring",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "32",
             "magic": "32",
@@ -5955,44 +5961,37 @@
         "skills": {
             "regenerate_3": {
                 "name": "Regenerate 3",
-                "cost": "Passive",
-                "effect": "Restore 6% of max HP each turn in battle.",
+                "type": "passive",
                 "level": "Innate"
             },
             "brain_jack": {
                 "name": "Brain Jack",
-                "cost": "8 SP",
-                "effect": "Inflict Brainwash (med odds) to all foes.",
+                "type": "ailment",
                 "level": "Innate"
             },
             "psiodyne": {
                 "name": "Psiodyne",
-                "cost": "12 SP",
-                "effect": "Heavy Psy damage to 1 foe.",
+                "type": "psy",
                 "level": "Innate"
             },
             "one-shot_kill": {
                 "name": "One-shot Kill",
-                "cost": "17% HP",
-                "effect": "Severe Gun damage to 1 foe, high critical rate.",
+                "type": "gun",
                 "level": "54"
             },
             "endure": {
                 "name": "Endure",
-                "cost": "Passive",
-                "effect": "Survive one fatal blow with 1 HP remaining.",
+                "type": "passive",
                 "level": "55"
             },
             "deathbound": {
                 "name": "Deathbound",
-                "cost": "22% HP",
-                "effect": "Medium Physical damage to all foes 1x to 2x.",
+                "type": "phys",
                 "level": "56"
             },
             "ailment_boost": {
                 "name": "Ailment Boost",
-                "cost": "Passive",
-                "effect": "Increase chance of inflicting all ailments.",
+                "type": "passive",
                 "level": "57"
             }
         }
@@ -6002,8 +6001,14 @@
         "arcana": "Hierophant",
         "level": "67",
         "trait": "Savior Bloodline: Reduce cost of Healing skills by 50%.",
-        "item": "Mafreidyne",
-        "itemAlarm": "Atomic Flare",
+        "item": {
+            "name": "Mafreidyne",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Atomic Flare",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "49",
             "magic": "37",
@@ -6027,44 +6032,37 @@
         "skills": {
             "freidyne": {
                 "name": "Freidyne",
-                "cost": "12 SP",
-                "effect": "Heavy Nuke damage to 1 foe.",
+                "type": "nuke",
                 "level": "Innate"
             },
             "diarahan": {
                 "name": "Diarahan",
-                "cost": "18 SP",
-                "effect": "Fully restore HP of 1 ally.",
+                "type": "healing",
                 "level": "Innate"
             },
             "deadly_fury": {
                 "name": "Deadly Fury",
-                "cost": "18% HP",
-                "effect": "Severe Physical damage to 1 foe. Stronger under Baton Pass.",
+                "type": "phys",
                 "level": "68"
             },
             "mafreidyne": {
                 "name": "Mafreidyne",
-                "cost": "22 SP",
-                "effect": "Heavy Nuke damage to all foes.",
+                "type": "nuke",
                 "level": "69"
             },
             "nuke_amp": {
                 "name": "Nuke Amp",
-                "cost": "Passive",
-                "effect": "Strengthen Nuclear attacks by 50%.",
+                "type": "passive",
                 "level": "71"
             },
             "tetrakarn": {
                 "name": "Tetrakarn",
-                "cost": "24 SP",
-                "effect": "Erect a shield on 1 ally to repel 1 Physical or Gun attack.",
+                "type": "support",
                 "level": "72"
             },
             "gods_hand": {
                 "name": "God's Hand",
-                "cost": "25% HP",
-                "effect": "Colossal Physical damage to 1 foe.",
+                "type": "phys",
                 "level": "73"
             }
         }
@@ -6074,8 +6072,14 @@
         "arcana": "Hierophant",
         "level": "76",
         "trait": "Universal Law: Strengthen Technical damage by 50%.",
-        "item": "Spiral Mystic Ring",
-        "itemAlarm": "Dragon's Heart",
+        "item": {
+            "name": "Spiral Mystic Ring",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Dragon's Heart",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "43",
             "magic": "51",
@@ -6099,44 +6103,37 @@
         "skills": {
             "psycho_force": {
                 "name": "Psycho Force",
-                "cost": "48 SP",
-                "effect": "Severe Psy damage to 1 foe.",
+                "type": "psy",
                 "level": "Innate"
             },
             "mediarahan": {
                 "name": "Mediarahan",
-                "cost": "30 SP",
-                "effect": "Fully restore HP of party.",
+                "type": "healing",
                 "level": "Innate"
             },
             "mapsiodyne": {
                 "name": "Mapsiodyne",
-                "cost": "22 SP",
-                "effect": "Heavy Psy damage to all foes.",
+                "type": "psy",
                 "level": "Innate"
             },
             "life_aid": {
                 "name": "Life Aid",
-                "cost": "Passive",
-                "effect": "Restore 8% HP and SP after victory.",
+                "type": "passive",
                 "level": "78"
             },
             "concentrate": {
                 "name": "Concentrate",
-                "cost": "15 SP",
-                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "type": "support",
                 "level": "79"
             },
             "psy_amp": {
                 "name": "Psy Amp",
-                "cost": "Passive",
-                "effect": "Strengthen Psy attacks by 50%.",
+                "type": "passive",
                 "level": "80"
             },
             "spell_master": {
                 "name": "Spell Master",
-                "cost": "Passive",
-                "effect": "Half SP cost for magic skills.",
+                "type": "passive",
                 "level": "82"
             }
         }
