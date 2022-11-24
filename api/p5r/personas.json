@@ -6143,8 +6143,14 @@
         "arcana": "Lovers",
         "level": "5",
         "trait": "Mastery of Magic: May decrease SP cost of allies' magic skills.",
-        "item": "N/A",
-        "itemAlarm": "N/A",
+        "item": {
+            "name": "N/A",
+            "type": "none"
+        },
+        "itemAlarm": {
+            "name": "N/A",
+            "type": "none"
+        },
         "baseStats": {
             "strength": "3",
             "magic": "6",
@@ -6168,128 +6174,107 @@
         "skills": {
             "agi": {
                 "name": "Agi",
-                "cost": "4 SP",
-                "effect": "Light Fire damage and inflict Burn (low odds) to 1 foe.",
+                "type": "fire",
                 "level": "Innate"
             },
             "dia": {
                 "name": "Dia",
-                "cost": "3 SP",
-                "effect": "Slightly restore HP of 1 ally.",
+                "type": "healing",
                 "level": "Innate"
             },
             "dormina": {
                 "name": "Dormina",
-                "cost": "3 SP",
-                "effect": "Inflict Sleep (high odds) 1 foe.",
+                "type": "ailment",
                 "level": "7"
             },
             "tarunda": {
                 "name": "Tarunda",
-                "cost": "8 SP",
-                "effect": "Decrease Attack of 1 foe for 3 turns.",
+                "type": "support",
                 "level": "11"
             },
             "maragi": {
                 "name": "Maragi",
-                "cost": "10 SP",
-                "effect": "Light Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "13"
             },
             "dekaja": {
                 "name": "Dekaja",
-                "cost": "10 SP",
-                "effect": "Negate all -kaja buff effects of all foes.",
+                "type": "support",
                 "level": "16"
             },
             "agilao": {
                 "name": "Agilao",
-                "cost": "8 SP",
-                "effect": "Medium Fire damage and inflict Burn (low odds) to 1 foe.",
+                "type": "fire",
                 "level": "22"
             },
             "fire_break": {
                 "name": "Fire Break",
-                "cost": "15 SP",
-                "effect": "Suppress innate Fire resistances of all foes for 3 turns.",
+                "type": "support",
                 "level": "25"
             },
             "diarama": {
                 "name": "Diarama",
-                "cost": "6 SP",
-                "effect": "Moderately restore HP of 1 ally.",
+                "type": "healing",
                 "level": "28"
             },
             "lullaby": {
                 "name": "Lullaby",
-                "cost": "8 SP",
-                "effect": "Inflict Sleep (med odds) to all foes.",
+                "type": "ailment",
                 "level": "30"
             },
             "ambient_aid": {
                 "name": "Ambient Aid",
-                "cost": "Passive",
-                "effect": "Greatly increase chance of inflicting all ailments under rainy day or special weather warning.",
+                "type": "passive",
                 "level": "33"
             },
             "maragion": {
                 "name": "Maragion",
-                "cost": "16 SP",
-                "effect": "Medium Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "35"
             },
             "fire_boost": {
                 "name": "Fire Boost",
-                "cost": "Passive",
-                "effect": "Strengthen Fire attacks by 25%.",
+                "type": "passive",
                 "level": "38"
             },
             "matarunda": {
                 "name": "Matarunda",
-                "cost": "24 SP",
-                "effect": "Decrease Attack of all foes for 3 turns.",
+                "type": "support",
                 "level": "41"
             },
             "agidyne": {
                 "name": "Agidyne",
-                "cost": "12 SP",
-                "effect": "Heavy Fire damage and inflict Burn (low odds) to 1 foe.",
+                "type": "fire",
                 "level": "46"
             },
             "burn_boost": {
                 "name": "Burn Boost",
-                "cost": "Passive",
-                "effect": "Increase chance of inflicting Burn.",
+                "type": "passive",
                 "level": "50"
             },
             "maragidyne": {
                 "name": "Maragidyne",
-                "cost": "22 SP",
-                "effect": "Heavy Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "54"
             },
             "diarahan": {
                 "name": "Diarahan",
-                "cost": "18 SP",
-                "effect": "Fully restore HP of 1 ally.",
+                "type": "healing",
                 "level": "57"
             },
             "concentrate": {
                 "name": "Concentrate",
-                "cost": "15 SP",
-                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "type": "support",
                 "level": "62"
             },
             "fire_amp": {
                 "name": "Fire Amp",
-                "cost": "Passive",
-                "effect": "Strengthen Fire attacks by 50%.",
+                "type": "passive",
                 "level": "68"
             },
             "blazing_hell": {
                 "name": "Blazing Hell",
-                "cost": "54 SP",
-                "effect": "Severe Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "74"
             }
         }
@@ -6299,8 +6284,14 @@
         "arcana": "Lovers",
         "level": "Inherited",
         "trait": "Mastery of Magic: May decrease SP cost of allies' magic skills.",
-        "item": "N/A",
-        "itemAlarm": "N/A",
+        "item": {
+            "name": "N/A",
+            "type": "none"
+        },
+        "itemAlarm": {
+            "name": "N/A",
+            "type": "none"
+        },
         "baseStats": {
             "strength": "Inherited",
             "magic": "Inherited",
@@ -6324,134 +6315,112 @@
         "skills": {
             "agi": {
                 "name": "Agi",
-                "cost": "4 SP",
-                "effect": "Light Fire damage and inflict Burn (low odds) to 1 foe.",
+                "type": "fire",
                 "level": "Innate"
             },
             "dia": {
                 "name": "Dia",
-                "cost": "3 SP",
-                "effect": "Slightly restore HP of 1 ally.",
+                "type": "healing",
                 "level": "Innate"
             },
             "dormina": {
                 "name": "Dormina",
-                "cost": "3 SP",
-                "effect": "Inflict Sleep (high odds) 1 foe.",
+                "type": "ailment",
                 "level": "7"
             },
             "tarunda": {
                 "name": "Tarunda",
-                "cost": "8 SP",
-                "effect": "Decrease Attack of 1 foe for 3 turns.",
+                "type": "support",
                 "level": "11"
             },
             "maragi": {
                 "name": "Maragi",
-                "cost": "10 SP",
-                "effect": "Light Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "13"
             },
             "dekaja": {
                 "name": "Dekaja",
-                "cost": "10 SP",
-                "effect": "Negate all -kaja buff effects of all foes.",
+                "type": "support",
                 "level": "16"
             },
             "agilao": {
                 "name": "Agilao",
-                "cost": "8 SP",
-                "effect": "Medium Fire damage and inflict Burn (low odds) to 1 foe.",
+                "type": "fire",
                 "level": "22"
             },
             "fire_break": {
                 "name": "Fire Break",
-                "cost": "15 SP",
-                "effect": "Suppress innate Fire resistances of all foes for 3 turns.",
+                "type": "support",
                 "level": "25"
             },
             "diarama": {
                 "name": "Diarama",
-                "cost": "6 SP",
-                "effect": "Moderately restore HP of 1 ally.",
+                "type": "healing",
                 "level": "28"
             },
             "lullaby": {
                 "name": "Lullaby",
-                "cost": "8 SP",
-                "effect": "Inflict Sleep (med odds) to all foes.",
+                "type": "ailment",
                 "level": "30"
             },
             "ambient_aid": {
                 "name": "Ambient Aid",
-                "cost": "Passive",
-                "effect": "Greatly increase chance of inflicting all ailments under rainy day or special weather warning.",
+                "type": "passive",
                 "level": "33"
             },
             "maragion": {
                 "name": "Maragion",
-                "cost": "16 SP",
-                "effect": "Medium Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "35"
             },
             "fire_boost": {
                 "name": "Fire Boost",
-                "cost": "Passive",
-                "effect": "Strengthen Fire attacks by 25%.",
+                "type": "passive",
                 "level": "38"
             },
             "matarunda": {
                 "name": "Matarunda",
-                "cost": "24 SP",
-                "effect": "Decrease Attack of all foes for 3 turns.",
+                "type": "support",
                 "level": "41"
             },
             "agidyne": {
                 "name": "Agidyne",
-                "cost": "12 SP",
-                "effect": "Heavy Fire damage and inflict Burn (low odds) to 1 foe.",
+                "type": "fire",
                 "level": "46"
             },
             "burn_boost": {
                 "name": "Burn Boost",
-                "cost": "Passive",
-                "effect": "Increase chance of inflicting Burn.",
+                "type": "passive",
                 "level": "50"
             },
             "maragidyne": {
                 "name": "Maragidyne",
-                "cost": "22 SP",
-                "effect": "Heavy Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "54"
             },
             "diarahan": {
                 "name": "Diarahan",
-                "cost": "18 SP",
-                "effect": "Fully restore HP of 1 ally.",
+                "type": "healing",
                 "level": "57"
             },
             "concentrate": {
                 "name": "Concentrate",
-                "cost": "15 SP",
-                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "type": "support",
                 "level": "62"
             },
             "fire_amp": {
                 "name": "Fire Amp",
-                "cost": "Passive",
-                "effect": "Strengthen Fire attacks by 50%.",
+                "type": "passive",
                 "level": "68"
             },
             "blazing_hell": {
                 "name": "Blazing Hell",
-                "cost": "54 SP",
-                "effect": "Severe Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "74"
             },
             "evade_ice": {
                 "name": "Evade Ice",
-                "cost": "Passive",
-                "effect": "Triple evasion rate against Ice attacks.",
+                "type": "passive",
                 "level": "Max Lovers SL"
             }
         }
@@ -6461,8 +6430,14 @@
         "arcana": "Lovers",
         "level": "Inherited",
         "trait": "Pinnacle of Magic: May decrease SP cost of allies' magic skills by half.",
-        "item": "N/A",
-        "itemAlarm": "N/A",
+        "item": {
+            "name": "N/A",
+            "type": "none"
+        },
+        "itemAlarm": {
+            "name": "N/A",
+            "type": "none"
+        },
         "baseStats": {
             "strength": "Inherited",
             "magic": "Inherited",
@@ -6486,140 +6461,117 @@
         "skills": {
             "agi": {
                 "name": "Agi",
-                "cost": "4 SP",
-                "effect": "Light Fire damage and inflict Burn (low odds) to 1 foe.",
+                "type": "fire",
                 "level": "Innate"
             },
             "dia": {
                 "name": "Dia",
-                "cost": "3 SP",
-                "effect": "Slightly restore HP of 1 ally.",
+                "type": "healing",
                 "level": "Innate"
             },
             "dormina": {
                 "name": "Dormina",
-                "cost": "3 SP",
-                "effect": "Inflict Sleep (high odds) 1 foe.",
+                "type": "ailment",
                 "level": "7"
             },
             "tarunda": {
                 "name": "Tarunda",
-                "cost": "8 SP",
-                "effect": "Decrease Attack of 1 foe for 3 turns.",
+                "type": "support",
                 "level": "11"
             },
             "maragi": {
                 "name": "Maragi",
-                "cost": "10 SP",
-                "effect": "Light Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "13"
             },
             "dekaja": {
                 "name": "Dekaja",
-                "cost": "10 SP",
-                "effect": "Negate all -kaja buff effects of all foes.",
+                "type": "support",
                 "level": "16"
             },
             "agilao": {
                 "name": "Agilao",
-                "cost": "8 SP",
-                "effect": "Medium Fire damage and inflict Burn (low odds) to 1 foe.",
+                "type": "fire",
                 "level": "22"
             },
             "fire_break": {
                 "name": "Fire Break",
-                "cost": "15 SP",
-                "effect": "Suppress innate Fire resistances of all foes for 3 turns.",
+                "type": "support",
                 "level": "25"
             },
             "diarama": {
                 "name": "Diarama",
-                "cost": "6 SP",
-                "effect": "Moderately restore HP of 1 ally.",
+                "type": "healing",
                 "level": "28"
             },
             "lullaby": {
                 "name": "Lullaby",
-                "cost": "8 SP",
-                "effect": "Inflict Sleep (med odds) to all foes.",
+                "type": "ailment",
                 "level": "30"
             },
             "ambient_aid": {
                 "name": "Ambient Aid",
-                "cost": "Passive",
-                "effect": "Greatly increase chance of inflicting all ailments under rainy day or special weather warning.",
+                "type": "passive",
                 "level": "33"
             },
             "maragion": {
                 "name": "Maragion",
-                "cost": "16 SP",
-                "effect": "Medium Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "35"
             },
             "fire_boost": {
                 "name": "Fire Boost",
-                "cost": "Passive",
-                "effect": "Strengthen Fire attacks by 25%.",
+                "type": "support",
                 "level": "38"
             },
             "matarunda": {
                 "name": "Matarunda",
-                "cost": "24 SP",
-                "effect": "Decrease Attack of all foes for 3 turns.",
+                "type": "support",
                 "level": "41"
             },
             "agidyne": {
                 "name": "Agidyne",
-                "cost": "12 SP",
-                "effect": "Heavy Fire damage and inflict Burn (low odds) to 1 foe.",
+                "type": "fire",
                 "level": "46"
             },
             "burn_boost": {
                 "name": "Burn Boost",
-                "cost": "Passive",
-                "effect": "Increase chance of inflicting Burn.",
+                "type": "passive",
                 "level": "50"
             },
             "maragidyne": {
                 "name": "Maragidyne",
-                "cost": "22 SP",
-                "effect": "Heavy Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "54"
             },
             "diarahan": {
                 "name": "Diarahan",
-                "cost": "18 SP",
-                "effect": "Fully restore HP of 1 ally.",
+                "type": "healing",
                 "level": "57"
             },
             "concentrate": {
                 "name": "Concentrate",
-                "cost": "15 SP",
-                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "type": "support",
                 "level": "62"
             },
             "fire_amp": {
                 "name": "Fire Amp",
-                "cost": "Passive",
-                "effect": "Strengthen Fire attacks by 50%.",
+                "type": "passive",
                 "level": "68"
             },
             "blazing_hell": {
                 "name": "Blazing Hell",
-                "cost": "54 SP",
-                "effect": "Severe Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "74"
             },
             "evade_ice": {
                 "name": "Evade Ice",
-                "cost": "Passive",
-                "effect": "Triple evasion rate against Ice attacks.",
+                "type": "passive",
                 "level": "Max Lovers SL"
             },
             "high_energy": {
                 "name": "High Energy",
-                "cost": "80 SP",
-                "effect": "Next magical attack inflicts 2.5x damage for party.",
+                "type": "support",
                 "level": "Third Awakening Skill"
             }
         }
@@ -6629,8 +6581,14 @@
         "arcana": "Lovers",
         "level": "2",
         "trait": "Static Electricity: Increase chance of inflicting Shock on downed foes.",
-        "item": "Static Ring",
-        "itemAlarm": "Spiral Static Ring",
+        "item": {
+            "name": "Static Ring",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Spiral Static Ring",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "1",
             "magic": "3",
@@ -6654,32 +6612,27 @@
         "skills": {
             "zio": {
                 "name": "Zio",
-                "cost": "4 SP",
-                "effect": "Light Elec damage and inflict Shock (low odds) to 1 foe.",
+                "type": "elec",
                 "level": "Innate"
             },
             "dia": {
                 "name": "Dia",
-                "cost": "3 SP",
-                "effect": "Slightly restore HP of 1 ally.",
+                "type": "healing",
                 "level": "Innate"
             },
             "patra": {
                 "name": "Patra",
-                "cost": "4 SP",
-                "effect": "Cure Dizzy/Forget/Sleep/Hunger of 1 ally.",
+                "type": "healing",
                 "level": "3"
             },
             "tarukaja": {
                 "name": "Tarukaja",
-                "cost": "8 SP",
-                "effect": "Increase Attack of 1 ally for 3 turns.",
+                "type": "support",
                 "level": "5"
             },
             "resist_confuse": {
                 "name": "Resist Confuse",
-                "cost": "Passive",
-                "effect": "Reduce susceptibility to Confuse.",
+                "type": "passive",
                 "level": "6"
             }
         }
@@ -6689,8 +6642,14 @@
         "arcana": "Lovers",
         "level": "6",
         "trait": "Internal Hypnosis: Increase buff timers by 1 turn for self. Extends Auto- buffs for the entire party.",
-        "item": "Energy Charm",
-        "itemAlarm": "Spiral Energy Charm",
+        "item": {
+            "name": "Energy Charm",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Spiral Energy Charm",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "4",
             "magic": "6",
@@ -6714,38 +6673,32 @@
         "skills": {
             "bufu": {
                 "name": "Bufu",
-                "cost": "4 SP",
-                "effect": "Light Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "type": "ice",
                 "level": "Innate"
             },
             "energy_drop": {
                 "name": "Energy Drop",
-                "cost": "4 SP",
-                "effect": "Cure Confuse/Fear/Despair/Brainwash/Rage of 1 ally.",
+                "type": "healing",
                 "level": "Innate"
             },
             "wind_wall": {
                 "name": "Wind Wall",
-                "cost": "18 SP",
-                "effect": "Erect a shield on 1 ally to reduce Wind damage and cover innate Fire weakness for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "growth_1": {
                 "name": "Growth 1",
-                "cost": "Passive",
-                "effect": "Persona gains 25% EXP while inactive.",
+                "type": "passive",
                 "level": "7"
             },
             "rakukaja": {
                 "name": "Rakukaja",
-                "cost": "8 SP",
-                "effect": "Increase Defense of 1 ally for 3 turns.",
+                "type": "support",
                 "level": "8"
             },
             "resist_dizzy": {
                 "name": "Resist Dizzy",
-                "cost": "Passive",
-                "effect": "Reduce susceptibility to Dizzy.",
+                "type": "passive",
                 "level": "10"
             }
         }
@@ -6755,8 +6708,14 @@
         "arcana": "Lovers",
         "level": "13",
         "trait": "Electric Bloodline: Reduce cost of Elec skills by 50%.",
-        "item": "Senryou Yakusha",
-        "itemAlarm": "Senryou Yakusha R",
+        "item": {
+            "name": "Senryou Yakusha",
+            "type": "yusukeMelee"
+        },
+        "itemAlarm": {
+            "name": "Senryou Yakusha R",
+            "type": "yusukeMelee"
+        },
         "baseStats": {
             "strength": "7",
             "magic": "10",
@@ -6780,38 +6739,32 @@
         "skills": {
             "mazio": {
                 "name": "Mazio",
-                "cost": "10 SP",
-                "effect": "Light Elec damage and inflict Shock (low odds) to all foes.",
+                "type": "elec",
                 "level": "Innate"
             },
             "magaru": {
                 "name": "Magaru",
-                "cost": "8 SP",
-                "effect": "Light Wind damage to all foes.",
+                "type": "wind",
                 "level": "Innate"
             },
             "media": {
                 "name": "Media",
-                "cost": "7 SP",
-                "effect": "Slightly restore HP of party.",
+                "type": "healing",
                 "level": "Innate"
             },
             "nocturnal_flash": {
                 "name": "Nocturnal Flash",
-                "cost": "8 SP",
-                "effect": "Inflict Dizzy (med odds) to all foes.",
+                "type": "ailment",
                 "level": "15"
             },
             "baisudi": {
                 "name": "Baisudi",
-                "cost": "4 SP",
-                "effect": "Cure Burn/Freeze/Shock of 1 ally.",
+                "type": "healing",
                 "level": "16"
             },
             "divine_grace": {
                 "name": "Divine Grace",
-                "cost": "Passive",
-                "effect": "Effects of healing magic are increased by 50%.",
+                "type": "passive",
                 "level": "18"
             }
         }
@@ -6821,8 +6774,14 @@
         "arcana": "Lovers",
         "level": "19",
         "trait": "Skillful Technique: Strengthen Technical damage by 25%.",
-        "item": "Mudo",
-        "itemAlarm": "Mamudo",
+        "item": {
+            "name": "Mudo",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Mamudo",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "9",
             "magic": "17",
@@ -6846,38 +6805,32 @@
         "skills": {
             "rakunda": {
                 "name": "Rakunda",
-                "cost": "8 SP",
-                "effect": "Decrease Defense of 1 foe for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "psio": {
                 "name": "Psio",
-                "cost": "8 SP",
-                "effect": "Medium Psy damage to 1 foe.",
+                "type": "psy",
                 "level": "Innate"
             },
             "marin_karin": {
                 "name": "Marin Karin",
-                "cost": "3 SP",
-                "effect": "Inflict Brainwash (high odds) 1 foe.",
+                "type": "ailment",
                 "level": "20"
             },
             "mamudo": {
                 "name": "Mamudo",
-                "cost": "14 SP",
-                "effect": "Low chance of instantly killing all foes. Curse-type.",
+                "type": "curse",
                 "level": "21"
             },
             "mapsi": {
                 "name": "Mapsi",
-                "cost": "10 SP",
-                "effect": "Light Psy damage to all foes.",
+                "type": "psy",
                 "level": "22"
             },
             "eiga": {
                 "name": "Eiga",
-                "cost": "8 SP",
-                "effect": "Medium Curse damage to 1 foe.",
+                "type": "curse",
                 "level": "23"
             }
         }
@@ -6887,8 +6840,14 @@
         "arcana": "Lovers",
         "level": "42",
         "trait": "Savior Bloodline: Reduce cost of Healing skills by 50%.",
-        "item": "Cure Charm",
-        "itemAlarm": "Spiral Cure Charm",
+        "item": {
+            "name": "Cure Charm",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Spiral Cure Charm",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "24",
             "magic": "30",
@@ -6912,50 +6871,42 @@
         "skills": {
             "hysterical_slap": {
                 "name": "Hysterical Slap",
-                "cost": "9% HP",
-                "effect": "Light Physical damage and inflict Rage (med odds) to 1 foe.",
+                "type": "phys",
                 "level": "Innate"
             },
             "psy_wall": {
                 "name": "Psy Wall",
-                "cost": "18 SP",
-                "effect": "Erect a shield on 1 ally to reduce Psy damage and cover innate Fire weakness for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "mediarama": {
                 "name": "Mediarama",
-                "cost": "12 SP",
-                "effect": "Moderately restore HP of party.",
+                "type": "healing",
                 "level": "Innate"
             },
             "matarukaja": {
                 "name": "Matarukaja",
-                "cost": "24 SP",
-                "effect": "Increase Attack of party for 3 turns.",
+                "type": "support",
                 "level": "44"
             },
             "null_confuse": {
                 "name": "Null Confuse",
-                "cost": "Passive",
-                "effect": "Impart immunity against Confuse.",
+                "type": "passive",
                 "level": "45"
             },
             "wind_wall": {
                 "name": "Wind Wall",
-                "cost": "18 SP",
-                "effect": "Erect a shield on 1 ally to reduce Wind damage and cover innate Fire weakness for 3 turns.",
+                "type": "support",
                 "level": "46"
             },
             "amrita_shower": {
                 "name": "Amrita Shower",
-                "cost": "12 SP",
-                "effect": "Cure all non-special ailments of party.",
+                "type": "healing",
                 "level": "47"
             },
             "null_ice": {
                 "name": "Null Ice",
-                "cost": "Passive",
-                "effect": "Impart immunity against Ice attacks.",
+                "type": "passive",
                 "level": "48"
             }
         }
@@ -6965,8 +6916,14 @@
         "arcana": "Lovers",
         "level": "48",
         "trait": "Gluttonmouth: Increase amount of HP restored to self by 50%.",
-        "item": "Dazzler",
-        "itemAlarm": "Nocturnal Flash",
+        "item": {
+            "name": "Dazzler",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Nocturnal Flash",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "27",
             "magic": "31",
@@ -6990,44 +6947,37 @@
         "skills": {
             "dazzler": {
                 "name": "Dazzler",
-                "cost": "3 SP",
-                "effect": "Inflict Dizzy (high odds) 1 foe.",
+                "type": "ailment",
                 "level": "Innate"
             },
             "magarula": {
                 "name": "Magarula",
-                "cost": "14 SP",
-                "effect": "Medium Wind damage to all foes.",
+                "type": "wind",
                 "level": "Innate"
             },
             "energy_drop": {
                 "name": "Energy Drop",
-                "cost": "4 SP",
-                "effect": "Cure Confuse/Fear/Despair/Brainwash/Rage of 1 ally.",
+                "type": "healing",
                 "level": "Innate"
             },
             "growth_3": {
                 "name": "Growth 3",
-                "cost": "Passive",
-                "effect": "Persona gains 100% EXP even while inactive.",
+                "type": "passive",
                 "level": "50"
             },
             "dizzy_boost": {
                 "name": "Dizzy Boost",
-                "cost": "Passive",
-                "effect": "Increase chance of inflicting Dizzy.",
+                "type": "passive",
                 "level": "51"
             },
             "mediarama": {
                 "name": "Mediarama",
-                "cost": "12 SP",
-                "effect": "Moderately restore HP of party.",
+                "type": "healing",
                 "level": "52"
             },
             "ambient_aid": {
                 "name": "Ambient Aid",
-                "cost": "Passive",
-                "effect": "Greatly increase chance of inflicting all ailments under rainy day or special weather warning.",
+                "type": "passive",
                 "level": "53"
             }
         }
@@ -7037,8 +6987,14 @@
         "arcana": "Lovers",
         "level": "56",
         "trait": "Skillful Technique: Strengthen Technical damage by 25%.",
-        "item": "Null Ice",
-        "itemAlarm": "Repel Ice",
+        "item": {
+            "name": "Null Ice",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Repel Ice",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "33",
             "magic": "39",
@@ -7062,44 +7018,37 @@
         "skills": {
             "diarama": {
                 "name": "Diarama",
-                "cost": "6 SP",
-                "effect": "Moderately restore HP of 1 ally.",
+                "type": "healing",
                 "level": "Innate"
             },
             "psiodyne": {
                 "name": "Psiodyne",
-                "cost": "12 SP",
-                "effect": "Heavy Psy damage to 1 foe.",
+                "type": "psy",
                 "level": "Innate"
             },
             "psy_break": {
                 "name": "Psy Break",
-                "cost": "15 SP",
-                "effect": "Suppress innate Psy resistances of all foes for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "energy_shower": {
                 "name": "Energy Shower",
-                "cost": "8 SP",
-                "effect": "Cure Confuse/Fear/Despair/Rage/Brainwash of party.",
+                "type": "healing",
                 "level": "57"
             },
             "diarahan": {
                 "name": "Diarahan",
-                "cost": "18 SP",
-                "effect": "Fully restore HP of 1 ally.",
+                "type": "healing",
                 "level": "58"
             },
             "mapsiodyne": {
                 "name": "Mapsiodyne",
-                "cost": "22 SP",
-                "effect": "Heavy Psy damage to all foes.",
+                "type": "psy",
                 "level": "59"
             },
             "null_ice": {
                 "name": "Null Ice",
-                "cost": "Passive",
-                "effect": "Impart immunity against Ice attacks.",
+                "type": "passive",
                 "level": "61"
             }
         }
@@ -7109,8 +7058,14 @@
         "arcana": "Lovers",
         "level": "78",
         "trait": "Pinch Anchor: Allows use of ambush-only skills after Baton Pass.",
-        "item": "Null Bless",
-        "itemAlarm": "Repel Bless",
+        "item": {
+            "name": "Null Bless",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Repel Bless",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "57",
             "magic": "45",
@@ -7134,44 +7089,37 @@
         "skills": {
             "sword_dance": {
                 "name": "Sword Dance",
-                "cost": "21% HP",
-                "effect": "Colossal Physical damage to 1 foe, high critical rate.",
+                "type": "phys",
                 "level": "Innate"
             },
             "charge": {
                 "name": "Charge",
-                "cost": "15 SP",
-                "effect": "Next Physical or Gun attack inflicts 2.5x damage for user.",
+                "type": "support",
                 "level": "Innate"
             },
             "dekaja": {
                 "name": "Dekaja",
-                "cost": "10 SP",
-                "effect": "Negate all -kaja buff effects of all foes.",
+                "type": "support",
                 "level": "Innate"
             },
             "heat_riser": {
                 "name": "Heat Riser",
-                "cost": "30 SP",
-                "effect": "Increase Attack/Defense/Agility of 1 ally for 3 turns.",
+                "type": "support",
                 "level": "80"
             },
             "growth_3": {
                 "name": "Growth 3",
-                "cost": "Passive",
-                "effect": "Persona gains 100% EXP even while inactive.",
+                "type": "passive",
                 "level": "81"
             },
             "adverse_resolve": {
                 "name": "Adverse Resolve",
-                "cost": "Passive",
-                "effect": "Increase critical rate when surrounded.",
+                "type": "passive",
                 "level": "82"
             },
             "arms_master": {
                 "name": "Arms Master",
-                "cost": "Passive",
-                "effect": "Half HP cost for physical skills.",
+                "type": "passive",
                 "level": "83"
             }
         }
@@ -7181,8 +7129,14 @@
         "arcana": "Lovers",
         "level": "85",
         "trait": "Grace of Mother: Reduce cost of Healing skills by 75%.",
-        "item": "Spiral Thunder Ring",
-        "itemAlarm": "Goddess Horn",
+        "item": {
+            "name": "Spiral Thunder Ring",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Goddess Horn",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "48",
             "magic": "59",
@@ -7206,44 +7160,37 @@
         "skills": {
             "mediarahan": {
                 "name": "Mediarahan",
-                "cost": "30 SP",
-                "effect": "Fully restore HP of party.",
+                "type": "healing",
                 "level": "Innate"
             },
             "samarecarm": {
                 "name": "Samarecarm",
-                "cost": "18 SP",
-                "effect": "Revive 1 ally with all HP recovered.",
+                "type": "healing",
                 "level": "Innate"
             },
             "drain_wind": {
                 "name": "Drain Wind",
-                "cost": "Passive",
-                "effect": "Absorb Wind attacks.",
+                "type": "passive",
                 "level": "Innate"
             },
             "insta-heal": {
                 "name": "Insta-Heal",
-                "cost": "Passive",
-                "effect": "Recover from an ailment in 1 turn.",
+                "type": "passive",
                 "level": "87"
             },
             "maziodyne": {
                 "name": "Maziodyne",
-                "cost": "22 SP",
-                "effect": "Heavy Elec damage and inflict Shock (low odds) to all foes.",
+                "type": "elec",
                 "level": "88"
             },
             "spell_master": {
                 "name": "Spell Master",
-                "cost": "Passive",
-                "effect": "Half SP cost for magic skills.",
+                "type": "passive",
                 "level": "89"
             },
             "salvation": {
                 "name": "Salvation",
-                "cost": "48 SP",
-                "effect": "Fully restore HP of party and cure all non-special ailments.",
+                "type": "healing",
                 "level": "90"
             }
         }
