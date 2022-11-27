@@ -10371,8 +10371,14 @@
         "arcana": "Fortune",
         "level": "20",
         "trait": "Gluttonmouth: Increase amount of HP restored to self by 50%. / Intense Focus: Strengthen single-target magic attacks by 20%. / Relentless: Increase Attack by 50% when striking foe's weakness. Only valid for single-target attacks.",
-        "item": "Stone of Scone",
-        "itemAlarm": "Stone of Scone R",
+        "item": {
+            "name": "Stone of Scone",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Stone of Scone R",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "20",
             "magic": "20",
@@ -10396,50 +10402,42 @@
         "skills": {
             "agilao": {
                 "name": "Agilao",
-                "cost": "8 SP",
-                "effect": "Medium Fire damage and inflict Burn (low odds) to 1 foe.",
+                "type": "fire",
                 "level": "Innate"
             },
             "bufula": {
                 "name": "Bufula",
-                "cost": "8 SP",
-                "effect": "Medium Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "type": "ice",
                 "level": "Innate"
             },
             "zionga": {
                 "name": "Zionga",
-                "cost": "8 SP",
-                "effect": "Medium Elec damage and inflict Shock (low odds) to 1 foe.",
+                "type": "elec",
                 "level": "Innate"
             },
             "garula": {
                 "name": "Garula",
-                "cost": "6 SP",
-                "effect": "Medium Wind damage to 1 foe.",
+                "type": "wind",
                 "level": "Innate"
             },
             "psio": {
                 "name": "Psio",
-                "cost": "8 SP",
-                "effect": "Medium Psy damage to 1 foe.",
+                "type": "psy",
                 "level": "Innate"
             },
             "freila": {
                 "name": "Freila",
-                "cost": "8 SP",
-                "effect": "Medium Nuke damage to 1 foe.",
+                "type": "nuke",
                 "level": "Innate"
             },
             "kouga": {
                 "name": "Kouga",
-                "cost": "8 SP",
-                "effect": "Medium Bless damage to 1 foe.",
+                "type": "bless",
                 "level": "Innate"
             },
             "eiga": {
                 "name": "Eiga",
-                "cost": "8 SP",
-                "effect": "Medium Curse damage to 1 foe.",
+                "type": "curse",
                 "level": "Innate"
             }
         }
@@ -10449,8 +10447,14 @@
         "arcana": "Fortune",
         "level": "27",
         "trait": "Relief Bloodline: Reduce cost of Support skills by 50%.",
-        "item": "Tetraja",
-        "itemAlarm": "Makarakarn",
+        "item": {
+            "name": "Tetraja",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Makarakarn",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "14",
             "magic": "19",
@@ -10474,44 +10478,37 @@
         "skills": {
             "mahama": {
                 "name": "Mahama",
-                "cost": "14 SP",
-                "effect": "Low chance of instantly killing all foes. Bless-type.",
+                "type": "bless",
                 "level": "Innate"
             },
             "me_patra": {
                 "name": "Me Patra",
-                "cost": "8 SP",
-                "effect": "Cure Dizzy/Forget/Sleep/Hunger of party.",
+                "type": "healing",
                 "level": "Innate"
             },
             "makajama": {
                 "name": "Makajama",
-                "cost": "3 SP",
-                "effect": "Inflict Forget (high odds) 1 foe.",
+                "type": "ailment",
                 "level": "Innate"
             },
             "tetraja": {
                 "name": "Tetraja",
-                "cost": "24 SP",
-                "effect": "Erect shields on party to nullify one instant death attack of Bless or Curse types.",
+                "type": "support",
                 "level": "28"
             },
             "makajamaon": {
                 "name": "Makajamaon",
-                "cost": "8 SP",
-                "effect": "Inflict Forget (med odds) to all foes.",
+                "type": "ailment",
                 "level": "30"
             },
             "energy_shower": {
                 "name": "Energy Shower",
-                "cost": "8 SP",
-                "effect": "Cure Confuse/Fear/Despair/Rage/Brainwash of party.",
+                "type": "healing",
                 "level": "31"
             },
             "invigorate_1": {
                 "name": "Invigorate 1",
-                "cost": "Passive",
-                "effect": "Restore 3 SP each turn in battle.",
+                "type": "passive",
                 "level": "33"
             }
         }
@@ -10521,8 +10518,14 @@
         "arcana": "Fortune",
         "level": "30",
         "trait": "Tag Team: Expendable items not used up after Baton Pass.",
-        "item": "Red String",
-        "itemAlarm": "Red String R",
+        "item": {
+            "name": "Red String",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Red String R",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "23",
             "magic": "19",
@@ -10546,44 +10549,37 @@
         "skills": {
             "beast_weaver": {
                 "name": "Beast Weaver",
-                "cost": "20% HP",
-                "effect": "Colossal Physical damage to 1 foe, greatly decrease user Attack.",
+                "type": "phys",
                 "level": "Innate"
             },
             "apt_pupil": {
                 "name": "Apt Pupil",
-                "cost": "Passive",
-                "effect": "Increase critical rate.",
+                "type": "passive",
                 "level": "Innate"
             },
             "miracle_punch": {
                 "name": "Miracle Punch",
-                "cost": "8% HP",
-                "effect": "Medium Physical damage to 1 foe, high critical rate.",
+                "type": "phys",
                 "level": "Innate"
             },
             "attack_master": {
                 "name": "Attack Master",
-                "cost": "Passive",
-                "effect": "Automatic Tarukaja at the start of battle.",
+                "type": "passive",
                 "level": "31"
             },
             "fortified_moxy": {
                 "name": "Fortified Moxy",
-                "cost": "Passive",
-                "effect": "Increase critical rate in ambush.",
+                "type": "passive",
                 "level": "32"
             },
             "evade_phys": {
                 "name": "Evade Phys",
-                "cost": "Passive",
-                "effect": "Triple evasion rate against Physical attacks.",
+                "type": "passive",
                 "level": "34"
             },
             "charge": {
                 "name": "Charge",
-                "cost": "15 SP",
-                "effect": "Next Physical or Gun attack inflicts 2.5x damage for user.",
+                "type": "support",
                 "level": "36"
             }
         }
@@ -10593,8 +10589,14 @@
         "arcana": "Fortune",
         "level": "35",
         "trait": "Internal Hypnosis: Increase buff timers by 1 turn for self. Extends Auto- buffs for the entire party.",
-        "item": "Snow Ring",
-        "itemAlarm": "Spiral Snow Ring",
+        "item": {
+            "name": "Snow Ring",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Spiral Snow Ring",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "18",
             "magic": "26",
@@ -10618,44 +10620,37 @@
         "skills": {
             "mabaisudi": {
                 "name": "Mabaisudi",
-                "cost": "8 SP",
-                "effect": "Cure Burn/Freeze/Shock of party.",
+                "type": "healing",
                 "level": "Innate"
             },
             "bufula": {
                 "name": "Bufula",
-                "cost": "8 SP",
-                "effect": "Medium Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "type": "ice",
                 "level": "Innate"
             },
             "growth_2": {
                 "name": "Growth 2",
-                "cost": "Passive",
-                "effect": "Persona gains 50% EXP while inactive.",
+                "type": "passive",
                 "level": "Innate"
             },
             "marakukaja": {
                 "name": "Marakukaja",
-                "cost": "24 SP",
-                "effect": "Increase Defense of party for 3 turns.",
+                "type": "support",
                 "level": "36"
             },
             "elec_wall": {
                 "name": "Elec Wall",
-                "cost": "18 SP",
-                "effect": "Erect a shield on 1 ally to reduce Elec damage and cover innate Fire weakness for 3 turns.",
+                "type": "support",
                 "level": "37"
             },
             "mabufula": {
                 "name": "Mabufula",
-                "cost": "16 SP",
-                "effect": "Medium Ice damage and inflict Freeze (low odds) to all foes.",
+                "type": "ice",
                 "level": "39"
             },
             "ice_boost": {
                 "name": "Ice Boost",
-                "cost": "Passive",
-                "effect": "Strengthen Ice attacks by 25%.",
+                "type": "passive",
                 "level": "41"
             }
         }
@@ -10665,8 +10660,14 @@
         "arcana": "Fortune",
         "level": "39",
         "trait": "Mighty Gaze: Strengthen multi-target magic attacks by 20%.",
-        "item": "Mazionga",
-        "itemAlarm": "Ziodyne",
+        "item": {
+            "name": "Mazionga",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Ziodyne",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "23",
             "magic": "30",
@@ -10690,44 +10691,37 @@
         "skills": {
             "mazionga": {
                 "name": "Mazionga",
-                "cost": "16 SP",
-                "effect": "Medium Elec damage and inflict Shock (low odds) to all foes.",
+                "type": "elec",
                 "level": "Innate"
             },
             "fire_wall": {
                 "name": "Fire Wall",
-                "cost": "18 SP",
-                "effect": "Erect a shield on 1 ally to reduce Fire damage and cover innate Fire weakness for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "elec_break": {
                 "name": "Elec Break",
-                "cost": "15 SP",
-                "effect": "Suppress innate Elec resistances of all foes for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "mediarama": {
                 "name": "Mediarama",
-                "cost": "12 SP",
-                "effect": "Moderately restore HP of party.",
+                "type": "healing",
                 "level": "41"
             },
             "elec_boost": {
                 "name": "Elec Boost",
-                "cost": "Passive",
-                "effect": "Strengthen Elec attacks by 25%.",
+                "type": "passive",
                 "level": "43"
             },
             "ziodyne": {
                 "name": "Ziodyne",
-                "cost": "12 SP",
-                "effect": "Heavy Elec damage and inflict Shock (low odds) to 1 foe.",
+                "type": "elec",
                 "level": "44"
             },
             "concentrate": {
                 "name": "Concentrate",
-                "cost": "15 SP",
-                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "type": "support",
                 "level": "45"
             }
         }
@@ -10737,8 +10731,14 @@
         "arcana": "Fortune",
         "level": "42",
         "trait": "Tag Team: Expendable items not used up after Baton Pass.",
-        "item": "Auto-Mataru",
-        "itemAlarm": "Auto-Maraku",
+        "item": {
+            "name": "Auto-Mataru",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Auto-Maraku",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "36",
             "magic": "23",
@@ -10762,44 +10762,37 @@
         "skills": {
             "beast_weaver": {
                 "name": "Beast Weaver",
-                "cost": "20% HP",
-                "effect": "Colossal Physical damage to 1 foe, greatly decrease user Attack.",
+                "type": "phys",
                 "level": "Innate"
             },
             "apt_pupil": {
                 "name": "Apt Pupil",
-                "cost": "Passive",
-                "effect": "Increase critical rate.",
+                "type": "passive",
                 "level": "Innate"
             },
             "miracle_punch": {
                 "name": "Miracle Punch",
-                "cost": "8% HP",
-                "effect": "Medium Physical damage to 1 foe, high critical rate.",
+                "type": "phys",
                 "level": "Innate"
             },
             "auto-mataru": {
                 "name": "Auto-Mataru",
-                "cost": "Passive",
-                "effect": "Automatic Tarukaja at the start of battle.",
+                "type": "passive",
                 "level": "43"
             },
             "heat_up": {
                 "name": "Heat Up",
-                "cost": "Passive",
-                "effect": "Random chance to restore 5% of max HP & 10 SP in battle.",
+                "type": "passive",
                 "level": "44"
             },
             "evade_phys": {
                 "name": "Evade Phys",
-                "cost": "Passive",
-                "effect": "Triple evasion rate against Physical attacks.",
+                "type": "passive",
                 "level": "46"
             },
             "charge": {
                 "name": "Charge",
-                "cost": "15 SP",
-                "effect": "Next Physical or Gun attack inflicts 2.5x damage for user.",
+                "type": "support",
                 "level": "48"
             }
         }
@@ -10809,8 +10802,14 @@
         "arcana": "Fortune",
         "level": "46",
         "trait": "Wind Bloodline: Reduce cost of Wind skills by 50%.",
-        "item": "Lucky Robe",
-        "itemAlarm": "Super Lucky Robe",
+        "item": {
+            "name": "Lucky Robe",
+            "type": "armorFemale"
+        },
+        "itemAlarm": {
+            "name": "Super Lucky Robe",
+            "type": "armorFemale"
+        },
         "baseStats": {
             "strength": "23",
             "magic": "32",
@@ -10834,44 +10833,37 @@
         "skills": {
             "magarula": {
                 "name": "Magarula",
-                "cost": "14 SP",
-                "effect": "Medium Wind damage to all foes.",
+                "type": "wind",
                 "level": "Innate"
             },
             "masukukaja": {
                 "name": "Masukukaja",
-                "cost": "24 SP",
-                "effect": "Increase Agility of party for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "tetraja": {
                 "name": "Tetraja",
-                "cost": "24 SP",
-                "effect": "Erect shields on party to nullify one instant death attack of Bless or Curse types.",
+                "type": "support",
                 "level": "Innate"
             },
             "garudyne": {
                 "name": "Garudyne",
-                "cost": "10 SP",
-                "effect": "Heavy Wind damage to 1 foe.",
+                "type": "wind",
                 "level": "47"
             },
             "touch_n_go": {
                 "name": "Touch n' Go",
-                "cost": "Passive",
-                "effect": "Apply Sukukaja when performing Baton Pass.",
+                "type": "passive",
                 "level": "49"
             },
             "amrita_drop": {
                 "name": "Amrita Drop",
-                "cost": "6 SP",
-                "effect": "Cure all non-special ailments of 1 ally.",
+                "type": "healing",
                 "level": "50"
             },
             "evade_elec": {
                 "name": "Evade Elec",
-                "cost": "Passive",
-                "effect": "Triple evasion rate against Electric attacks.",
+                "type": "passive",
                 "level": "51"
             }
         }
@@ -10881,8 +10873,14 @@
         "arcana": "Fortune",
         "level": "52",
         "trait": "Intense Focus: Strengthen single-target magic attacks by 20%.",
-        "item": "Recarm",
-        "itemAlarm": "Samarecarm",
+        "item": {
+            "name": "Recarm",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Samarecarm",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "30",
             "magic": "38",
@@ -10906,44 +10904,37 @@
         "skills": {
             "ziodyne": {
                 "name": "Ziodyne",
-                "cost": "12 SP",
-                "effect": "Heavy Elec damage and inflict Shock (low odds) to 1 foe.",
+                "type": "elec",
                 "level": "Innate"
             },
             "garudyne": {
                 "name": "Garudyne",
-                "cost": "10 SP",
-                "effect": "Heavy Wind damage to 1 foe.",
+                "type": "wind",
                 "level": "Innate"
             },
             "nocturnal_flash": {
                 "name": "Nocturnal Flash",
-                "cost": "8 SP",
-                "effect": "Inflict Dizzy (med odds) to all foes.",
+                "type": "ailment",
                 "level": "Innate"
             },
             "diarahan": {
                 "name": "Diarahan",
-                "cost": "18 SP",
-                "effect": "Fully restore HP of 1 ally.",
+                "type": "healing",
                 "level": "54"
             },
             "amrita_drop": {
                 "name": "Amrita Drop",
-                "cost": "6 SP",
-                "effect": "Cure all non-special ailments of 1 ally.",
+                "type": "healing",
                 "level": "55"
             },
             "tetraja": {
                 "name": "Tetraja",
-                "cost": "24 SP",
-                "effect": "Erect shields on party to nullify one instant death attack of Bless or Curse types.",
+                "type": "support",
                 "level": "56"
             },
             "samarecarm": {
                 "name": "Samarecarm",
-                "cost": "18 SP",
-                "effect": "Revive 1 ally with all HP recovered.",
+                "type": "healing",
                 "level": "57"
             }
         }
@@ -10953,8 +10944,14 @@
         "arcana": "Fortune",
         "level": "56",
         "trait": "Frenzied Bull: Increases damage to foes when low on HP.",
-        "item": "Blazing Horns",
-        "itemAlarm": "Inferno Horns",
+        "item": {
+            "name": "Blazing Horns",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Inferno Horns",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "43",
             "magic": "43",
@@ -10978,44 +10975,37 @@
         "skills": {
             "titanomachia": {
                 "name": "Titanomachia",
-                "cost": "34 SP",
-                "effect": "Severe Fire damage and inflict Fear (high odds) to all foes.",
+                "type": "fire",
                 "level": "Innate"
             },
             "maragidyne": {
                 "name": "Maragidyne",
-                "cost": "22 SP",
-                "effect": "Heavy Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "Innate"
             },
             "burn_boost": {
                 "name": "Burn Boost",
-                "cost": "Passive",
-                "effect": "Increase chance of inflicting Burn.",
+                "type": "passive",
                 "level": "Innate"
             },
             "auto-mataru": {
                 "name": "Auto-Mataru",
-                "cost": "Passive",
-                "effect": "Automatic Matarukaja at the start of battle.",
+                "type": "passive",
                 "level": "57"
             },
             "fire_amp": {
                 "name": "Fire Amp",
-                "cost": "Passive",
-                "effect": "Strengthen Fire attacks by 50%.",
+                "type": "passive",
                 "level": "59"
             },
             "tetrakarn": {
                 "name": "Tetrakarn",
-                "cost": "24 SP",
-                "effect": "Erect a shield on 1 ally to repel 1 Physical or Gun attack.",
+                "type": "support",
                 "level": "60"
             },
             "gigantomachia": {
                 "name": "Gigantomachia",
-                "cost": "25% HP",
-                "effect": "Colossal Physical damage to all foes.",
+                "type": "phys",
                 "level": "62"
             }
         }
@@ -11025,8 +11015,14 @@
         "arcana": "Fortune",
         "level": "62",
         "trait": "Frenzied Bull: Increases damage to foes when low on HP.",
-        "item": "Gigantomachia",
-        "itemAlarm": "Agneyastra",
+        "item": {
+            "name": "Gigantomachia",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Agneyastra",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "46",
             "magic": "46",
@@ -11050,44 +11046,37 @@
         "skills": {
             "titanomachia": {
                 "name": "Titanomachia",
-                "cost": "34 SP",
-                "effect": "Severe Fire damage and inflict Fear (high odds) to all foes.",
+                "type": "fire",
                 "level": "Innate"
             },
             "maragidyne": {
                 "name": "Maragidyne",
-                "cost": "22 SP",
-                "effect": "Heavy Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "Innate"
             },
             "burn_boost": {
                 "name": "Burn Boost",
-                "cost": "Passive",
-                "effect": "Increase chance of inflicting Burn.",
+                "type": "passive",
                 "level": "Innate"
             },
             "auto-masuku": {
                 "name": "Auto-Masuku",
-                "cost": "Passive",
-                "effect": "Automatic Masukukaja at the start of battle.",
+                "type": "passive",
                 "level": "63"
             },
             "fire_amp": {
                 "name": "Fire Amp",
-                "cost": "Passive",
-                "effect": "Strengthen Fire attacks by 50%.",
+                "type": "passive",
                 "level": "65"
             },
             "makarakarn": {
                 "name": "Makarakarn",
-                "cost": "24 SP",
-                "effect": "Erect a shield on 1 ally to repel 1 (non-Almighty) magical attack.",
+                "type": "support",
                 "level": "66"
             },
             "gigantomachia": {
                 "name": "Gigantomachia",
-                "cost": "25% HP",
-                "effect": "Colossal Physical damage to all foes.",
+                "type": "phys",
                 "level": "68"
             }
         }
@@ -11097,8 +11086,14 @@
         "arcana": "Fortune",
         "level": "69",
         "trait": "Wealth of Lotus: Increase buff timers by 2 turns for party.",
-        "item": "Amrita Charm",
-        "itemAlarm": "Spiral Amrita Charm",
+        "item": {
+            "name": "Amrita Charm",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Spiral Amrita Charm",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "40",
             "magic": "47",
@@ -11122,44 +11117,37 @@
         "skills": {
             "lullaby": {
                 "name": "Lullaby",
-                "cost": "8 SP",
-                "effect": "Inflict Sleep (med odds) to all foes.",
+                "type": "ailment",
                 "level": "Innate"
             },
             "diarahan": {
                 "name": "Diarahan",
-                "cost": "18 SP",
-                "effect": "Fully restore HP of 1 ally.",
+                "type": "healing",
                 "level": "Innate"
             },
             "bufudyne": {
                 "name": "Bufudyne",
-                "cost": "12 SP",
-                "effect": "Heavy Ice damage and inflict Freeze (low odds) to 1 foe.",
+                "type": "ice",
                 "level": "Innate"
             },
             "mediarahan": {
                 "name": "Mediarahan",
-                "cost": "30 SP",
-                "effect": "Fully restore HP of party.",
+                "type": "healing",
                 "level": "70"
             },
             "climate_decorum": {
                 "name": "Climate Decorum",
-                "cost": "Passive",
-                "effect": "Double evasion against all attacks under rainy day or special weather warning.",
+                "type": "passive",
                 "level": "71"
             },
             "amrita_shower": {
                 "name": "Amrita Shower",
-                "cost": "12 SP",
-                "effect": "Cure all non-special ailments of party.",
+                "type": "healing",
                 "level": "72"
             },
             "life_aid": {
                 "name": "Life Aid",
-                "cost": "Passive",
-                "effect": "Restore 8% HP and SP after victory.",
+                "type": "passive",
                 "level": "74"
             }
         }
