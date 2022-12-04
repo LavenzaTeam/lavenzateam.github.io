@@ -12547,8 +12547,14 @@
         "arcana": "Death",
         "level": "3",
         "trait": "Savior Bloodline: Reduce cost of Healing skills by 50%.",
-        "item": "Sukunda",
-        "itemAlarm": "Masukunda",
+        "item": {
+            "name": "Sukunda",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Masukunda",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "2",
             "magic": "3",
@@ -12572,26 +12578,22 @@
         "skills": {
             "pulinpa": {
                 "name": "Pulinpa",
-                "cost": "3 SP",
-                "effect": "Inflict Confusion (high odds) 1 foe.",
+                "type": "ailment",
                 "level": "Innate"
             },
             "energy_drop": {
                 "name": "Energy Drop",
-                "cost": "4 SP",
-                "effect": "Cure Confuse/Fear/Despair/Brainwash/Rage of 1 ally.",
+                "type": "healing",
                 "level": "Innate"
             },
             "lunge": {
                 "name": "Lunge",
-                "cost": "5% HP",
-                "effect": "Light Physical damage to 1 foe.",
+                "type": "phys",
                 "level": "4"
             },
             "sukunda": {
                 "name": "Sukunda",
-                "cost": "8 SP",
-                "effect": "Decrease Agility of 1 foe for 3 turns.",
+                "type": "support",
                 "level": "5"
             }
         }
@@ -12601,8 +12603,14 @@
         "arcana": "Death",
         "level": "9",
         "trait": "Gloomy Child: Activates all equipped special weather passives in normal weather.",
-        "item": "Dekunda",
-        "itemAlarm": "Dekaja",
+        "item": {
+            "name": "Dekunda",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Dekaja",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "9",
             "magic": "5",
@@ -12626,38 +12634,32 @@
         "skills": {
             "tarukaja": {
                 "name": "Tarukaja",
-                "cost": "8 SP",
-                "effect": "Increase Attack of 1 ally for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "dazzler": {
                 "name": "Dazzler",
-                "cost": "3 SP",
-                "effect": "Inflict Dizzy (high odds) 1 foe.",
+                "type": "ailment",
                 "level": "Innate"
             },
             "skull_cracker": {
                 "name": "Skull Cracker",
-                "cost": "10% HP",
-                "effect": "Medium Physical damage and inflict Confusion (med odds) to 1 foe.",
+                "type": "phys",
                 "level": "10"
             },
             "marin_karin": {
                 "name": "Marin Karin",
-                "cost": "3 SP",
-                "effect": "Inflict Brainwash (high odds) 1 foe.",
+                "type": "ailment",
                 "level": "12"
             },
             "dodge_elec": {
                 "name": "Dodge Elec",
-                "cost": "Passive",
-                "effect": "Double evasion rate against Electric attacks.",
+                "type": "passive",
                 "level": "13"
             },
             "dekunda": {
                 "name": "Dekunda",
-                "cost": "10 SP",
-                "effect": "Negate all -nda debuff effects of party.",
+                "type": "support",
                 "level": "14"
             }
         }
@@ -12667,8 +12669,14 @@
         "arcana": "Death",
         "level": "17",
         "trait": "Potent Hypnosis: Increase buff timers by 1 turn for party.",
-        "item": "Blood Red Capote",
-        "itemAlarm": "Bloodied Capote",
+        "item": {
+            "name": "Blood Red Capote",
+            "type": "armorMale"
+        },
+        "itemAlarm": {
+            "name": "Bloodied Capote",
+            "type": "armorMale"
+        },
         "baseStats": {
             "strength": "11",
             "magic": "13",
@@ -12692,38 +12700,32 @@
         "skills": {
             "psi": {
                 "name": "Psi",
-                "cost": "4 SP",
-                "effect": "Light Psy damage to 1 foe.",
+                "type": "psy",
                 "level": "Innate"
             },
             "null_dizzy": {
                 "name": "Null Dizzy",
-                "cost": "Passive",
-                "effect": "Impart immunity against Dizzy.",
+                "type": "passive",
                 "level": "Innate"
             },
             "sukukaja": {
                 "name": "Sukukaja",
-                "cost": "8 SP",
-                "effect": "Increase Agility of 1 ally for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "mapsi": {
                 "name": "Mapsi",
-                "cost": "10 SP",
-                "effect": "Light Psy damage to all foes.",
+                "type": "psy",
                 "level": "18"
             },
             "double_shot": {
                 "name": "Double Shot",
-                "cost": "12% HP",
-                "effect": "Light Gun damage to 1 foe 2x.",
+                "type": "gun",
                 "level": "20"
             },
             "swift_strike": {
                 "name": "Swift Strike",
-                "cost": "17% HP",
-                "effect": "Minuscule Physical damage to all foes 2x to 4x.",
+                "type": "phys",
                 "level": "22"
             }
         }
@@ -12733,8 +12735,14 @@
         "arcana": "Death",
         "level": "20",
         "trait": "Mighty Gaze: Strengthen multi-target magic attacks by 20%.",
-        "item": "Maeiha",
-        "itemAlarm": "Eiga",
+        "item": {
+            "name": "Maeiha",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Eiga",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "16",
             "magic": "10",
@@ -12758,44 +12766,37 @@
         "skills": {
             "maeiha": {
                 "name": "Maeiha",
-                "cost": "10 SP",
-                "effect": "Light Curse damage to all foes.",
+                "type": "curse",
                 "level": "Innate"
             },
             "skull_cracker": {
                 "name": "Skull Cracker",
-                "cost": "10% HP",
-                "effect": "Medium Physical damage and inflict Confusion (med odds) to 1 foe.",
+                "type": "phys",
                 "level": "Innate"
             },
             "mudo": {
                 "name": "Mudo",
-                "cost": "6 SP",
-                "effect": "Low chance of instantly killing 1 foe. Curse-type.",
+                "type": "curse",
                 "level": "21"
             },
             "pulinpa": {
                 "name": "Pulinpa",
-                "cost": "3 SP",
-                "effect": "Inflict Confusion (high odds) 1 foe.",
+                "type": "ailment",
                 "level": "22"
             },
             "mamudo": {
                 "name": "Mamudo",
-                "cost": "14 SP",
-                "effect": "Low chance of instantly killing all foes. Curse-type.",
+                "type": "curse",
                 "level": "24"
             },
             "assault_dive": {
                 "name": "Assault Dive",
-                "cost": "13% HP",
-                "effect": "Heavy Physical damage to 1 foe.",
+                "type": "phys",
                 "level": "25"
             },
             "curse_boost": {
                 "name": "Curse Boost",
-                "cost": "Passive",
-                "effect": "Strengthen (non instant death) Curse attacks by 25%.",
+                "type": "passive",
                 "level": "26"
             }
         }
@@ -12805,8 +12806,14 @@
         "arcana": "Death",
         "level": "28",
         "trait": "Rare Antibody: Reduce susceptibility to all ailments.",
-        "item": "Headhunter Ladle",
-        "itemAlarm": "Headhunter Ladle EX",
+        "item": {
+            "name": "Headhunter Ladle",
+            "type": "morganaMelee"
+        },
+        "itemAlarm": {
+            "name": "Headhunter Ladle EX",
+            "type": "morganaMelee"
+        },
         "baseStats": {
             "strength": "19",
             "magic": "21",
@@ -12830,44 +12837,37 @@
         "skills": {
             "dream_needle": {
                 "name": "Dream Needle",
-                "cost": "8% HP",
-                "effect": "Light Gun damage and inflict Sleep (med odds) to 1 foe.",
+                "type": "gun",
                 "level": "Innate"
             },
             "rampage": {
                 "name": "Rampage",
-                "cost": "13% HP",
-                "effect": "Light Physical damage to all foes 1x to 3x.",
+                "type": "phys",
                 "level": "Innate"
             },
             "stagnant_air": {
                 "name": "Stagnant Air",
-                "cost": "5 SP",
-                "effect": "Increase susceptibility to all ailments of all combatants.",
+                "type": "almighty",
                 "level": "Innate"
             },
             "mamudo": {
                 "name": "Mamudo",
-                "cost": "14 SP",
-                "effect": "Low chance of instantly killing all foes. Curse-type.",
+                "type": "curse",
                 "level": "29"
             },
             "abysmal_surge": {
                 "name": "Abysmal Surge",
-                "cost": "8 SP",
-                "effect": "Inflict Despair (med odds) to all foes.",
+                "type": "ailment",
                 "level": "31"
             },
             "despair_boost": {
                 "name": "Despair Boost",
-                "cost": "Passive",
-                "effect": "Increase chance of inflicting Despair.",
+                "type": "passive",
                 "level": "32"
             },
             "mudoon": {
                 "name": "Mudoon",
-                "cost": "12 SP",
-                "effect": "Medium chance of instantly killing 1 foe. Curse-type.",
+                "type": "curse",
                 "level": "33"
             }
         }
@@ -12877,8 +12877,14 @@
         "arcana": "Death",
         "level": "37",
         "trait": "Internal Hypnosis: Increase buff timers by 1 turn for self. Extends Auto- buffs for the entire party.",
-        "item": "Black Jacket",
-        "itemAlarm": "Dark Jacket",
+        "item": {
+            "name": "Black Jacket",
+            "type": "armorMale"
+        },
+        "itemAlarm": {
+            "name": "Dark Jacket",
+            "type": "armorMale"
+        },
         "baseStats": {
             "strength": "23",
             "magic": "24",
@@ -12902,44 +12908,37 @@
         "skills": {
             "mudoon": {
                 "name": "Mudoon",
-                "cost": "12 SP",
-                "effect": "Medium chance of instantly killing 1 foe. Curse-type.",
+                "type": "curse",
                 "level": "Innate"
             },
             "agilao": {
                 "name": "Agilao",
-                "cost": "8 SP",
-                "effect": "Medium Fire damage and inflict Burn (low odds) to 1 foe.",
+                "type": "fire",
                 "level": "Innate"
             },
             "speed_master": {
                 "name": "Speed Master",
-                "cost": "Passive",
-                "effect": "Automatic Sukukaja at the start of battle.",
+                "type": "passive",
                 "level": "Innate"
             },
             "tentarafoo": {
                 "name": "Tentarafoo",
-                "cost": "8 SP",
-                "effect": "Inflict Confusion (med odds) to all foes.",
+                "type": "ailment",
                 "level": "38"
             },
             "fire_boost": {
                 "name": "Fire Boost",
-                "cost": "Passive",
-                "effect": "Strengthen Fire attacks by 25%.",
+                "type": "passive",
                 "level": "39"
             },
             "maragion": {
                 "name": "Maragion",
-                "cost": "16 SP",
-                "effect": "Medium Fire damage and inflict Burn (low odds) to all foes.",
+                "type": "fire",
                 "level": "40"
             },
             "mamudoon": {
                 "name": "Mamudoon",
-                "cost": "26 SP",
-                "effect": "Medium chance of instantly killing all foes. Curse-type.",
+                "type": "curse",
                 "level": "41"
             }
         }
@@ -12949,8 +12948,14 @@
         "arcana": "Death",
         "level": "40",
         "trait": "Retaliating Body: Doubles Counter damage. / Striking Weight: Strengthen Physical attacks by 20%. Doesn't apply to Gun skills. / Internal Hypnosis: Increase buff timers by 1 turn for self. Extends Auto- buffs for the entire party.",
-        "item": "Hope Diamond",
-        "itemAlarm": "Hope Diamond R",
+        "item": {
+            "name": "Hope Diamond",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Hope Diamond R",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "40",
             "magic": "40",
@@ -12974,50 +12979,42 @@
         "skills": {
             "auto-mataru": {
                 "name": "Auto-Mataru",
-                "cost": "Passive",
-                "effect": "Automatic Matarukaja at the start of battle.",
+                "type": "passive",
                 "level": "Innate"
             },
             "auto-maraku": {
                 "name": "Auto-Maraku",
-                "cost": "Passive",
-                "effect": "Automatic Marakukaja at the start of battle.",
+                "type": "passive",
                 "level": "Innate"
             },
             "auto-masuku": {
                 "name": "Auto-Masuku",
-                "cost": "Passive",
-                "effect": "Automatic Masukukaja at the start of battle.",
+                "type": "passive",
                 "level": "Innate"
             },
             "endure": {
                 "name": "Endure",
-                "cost": "Passive",
-                "effect": "Survive one fatal blow with 1 HP remaining.",
+                "type": "passive",
                 "level": "Innate"
             },
             "regenerate_2": {
                 "name": "Regenerate 2",
-                "cost": "Passive",
-                "effect": "Restore 4% of max HP each turn in battle.",
+                "type": "passive",
                 "level": "Innate"
             },
             "invigorate_2": {
                 "name": "Invigorate 2",
-                "cost": "Passive",
-                "effect": "Restore 5 SP each turn in battle.",
+                "type": "passive",
                 "level": "Innate"
             },
             "high_counter": {
                 "name": "High Counter",
-                "cost": "Passive",
-                "effect": "20% chance of reflecting a physical attack.",
+                "type": "passive",
                 "level": "Innate"
             },
             "fast_heal": {
                 "name": "Fast Heal",
-                "cost": "Passive",
-                "effect": "Half the time needed to recover from ailments.",
+                "type": "passive",
                 "level": "Innate"
             }
         }
@@ -13027,8 +13024,14 @@
         "arcana": "Death",
         "level": "54",
         "trait": "Foul Stench: Increase chance of inflicting Ailments.",
-        "item": "Hex Ring",
-        "itemAlarm": "Spiral Hex Ring",
+        "item": {
+            "name": "Hex Ring",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Spiral Hex Ring",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "32",
             "magic": "37",
@@ -13052,44 +13055,37 @@
         "skills": {
             "abysmal_surge": {
                 "name": "Abysmal Surge",
-                "cost": "8 SP",
-                "effect": "Inflict Despair (med odds) to all foes.",
+                "type": "ailment",
                 "level": "Innate"
             },
             "eigaon": {
                 "name": "Eigaon",
-                "cost": "12 SP",
-                "effect": "Heavy Curse damage to 1 foe.",
+                "type": "curse",
                 "level": "Innate"
             },
             "brainshake": {
                 "name": "Brainshake",
-                "cost": "9% HP",
-                "effect": "Light Physical damage and inflict Brainwash (med odds) to 1 foe.",
+                "type": "phys",
                 "level": "Innate"
             },
             "curse_boost": {
                 "name": "Curse Boost",
-                "cost": "Passive",
-                "effect": "Strengthen (non instant death) Curse attacks by 25%.",
+                "type": "passive",
                 "level": "55"
             },
             "megidola": {
                 "name": "Megidola",
-                "cost": "24 SP",
-                "effect": "Heavy Almighty damage to all foes.",
+                "type": "almighty",
                 "level": "56"
             },
             "evade_bless": {
                 "name": "Evade Bless",
-                "cost": "Passive",
-                "effect": "Triple evasion rate against (non instant death) Bless attacks.",
+                "type": "passive",
                 "level": "58"
             },
             "deathbound": {
                 "name": "Deathbound",
-                "cost": "22% HP",
-                "effect": "Medium Physical damage to all foes 1x to 2x.",
+                "type": "phys",
                 "level": "59"
             }
         }
@@ -13099,8 +13095,14 @@
         "arcana": "Death",
         "level": "62",
         "trait": "Crisis Control: Decrease damage received when struck by weakness.",
-        "item": "Mudoon",
-        "itemAlarm": "Mamudoon",
+        "item": {
+            "name": "Mudoon",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Mamudoon",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "40",
             "magic": "37",
@@ -13124,44 +13126,37 @@
         "skills": {
             "mudoon": {
                 "name": "Mudoon",
-                "cost": "12 SP",
-                "effect": "Medium chance of instantly killing 1 foe. Curse-type.",
+                "type": "curse",
                 "level": "Innate"
             },
             "bloodbath": {
                 "name": "Bloodbath",
-                "cost": "22% HP",
-                "effect": "Heavy Physical damage and inflict Fear (low odds) to all foes.",
+                "type": "phys",
                 "level": "Innate"
             },
             "myriad_slashes": {
                 "name": "Myriad Slashes",
-                "cost": "20% HP",
-                "effect": "Medium Physical damage to 1 foe 2x to 3x.",
+                "type": "phys",
                 "level": "Innate"
             },
             "foul_breath": {
                 "name": "Foul Breath",
-                "cost": "8 SP",
-                "effect": "Increase susceptibility to all ailments of 1 foe.",
+                "type": "almighty",
                 "level": "63"
             },
             "deathbound": {
                 "name": "Deathbound",
-                "cost": "22% HP",
-                "effect": "Medium Physical damage to all foes 1x to 2x.",
+                "type": "phys",
                 "level": "64"
             },
             "fear_boost": {
                 "name": "Fear Boost",
-                "cost": "Passive",
-                "effect": "Increase chance of inflicting Fear.",
+                "type": "passive",
                 "level": "66"
             },
             "brave_blade": {
                 "name": "Brave Blade",
-                "cost": "24% HP",
-                "effect": "Colossal Physical damage to 1 foe.",
+                "type": "phys",
                 "level": "67"
             }
         }
@@ -13171,8 +13166,14 @@
         "arcana": "Death",
         "level": "65",
         "trait": "Iron Heart: Decreases SP cost by half after Baton Pass.",
-        "item": "Darkness Ring",
-        "itemAlarm": "Darkness Ring R",
+        "item": {
+            "name": "Darkness Ring",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Darkness Ring R",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "43",
             "magic": "49",
@@ -13196,44 +13197,37 @@
         "skills": {
             "door_of_hades": {
                 "name": "Door of Hades",
-                "cost": "32 SP",
-                "effect": "Heavy Almighty damage to all foes with medium chance of instant kill.",
+                "type": "almighty",
                 "level": "Innate"
             },
             "maeigaon": {
                 "name": "Maeigaon",
-                "cost": "22 SP",
-                "effect": "Heavy Curse damage to all foes.",
+                "type": "curse",
                 "level": "Innate"
             },
             "mamudoon": {
                 "name": "Mamudoon",
-                "cost": "26 SP",
-                "effect": "Medium chance of instantly killing all foes. Curse-type.",
+                "type": "curse",
                 "level": "Innate"
             },
             "curse_amp": {
                 "name": "Curse Amp",
-                "cost": "Passive",
-                "effect": "Strengthen (non instant death) Curse attacks by 50%.",
+                "type": "passive",
                 "level": "66"
             },
             "one-shot_kill": {
                 "name": "One-shot Kill",
-                "cost": "17% HP",
-                "effect": "Severe Gun damage to 1 foe, high critical rate.",
+                "type": "gun",
                 "level": "68"
             },
             "fortified_moxy": {
                 "name": "Fortified Moxy",
-                "cost": "Passive",
-                "effect": "Increase critical rate in ambush.",
+                "type": "passive",
                 "level": "69"
             },
             "enduring_soul": {
                 "name": "Enduring Soul",
-                "cost": "Passive",
-                "effect": "Survive one fatal blow with HP fully restored.",
+                "type": "passive",
                 "level": "70"
             }
         }
@@ -13243,8 +13237,14 @@
         "arcana": "Death",
         "level": "69",
         "trait": "Iron Heart: Decreases SP cost by half after Baton Pass.",
-        "item": "Maeigaon",
-        "itemAlarm": "Demonic Decree",
+        "item": {
+            "name": "Maeigaon",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Demonic Decree",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "45",
             "magic": "51",
@@ -13268,44 +13268,37 @@
         "skills": {
             "door_of_hades": {
                 "name": "Door of Hades",
-                "cost": "32 SP",
-                "effect": "Heavy Almighty damage to all foes with medium chance of instant kill.",
+                "type": "almighty",
                 "level": "Innate"
             },
             "maeigaon": {
                 "name": "Maeigaon",
-                "cost": "22 SP",
-                "effect": "Heavy Curse damage to all foes.",
+                "type": "curse",
                 "level": "Innate"
             },
             "mamudoon": {
                 "name": "Mamudoon",
-                "cost": "26 SP",
-                "effect": "Medium chance of instantly killing all foes. Curse-type.",
+                "type": "curse",
                 "level": "Innate"
             },
             "mudo_boost": {
                 "name": "Mudo Boost",
-                "cost": "Passive",
-                "effect": "Increase success rate of instant death by Curse skills.",
+                "type": "passive",
                 "level": "70"
             },
             "one-shot_kill": {
                 "name": "One-shot Kill",
-                "cost": "17% HP",
-                "effect": "Severe Gun damage to 1 foe, high critical rate.",
+                "type": "gun",
                 "level": "72"
             },
             "adverse_resolve": {
                 "name": "Adverse Resolve",
-                "cost": "Passive",
-                "effect": "Increase critical rate when surrounded.",
+                "type": "passive",
                 "level": "73"
             },
             "enduring_soul": {
                 "name": "Enduring Soul",
-                "cost": "Passive",
-                "effect": "Survive one fatal blow with HP fully restored.",
+                "type": "passive",
                 "level": "74"
             }
         }
@@ -13315,8 +13308,14 @@
         "arcana": "Death",
         "level": "72",
         "trait": "Mighty Gaze: Strengthen multi-target magic attacks by 20%.",
-        "item": "Null Elec",
-        "itemAlarm": "Drain Elec",
+        "item": {
+            "name": "Null Elec",
+            "type": "skillcard"
+        },
+        "itemAlarm": {
+            "name": "Drain Elec",
+            "type": "skillcard"
+        },
         "baseStats": {
             "strength": "43",
             "magic": "51",
@@ -13340,38 +13339,32 @@
         "skills": {
             "megidola": {
                 "name": "Megidola",
-                "cost": "24 SP",
-                "effect": "Heavy Almighty damage to all foes.",
+                "type": "almighty",
                 "level": "Innate"
             },
             "matarukaja": {
                 "name": "Matarukaja",
-                "cost": "24 SP",
-                "effect": "Increase Attack of party for 3 turns.",
+                "type": "support",
                 "level": "Innate"
             },
             "maeigaon": {
                 "name": "Maeigaon",
-                "cost": "22 SP",
-                "effect": "Heavy Curse damage to all foes.",
+                "type": "curse",
                 "level": "Innate"
             },
             "concentrate": {
                 "name": "Concentrate",
-                "cost": "15 SP",
-                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "type": "support",
                 "level": "74"
             },
             "megidolaon": {
                 "name": "Megidolaon",
-                "cost": "38 SP",
-                "effect": "Severe Almighty damage to all foes.",
+                "type": "almighty",
                 "level": "76"
             },
             "repel_elec": {
                 "name": "Repel Elec",
-                "cost": "Passive",
-                "effect": "Repel Electric attacks.",
+                "type": "passive",
                 "level": "77"
             }
         }
@@ -13381,8 +13374,14 @@
         "arcana": "Death",
         "level": "83",
         "trait": "Just Die: Reduce cost of instant death skills to 0.",
-        "item": "Spiral Hell Ring",
-        "itemAlarm": "Cursed Ribbon",
+        "item": {
+            "name": "Spiral Hell Ring",
+            "type": "accessory"
+        },
+        "itemAlarm": {
+            "name": "Cursed Ribbon",
+            "type": "accessory"
+        },
         "baseStats": {
             "strength": "45",
             "magic": "61",
@@ -13406,44 +13405,37 @@
         "skills": {
             "mamudoon": {
                 "name": "Mamudoon",
-                "cost": "26 SP",
-                "effect": "Medium chance of instantly killing all foes. Curse-type.",
+                "type": "curse",
                 "level": "Innate"
             },
             "mudo_boost": {
                 "name": "Mudo Boost",
-                "cost": "Passive",
-                "effect": "Increase success rate of instant death by Curse skills.",
+                "type": "passive",
                 "level": "Innate"
             },
             "maeigaon": {
                 "name": "Maeigaon",
-                "cost": "22 SP",
-                "effect": "Heavy Curse damage to all foes.",
+                "type": "curse",
                 "level": "Innate"
             },
             "die_for_me": {
                 "name": "Die For Me!",
-                "cost": "40 SP",
-                "effect": "High chance of instantly killing all foes. Curse-type.",
+                "type": "curse",
                 "level": "85"
             },
             "megidolaon": {
                 "name": "Megidolaon",
-                "cost": "38 SP",
-                "effect": "Severe Almighty damage to all foes.",
+                "type": "almighty",
                 "level": "86"
             },
             "concentrate": {
                 "name": "Concentrate",
-                "cost": "15 SP",
-                "effect": "Next magical attack inflicts 2.5x damage for user.",
+                "type": "support",
                 "level": "87"
             },
             "survival_trick": {
                 "name": "Survival Trick",
-                "cost": "Passive",
-                "effect": "Survive one instant death attack with 1 HP remaining.",
+                "type": "passive",
                 "level": "88"
             }
         }
